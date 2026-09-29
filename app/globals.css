@@ -717,3 +717,19 @@ main:not(.nocturneHome):not(.vendorProfilePage){--ad-night:#1d1c1b;--ad-night2:#
 .mpwLabCapabilities span{padding:10px 11px!important}.mpwLabCapabilities{gap:6px!important}
 @media(max-width:1100px){.nocturneHome .nocturneBrain{grid-template-columns:1fr!important}.nocturneHome .nocturneVendors>header h2{font-size:clamp(3.3rem,9vw,5.4rem)!important}}
 @media(max-width:720px){.nocturneHome .nocturneVendors>header{align-items:start!important}.nocturneHome .nocturneVendors>header>a{margin-top:16px!important}.nocturneHome .nocturneBrain{padding-top:38px!important;padding-bottom:38px!important}}
+
+
+/* MPW hero brand-light pass */
+.nocturneHome .nocturneHero{background:#f8f2e9!important;border-bottom:1px solid rgba(23,59,50,.12)!important;min-height:690px!important}
+.nocturneHome .nocturneHeroCopy{background:radial-gradient(circle at 14% 18%,rgba(216,137,153,.16),transparent 38%),#f8f2e9!important;color:#173b32!important;padding-top:62px!important;padding-bottom:62px!important}
+.nocturneHome .nocturneSeal{color:#173b32!important}.nocturneHome .nocturneKicker{color:#9a5261!important;margin-top:42px!important}
+.nocturneHome .nocturneHero h1{color:#173b32!important}.nocturneHome .nocturneHero h1 em{color:#d98999!important}
+.nocturneHome .nocturneDeck{color:#625f59!important}
+.nocturneHome .nocturneActions a{border-color:#173b32!important;color:#173b32!important;background:transparent!important}
+.nocturneHome .nocturneActions a:first-child{background:#d98999!important;border-color:#d98999!important;color:#14211d!important}
+.nocturneHome .nocturneActions a:hover{background:#173b32!important;color:#fffaf4!important}
+.nocturneHome .nocturneNotes{color:#68776f!important}
+.nocturneHome .nocturneBuilder{background:linear-gradient(145deg,#efe5dc,#f8f2e9)!important;border-left:1px solid rgba(23,59,50,.1)!important;padding-top:34px!important;padding-bottom:42px!important}
+.nocturneHome .nocturneBuilderLabel span{color:#9a5261!important}.nocturneHome .nocturneBuilderLabel b{color:#173b32!important}.nocturneHome .nocturneBuilderLabel i{color:#d98999!important}
+.nocturneHome .nocturneBuilder .homeBuilderShowcase{box-shadow:0 24px 58px rgba(49,43,36,.12)!important}
+@media(max-width:900px){.nocturneHome .nocturneHero{min-height:0!important}.nocturneHome .nocturneBuilder{border-left:0!important;border-top:1px solid rgba(23,59,50,.1)!important}}
