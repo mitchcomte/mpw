@@ -1,0 +1,21 @@
+import { createAdminClient } from "../../../lib/supabase/admin";
+import { plans } from "../../../lib/site";
+import { getFoundingAvailability } from "../../../lib/founding-vendors";
+
+export default async function FinishVendorSetup({searchParams}:{searchParams:Promise<{token?:string,error?:string}>}){
+ const q=await searchParams; const token=q.token||""; let invite:any=null;
+ if(token&&process.env.SUPABASE_SERVICE_ROLE_KEY){const db=createAdminClient();const {data}=await db.from("vendor_sales_invites").select("business_name,contact_name,email,phone,website,primary_category,plan,expires_at,status,sales_channel,founding_vendor_requested,promo_code").eq("token",token).maybeSingle();invite=data;}
+ if(!invite) return <main><div className="container narrow"><div className="formCard"><h1>Setup link unavailable</h1><p className="meta">This vendor setup link is invalid or unavailable.</p></div></div></main>;
+ const expired=new Date(invite.expires_at)<new Date(); if(expired||invite.status==="active") return <main><div className="container narrow"><div className="formCard"><h1>This setup link has expired.</h1><p className="meta">Contact My Portland Wedding for a new setup link.</p></div></div></main>;
+ const plan=plans[invite.plan as keyof typeof plans];
+ const explicitFounding=invite.founding_vendor_requested===true;
+ const explicitNonFounding=invite.founding_vendor_requested===false;
+ const automaticFounding=!explicitFounding&&!explicitNonFounding;
+ const founding=explicitNonFounding?null:await getFoundingAvailability(invite.primary_category);
+ const foundingOffer=explicitFounding||(automaticFounding&&founding?.available);
+ const phoneSale=invite.sales_channel==="phone_sale";
+ return <main><section className="pagehero vendorHero"><div className="container narrow"><span className="eyebrow">You’re almost there</span><h1>Finish setting up {invite.business_name}</h1><p className="meta">We’ve already filled in the details from your conversation with our team. Create your password, then continue to the secure payment step to review and activate your membership.</p></div></section><section className="section"><div className="container narrow"><div className="formCard onboardingCard">
+ {phoneSale&&<div className="notice success"><strong>Your phone-sale offer is saved.</strong><br/>{foundingOffer?"Founding Vendor · Premium access at $35/month recurring.":`${plan?.name} · $${plan?.price}/month recurring.`}{invite.promo_code?<><br/><strong>Plus: your second month is free.</strong> Your first month is charged normally today; the next monthly invoice receives a one-time 100% discount.</>:null}</div>}
+ {foundingOffer?<div className="foundingOfferCard isAvailable"><span className="foundingKicker">✦ {explicitFounding?"Your Founding Vendor offer":"Automatic launch upgrade"}</span><h2>{explicitFounding?"Founding Vendor pricing selected.":"You qualify for a Founding Vendor spot."}</h2><p><strong>Premium for $35/month instead of $55/month</strong> while your membership remains continuously active.</p>{founding?.available&&<div className="foundingRemaining"><strong>{founding.remaining}</strong> of 5 founding spots remaining in {founding.categoryName}</div>}<small>Your Founding spot is claimed when you finish creating your account. Cancellation permanently forfeits the founding benefit.</small></div>:<div className="selectedMembership"><span className="eyebrow">Selected membership</span><h2>{plan?.name}</h2><p>Your selected membership will be reviewed with full billing details on the secure payment screen before any charge is authorized.</p></div>}
+ {q.error&&<div className="notice error">{q.error}</div>}<form action="/api/auth/complete-vendor-invite" method="post" className="formGrid"><input type="hidden" name="token" value={token}/><div className="field"><label>Business</label><input value={invite.business_name} readOnly/></div><div className="field"><label>Email</label><input value={invite.email} readOnly/></div><div className="field full"><label>Create your password</label><input name="password" type="password" minLength={8} required/><small>At least 8 characters</small></div><div className="field full"><button className="btn primary" style={{width:"100%"}}>{foundingOffer?"Claim Founding Spot & Continue ✦":"Continue to Payment"}</button></div></form></div></div></section></main>;
+}

@@ -1,0 +1,18 @@
+import { NextResponse } from "next/server";
+import { createSupabaseServerClient } from "../../../../lib/supabase/server";
+
+async function getUser(){ const supabase=await createSupabaseServerClient(); const {data:{user}}=await supabase.auth.getUser(); return {supabase,user}; }
+export async function POST(request: Request){
+  const {supabase,user}=await getUser(); if(!user) return NextResponse.json({error:"Sign in required"},{status:401});
+  const body=await request.json();
+  const row={user_id:user.id,category:String(body.category||"Other").trim()||"Other",budgeted:Number(body.budgeted||0),actual:Number(body.actual||0),paid:Number(body.paid||0),notes:String(body.notes||"").trim()||null,sort_order:Number(body.sort_order||0),updated_at:new Date().toISOString()};
+  const {data,error}=body.id
+    ? await supabase.from("planning_budget_items").update(row).eq("id",body.id).eq("user_id",user.id).select().single()
+    : await supabase.from("planning_budget_items").insert(row).select().single();
+  if(error) return NextResponse.json({error:error.message},{status:400}); return NextResponse.json({item:data});
+}
+export async function DELETE(request: Request){
+  const {supabase,user}=await getUser(); if(!user) return NextResponse.json({error:"Sign in required"},{status:401});
+  const {id}=await request.json(); const {error}=await supabase.from("planning_budget_items").delete().eq("id",String(id)).eq("user_id",user.id);
+  if(error) return NextResponse.json({error:error.message},{status:400}); return NextResponse.json({ok:true});
+}

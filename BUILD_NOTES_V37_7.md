@@ -1,0 +1,11 @@
+# v37.7 — MPW Architecture Reset
+- Complete homepage composition reset rather than a restyle of v37.6.
+- New asymmetrical editorial hero: copy and Wedding Builder occupy distinct architectural zones.
+- Wedding Builder remains the primary consumer product and is visible immediately.
+- Paid vendor value remains foundational and now appears as a full dark editorial stage directly after the MPW explanation.
+- Replaced the old three-card/journey/category-grid visual language with editorial rails, split screens, numbered rows, an intelligence board, and a dedicated vendor commercial section.
+- New palette: bone, paper, near-black, deep pine, celadon, coral, wine.
+- Sharper geometry and fewer rounded cards; motion is restrained and product-like.
+- Exact existing MPW heart/sprig asset retained.
+- Existing Wedding Builder features, vendor tier logic, prices, analytics, PDF review, matching, and backend behavior retained.
+- No database migration.
