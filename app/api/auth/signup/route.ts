@@ -9,7 +9,8 @@ export async function POST(request: Request) {
   const email = String(form.get("email") || "").trim();
   const password = String(form.get("password") || "");
   const businessName = String(form.get("business_name") || "").trim();
-  const requestedPlan = String(form.get("plan") || "professional");\n  const baseRequestedPlan = String(form.get("requested_plan") || requestedPlan);
+  const requestedPlan = String(form.get("plan") || "professional");
+  const baseRequestedPlan = String(form.get("requested_plan") || requestedPlan);
   const primaryCategory = String(form.get("category") || "venues");
   const phone = String(form.get("phone") || "").trim();
   const website = String(form.get("website") || "").trim();
