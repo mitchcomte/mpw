@@ -2,6 +2,7 @@ import { NextRequest, NextResponse } from "next/server";
 import { createSupabaseServerClient } from "../../../../lib/supabase/server";
 import { createAdminClient } from "../../../../lib/supabase/admin";
 export async function POST(req:NextRequest){
+ if(process.env.VERCEL_ENV==="preview"||process.env.MPW_PREVIEW_MODE==="1") return NextResponse.redirect(new URL("/admin/vendors?message=Preview%20mode%3A%20vendor%20deletion%20simulated",req.url),303);
  const form=await req.formData(); const supabase=await createSupabaseServerClient(); const {data:{user}}=await supabase.auth.getUser(); if(!user) return NextResponse.redirect(new URL("/admin/login",req.url),303); const {data:admin}=await supabase.from("admin_users").select("user_id").eq("user_id",user.id).maybeSingle(); if(!admin) return new NextResponse("Forbidden",{status:403});
  const vendorId=String(form.get("vendor_id")||""); if(String(form.get("confirm")||"")!=="DELETE") return NextResponse.redirect(new URL(`/admin/vendors/${vendorId}?error=Deletion%20confirmation%20required`,req.url),303);
  const service=createAdminClient(); const {data:vendor}=await service.from("vendor_profiles").select("user_id,business_name").eq("id",vendorId).maybeSingle(); if(!vendor) return NextResponse.redirect(new URL("/admin/vendors?message=Vendor%20not%20found",req.url),303);
