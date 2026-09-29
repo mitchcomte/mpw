@@ -1,9 +1,6 @@
 name: Recover MPW source baseline
 on:
   workflow_dispatch:
-  push:
-    paths:
-      - '.github/workflows/recover-mpw-source.yml'
 permissions:
   contents: write
 jobs:
@@ -15,25 +12,37 @@ jobs:
         shell: bash
         run: |
           set -euo pipefail
-          ZIP="my-portland-wedding-v38.3.5-candlelight-noir-dense-vendor-discovery.zip"
+          ZIP="$(find . -maxdepth 1 -type f -iname '*.zip' -print -quit)"
+          test -n "$ZIP"
           rm -rf .recover
           mkdir .recover
           unzip -q "$ZIP" -d .recover
-          SRC="$(find .recover -mindepth 1 -maxdepth 1 -type d | head -n 1)"
-          if [ -z "$SRC" ]; then SRC=".recover"; fi
-          shopt -s dotglob
-          for item in "$SRC"/*; do
+          shopt -s dotglob nullglob
+          for item in .recover/*; do
             base="$(basename "$item")"
             [ "$base" = ".git" ] && continue
             [ "$base" = ".github" ] && continue
+            [ "$base" = "README.md" ] && continue
             cp -a "$item" ./
           done
           rm -rf .recover "$ZIP"
+      - name: Validate recovered project
+        shell: bash
+        run: |
+          set -euo pipefail
+          test -f package.json
+          test -d app
+          test -d components
+          test -d lib
+          test -d public
+          test -d supabase
+          test ! -f .env
+          echo "Recovered file count: $(find . -type f -not -path './.git/*' | wc -l)"
       - name: Commit recovered source
         shell: bash
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add -A
-          git commit -m "Recover MPW source baseline from archived ZIP"
+          git commit -m "Recover complete MPW source baseline"
           git push
