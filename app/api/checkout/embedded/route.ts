@@ -13,6 +13,7 @@ export async function POST(req: NextRequest) {
     const recurringConsent = body?.recurring_consent === true;
     const promoCode = String(body?.promo_code || "").trim().toUpperCase();
 
+    if(process.env.VERCEL_ENV==="preview"||process.env.MPW_PREVIEW_MODE==="1") return NextResponse.json({error:"Billing is disabled on the MPW preview. No payment session was created.",preview:true},{status:409});
     if (!recurringConsent) return NextResponse.json({ error: "You must authorize recurring monthly billing before checkout." }, { status: 400 });
     if (!(requestedPlan in stripePrices)) return NextResponse.json({ error: "Invalid membership plan." }, { status: 400 });
 
