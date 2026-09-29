@@ -820,3 +820,35 @@ input,select,textarea{color:var(--mpw-live-ink);background:#fff}.primary{backgro
 .marketVendorPhoto.vendorImageFallback{position:relative;background:linear-gradient(135deg,#fff1ed,#edf2e8)!important}.marketVendorPhoto .mpwVendorImageFallback.compact{position:absolute;inset:0}.marketVendorPhoto .mpwVendorImageFallback.compact img{width:48px!important;height:48px!important}.marketVendorPhoto .mpwVendorImageFallback.compact span{font-size:.88rem}
 .vendorHeroVisual.vendorImageFallback{background:linear-gradient(135deg,#fff1ed,#edf2e8)!important}
 .nocturneVendorPhoto:empty,.homeVendorPhoto:empty{background:linear-gradient(135deg,#fff1ed,#edf2e8)!important}
+
+
+/* LIVE HOMEPAGE HARD RESET — live MPW wins over recovered editorial experiments */
+.romanticHome{background:#fffaf6!important;color:#262820!important}
+.romanticHome section{color:#262820}
+.romanticHome .hero,.romanticHome .featuredSection,.romanticHome .bubbleCategoryStrip,.romanticHome .planningBubbles,.romanticHome .inspirationSection,.romanticHome .makeItHappen{background-color:initial}
+.romanticHome .featuredSection{background:#fffaf6!important}
+.romanticHome .bubbleCategoryStrip{background:#fff5f2!important}
+.romanticHome .planningBubbles{background:#fffaf6!important}
+.romanticHome .inspirationSection{background:#fffaf6!important}
+.romanticHome .makeItHappen{background:#fde8e7!important}
+.romanticHome h1,.romanticHome h2,.romanticHome h3,.romanticHome strong,.romanticHome b{color:#262820}
+.romanticHome p,.romanticHome .meta{color:#667069!important}
+.romanticHome .planningPanel{background:#fde8e7!important;color:#262820!important}
+.romanticHome .planningPanel h2,.romanticHome .planningPanel strong{color:#262820!important}
+.romanticHome .planningIconCard{background:#fffaf6!important;color:#262820!important}
+.romanticHome .joyPanel{color:#fff!important}
+.romanticHome .joyPanel h2,.romanticHome .joyPanel p,.romanticHome .joyPanel strong{color:#fff!important}
+.romanticHome .vendorBubbleCard{background:#fff!important;color:#262820!important}
+.romanticHome .vendorBubbleBody h3{color:#262820!important}
+.romanticHome .vendorBubbleBody p{color:#667069!important}
+.romanticHome .categoryBubble{color:#262820!important}
+.romanticHome .inspoBubble{background:#fff!important;color:#262820!important}
+.romanticHome .inspoBubble h3{color:#262820!important}
+.romanticHome .makeItHappen h2{color:#262820!important}
+.siteHeader .brandName{color:#385847!important;opacity:1!important}
+.siteHeader .brandLockup small{color:#667069!important;opacity:1!important}
+.siteHeader .consumerNav a{color:#262820!important;opacity:1!important}
+.siteHeader .consumerNav a:hover{color:#385847!important}
+.siteHeader .builderNavBrand span{color:#7b3f49!important}
+.siteHeader .builderNavBrand small{color:#667069!important}
+.siteHeader .planningPill{color:#262820!important;opacity:1!important}
