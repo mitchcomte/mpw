@@ -1,5 +1,6 @@
 name: Recover MPW source baseline
 on:
+  workflow_dispatch:
   push:
     paths:
       - '.github/workflows/recover-mpw-source.yml'
