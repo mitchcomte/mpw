@@ -1,6 +1,8 @@
 import { categories } from "../../lib/site";
 import { createSupabaseServerClient } from "../../lib/supabase/server";
 import { decodeDisplayText } from "../../lib/text";
+import VendorTierBadge from "../../components/VendorTierBadge";
+function photoUrl(path?:string|null){return path&&process.env.NEXT_PUBLIC_SUPABASE_URL?`${process.env.NEXT_PUBLIC_SUPABASE_URL}/storage/v1/object/public/vendor-media/${path}`:null}
 import Link from "next/link";
 export const metadata = {
   title: 'Portland Wedding Vendors & Venues',
@@ -12,7 +14,7 @@ type Q={q?:string;area?:string;category?:string};
 export default async function Vendors({searchParams}:{searchParams:Promise<Q>}){
  const q=await searchParams;
  const supabase=await createSupabaseServerClient();
- let query=supabase.from("vendor_profiles").select("slug,business_name,primary_category,city,state,service_cities,description").eq("market_slug","portland").eq("status","active").limit(100);
+ let query=supabase.from("vendor_profiles").select("id,slug,business_name,primary_category,city,state,service_cities,description,plan,rating,founding_vendor,vendor_photos(storage_path,sort_order)").eq("market_slug","portland").eq("status","active").limit(100);
  const {data}=await query;
  let vendors=(data||[]) as any[];
  if(q.q){const n=q.q.toLowerCase();vendors=vendors.filter(v=>`${v.business_name||""} ${v.description||""}`.toLowerCase().includes(n));}
@@ -30,7 +32,7 @@ export default async function Vendors({searchParams}:{searchParams:Promise<Q>}){
     <button className="btn primary" type="submit">Search</button>
    </form>
    {!searching&&<div className="grid cats">{categories.map(([s,n])=><Link className="cat" href={`/vendors/${s}`} key={s}>{n}</Link>)}</div>}
-   {searching&&<><div className="vendorResultsHead"><p><strong>{vendors.length}</strong> vendors found</p><Link href="/vendors">Clear Search</Link></div><div className="vendorMarketplaceGrid">{vendors.map(v=><Link className="marketVendorCard" href={`/vendor/${v.slug}`} key={v.slug}><div className="marketVendorBody"><h3>{decodeDisplayText(v.business_name)}</h3><p className="marketVendorMeta">{decodeDisplayText(v.city||"Portland")}, {v.state||"OR"} · {categories.find(([s])=>s===v.primary_category)?.[1]||v.primary_category}</p><p className="marketVendorBio">{decodeDisplayText(v.description||"View profile, services and contact information.")}</p><span className="vendorCardCta">View Profile →</span></div></Link>)}</div></>}
+   {searching&&<><div className="vendorResultsHead"><p><strong>{vendors.length}</strong> vendors found</p><Link href="/vendors">Clear Search</Link></div><div className="vendorMarketplaceGrid">{vendors.map(v=>{const photos=(v.vendor_photos||[]).sort((a:any,b:any)=>(a.sort_order||0)-(b.sort_order||0));const src=photoUrl(photos[0]?.storage_path);const label=categories.find(([s])=>s===v.primary_category)?.[1]||v.primary_category;return <Link className="marketVendorCard" href={`/vendor/${v.slug}`} key={v.slug}><div className={`marketVendorPhoto ${src?"hasVendorPhoto":"vendorImageFallback"}`}>{src?<><img className="marketVendorBackdrop" src={src} alt="" aria-hidden="true"/><img className="marketVendorForeground" src={src} alt={`${decodeDisplayText(v.business_name)} wedding work`}/></>:<div className="mpwVendorImageFallback compact"><img src="/brand/mpw-heart-sprig-clean.png" alt=""/><span>{decodeDisplayText(label||"Wedding Pro")}</span></div>}<div className="marketVendorBadge"><VendorTierBadge plan={v.plan} foundingVendor={v.founding_vendor}/></div></div><div className="marketVendorBody"><h3>{decodeDisplayText(v.business_name)}</h3><p className="marketVendorMeta">{decodeDisplayText(v.city||"Portland")}, {v.state||"OR"} · {decodeDisplayText(label||"Wedding Pro")}{v.rating?` · ★ ${v.rating}`:""}</p><p className="marketVendorBio">{decodeDisplayText(v.description||"View profile, services and contact information.")}</p><span className="vendorCardCta">View Profile →</span></div></Link>})}</div></>}
   </div></section>
  </main>
 }
