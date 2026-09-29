@@ -19,6 +19,8 @@ export async function POST(request: Request) {
   const validCategory = categories.some(([slug]) => slug === primaryCategory);
   const validPlan = ["free", "basic", "professional", "premium"].includes(requestedPlan);
 
+  if(process.env.VERCEL_ENV==="preview"||process.env.MPW_PREVIEW_MODE==="1") return NextResponse.redirect(new URL(`/vendor/signup?plan=${encodeURIComponent(requestedPlan)}&preview=1`,request.url),303);
+
   if (!email || password.length < 8 || !businessName || !validCategory || !validPlan) {
     return NextResponse.redirect(new URL("/vendor/signup?error=Please%20complete%20all%20required%20fields", request.url), 303);
   }
