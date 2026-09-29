@@ -9,7 +9,7 @@ export async function POST(request: Request) {
   const email = String(form.get("email") || "").trim();
   const password = String(form.get("password") || "");
   const businessName = String(form.get("business_name") || "").trim();
-  const requestedPlan = String(form.get("plan") || "professional");
+  const requestedPlan = String(form.get("plan") || "professional");\n  const baseRequestedPlan = String(form.get("requested_plan") || requestedPlan);
   const primaryCategory = String(form.get("category") || "venues");
   const phone = String(form.get("phone") || "").trim();
   const website = String(form.get("website") || "").trim();
@@ -17,7 +17,7 @@ export async function POST(request: Request) {
   const foundingRequested = String(form.get("founding_offer_requested") || "") === "yes";
   const referralCode = String(form.get("referral_code") || "").trim();
   const validCategory = categories.some(([slug]) => slug === primaryCategory);
-  const validPlan = ["free", "basic", "professional", "premium"].includes(requestedPlan);
+  const validPlan = ["free", "basic", "professional", "premium"].includes(requestedPlan) && ["free", "basic", "professional", "premium"].includes(baseRequestedPlan);
 
   if(process.env.VERCEL_ENV==="preview"||process.env.MPW_PREVIEW_MODE==="1") return NextResponse.redirect(new URL(`/vendor/signup?plan=${encodeURIComponent(requestedPlan)}&preview=1`,request.url),303);
 
@@ -99,7 +99,7 @@ export async function POST(request: Request) {
     }).eq("id", vendor.id);
   }
 
-  if (requestedPlan === "free" && db) {
+  if (baseRequestedPlan === "free" && db) {
     await db.from("vendor_profiles").update({ plan:"free", status:"active", updated_at:new Date().toISOString() }).eq("user_id", data.user.id);
   }
 
@@ -116,7 +116,7 @@ export async function POST(request: Request) {
     }
   }
 
-  await sendEmailOnce({eventKey:`vendor_welcome:${data.user.id}`,to:email,subject:"Welcome to My Portland Wedding",title:"Welcome — your vendor account is ready",body: requestedPlan === "free" ? `<p>Hi ${escapeHtml(businessName)},</p><p>Your free vendor listing is ready. Complete your basic profile now, or upgrade anytime to unlock Wedding Builder by My Portland Wedding eligibility, direct inquiries, more photos, social links and more.</p>${emailButton("Open Vendor Dashboard",`${site.url}/vendor/dashboard`)}` : `<p>Hi ${escapeHtml(businessName)},</p><p>Your vendor account has been created. Your next step is to activate your membership, then complete the profile details Wedding Builder by My Portland Wedding uses to match you with couples.</p>${emailButton("Continue to Membership",`${site.url}/vendor/checkout`)}${foundingPosition?`<p><strong>Founding Vendor #${foundingPosition}:</strong> your Premium membership is reserved at the Basic rate while your membership remains continuously active.</p>`:""}`});
-  if (data.session) return NextResponse.redirect(new URL(requestedPlan === "free" ? "/vendor/dashboard?message=Your%20free%20listing%20is%20live" : "/vendor/checkout", request.url), 303);
-  return NextResponse.redirect(new URL(requestedPlan === "free" ? "/vendor/login?message=Sign%20in%20to%20manage%20your%20free%20listing" : "/vendor/login?message=Please%20confirm%20your%20email%20before%20continuing%20to%20payment", request.url), 303);
+  await sendEmailOnce({eventKey:`vendor_welcome:${data.user.id}`,to:email,subject:"Welcome to My Portland Wedding",title:"Welcome — your vendor account is ready",body: baseRequestedPlan === "free" ? `<p>Hi ${escapeHtml(businessName)},</p><p>Your free vendor listing is ready. Complete your basic profile now, or upgrade anytime to unlock Wedding Builder by My Portland Wedding eligibility, direct inquiries, more photos, social links and more.</p>${emailButton("Open Vendor Dashboard",`${site.url}/vendor/dashboard`)}` : `<p>Hi ${escapeHtml(businessName)},</p><p>Your vendor account has been created. Your next step is to activate your membership, then complete the profile details Wedding Builder by My Portland Wedding uses to match you with couples.</p>${emailButton("Continue to Membership",`${site.url}/vendor/checkout`)}${foundingPosition?`<p><strong>Founding Vendor #${foundingPosition}:</strong> your Premium membership is reserved at the Basic rate while your membership remains continuously active.</p>`:""}`});
+  if (data.session) return NextResponse.redirect(new URL(baseRequestedPlan === "free" ? "/vendor/dashboard?message=Your%20free%20listing%20is%20live" : "/vendor/checkout", request.url), 303);
+  return NextResponse.redirect(new URL(baseRequestedPlan === "free" ? "/vendor/login?message=Sign%20in%20to%20manage%20your%20free%20listing" : "/vendor/login?message=Please%20confirm%20your%20email%20before%20continuing%20to%20payment", request.url), 303);
 }
