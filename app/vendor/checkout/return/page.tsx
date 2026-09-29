@@ -9,6 +9,7 @@ export const dynamic = "force-dynamic";
 
 export default async function CheckoutReturn({ searchParams }: { searchParams: Promise<{ session_id?: string }> }) {
   const { session_id } = await searchParams;
+  if(process.env.VERCEL_ENV==="preview"||process.env.MPW_PREVIEW_MODE==="1") redirect("/vendor/dashboard?preview=1#membership");
   const supabase = await createSupabaseServerClient();
   const { data: { user } } = await supabase.auth.getUser();
   if (!user) redirect("/vendor/login?message=Sign%20in%20to%20view%20your%20membership");
