@@ -7,7 +7,7 @@ import { sendEmailOnce, emailButton, siteUrl } from "../../../../lib/email";
 const uuid=/^[0-9a-f]{8}-[0-9a-f]{4}-[1-5][0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$/i;
 export async function POST(req:NextRequest){
   try{
-    if(process.env.MPW_PREVIEW_MODE==="1") return NextResponse.json({ok:true,count:0,preview:true});
+    if(process.env.VERCEL_ENV==="preview"||process.env.MPW_PREVIEW_MODE==="1") return NextResponse.json({ok:true,count:0,preview:true});
     if(!(await consumeBuilderQuota(req,"match"))) return NextResponse.json({error:"Too many Wedding Builder by My Portland Wedding requests. Please try again shortly."},{status:429});
     const b=await req.json();
     const sessionId=String(b?.builder_session_id||"").slice(0,120);
