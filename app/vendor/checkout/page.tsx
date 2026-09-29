@@ -46,7 +46,7 @@ export default async function VendorCheckout({ searchParams }: { searchParams: P
     if (saleInvite?.sales_channel === "phone_sale" && saleInvite?.promo_code) includedPromoCode = saleInvite.promo_code;
   }
 
-  return <main className="checkoutPage"><AnalyticsEvent name="Vendor Signup Completed" properties={{plan:planKey,founding_vendor:founding}}/><div className="container checkoutContainer">
+  return <main className="checkoutPage"><AnalyticsEvent name={accountPlan==="free"?"Vendor Upgrade Checkout Started":"Vendor Signup Completed"} properties={{plan:planKey,founding_vendor:founding,from_plan:accountPlan}}/><div className="container checkoutContainer">
     <div className="checkoutHeader">
       <span className="eyebrow">Secure membership activation</span>
       <h1>{founding ? "Activate your Founding Vendor membership ✦" : `Activate your ${plan.name} membership`}</h1>
