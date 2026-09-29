@@ -44,6 +44,7 @@ export default async function CategoryPage({params,searchParams}:{params:Promise
  if(q.availability==="available")vendors=vendors.filter((v:any)=>!v.availability_status||v.availability_status==="available"||v.availability_status==="accepting");
  if(q.price){const [lo,hi]=q.price.split("-").map(Number);vendors=vendors.filter((v:any)=>{const p=Number(v.pricing_from||v.pricing_typical||0);return p>0&&p>=lo&&(!hi||p<=hi)});}
  if(category==="venues"&&q.capacity){const cap=Number(q.capacity);vendors=vendors.filter((v:any)=>!v.guest_capacity_max||Number(v.guest_capacity_max)>=cap);}
+ if(q.area){const area=q.area.toLowerCase();vendors=vendors.filter((v:any)=>String(v.city||"").toLowerCase()===area||(v.service_cities||[]).some((city:string)=>String(city).toLowerCase()===area));}
  vendors=vendors.sort((a:any,b:any)=>q.sort==="rating"?(b.rating||0)-(a.rating||0):q.sort==="name"?String(a.business_name).localeCompare(String(b.business_name)):(weight[b.plan]||0)-(weight[a.plan]||0)||(b.rating||0)-(a.rating||0));
  const styles=Array.from(new Set(vendors.flatMap((v:any)=>(v.wedding_styles||[]).map((s:string)=>decodeDisplayText(s))))).sort().slice(0,30);
  const hero=heroCopy[category]||{kicker:`PORTLAND WEDDING ${title.toUpperCase()}`,headline:`Find ${title.toLowerCase()} that feel like you.`,body:`Discover local ${title.toLowerCase()} and find the people who fit your wedding, your priorities and your plans.`};
