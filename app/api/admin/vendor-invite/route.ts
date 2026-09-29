@@ -10,6 +10,7 @@ function makePhoneSaleCode(){
 }
 
 export async function POST(req: NextRequest){
+  if(process.env.VERCEL_ENV==="preview"||process.env.MPW_PREVIEW_MODE==="1") return NextResponse.redirect(new URL("/admin?message=Preview%20mode%3A%20vendor%20invite%20simulated",req.url),303);
   const form=await req.formData();
   const supabase=await createSupabaseServerClient();
   const {data:{user}}=await supabase.auth.getUser();
