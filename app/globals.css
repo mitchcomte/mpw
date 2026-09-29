@@ -564,3 +564,9 @@ input,select,textarea{color:var(--mpw-live-ink);background:#fff}.primary{backgro
 .vendorProfilePage .profileContactCard input,.vendorProfilePage .profileContactCard textarea{width:100%!important;border:1px solid #ead8d0!important;border-radius:13px!important;background:#fff!important;padding:13px!important;margin:0 0 9px!important}
 .vendorProfilePage .profileContactCard .btn.primary{width:100%!important;border-radius:999px!important;background:#4d6955!important;color:#fff!important}
 @media(max-width:900px){.vendorProfilePage .vendorProfileLayout{grid-template-columns:1fr!important;margin-top:-18px!important;padding:24px 18px 50px!important;border-radius:24px 24px 0 0!important}.vendorProfilePage .vendorProfilePhotoRibbon figure:first-child{height:360px!important}.vendorProfilePage .vendorProfileSidebar{margin-top:0!important}.vendorProfilePage .vendorHeroCopy h1{font-size:clamp(42px,12vw,62px)!important}}
+
+/* MPW vendor packages: keep all three desktop packages in one row */
+.vendorProfilePage .packageGrid{display:grid!important;grid-template-columns:repeat(3,minmax(0,1fr))!important;gap:20px!important;align-items:stretch!important}
+.vendorProfilePage .packageCard{min-width:0!important;width:auto!important;height:100%!important}
+@media(max-width:1050px){.vendorProfilePage .packageGrid{grid-template-columns:repeat(2,minmax(0,1fr))!important}}
+@media(max-width:700px){.vendorProfilePage .packageGrid{grid-template-columns:1fr!important}}
