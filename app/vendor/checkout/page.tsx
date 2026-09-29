@@ -21,8 +21,8 @@ export default async function VendorCheckout({ searchParams }: { searchParams: P
 
   const accountPlan = vendor.plan as keyof typeof plans;
   const requestedUpgrade = q.plan && ["basic","professional","premium"].includes(q.plan) ? q.plan as keyof typeof plans : null;
-  const planKey = accountPlan === "free" && requestedUpgrade ? requestedUpgrade : accountPlan;
   if (accountPlan === "free" && !requestedUpgrade) redirect("/vendor/dashboard?message=Choose%20a%20paid%20membership%20to%20upgrade#membership");
+  const planKey = (accountPlan === "free" ? requestedUpgrade : accountPlan) as "basic" | "professional" | "premium";
   const plan = plans[planKey];
   if (!plan) redirect("/vendor/dashboard?error=Invalid%20membership%20plan");
 
