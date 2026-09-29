@@ -642,3 +642,44 @@ main:not(.nocturneHome):not(.vendorProfilePage){--ad-night:#1d1c1b;--ad-night2:#
 .nocturneHome .nocturneCatList a{transition:background .2s ease,padding .2s ease}.nocturneHome .nocturneCatList a:hover{padding-left:22px}.nocturneHome .nocturneCatList a i{transition:transform .2s ease}.nocturneHome .nocturneCatList a:hover i{transform:translate(3px,-3px)}
 .siteHeader{backdrop-filter:saturate(1.15) blur(12px);-webkit-backdrop-filter:saturate(1.15) blur(12px);box-shadow:0 1px 0 rgba(247,240,231,.07),0 10px 35px rgba(0,0,0,.09)}.siteHeader .brandLogo,.siteHeader .consumerNav a,.siteHeader .navActions a{transition:opacity .18s ease,transform .18s ease}.siteHeader .consumerNav a:hover{opacity:.78}.siteHeader .vendorPill:hover,.siteHeader .planningPill:hover{transform:translateY(-1px)}
 @media(max-width:620px){.nocturneHome .nocturneHeroCopy:after{inset:10px}.nocturneHome .nocturneVendor:hover{transform:none}.nocturneHome .nocturneCatList a:hover{padding-left:0}}
+
+
+/* MPW preview refinement — keep the editorial layout, restore the live MPW warmth */
+.nocturneHome{background:#f8f2e9!important;color:#151a17!important}
+.nocturneHome .nocturneVendors{background:#f8f2e9!important;padding-top:clamp(54px,7vw,92px)!important}
+.nocturneHome .nocturneVendors>header{background:transparent!important;border:0!important;box-shadow:none!important;padding-left:0!important;padding-right:0!important}
+.nocturneHome .nocturneVendors>header h2{color:#151a17!important}
+.nocturneHome .nocturneVendors>header>div>span{color:#8a4d5c!important}
+.nocturneHome .nocturneVendors>header>a{color:#173b32!important}
+.nocturneHome .nocturneVendorInfo h3{color:#173b32!important}
+.nocturneHome .nocturneVendorInfo p,.nocturneHome .nocturneVendorInfo small{color:#665f58!important}
+.nocturneHome .nocturneCategories{background:#f2e8de!important;color:#151a17!important}
+.nocturneHome .nocturneCatIntro h2,.nocturneHome .nocturneCatList strong{color:#173b32!important}
+.nocturneHome .nocturneCatIntro p,.nocturneHome .nocturneCatList span{color:#665f58!important}
+.nocturneHome .nocturneCatList a{border-color:rgba(23,59,50,.14)!important}
+.nocturneHome .nocturneCatList a:hover{background:#fffaf4!important}
+.nocturneHome .nocturneBrain{background:#f8f2e9!important;color:#151a17!important}
+.nocturneHome .nocturneBrainCopy h2{color:#173b32!important}.nocturneHome .nocturneBrainCopy p{color:#665f58!important}
+.nocturneHome .nocturneBrainBoard{background:linear-gradient(145deg,#fffaf4,#f2e8de)!important;color:#173b32!important;border-color:rgba(23,59,50,.13)!important}
+.nocturneHome .brainTool{background:rgba(255,255,255,.68)!important;border-color:rgba(23,59,50,.12)!important}
+.nocturneHome .brainTool b,.nocturneHome .brainBoardHead b{color:#173b32!important}.nocturneHome .brainTool span,.nocturneHome .brainBoardHead p{color:#665f58!important}
+.nocturneHome .brainBoardCore{background:#173b32!important}
+.nocturneHome .nocturneClose{background:#173b32!important}
+
+/* Wedding Builder contrast repair — preserve the live MPW shell, remove washed-out type */
+.weddingBuilderPage{background:#f7f3ec!important}
+.weddingBuilderPage .wbShell,.weddingBuilderPage .wbCard,.weddingBuilderPage .budgetShowcase,.weddingBuilderPage .compactPick,.weddingBuilderPage .extraPick{color:#24332d}
+.weddingBuilderPage .wbCard h1,.weddingBuilderPage .wbCard h2,.weddingBuilderPage .wbCard h3,
+.weddingBuilderPage .budgetShowcase h2,.weddingBuilderPage .budgetShowcase h3,
+.weddingBuilderPage .compactPick h3,.weddingBuilderPage .extraPick h3{color:#173b32!important}
+.weddingBuilderPage .wbCard p,.weddingBuilderPage .budgetShowcase p,.weddingBuilderPage .compactMeta,.weddingBuilderPage .extraPick p{color:#667069!important}
+.weddingBuilderPage .budgetShowcaseHead h2{color:#173b32!important}
+.weddingBuilderPage .budgetTotal strong{color:#173b32!important}.weddingBuilderPage .budgetTotal small{color:#667069!important}
+.weddingBuilderPage .categoryPill{color:#76564f!important}
+.weddingBuilderPage .compactWhy{color:#5d5a55!important}
+.weddingBuilderPage .compactVendorBody>h3,.weddingBuilderPage .extraPick>div>h3{color:#173b32!important}
+.weddingBuilderPage .compactPick [style*="color"],.weddingBuilderPage .budgetShowcase [style*="color"]{text-shadow:none}
+.weddingBuilderPage .rosterCta p{color:#667069!important}
+.weddingBuilderPage .finishingTouches h2,.weddingBuilderPage .finishingTouches h3{color:#173b32!important}
+.weddingBuilderPage .finishingTouches p{color:#667069!important}
+.weddingBuilderPage .budgetGroup h3,.weddingBuilderPage .budgetGroup strong{color:#173b32!important}
