@@ -852,3 +852,10 @@ input,select,textarea{color:var(--mpw-live-ink);background:#fff}.primary{backgro
 .siteHeader .builderNavBrand span{color:#7b3f49!important}
 .siteHeader .builderNavBrand small{color:#667069!important}
 .siteHeader .planningPill{color:#262820!important;opacity:1!important}
+
+
+/* Live MPW vendor navigation dropdown parity */
+.siteHeader .vendorNavMenu{top:calc(100% - 2px)!important;left:-18px!important;width:min(620px,82vw)!important;padding:18px!important;background:#fffdfb!important;border:1px solid #ead8d0!important;border-radius:16px!important;box-shadow:0 18px 44px rgba(84,64,58,.16)!important;color:#262820!important;backdrop-filter:none!important}
+.siteHeader .vendorNavAll{color:#385847!important;border-bottom:1px solid #ead8d0!important;background:transparent!important}
+.siteHeader .consumerNav .vendorNavGrid a{color:#262820!important;background:transparent!important;opacity:1!important}
+.siteHeader .consumerNav .vendorNavGrid a:hover,.siteHeader .consumerNav .vendorNavGrid a:focus-visible{background:#fde8e7!important;color:#385847!important}
