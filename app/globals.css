@@ -811,3 +811,12 @@ input,select,textarea{color:var(--mpw-live-ink);background:#fff}.primary{backgro
 
 /* Vendor profiles: undo the candlelit experiment while retaining the richer profile layout. */
 .vendorProfilePage{background:var(--mpw-live-cream)!important;color:var(--mpw-live-ink)!important}.vendorProfilePage .vendorProfileBody{background:var(--mpw-live-cream)!important}.vendorProfilePage .vendorProfileLayout,.vendorProfilePage .profileContactCard,.vendorProfilePage .profileDetailsCard{background:#fff!important;color:var(--mpw-live-ink)!important;border-color:var(--mpw-live-line)!important}.vendorProfilePage .profileContactCard{border-top-color:var(--mpw-live-rose)!important}.vendorProfilePage .vendorHighlights{background:var(--mpw-live-sage)!important}.vendorProfilePage .vendorStoryBlock h2,.vendorProfilePage .vendorStoryBlock p,.vendorProfilePage .profileContactCard h2,.vendorProfilePage .profileContactCard h3,.vendorProfilePage .profileContactCard p,.vendorProfilePage .profileDetailsCard h2,.vendorProfilePage .profileDetailsCard h3,.vendorProfilePage .profileDetailsCard p{color:var(--mpw-live-ink)!important}
+
+
+/* MPW image resilience — never leave featured/category/vendor media as a blank block */
+.mpwVendorImageFallback{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:8px;background:linear-gradient(135deg,#fff1ed 0%,#edf2e8 100%);color:#385847;text-align:center}
+.mpwVendorImageFallback img{width:76px!important;height:76px!important;object-fit:contain!important;opacity:.82;filter:none!important}
+.mpwVendorImageFallback span{font:600 1.25rem/1.1 Georgia,serif;color:#385847}.mpwVendorImageFallback small{font:800 .66rem/1 Arial,sans-serif;letter-spacing:.14em;text-transform:uppercase;color:#7a746e}
+.marketVendorPhoto.vendorImageFallback{position:relative;background:linear-gradient(135deg,#fff1ed,#edf2e8)!important}.marketVendorPhoto .mpwVendorImageFallback.compact{position:absolute;inset:0}.marketVendorPhoto .mpwVendorImageFallback.compact img{width:48px!important;height:48px!important}.marketVendorPhoto .mpwVendorImageFallback.compact span{font-size:.88rem}
+.vendorHeroVisual.vendorImageFallback{background:linear-gradient(135deg,#fff1ed,#edf2e8)!important}
+.nocturneVendorPhoto:empty,.homeVendorPhoto:empty{background:linear-gradient(135deg,#fff1ed,#edf2e8)!important}
