@@ -70,7 +70,7 @@ export default function FoundingVendorSignupForm({ defaultPlan = "professional",
       </div>}
     </div>
 
-    <div className="field full"><label>Membership</label><select value={plan} onChange={e=>{setPlan(e.target.value);setRequestedPlan(e.target.value)}}>{Object.entries(plans).map(([slug,p])=><option key={slug} value={slug}>{p.name} — {p.price?`$${p.price}/month`:"Free"}</option>)}</select><small>{plan==="free"?"Free listings are intentionally limited and do not reserve a Founding Vendor position.":"Paid plans unlock Wedding Builder by My Portland Wedding visibility and direct inquiries."}</small></div>
+    <div className="field full"><label>Membership</label><select value={plan} onChange={e=>{setPlan(e.target.value);setRequestedPlan(e.target.value)}}>{Object.entries(plans).map(([slug,p])=><option key={slug} value={slug}>{p.name} — {p.price?`$${p.price}/month`:"Free"}</option>)}</select><small>{plan==="free"?"Free listings are intentionally limited and do not reserve a Founding Vendor position.":"Free listings can appear in Wedding Builder matches. Paid plans unlock direct couple inquiries, bulk quote requests and stronger exposure."}</small></div>
 
     {foundingAvailable && plan!=="free" && <div className="field full foundingIncluded">
       <strong>You’re getting the full Premium package.</strong>
