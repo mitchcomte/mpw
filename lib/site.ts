@@ -29,7 +29,7 @@ export const plans = {
       "Business name, city and state",
       "One profile photo",
       "Short business description",
-      "Website or phone link",
+      "Website or phone link",\n      "Eligible to appear in Wedding Builder matches",
       "Standard directory visibility",
       "Downloadable Listed Vendor badge"
     ]
@@ -43,7 +43,7 @@ export const plans = {
       "Up to 5 gallery photos",
       "Pricing and service-area details",
       "Direct couple inquiry form",
-      "Wedding Builder by My Portland Wedding eligibility",
+      "Wedding Builder paid introductions and bulk quote requests",
       "Vendor dashboard and lead center",
       "Email and push lead notifications",
       "Supported Vendor badge",
