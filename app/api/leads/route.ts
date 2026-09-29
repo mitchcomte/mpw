@@ -10,9 +10,9 @@ export async function POST(req: NextRequest) {
   const vendorSlug = String(form.get("vendor_slug") || "");
   if(process.env.VERCEL_ENV==="preview"||process.env.MPW_PREVIEW_MODE==="1") return NextResponse.redirect(new URL(`/vendor/${encodeURIComponent(vendorSlug)}?lead=preview#contact`,req.url),303);
   const db = createAdminClient();
-  const { data: vendor } = await db.from("vendor_profiles").select("id,slug,business_name,email,user_id,plan").eq("market_slug", "portland").eq("slug", vendorSlug).eq("status","active").maybeSingle();
+  const { data: vendor } = await db.from("vendor_profiles").select("id,slug,business_name,email,user_id,plan,listing_state").eq("market_slug", "portland").eq("slug", vendorSlug).eq("status","active").maybeSingle();
   if (!vendor) return NextResponse.redirect(new URL(`/vendor/${encodeURIComponent(vendorSlug)}?lead=vendor-not-found`, req.url), 303);
-  if (vendor.plan === "free") return NextResponse.redirect(new URL(`/vendor/${encodeURIComponent(vendorSlug)}?lead=upgrade-required`, req.url), 303);
+  if (vendor.plan === "free" || vendor.listing_state === "unclaimed") return NextResponse.redirect(new URL(`/vendor/${encodeURIComponent(vendorSlug)}?lead=upgrade-required`, req.url), 303);
   const source=String(form.get("source")||"")==="wedding_builder"?"wedding_builder":"profile";
   const name=String(form.get("name")||"").trim().slice(0,120), email=String(form.get("email")||"").trim().toLowerCase().slice(0,254), phone=String(form.get("phone")||"").trim().slice(0,40)||null, message=String(form.get("message")||"").trim().slice(0,3000);
   if(!name||!email||!email.includes("@")||!message)return NextResponse.redirect(new URL(`/vendor/${encodeURIComponent(vendorSlug)}?lead=error#contact`,req.url),303);
