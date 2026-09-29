@@ -646,3 +646,26 @@ input,select,textarea{color:var(--mpw-live-ink);background:#fff}.primary{backgro
 .vendorTierBadge,.rosterFoundingBadge{box-shadow:0 4px 12px rgba(83,68,39,.1)}
 .siteFooter{position:relative;overflow:hidden}.siteFooter::before{content:"";position:absolute;left:0;right:0;top:0;height:1px;background:linear-gradient(90deg,transparent,rgba(180,151,95,.65),rgba(63,92,75,.45),transparent)}
 @media(prefers-reduced-motion:reduce){.btn.primary,.vendorCategoryPreviewCard,.marketVendorCard,.packageCard,.extraPick,.wbIntelCard,.wbSimCard{transition:none!important}}
+
+
+/* Four-up horizontal Compare Matches — current + three challengers */
+.wbCompareOverlay .compareFour{width:min(1380px,calc(100vw - 36px));max-height:none;overflow:visible;padding:17px!important}
+.compareFourGrid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px}
+.compareVendorSlot{min-width:0;overflow:hidden;border:1px solid #d9d0c3;border-radius:16px;background:rgba(255,255,255,.94);box-shadow:0 7px 18px rgba(44,48,41,.07)}
+.compareVendorSlot.current{border-color:#9cac91;box-shadow:0 0 0 2px rgba(82,109,88,.12),0 9px 22px rgba(44,48,41,.09)}
+.compareVendorPhoto{position:relative;height:145px;display:flex;align-items:center;justify-content:center;background:linear-gradient(145deg,#e7eadf,#f2e7df);overflow:hidden}.compareVendorPhoto img{width:100%;height:100%;object-fit:cover}.compareVendorPhoto>b{position:absolute;left:8px;top:8px;padding:4px 7px;border-radius:999px;background:rgba(255,253,249,.94);border:1px solid rgba(180,151,95,.25);font-size:.55rem;letter-spacing:.1em}.compareVendorPhoto>strong{position:absolute;right:8px;bottom:8px;width:43px;height:43px;border-radius:50%;display:grid;place-items:center;background:#3f5c4b;color:#fff;border:2px solid #fff;font-size:.82rem;box-shadow:0 3px 10px rgba(31,44,36,.2)}
+.compareVendorInfo{padding:10px}.compareVendorInfo h4{font-family:Georgia,serif;font-size:1.02rem;line-height:1.08;margin:0 0 7px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.comparePrice{display:flex;justify-content:space-between;gap:8px;padding:5px 0;border-top:1px solid #eee7dd;font-size:.68rem}.comparePrice span{color:#74766f}.compareFit{display:flex;flex-wrap:wrap;gap:4px;margin:6px 0}.compareFit span{padding:3px 5px;border-radius:999px;background:#edf1e9;color:#4c5947;font-size:.57rem;font-weight:700}.compareVendorInfo>small{display:block;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;color:#706c63;font-size:.6rem;min-height:14px}.compareSlotActions{display:flex;gap:5px;align-items:center;margin-top:8px;min-height:30px}.compareSlotActions .btn{flex:1;min-height:30px!important;padding:6px 7px!important;font-size:.62rem!important}.compareFitBtn{border:0;background:transparent;color:#6f5a32;text-decoration:underline;font-size:.58rem;font-weight:700}.compareCurrentLabel{font-size:.62rem;font-weight:800;color:#4b654f}.compareFour .wbCompareHead{margin-bottom:11px!important}
+
+/* MPW polish pass v2 — noticeable, never loud */
+body{background:linear-gradient(180deg,#fffdf9 0%,#fffaf5 42%,#fbfaf5 100%)}
+.section:nth-of-type(even){background-image:linear-gradient(115deg,rgba(180,151,95,.022),transparent 28%,rgba(63,92,75,.018) 75%,transparent)}
+.pagehero,.vendorEditorialHero{border-bottom:1px solid rgba(180,151,95,.18)}
+.pagehero .eyebrow,.vendorEditorialHero .eyebrow,.rosterIntro .eyebrow{position:relative;display:inline-flex;align-items:center;gap:7px}.pagehero .eyebrow::before,.vendorEditorialHero .eyebrow::before,.rosterIntro .eyebrow::before{content:"";width:18px;height:2px;border-radius:2px;background:linear-gradient(90deg,#b4975f,#526d58)}
+.marketVendorCard,.vendorCategoryPreviewCard,.rosterPick.compactPick,.extraPick{border-color:#ddd0be!important;box-shadow:0 10px 28px rgba(53,52,44,.075)}
+.marketVendorCard:hover,.vendorCategoryPreviewCard:hover,.rosterPick.compactPick:hover,.extraPick:hover{box-shadow:0 17px 38px rgba(53,52,44,.13)}
+.marketVendorCard .marketVendorBody,.compactVendorBody{position:relative}.marketVendorCard .marketVendorBody::before,.compactVendorBody::before{content:"";position:absolute;top:0;left:0;width:44px;height:2px;background:linear-gradient(90deg,#b4975f,#78907b);opacity:.75}
+.vendorProfilePage .vendorProfileLayout{border-color:#ddc9aa!important;box-shadow:0 -12px 42px rgba(58,51,40,.09)!important}.vendorProfilePage .profileContactCard{box-shadow:0 16px 36px rgba(58,51,40,.1)!important}
+.wbPowerhouse,.budgetShowcase,.wbQuoteLab{border-color:#ddcbae!important;box-shadow:0 13px 34px rgba(54,52,44,.07)}.wbPowerhouse::after,.budgetShowcase::after{content:"";position:absolute;left:24px;right:24px;top:0;height:2px;background:linear-gradient(90deg,transparent,#c1a56d,#718774,transparent);opacity:.65}
+.siteFooter{box-shadow:0 -10px 32px rgba(51,50,44,.04)}
+@media(max-width:900px){.compareFourGrid{grid-template-columns:repeat(2,minmax(0,1fr))}.wbCompareOverlay .compareFour{max-height:calc(100vh - 24px);overflow:auto}.compareVendorPhoto{height:125px}}
+@media(max-width:560px){.compareFourGrid{grid-template-columns:1fr 1fr;gap:7px}.compareVendorPhoto{height:100px}.compareVendorInfo{padding:7px}.compareVendorInfo h4{font-size:.82rem}.compareFit span{font-size:.5rem}.compareSlotActions{display:block}.compareSlotActions .btn{width:100%}.compareFitBtn{display:block;margin:5px auto 0}}
