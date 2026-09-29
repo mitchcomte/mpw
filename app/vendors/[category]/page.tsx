@@ -50,7 +50,7 @@ export default async function CategoryPage({params,searchParams}:{params:Promise
  // Stable daily hero rotation: prioritize paid exposure tiers while rotating fairly within the highest eligible tier.
  const imageCandidates=categoryVendors.filter((v:any)=>(v.vendor_photos||[]).some((p:any)=>Boolean(String(p?.storage_path||"").trim())));
  const paidImageCandidates=imageCandidates.filter((v:any)=>String(v.plan||"").toLowerCase()!=="free");
- const heroCandidates=paidImageCandidates.length?paidImageCandidates:imageCandidates;
+ const heroCandidates=paidImageCandidates;
  const heroPriority=(v:any)=>v.founding_vendor?5:(weight[String(v.plan||"").toLowerCase()]||0);
  const highestHeroPriority=heroCandidates.reduce((max:number,v:any)=>Math.max(max,heroPriority(v)),0);
  const heroPool=heroCandidates.filter((v:any)=>heroPriority(v)===highestHeroPriority).sort((a:any,b:any)=>String(a.id).localeCompare(String(b.id)));
