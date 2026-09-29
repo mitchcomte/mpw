@@ -699,3 +699,21 @@ main:not(.nocturneHome):not(.vendorProfilePage){--ad-night:#1d1c1b;--ad-night2:#
 .mpwLabCapabilities{display:grid;grid-template-columns:repeat(4,1fr);gap:8px}.mpwLabCapabilities span{display:grid;gap:4px;padding:13px 14px;border-radius:14px;background:#f5eee7}.mpwLabCapabilities b{color:#173b32;font-size:.78rem}.mpwLabCapabilities small{color:#746c65;font-size:.68rem}
 @media(max-width:1100px){.nocturneHome .nocturneBrain{grid-template-columns:1fr!important}.nocturneHome .nocturneBrainCopy{max-width:720px}.mpwLabHead{grid-template-columns:1fr}.mpwLabHead p{margin-top:10px;max-width:520px}}
 @media(max-width:720px){.mpwLabFlow{grid-template-columns:1fr}.mpwLabRipple{min-height:190px}.mpwLabCapabilities{grid-template-columns:1fr 1fr}.nocturneHome .nocturneBrainCopy h2{font-size:clamp(3rem,15vw,4.7rem)!important}}
+
+
+/* MPW homepage density pass — tighter sections, stronger vendor browse CTA */
+.nocturneHome .nocturneVendors{padding-top:clamp(34px,4.5vw,62px)!important;padding-bottom:clamp(38px,5vw,68px)!important;min-height:0!important}
+.nocturneHome .nocturneVendors>header{min-height:0!important;margin-bottom:clamp(24px,3vw,38px)!important;align-items:end!important}
+.nocturneHome .nocturneVendors>header h2{font-size:clamp(3.8rem,6vw,6.7rem)!important;line-height:.86!important}
+.nocturneHome .nocturneVendors>header>a{font-size:.9rem!important;letter-spacing:.05em!important;padding:12px 17px!important;border:1px solid rgba(23,59,50,.32)!important;border-radius:999px!important;white-space:nowrap!important;margin-bottom:5px!important}
+.nocturneHome .nocturneVendors>header>a:hover{background:#173b32!important;color:#fffaf4!important}
+.nocturneHome .nocturneBrain{padding-top:clamp(44px,5.5vw,76px)!important;padding-bottom:clamp(44px,5.5vw,76px)!important;gap:clamp(28px,4vw,58px)!important;grid-template-columns:minmax(270px,.58fr) minmax(620px,1.42fr)!important}
+.nocturneHome .nocturneBrainCopy h2{font-size:clamp(3.3rem,4.8vw,5.45rem)!important;line-height:.88!important;margin:10px 0 20px!important}
+.nocturneHome .nocturneBrainCopy p{font-size:.98rem!important;line-height:1.55!important;max-width:410px!important}
+.mpwLabPreview{padding:clamp(20px,2.25vw,30px)!important;border-radius:24px!important}
+.mpwLabHead{padding-bottom:16px!important;column-gap:20px!important}.mpwLabHead h3{font-size:clamp(1.75rem,2.45vw,2.75rem)!important}.mpwLabHead p{font-size:.84rem!important;max-width:250px!important}
+.mpwLabFlow{padding:16px 0!important;gap:10px!important}.mpwLabChoice,.mpwLabResult{padding:17px!important;border-radius:16px!important}.mpwLabRipple{min-height:205px!important;padding:17px!important;border-radius:16px!important}
+.mpwLabChoice>strong{font-size:22px!important;margin:6px 0 13px!important}.mpwLabChoice p,.mpwLabResult p{margin-top:11px!important;line-height:1.4!important}.mpwLabResult>strong{font-size:31px!important}
+.mpwLabCapabilities span{padding:10px 11px!important}.mpwLabCapabilities{gap:6px!important}
+@media(max-width:1100px){.nocturneHome .nocturneBrain{grid-template-columns:1fr!important}.nocturneHome .nocturneVendors>header h2{font-size:clamp(3.3rem,9vw,5.4rem)!important}}
+@media(max-width:720px){.nocturneHome .nocturneVendors>header{align-items:start!important}.nocturneHome .nocturneVendors>header>a{margin-top:16px!important}.nocturneHome .nocturneBrain{padding-top:38px!important;padding-bottom:38px!important}}
