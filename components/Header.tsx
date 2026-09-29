@@ -1,23 +1,20 @@
 "use client";
 import Link from "next/link";
-import { useState } from "react";
 import { categories } from "../lib/site";
 
 export function Header(){
-  const [vendorsOpen,setVendorsOpen]=useState(false);
-  const closeVendors=()=>setVendorsOpen(false);
   return <header className="siteHeader"><div className="container nav">
     <Link className="logo brandLogo" href="/" aria-label="My Portland Wedding home">
       <img className="heartMarkImage" src="/brand/mpw-heart-sprig-clean.png" alt="" aria-hidden="true"/>
       <span className="brandLockup"><span className="brandName">My Portland Wedding</span><small>PLAN LOCAL. LOVE ALWAYS.</small></span>
     </Link>
     <nav className="consumerNav" aria-label="Main navigation">
-      <div className={`vendorNavDropdown ${vendorsOpen?"isOpen":""}`}>
-        <button className="vendorNavTrigger" type="button" aria-expanded={vendorsOpen} onClick={()=>setVendorsOpen(v=>!v)}>Find Vendors <span className="navChevron" aria-hidden="true">⌄</span></button>
+      <div className="vendorNavDropdown">
+        <Link className="vendorNavTrigger" href="/vendors">Find Vendors <span className="navChevron" aria-hidden="true">⌄</span></Link>
         <div className="vendorNavMenu" aria-label="Vendor categories">
-          <Link onClick={closeVendors} className="vendorNavAll" href="/vendors">Browse All Vendors</Link>
+          <Link className="vendorNavAll" href="/vendors">Browse All Vendors</Link>
           <div className="vendorNavGrid">
-            {categories.map(([slug,label]) => <Link onClick={closeVendors} key={slug} href={`/vendors/${slug}`}>{label}</Link>)}
+            {categories.map(([slug,label]) => <Link key={slug} href={`/vendors/${slug}`}>{label}</Link>)}
           </div>
         </div>
       </div>
