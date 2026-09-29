@@ -32,7 +32,8 @@ export async function POST(req: NextRequest) {
       .maybeSingle();
     if (!vendor) return NextResponse.json({ error: "Vendor profile not found." }, { status: 404 });
 
-    if (vendor.plan !== plan) {
+    const upgradingFromFree = vendor.plan === "free" && ["basic","professional","premium"].includes(plan);
+    if (vendor.plan !== plan && !upgradingFromFree) {
       return NextResponse.json({ error: "The selected membership does not match your vendor account. Refresh the page and try again." }, { status: 409 });
     }
 
