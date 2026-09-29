@@ -30,7 +30,7 @@ export async function POST(request: Request) {
 
   // Reserve the founding spot BEFORE creating the auth account so a simultaneous signup
   // cannot accidentally be promised the same category position.
-  if (foundingRequested && requestedPlan !== "free") {
+  if (foundingRequested && baseRequestedPlan !== "free") {
     if (!db) return NextResponse.redirect(new URL("/vendor/signup?error=The%20Founding%20Vendor%20offer%20is%20temporarily%20unavailable.%20Please%20try%20again.", request.url), 303);
     const { data, error } = await db.rpc("reserve_founding_vendor_offer", {
       p_market_slug: site.marketSlug,
