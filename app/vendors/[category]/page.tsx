@@ -49,7 +49,9 @@ export default async function CategoryPage({params,searchParams}:{params:Promise
  const styles=Array.from(new Set(vendors.flatMap((v:any)=>(v.wedding_styles||[]).map((s:string)=>decodeDisplayText(s))))).sort().slice(0,30);
  const hero=heroCopy[category]||{kicker:`PORTLAND WEDDING ${title.toUpperCase()}`,headline:`Find ${title.toLowerCase()} that feel like you.`,body:`Discover local ${title.toLowerCase()} and find the people who fit your wedding, your priorities and your plans.`};
  // Stable daily hero rotation: prioritize paid exposure tiers while rotating fairly within the highest eligible tier.
- const imageCandidates=categoryVendors.filter((v:any)=>(v.vendor_photos||[]).some((p:any)=>Boolean(String(p?.storage_path||"").trim())));\n const paidImageCandidates=imageCandidates.filter((v:any)=>String(v.plan||"").toLowerCase()!=="free");\n const heroCandidates=paidImageCandidates.length?paidImageCandidates:imageCandidates;
+ const imageCandidates=categoryVendors.filter((v:any)=>(v.vendor_photos||[]).some((p:any)=>Boolean(String(p?.storage_path||"").trim())));
+ const paidImageCandidates=imageCandidates.filter((v:any)=>String(v.plan||"").toLowerCase()!=="free");
+ const heroCandidates=paidImageCandidates.length?paidImageCandidates:imageCandidates;
  const heroPriority=(v:any)=>v.founding_vendor?5:(weight[String(v.plan||"").toLowerCase()]||0);
  const highestHeroPriority=heroCandidates.reduce((max:number,v:any)=>Math.max(max,heroPriority(v)),0);
  const heroPool=heroCandidates.filter((v:any)=>heroPriority(v)===highestHeroPriority).sort((a:any,b:any)=>String(a.id).localeCompare(String(b.id)));
