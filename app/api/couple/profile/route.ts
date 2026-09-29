@@ -2,6 +2,7 @@ import { NextResponse } from "next/server";
 import { createSupabaseServerClient } from "../../../../lib/supabase/server";
 
 export async function POST(request: Request) {
+  if(process.env.VERCEL_ENV==="preview"||process.env.MPW_PREVIEW_MODE==="1") return NextResponse.redirect(new URL("/couple/dashboard?preview=1",request.url),303);
   const form = await request.formData();
   const supabase = await createSupabaseServerClient();
   const { data: { user } } = await supabase.auth.getUser();
