@@ -6,6 +6,7 @@ import {sendEmailOnce,escapeHtml,siteUrl} from "../../../../lib/email";
 const badgeKey=(plan:string,founding?:boolean)=>founding?"founding":plan==="free"?"listed":plan==="basic"?"supported":plan==="professional"?"professional":"premium";
 const badgeLabel=(key:string)=>({listed:"Listed Vendor",supported:"Supported Vendor",professional:"Professional Vendor",premium:"Premium Vendor",founding:"Founding Vendor"} as Record<string,string>)[key]||"Vendor";
 export async function POST(req:Request){
+ if(process.env.VERCEL_ENV==="preview"||process.env.MPW_PREVIEW_MODE==="1") return NextResponse.json({sent:0,skipped:0,failed:0,total:0,preview:true});
  const supabase=await createSupabaseServerClient(); const {data:{user}}=await supabase.auth.getUser(); if(!user)return NextResponse.json({error:"Unauthorized"},{status:401});
  const {data:admin}=await supabase.from("admin_users").select("user_id").eq("user_id",user.id).maybeSingle(); if(!admin)return NextResponse.json({error:"Admin access required"},{status:403});
  const body=await req.json().catch(()=>({})); const ids=Array.isArray(body.vendor_ids)?body.vendor_ids.slice(0,150):[]; if(!ids.length)return NextResponse.json({error:"No vendors selected"},{status:400});
