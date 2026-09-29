@@ -8,7 +8,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Extract recovered MPW source
+      - name: Locate and extract MPW project
         shell: bash
         run: |
           set -euo pipefail
@@ -17,12 +17,20 @@ jobs:
           rm -rf .recover
           mkdir .recover
           unzip -q "$ZIP" -d .recover
+          PKG="$(find .recover -type f -name package.json -not -path '*/node_modules/*' -print -quit)"
+          test -n "$PKG"
+          SRC="$(dirname "$PKG")"
+          echo "Detected MPW project root: $SRC"
           shopt -s dotglob nullglob
-          for item in .recover/*; do
+          for item in "$SRC"/*; do
             base="$(basename "$item")"
             [ "$base" = ".git" ] && continue
             [ "$base" = ".github" ] && continue
             [ "$base" = "README.md" ] && continue
+            [ "$base" = ".env" ] && continue
+            [ "$base" = "node_modules" ] && continue
+            [ "$base" = ".next" ] && continue
+            [ "$base" = ".vercel" ] && continue
             cp -a "$item" ./
           done
           rm -rf .recover "$ZIP"
@@ -30,14 +38,12 @@ jobs:
         shell: bash
         run: |
           set -euo pipefail
-          test -f package.json
-          test -d app
-          test -d components
-          test -d lib
-          test -d public
-          test -d supabase
+          for f in package.json; do test -f "$f"; done
+          for d in app components lib public supabase; do test -d "$d"; done
           test ! -f .env
-          echo "Recovered file count: $(find . -type f -not -path './.git/*' | wc -l)"
+          COUNT="$(find . -type f -not -path './.git/*' | wc -l)"
+          echo "Recovered file count: $COUNT"
+          test "$COUNT" -ge 250
       - name: Commit recovered source
         shell: bash
         run: |
