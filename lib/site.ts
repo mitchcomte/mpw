@@ -29,7 +29,8 @@ export const plans = {
       "Business name, city and state",
       "One profile photo",
       "Short business description",
-      "Website or phone link",\n      "Eligible to appear in Wedding Builder matches",
+      "Website or phone link",
+      "Eligible to appear in Wedding Builder matches",
       "Standard directory visibility",
       "Downloadable Listed Vendor badge"
     ]
