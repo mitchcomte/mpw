@@ -15,7 +15,8 @@ type Availability = {
 
 export default function FoundingVendorSignupForm({ defaultPlan = "professional", referralCode = "" }: { defaultPlan?: string; referralCode?: string }) {
   const [category, setCategory] = useState("venues");
-  const [plan, setPlan] = useState(defaultPlan in plans ? defaultPlan : "professional");\n  const [requestedPlan, setRequestedPlan] = useState(defaultPlan in plans ? defaultPlan : "professional");
+  const [plan, setPlan] = useState(defaultPlan in plans ? defaultPlan : "professional");
+  const [requestedPlan, setRequestedPlan] = useState(defaultPlan in plans ? defaultPlan : "professional");
   const [availability, setAvailability] = useState<Availability | null>(null);
   const [loading, setLoading] = useState(true);
 
