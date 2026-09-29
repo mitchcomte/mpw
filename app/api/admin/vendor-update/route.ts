@@ -1,6 +1,7 @@
 import { NextRequest, NextResponse } from "next/server";
 import { createSupabaseServerClient } from "../../../../lib/supabase/server";
 export async function POST(req:NextRequest){
+ if(process.env.VERCEL_ENV==="preview"||process.env.MPW_PREVIEW_MODE==="1") return NextResponse.redirect(new URL("/admin?message=Preview%20mode%3A%20vendor%20edit%20simulated",req.url),303);
  const form=await req.formData(); const supabase=await createSupabaseServerClient(); const {data:{user}}=await supabase.auth.getUser(); if(!user) return NextResponse.redirect(new URL("/admin/login",req.url),303); const {data:admin}=await supabase.from("admin_users").select("user_id").eq("user_id",user.id).maybeSingle(); if(!admin) return new NextResponse("Forbidden",{status:403});
  const id=String(form.get("vendor_id")||""); const allowedStatus=["draft","pending","active","suspended"]; const allowedPlan=["free","basic","professional","premium"]; const allowedStage=["lead","sold","setup_sent","payment_pending","active","paused","lost"];
  const status=String(form.get("status")||"pending"), plan=String(form.get("plan")||"basic"), stage=String(form.get("crm_stage")||"lead");
