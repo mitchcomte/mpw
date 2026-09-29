@@ -532,3 +532,9 @@ input,select,textarea{color:var(--mpw-live-ink);background:#fff}.primary{backgro
 .siteHeader .vendorNavAll{color:#385847!important;border-bottom:1px solid #ead8d0!important;background:transparent!important}
 .siteHeader .consumerNav .vendorNavGrid a{color:#262820!important;background:transparent!important;opacity:1!important}
 .siteHeader .consumerNav .vendorNavGrid a:hover,.siteHeader .consumerNav .vendorNavGrid a:focus-visible{background:#fde8e7!important;color:#385847!important}
+
+/* Click-safe MPW vendor nav */
+.siteHeader .vendorNavDropdown .vendorNavTrigger{border:0;background:transparent;font:inherit;font-weight:800;color:#262820;cursor:pointer;padding:0}
+.siteHeader .vendorNavDropdown .vendorNavMenu{display:none}
+.siteHeader .vendorNavDropdown.isOpen .vendorNavMenu{display:block}
+.siteHeader .vendorNavDropdown.isOpen .navChevron{display:inline-block;transform:rotate(180deg)}
