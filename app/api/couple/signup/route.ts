@@ -11,6 +11,8 @@ export async function POST(request: Request) {
   const weddingDate = String(form.get("wedding_date") || "").trim();
   const consumerTermsConsent = String(form.get("consumer_terms_consent") || "");
 
+  if(process.env.VERCEL_ENV==="preview"||process.env.MPW_PREVIEW_MODE==="1") return NextResponse.redirect(new URL("/couple/signup?preview=1",request.url),303);
+
   if (!email || password.length < 8 || !firstName || consumerTermsConsent !== "yes") {
     return NextResponse.redirect(new URL("/couple/signup?error=Please%20complete%20all%20required%20fields", request.url), 303);
   }
