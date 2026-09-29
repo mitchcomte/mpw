@@ -570,3 +570,9 @@ input,select,textarea{color:var(--mpw-live-ink);background:#fff}.primary{backgro
 .vendorProfilePage .packageCard{min-width:0!important;width:auto!important;height:100%!important}
 @media(max-width:1050px){.vendorProfilePage .packageGrid{grid-template-columns:repeat(2,minmax(0,1fr))!important}}
 @media(max-width:700px){.vendorProfilePage .packageGrid{grid-template-columns:1fr!important}}
+
+/* MPW footer parity */
+.siteFooter .heartMarkImage{width:46px;height:46px;object-fit:contain;display:block;flex:0 0 auto}
+.siteFooter .footerTop{align-items:center}
+.siteFooter .footerBrand{display:flex;align-items:center;gap:10px}
+@media(max-width:760px){.siteFooter .heartMarkImage{width:40px;height:40px}}
