@@ -7,8 +7,9 @@ import { sendVendorPush } from "../../../lib/web-push";
 export async function POST(req: NextRequest) {
   if(!(await consumeBuilderQuota(req,"lead"))) return NextResponse.redirect(new URL("/vendors?error=Too%20many%20inquiries.%20Please%20try%20again%20later.",req.url),303);
   const form = await req.formData();
-  const db = createAdminClient();
   const vendorSlug = String(form.get("vendor_slug") || "");
+  if(process.env.VERCEL_ENV==="preview"||process.env.MPW_PREVIEW_MODE==="1") return NextResponse.redirect(new URL(`/vendor/${encodeURIComponent(vendorSlug)}?lead=preview#contact`,req.url),303);
+  const db = createAdminClient();
   const { data: vendor } = await db.from("vendor_profiles").select("id,slug,business_name,email,user_id,plan").eq("market_slug", "portland").eq("slug", vendorSlug).eq("status","active").maybeSingle();
   if (!vendor) return NextResponse.redirect(new URL(`/vendor/${encodeURIComponent(vendorSlug)}?lead=vendor-not-found`, req.url), 303);
   if (vendor.plan === "free") return NextResponse.redirect(new URL(`/vendor/${encodeURIComponent(vendorSlug)}?lead=upgrade-required`, req.url), 303);
