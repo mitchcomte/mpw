@@ -1,4 +1,4 @@
-import { categories, oregonServiceCities } from "../../lib/site";
+import { categories } from "../../lib/site";
 import { createSupabaseServerClient } from "../../lib/supabase/server";
 import { decodeDisplayText } from "../../lib/text";
 import Link from "next/link";
@@ -18,13 +18,14 @@ export default async function Vendors({searchParams}:{searchParams:Promise<Q>}){
  if(q.q){const n=q.q.toLowerCase();vendors=vendors.filter(v=>`${v.business_name||""} ${v.description||""}`.toLowerCase().includes(n));}
  if(q.category)vendors=vendors.filter(v=>v.primary_category===q.category);
  if(q.area){const area=q.area.toLowerCase();vendors=vendors.filter(v=>String(v.city||"").toLowerCase()===area||(v.service_cities||[]).some((city:string)=>String(city).toLowerCase()===area));}
+ const serviceAreas=Array.from(new Set((data||[]).flatMap((v:any)=>[v.city,...(v.service_cities||[])]).filter(Boolean).map((city:any)=>decodeDisplayText(String(city))))).sort().slice(0,80);
  const searching=Boolean(q.q||q.category||q.area);
  return <main>
   <section className="pagehero"><div className="container"><span className="eyebrow">Portland + nearby Oregon</span><h1>Find Wedding Vendors</h1><p className="meta">Search local wedding professionals, or browse by category.</p></div></section>
   <section className="section"><div className="container">
    <form className="vendorDirectorySearch" action="/vendors" method="get">
     <input name="q" defaultValue={q.q||""} placeholder="Vendor name or service" aria-label="Vendor name or service"/>
-    <select name="area" defaultValue={q.area||""} aria-label="Oregon city"><option value="">Nearby Oregon city</option>{oregonServiceCities.map(city=><option key={city} value={city}>{city}</option>)}</select>
+    <select name="area" defaultValue={q.area||""} aria-label="Oregon city"><option value="">Nearby Oregon city</option>{serviceAreas.map(city=><option key={city} value={city}>{city}</option>)}</select>
     <select name="category" defaultValue={q.category||""} aria-label="Vendor category"><option value="">All categories</option>{categories.map(([slug,label])=><option key={slug} value={slug}>{label}</option>)}</select>
     <button className="btn primary" type="submit">Search</button>
    </form>
