@@ -7,6 +7,7 @@ import { sendEmailOnce, emailButton, escapeHtml } from "../../../../lib/email";
 export const runtime="nodejs";
 
 export async function POST(req:NextRequest){
+ if(process.env.VERCEL_ENV==="preview"||process.env.MPW_PREVIEW_MODE==="1") return NextResponse.redirect(new URL("/vendor/finish-setup?preview=1",req.url),303);
  const form=await req.formData(); const token=String(form.get("token")||""); const password=String(form.get("password")||"");
  const back=(msg:string)=>NextResponse.redirect(new URL(`/vendor/finish-setup?token=${encodeURIComponent(token)}&error=${encodeURIComponent(msg)}`,req.url),303);
  if(!process.env.SUPABASE_SERVICE_ROLE_KEY) return back("Vendor onboarding is not configured yet."); if(password.length<8) return back("Please create a password with at least 8 characters.");
