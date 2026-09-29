@@ -5,6 +5,7 @@ import { createStripe } from "../../../../lib/stripe";
 
 function normalizeCode(value:string){return value.toUpperCase().replace(/[^A-Z0-9_-]/g,"").slice(0,32)}
 export async function POST(req:NextRequest){
+  if(process.env.VERCEL_ENV==="preview"||process.env.MPW_PREVIEW_MODE==="1") return NextResponse.redirect(new URL("/admin?message=Preview%20mode%3A%20promo%20creation%20simulated",req.url),303);
   const form=await req.formData(); const supabase=await createSupabaseServerClient(); const {data:{user}}=await supabase.auth.getUser();
   if(!user) return NextResponse.redirect(new URL("/admin/login",req.url),303);
   const {data:isAdmin}=await supabase.from("admin_users").select("user_id").eq("user_id",user.id).maybeSingle(); if(!isAdmin) return new NextResponse("Forbidden",{status:403});
