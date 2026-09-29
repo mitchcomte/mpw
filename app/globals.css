@@ -701,3 +701,27 @@ body{background:linear-gradient(180deg,#fffdf9 0%,#fffaf5 42%,#fbfaf5 100%)}
 .vendorMarketplaceGrid .marketVendorCard:has(.vendorTierBadge.founding)::after{top:14px!important;right:14px!important}
 .vendorEditorialHero::before{content:"";position:absolute;z-index:2;left:0;right:0;bottom:0;height:3px;background:linear-gradient(90deg,transparent 4%,#d5b36e 24%,#708873 50%,#d89a91 76%,transparent 96%);opacity:.62}
 @media(max-width:700px){.vendorMarketplaceSection .vendorResultsHead{padding:10px 12px}.vendorMarketplaceGrid{gap:16px!important}.vendorMarketplaceGrid .marketVendorCard{border-radius:18px!important}}
+
+
+/* MPW global visual language — site-wide, not page-specific */
+main{position:relative;background:linear-gradient(180deg,rgba(255,253,249,.82),rgba(251,249,243,.72))}
+main>.section,main>section.section{position:relative}
+main>.section:nth-child(odd),main>section.section:nth-child(odd){background-image:linear-gradient(120deg,rgba(233,133,146,.018),transparent 24%,rgba(180,151,95,.026) 58%,transparent 82%)}
+main>.section:nth-child(even),main>section.section:nth-child(even){background-image:linear-gradient(120deg,rgba(63,92,75,.02),transparent 30%,rgba(180,151,95,.024) 72%,transparent)}
+main>.section+section::before,main>section.section+section::before{content:"";position:absolute;z-index:1;top:0;left:6%;right:6%;height:1px;background:linear-gradient(90deg,transparent,rgba(180,151,95,.32),rgba(63,92,75,.22),rgba(229,132,145,.18),transparent)}
+.card,.panel,.toolCard,.inspirationCard,.articleCard,.dashboardCard,.adminCard,.planningCard,.resourceCard,.authCard,.formCard,.notice,.upgradePrompt{border-color:#ded2c2!important;box-shadow:0 9px 25px rgba(52,51,44,.055);transition:border-color .18s ease,box-shadow .18s ease,transform .18s ease}
+.card:hover,.toolCard:hover,.inspirationCard:hover,.articleCard:hover,.planningCard:hover,.resourceCard:hover{border-color:#cdb98f!important;box-shadow:0 14px 32px rgba(52,51,44,.09)}
+input:not([type="checkbox"]):not([type="radio"]),select,textarea{border-color:#d8ccbd!important;background-color:rgba(255,255,255,.9)!important;box-shadow:inset 0 1px 0 rgba(255,255,255,.7);transition:border-color .18s ease,box-shadow .18s ease}
+input:not([type="checkbox"]):not([type="radio"]):focus,select:focus,textarea:focus{border-color:#9eaf9d!important;box-shadow:0 0 0 3px rgba(63,92,75,.08)!important;outline:none!important}
+button:not(.unstyled),.btn{transition:transform .18s ease,box-shadow .18s ease,border-color .18s ease}button:not(.unstyled):hover,.btn:hover{transform:translateY(-1px)}
+.btn.light,.btn.secondary{border-color:#d7c7ad!important;background:linear-gradient(180deg,#fff,#faf5ec)!important}
+h1,h2,h3{text-wrap:balance}.sectionTitle,.sectionHeader{position:relative}.sectionTitle::after,.sectionHeader::after{content:"";display:block;width:54px;height:2px;margin-top:9px;border-radius:2px;background:linear-gradient(90deg,#b4975f,#718774,#e0a0a7);opacity:.65}
+.badge,.pill,.chip,.tag{border-color:rgba(180,151,95,.24)!important;box-shadow:0 3px 9px rgba(69,60,43,.045)}
+table{border-collapse:separate;border-spacing:0;overflow:hidden;border:1px solid #dfd5c8;border-radius:14px;background:rgba(255,255,255,.9);box-shadow:0 8px 22px rgba(51,50,44,.045)}th{background:linear-gradient(180deg,#f8f3ea,#f3efe6)}
+hr{border:0;height:1px;background:linear-gradient(90deg,transparent,rgba(180,151,95,.35),rgba(63,92,75,.22),transparent)}
+.siteHeader,.siteFooter{isolation:isolate}
+.siteFooter{background-image:radial-gradient(circle at 12% 0%,rgba(180,151,95,.06),transparent 28%),radial-gradient(circle at 88% 100%,rgba(63,92,75,.055),transparent 30%)!important}
+.vendorSignupPage,.vendorDashboard,.coupleDashboard,.planningToolsPage,.inspirationPage,.aboutPage{background-image:radial-gradient(circle at 8% 14%,rgba(180,151,95,.055),transparent 20%),radial-gradient(circle at 94% 48%,rgba(63,92,75,.045),transparent 22%),linear-gradient(180deg,#fffdf9,#faf8f2)!important}
+.emptyState,.empty-state{border:1px dashed #cdbb9c!important;background:linear-gradient(135deg,rgba(255,255,255,.9),rgba(247,242,232,.88))!important}
+a:not(.btn):focus-visible,button:focus-visible{outline:2px solid rgba(63,92,75,.55);outline-offset:3px}
+@media(prefers-reduced-motion:reduce){.card,.panel,.toolCard,.inspirationCard,.articleCard,.dashboardCard,.planningCard,.resourceCard,button,.btn{transition:none!important}}
