@@ -1,8 +1,5 @@
 import { categories } from "../../lib/site";
-import { createSupabaseServerClient } from "../../lib/supabase/server";
-import { decodeDisplayText } from "../../lib/text";
 import Link from "next/link";
-const weight:Record<string,number>={premium:4,professional:3,basic:2,free:1};
 export const metadata = {
   title: 'Portland Wedding Vendors & Venues',
   description: 'Browse Portland-area wedding vendors and venues by category and location. Discover local professionals and build a wedding team that fits your plans.',
