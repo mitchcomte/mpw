@@ -543,3 +543,24 @@ input,select,textarea{color:var(--mpw-live-ink);background:#fff}.primary{backgro
 .siteHeader .consumerNav{gap:clamp(14px,1.5vw,26px)!important}
 .siteHeader .consumerNav>a,.siteHeader .vendorNavTrigger,.siteHeader .planningPill{white-space:nowrap!important}
 .siteHeader .vendorNavDropdown{flex:0 0 auto!important}
+
+/* Live MPW vendor-profile parity */
+.vendorProfilePage .vendorProfileHero.compact{min-height:292px!important;padding:34px 0 40px!important;background-position:center!important;background-size:cover!important}
+.vendorProfilePage .vendorProfileHeroInner{min-height:218px!important;display:flex!important;align-items:flex-end!important;justify-content:space-between!important}
+.vendorProfilePage .vendorHeroCopy h1{font-family:Georgia,"Times New Roman",serif!important;font-size:clamp(52px,5vw,78px)!important;font-weight:400!important;line-height:.98!important;letter-spacing:-.025em!important;margin:14px 0 20px!important;color:#fff!important}
+.vendorProfilePage .vendorBreadcrumbs,.vendorProfilePage .vendorHeroMeta{color:#fff!important}
+.vendorProfilePage .vendorHeroMeta{display:flex!important;gap:16px!important;flex-wrap:wrap!important}
+.vendorProfilePage .vendorHeroMeta span{border:1px solid rgba(255,255,255,.4)!important;border-radius:999px!important;padding:9px 14px!important;background:rgba(20,25,22,.2)!important}
+.vendorProfilePage .heroActions{align-self:center!important}
+.vendorProfilePage .vendorProfileBody.section{padding-top:0!important;background:#fffaf6!important}
+.vendorProfilePage .vendorProfileLayout{position:relative!important;z-index:2!important;margin-top:-27px!important;background:#fff!important;border:1px solid #ead8d0!important;border-radius:34px 34px 0 0!important;padding:40px 38px 70px!important;display:grid!important;grid-template-columns:minmax(0,1fr) 365px!important;gap:24px!important;align-items:start!important}
+.vendorProfilePage .vendorProfilePhotoRibbon{display:block!important;margin:0 0 28px!important}
+.vendorProfilePage .vendorProfilePhotoRibbon figure{display:none!important}
+.vendorProfilePage .vendorProfilePhotoRibbon figure:first-child{display:block!important;height:500px!important;margin:0!important;border-radius:0!important;overflow:hidden!important}
+.vendorProfilePage .vendorProfilePhotoRibbon figure:first-child img{width:100%!important;height:100%!important;object-fit:cover!important}
+.vendorProfilePage .vendorProfileSidebar{position:relative!important;margin-top:-18px!important}
+.vendorProfilePage .profileContactCard{background:#fff!important;border:1px solid #eea1a8!important;border-radius:22px!important;padding:28px 24px!important;box-shadow:none!important}
+.vendorProfilePage .profileContactCard h3{font-family:Georgia,"Times New Roman",serif!important;font-size:32px!important;font-weight:400!important;line-height:1.05!important;margin:30px 0 14px!important}
+.vendorProfilePage .profileContactCard input,.vendorProfilePage .profileContactCard textarea{width:100%!important;border:1px solid #ead8d0!important;border-radius:13px!important;background:#fff!important;padding:13px!important;margin:0 0 9px!important}
+.vendorProfilePage .profileContactCard .btn.primary{width:100%!important;border-radius:999px!important;background:#4d6955!important;color:#fff!important}
+@media(max-width:900px){.vendorProfilePage .vendorProfileLayout{grid-template-columns:1fr!important;margin-top:-18px!important;padding:24px 18px 50px!important;border-radius:24px 24px 0 0!important}.vendorProfilePage .vendorProfilePhotoRibbon figure:first-child{height:360px!important}.vendorProfilePage .vendorProfileSidebar{margin-top:0!important}.vendorProfilePage .vendorHeroCopy h1{font-size:clamp(42px,12vw,62px)!important}}
