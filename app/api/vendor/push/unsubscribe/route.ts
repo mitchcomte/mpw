@@ -4,6 +4,7 @@ import { createAdminClient } from "../../../../../lib/supabase/admin";
 
 export async function POST(req:NextRequest){
   try{
+    if(process.env.VERCEL_ENV==="preview"||process.env.MPW_PREVIEW_MODE==="1") return NextResponse.json({ok:true,preview:true});
     const db=await createSupabaseServerClient();
     const {data:{user}}=await db.auth.getUser();
     if(!user) return NextResponse.json({error:"Sign in required"},{status:401});
