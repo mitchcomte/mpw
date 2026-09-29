@@ -11,7 +11,7 @@ export default async function WeddingBuilderPage({searchParams}:{searchParams:Pr
  const style=typeof params.style==="string"?params.style:"";
  const hasStarter=Boolean(params.budget||params.guests||params.city||params.date||params.style);
  const db=await createSupabaseServerClient();
- const {data}=await db.from("vendor_profiles").select("id,slug,business_name,primary_category,secondary_categories,city,service_cities,pricing_from,pricing_typical,pricing_max,pricing_packages,wedding_styles,guest_capacity_min,guest_capacity_max,availability_status,unavailable_dates,vendor_attributes,plan,rating,description,founding_vendor").eq("market_slug","portland").eq("status","active").limit(1000);
+ const {data}=await db.from("vendor_profiles").select("id,slug,business_name,primary_category,secondary_categories,city,service_cities,pricing_from,pricing_typical,pricing_max,pricing_packages,wedding_styles,guest_capacity_min,guest_capacity_max,availability_status,unavailable_dates,vendor_attributes,plan,rating,description,founding_vendor,listing_state").eq("market_slug","portland").eq("status","active").neq("listing_state","unclaimed").limit(1000);
  const vendorIds=(data||[]).map((v:any)=>v.id);
  const {data:photos}=vendorIds.length?await db.from("vendor_photos").select("vendor_id,storage_path,sort_order").in("vendor_id",vendorIds).order("sort_order",{ascending:true}):{data:[] as any[]};
  const firstPhoto=new Map<string,string>();(photos||[]).forEach((p:any)=>{if(!firstPhoto.has(p.vendor_id))firstPhoto.set(p.vendor_id,`${process.env.NEXT_PUBLIC_SUPABASE_URL}/storage/v1/object/public/vendor-media/${p.storage_path}`)});
