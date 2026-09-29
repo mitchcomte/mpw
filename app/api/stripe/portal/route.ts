@@ -5,6 +5,7 @@ import { createSupabaseServerClient } from "../../../../lib/supabase/server";
 
 export const runtime="nodejs";
 export async function POST(req:NextRequest){
+ if(process.env.VERCEL_ENV==="preview"||process.env.MPW_PREVIEW_MODE==="1") return NextResponse.redirect(new URL("/vendor/dashboard?preview=1#membership",req.url),303);
  const stripe=createStripe(); const supabase=await createSupabaseServerClient(); const {data:{user}}=await supabase.auth.getUser();
  if(!user) return NextResponse.redirect(new URL("/vendor/login",req.url),303);
  if(!stripe) return NextResponse.redirect(new URL("/vendor/dashboard?error=Stripe%20billing%20is%20not%20configured",req.url),303);
