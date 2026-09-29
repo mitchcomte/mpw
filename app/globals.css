@@ -538,3 +538,8 @@ input,select,textarea{color:var(--mpw-live-ink);background:#fff}.primary{backgro
 .siteHeader .vendorNavDropdown .vendorNavMenu{display:none}
 .siteHeader .vendorNavDropdown.isOpen .vendorNavMenu{display:block}
 .siteHeader .vendorNavDropdown.isOpen .navChevron{display:inline-block;transform:rotate(180deg)}
+
+/* Keep MPW primary navigation labels on one line */
+.siteHeader .consumerNav{gap:clamp(14px,1.5vw,26px)!important}
+.siteHeader .consumerNav>a,.siteHeader .vendorNavTrigger,.siteHeader .planningPill{white-space:nowrap!important}
+.siteHeader .vendorNavDropdown{flex:0 0 auto!important}
