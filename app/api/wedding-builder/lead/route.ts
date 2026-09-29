@@ -18,7 +18,7 @@ export async function POST(req:NextRequest){
     if(!["email","phone","text"].includes(contactMethod))return NextResponse.json({error:"Invalid contact method"},{status:400});
     if((contactMethod==="phone"||contactMethod==="text")&&!phone)return NextResponse.json({error:"Phone number required"},{status:400});
     const db=createAdminClient();
-    const {data:vendors,error:vendorError}=await db.from("vendor_profiles").select("id,slug,business_name,user_id,email,plan").in("id",vendorIds).eq("market_slug","portland").eq("status","active").neq("plan","free");
+    const {data:vendors,error:vendorError}=await db.from("vendor_profiles").select("id,slug,business_name,user_id,email,plan,listing_state").in("id",vendorIds).eq("market_slug","portland").eq("status","active").neq("plan","free").neq("listing_state","unclaimed");
     if(vendorError)throw vendorError;
     if(!vendors?.length)return NextResponse.json({error:"No active contactable vendors"},{status:404});
     const message=`Wedding Builder by My Portland Wedding qualified lead · ${b.city||"Portland"} · ${b.guests||"?"} guests · $${Number(b.budget||0).toLocaleString()} budget · ${b.style||"Style not specified"} · Preferred contact: ${contactMethod}. Couple explicitly requested contact from this vendor.`;
