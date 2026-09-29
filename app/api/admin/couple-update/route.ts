@@ -3,6 +3,7 @@ import { createSupabaseServerClient } from "../../../../lib/supabase/server";
 import { createAdminClient } from "../../../../lib/supabase/admin";
 
 export async function POST(req:NextRequest){
+ if(process.env.VERCEL_ENV==="preview"||process.env.MPW_PREVIEW_MODE==="1") return NextResponse.redirect(new URL("/admin/couples?message=Preview%20mode%3A%20couple%20edit%20simulated",req.url),303);
  const form=await req.formData(); const supabase=await createSupabaseServerClient(); const {data:{user}}=await supabase.auth.getUser();
  if(!user) return NextResponse.redirect(new URL("/admin/login",req.url),303);
  const {data:isAdmin}=await supabase.from("admin_users").select("user_id").eq("user_id",user.id).maybeSingle(); if(!isAdmin) return new NextResponse("Forbidden",{status:403});
