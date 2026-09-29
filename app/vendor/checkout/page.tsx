@@ -6,7 +6,8 @@ import { plans } from "../../../lib/site";
 import EmbeddedStripeCheckout from "../../../components/EmbeddedStripeCheckout";
 import AnalyticsEvent from "../../../components/AnalyticsEvent";
 
-export default async function VendorCheckout() {
+export default async function VendorCheckout({ searchParams }: { searchParams: Promise<{ plan?: string }> }) {
+  const q = await searchParams;
   const supabase = await createSupabaseServerClient();
   const { data: { user } } = await supabase.auth.getUser();
   if (!user) redirect("/vendor/login?message=Sign%20in%20to%20activate%20your%20membership");
@@ -18,8 +19,10 @@ export default async function VendorCheckout() {
     .maybeSingle();
   if (!vendor) redirect("/vendor/dashboard?error=Vendor%20profile%20not%20found");
 
-  const planKey = vendor.plan as keyof typeof plans;
-  if (planKey === "free") redirect("/vendor/dashboard?message=Your%20Free%20listing%20does%20not%20require%20payment#membership");
+  const accountPlan = vendor.plan as keyof typeof plans;
+  const requestedUpgrade = q.plan && ["basic","professional","premium"].includes(q.plan) ? q.plan as keyof typeof plans : null;
+  const planKey = accountPlan === "free" && requestedUpgrade ? requestedUpgrade : accountPlan;
+  if (accountPlan === "free" && !requestedUpgrade) redirect("/vendor/dashboard?message=Choose%20a%20paid%20membership%20to%20upgrade#membership");
   const plan = plans[planKey];
   if (!plan) redirect("/vendor/dashboard?error=Invalid%20membership%20plan");
 
@@ -34,7 +37,7 @@ export default async function VendorCheckout() {
     redirect("/vendor/dashboard?message=Your%20membership%20is%20already%20active#membership");
   }
 
-  const founding = vendor.founding_vendor === true;
+  const founding = vendor.founding_vendor === true && planKey === "premium";
   const monthlyPrice = founding ? plans.basic.price : plan.price;
   let includedPromoCode = "";
   if (vendor.sales_invite_id && process.env.SUPABASE_SERVICE_ROLE_KEY) {
