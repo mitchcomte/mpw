@@ -762,3 +762,52 @@ main:not(.nocturneHome):not(.vendorProfilePage){--ad-night:#1d1c1b;--ad-night2:#
 .mpwLabStripBody{display:grid;grid-template-columns:1fr auto .72fr 1.1fr;align-items:center;gap:16px;padding:18px}.mpwLabStripInput{display:grid;grid-template-columns:36px 1fr 36px;align-items:center;gap:8px}.mpwLabStripInput button{height:34px;border:1px solid #ddd4cc;border-radius:10px;background:#f7f0e9;color:#173b32;font-weight:900}.mpwLabStripInput b{text-align:center;color:#173b32;font-size:.82rem}.mpwLabStripArrow{color:#d98999;font-size:1.4rem}.mpwLabStripResult{display:grid;grid-template-columns:auto auto;align-items:center;gap:3px 8px}.mpwLabStripResult small{grid-column:1/-1;color:#9a5261;font-size:7px;font-weight:900;letter-spacing:.15em}.mpwLabStripResult strong{color:#173b32;font:400 24px/1 Georgia,serif}.mpwLabStripResult span{justify-self:start;padding:4px 7px;border-radius:999px;background:#eef4ea;color:#55705c;font-size:8px;font-weight:800}.mpwLabStripNote{padding-left:16px;border-left:1px solid #e5ddd5;color:#6e6861;font-size:.74rem;line-height:1.4}
 @media(max-width:1000px){.nocturneHome .mpwBrainCompact{grid-template-columns:1fr!important;padding:36px clamp(24px,5vw,54px)!important}.mpwBrainIntro{max-width:680px}.mpwLabStripHead{grid-template-columns:1fr}.mpwLabStripBody{grid-template-columns:1fr auto 1fr}.mpwLabStripNote{grid-column:1/-1;border-left:0;border-top:1px solid #e5ddd5;padding:10px 0 0}}
 @media(max-width:620px){.nocturneHome .mpwBrainCompact{padding:30px 20px!important}.mpwBrainIntro h2{font-size:2.7rem}.mpwLabStripBody{grid-template-columns:1fr}.mpwLabStripArrow{transform:rotate(90deg);justify-self:center}.mpwLabStripNote{grid-column:auto}.mpwLabStripResult{justify-content:center}.mpwLabStripInput{max-width:260px;width:100%;justify-self:center}}
+
+
+/* MPW LIVE PARITY RESET — 2026-09-29
+   Live myportlandwedding.com is the visual source of truth.
+   Keep upgraded layouts/features; restore MPW's cream, blush, sage and warm-white system. */
+:root{--mpw-live-cream:#fffaf6;--mpw-live-cream2:#fff5f2;--mpw-live-paper:#fff;--mpw-live-ink:#262820;--mpw-live-muted:#667069;--mpw-live-sage:#edf2e8;--mpw-live-green:#385847;--mpw-live-rose:#ee7f8b;--mpw-live-rose-soft:#fde8e7;--mpw-live-peach:#f9e2d2;--mpw-live-line:#ead8d0}
+html,body{background:var(--mpw-live-cream)!important;color:var(--mpw-live-ink)!important}
+main:not(.vendorProfilePage){--ad-night:var(--mpw-live-cream);--ad-night2:#fff;--ad-forest:var(--mpw-live-sage);background:var(--mpw-live-cream)!important;color:var(--mpw-live-ink)!important}
+.siteHeader{background:rgba(255,252,249,.97)!important;border-bottom:1px solid var(--mpw-live-line)!important;box-shadow:0 4px 20px rgba(84,64,58,.04)!important}
+.siteHeader,.siteHeader a,.consumerNav a,.planningPill{color:var(--mpw-live-ink)!important}
+.brandName{color:var(--mpw-live-green)!important}.brandLockup small{color:#5e6b61!important}.vendorPill{color:#fff!important;background:linear-gradient(135deg,#f29aa5,#e97d8a)!important}
+.siteFooter,.footer{background:#fffaf6!important;color:#667069!important;border-color:var(--mpw-live-line)!important}.siteFooter strong,.siteFooter .brandName,.footer strong{color:var(--mpw-live-ink)!important}
+
+/* Public page heroes */
+.vendorEditorialHero,.planningToolsHero,.inspirationHero,.forVendorsHero,.pricingHero,.pagehero,.articleHero,.checklistHero{background:linear-gradient(135deg,#fff5f2 0%,#fbf4ef 55%,#edf2e8 100%)!important;color:var(--mpw-live-ink)!important;border-color:var(--mpw-live-line)!important}
+.vendorEditorialCopy h1,.vendorEditorialCopy p,.vendorHeroKicker,.vendorHeroDetails,.pagehero h1,.pagehero p,.planningToolsHero h1,.planningToolsHero p,.inspirationHero h1,.inspirationHero p,.forVendorsHero h1,.forVendorsHero p,.pricingHero h1,.pricingHero p{color:var(--mpw-live-ink)!important}
+.vendorHeroKicker,.eyebrow{color:var(--mpw-live-green)!important}.vendorHeroHeart{color:#d9a9a0!important}
+.vendorEditorialCopy:after{background:linear-gradient(90deg,#fbf5ef 18%,rgba(251,245,239,.94) 45%,rgba(251,245,239,0) 100%)!important}
+
+/* Vendor marketplace — match live light cards and filters */
+.vendorMarketplaceSection{background:#fffaf6!important;color:var(--mpw-live-ink)!important}
+.vendorFilterBar,.marketplaceFilters{background:#fff!important;border:1px solid var(--mpw-live-line)!important;box-shadow:0 8px 24px rgba(84,64,58,.06)!important}
+.vendorFilter,.vendorFilter input,.vendorFilter select,.vendorFilterBar input,.vendorFilterBar select{background:#fff!important;color:var(--mpw-live-ink)!important;border-color:var(--mpw-live-line)!important}
+.vendorFilterApply{background:var(--mpw-live-green)!important;color:#fff!important}
+.vendorResultsHead p,.vendorResultsHead strong,.vendorResultsHead a{color:var(--mpw-live-ink)!important}
+.marketVendorCard{background:#fff!important;border-color:var(--mpw-live-line)!important;box-shadow:0 8px 22px rgba(84,64,58,.055)!important}
+.marketVendorCard:hover{border-color:#d9bdb3!important;box-shadow:0 14px 30px rgba(84,64,58,.11)!important}
+.marketVendorBody h3{color:var(--mpw-live-ink)!important}.marketVendorMeta,.marketVendorBio{color:#686d68!important}.marketVendorBody .vendorCardCta,.serviceMatch{color:var(--mpw-live-green)!important}
+.emptyState{background:#fff!important;color:var(--mpw-live-ink)!important;border-color:var(--mpw-live-line)!important}.emptyState h3{color:#3b3a36!important}.emptyState .meta{color:#667069!important}
+
+/* Planning, inspiration, forms and utility surfaces */
+.toolCard,.articleCard,.checkSection,.checkProgress,.formCard,.panel,.stat,.filters,.plan,.benefit,.editorialCard,.miniCard,.cat,.card{background:#fff!important;color:var(--mpw-live-ink)!important;border-color:var(--mpw-live-line)!important}
+.toolCard h2,.articleCard h2,.checkSection h2,.formCard h1,.formCard h2,.panel h2,.plan h3,.benefit h3,.editorialCard h3{color:var(--mpw-live-ink)!important}
+.toolCard p,.articleCard p,.formCard p,.panel p,.benefit p,.editorialCard p,.meta{color:var(--mpw-live-muted)!important}
+input,select,textarea{color:var(--mpw-live-ink);background:#fff}.primary{background:linear-gradient(135deg,#61735f,#425b4a)!important;color:#fff!important}.light{background:#fff!important;color:var(--mpw-live-ink)!important;border-color:var(--mpw-live-line)!important}
+
+/* Homepage: retain the upgraded composition but put MPW's live personality back on it. */
+.nocturneHome{background:var(--mpw-live-cream)!important;color:var(--mpw-live-ink)!important}
+.nocturneHome .nocturneHeroCopy{background:radial-gradient(circle at 15% 20%,rgba(238,127,139,.09),transparent 36%),#fff5f2!important;color:var(--mpw-live-ink)!important}
+.nocturneHome .nocturneHeroCopy h1,.nocturneHome .nocturneHeroCopy p,.nocturneHome .nocturneHeroCopy strong{color:var(--mpw-live-ink)!important}
+.nocturneHome .nocturneBuilder{background:linear-gradient(145deg,#edf2e8,#fffaf6)!important;color:var(--mpw-live-ink)!important}
+.nocturneHome .nocturneCategories{background:#fffaf6!important;color:var(--mpw-live-ink)!important}
+.nocturneHome .nocturneCatList a{color:var(--mpw-live-ink)!important;border-color:var(--mpw-live-line)!important}.nocturneHome .nocturneCatList a:hover{background:var(--mpw-live-rose-soft)!important}
+.nocturneHome .nocturneBrain{background:#fff5f2!important;color:var(--mpw-live-ink)!important}.nocturneHome .nocturneBrainBoard{background:#fff!important;color:var(--mpw-live-ink)!important;border-color:var(--mpw-live-line)!important}
+.nocturneHome .nocturneForVendors{background:#edf2e8!important;color:var(--mpw-live-ink)!important}.nocturneHome .nocturneClose{background:#fff5f2!important;color:var(--mpw-live-ink)!important}
+.nocturneHome .nocturneClose h2,.nocturneHome .nocturneClose p,.nocturneHome .nocturneBrain h2,.nocturneHome .nocturneBrain p,.nocturneHome .nocturneCategories h2{color:var(--mpw-live-ink)!important}
+
+/* Vendor profiles: undo the candlelit experiment while retaining the richer profile layout. */
+.vendorProfilePage{background:var(--mpw-live-cream)!important;color:var(--mpw-live-ink)!important}.vendorProfilePage .vendorProfileBody{background:var(--mpw-live-cream)!important}.vendorProfilePage .vendorProfileLayout,.vendorProfilePage .profileContactCard,.vendorProfilePage .profileDetailsCard{background:#fff!important;color:var(--mpw-live-ink)!important;border-color:var(--mpw-live-line)!important}.vendorProfilePage .profileContactCard{border-top-color:var(--mpw-live-rose)!important}.vendorProfilePage .vendorHighlights{background:var(--mpw-live-sage)!important}.vendorProfilePage .vendorStoryBlock h2,.vendorProfilePage .vendorStoryBlock p,.vendorProfilePage .profileContactCard h2,.vendorProfilePage .profileContactCard h3,.vendorProfilePage .profileContactCard p,.vendorProfilePage .profileDetailsCard h2,.vendorProfilePage .profileDetailsCard h3,.vendorProfilePage .profileDetailsCard p{color:var(--mpw-live-ink)!important}
