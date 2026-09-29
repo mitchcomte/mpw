@@ -2,6 +2,7 @@ import { categories } from "../../lib/site";
 import { createSupabaseServerClient } from "../../lib/supabase/server";
 import { decodeDisplayText } from "../../lib/text";
 import VendorTierBadge from "../../components/VendorTierBadge";
+const weight:Record<string,number>={premium:4,professional:3,pro:3,basic:2,free:1};
 function photoUrl(path?:string|null){return path&&process.env.NEXT_PUBLIC_SUPABASE_URL?`${process.env.NEXT_PUBLIC_SUPABASE_URL}/storage/v1/object/public/vendor-media/${path}`:null}
 import Link from "next/link";
 export const metadata = {
@@ -20,6 +21,7 @@ export default async function Vendors({searchParams}:{searchParams:Promise<Q>}){
  if(q.q){const n=q.q.toLowerCase();vendors=vendors.filter(v=>`${v.business_name||""} ${v.description||""}`.toLowerCase().includes(n));}
  if(q.category)vendors=vendors.filter(v=>v.primary_category===q.category);
  if(q.area){const area=q.area.toLowerCase();vendors=vendors.filter(v=>String(v.city||"").toLowerCase()===area||(v.service_cities||[]).some((city:string)=>String(city).toLowerCase()===area));}
+ vendors=vendors.sort((a:any,b:any)=>(Number(b.founding_vendor)-Number(a.founding_vendor))||(weight[String(b.plan||"").toLowerCase()]||0)-(weight[String(a.plan||"").toLowerCase()]||0)||(Number(b.rating||0)-Number(a.rating||0))||String(a.business_name||"").localeCompare(String(b.business_name||"")));
  const serviceAreas=Array.from(new Set((data||[]).flatMap((v:any)=>[v.city,...(v.service_cities||[])]).filter(Boolean).map((city:any)=>decodeDisplayText(String(city))))).sort().slice(0,80);
  const searching=Boolean(q.q||q.category||q.area);
  return <main>
