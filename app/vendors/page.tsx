@@ -12,12 +12,12 @@ type Q={q?:string;area?:string;category?:string};
 export default async function Vendors({searchParams}:{searchParams:Promise<Q>}){
  const q=await searchParams;
  const supabase=await createSupabaseServerClient();
- let query=supabase.from("vendor_profiles").select("slug,business_name,primary_category,city,state,description").eq("market_slug","portland").eq("status","active").limit(100);
+ let query=supabase.from("vendor_profiles").select("slug,business_name,primary_category,city,state,service_cities,description").eq("market_slug","portland").eq("status","active").limit(100);
  const {data}=await query;
  let vendors=(data||[]) as any[];
  if(q.q){const n=q.q.toLowerCase();vendors=vendors.filter(v=>`${v.business_name||""} ${v.description||""}`.toLowerCase().includes(n));}
  if(q.category)vendors=vendors.filter(v=>v.primary_category===q.category);
- if(q.area)vendors=vendors.filter(v=>String(v.city||"").toLowerCase()===q.area!.toLowerCase());
+ if(q.area){const area=q.area.toLowerCase();vendors=vendors.filter(v=>String(v.city||"").toLowerCase()===area||(v.service_cities||[]).some((city:string)=>String(city).toLowerCase()===area));}
  const searching=Boolean(q.q||q.category||q.area);
  return <main>
   <section className="pagehero"><div className="container"><span className="eyebrow">Portland + nearby Oregon</span><h1>Find Wedding Vendors</h1><p className="meta">Search local wedding professionals, or browse by category.</p></div></section>
