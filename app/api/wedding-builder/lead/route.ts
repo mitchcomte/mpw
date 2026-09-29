@@ -10,6 +10,7 @@ export async function POST(req:NextRequest){
   try{
     if(!(await consumeBuilderQuota(req,"lead"))) return NextResponse.json({error:"Too many contact requests. Please wait a bit and try again."},{status:429});
     const b=await req.json();
+    if(process.env.VERCEL_ENV==="preview"||process.env.MPW_PREVIEW_MODE==="1")return NextResponse.json({ok:true,count:0,preview:true});
     const name=String(b?.name||"").trim().slice(0,120), email=String(b?.email||"").trim().toLowerCase().slice(0,254), phone=String(b?.phone||"").trim().slice(0,40);
     const vendorIds=Array.isArray(b?.vendor_ids)?[...new Set(b.vendor_ids.map(String).filter((x:string)=>uuid.test(x)))].slice(0,10):[];
     const contactMethod=String(b?.contact_method||"");
