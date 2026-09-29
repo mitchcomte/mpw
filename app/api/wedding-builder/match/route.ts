@@ -14,7 +14,7 @@ export async function POST(req:NextRequest){
     const vendorIds=Array.isArray(b?.vendor_ids)?[...new Set(b.vendor_ids.map(String).filter((x:string)=>uuid.test(x)))].slice(0,12):[];
     if(!sessionId||!vendorIds.length) return NextResponse.json({ok:true,count:0});
     const admin=createAdminClient();
-    const {data:vendors,error}=await admin.from("vendor_profiles").select("id,user_id,business_name,email").in("id",vendorIds).eq("status","active");
+    const {data:vendors,error}=await admin.from("vendor_profiles").select("id,user_id,business_name,email,plan,listing_state").in("id",vendorIds).eq("market_slug","portland").eq("status","active").neq("plan","free");
     if(error) throw error;
     let created=0;
     for(const v of vendors||[]){
