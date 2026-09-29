@@ -15,7 +15,7 @@ type Availability = {
 
 export default function FoundingVendorSignupForm({ defaultPlan = "professional", referralCode = "" }: { defaultPlan?: string; referralCode?: string }) {
   const [category, setCategory] = useState("venues");
-  const [plan, setPlan] = useState(defaultPlan in plans ? defaultPlan : "professional");
+  const [plan, setPlan] = useState(defaultPlan in plans ? defaultPlan : "professional");\n  const [requestedPlan, setRequestedPlan] = useState(defaultPlan in plans ? defaultPlan : "professional");
   const [availability, setAvailability] = useState<Availability | null>(null);
   const [loading, setLoading] = useState(true);
 
@@ -37,7 +37,7 @@ export default function FoundingVendorSignupForm({ defaultPlan = "professional",
 
   return <form action="/api/auth/signup" method="post" className="formGrid foundingSignupForm" onSubmit={() => track("Vendor Signup Started", { category, plan: selectedPlan, founding_vendor: foundingAvailable })}>
     <input type="hidden" name="founding_offer_requested" value={foundingAvailable ? "yes" : "no"}/>
-    <input type="hidden" name="plan" value={selectedPlan}/>
+    <input type="hidden" name="plan" value={selectedPlan}/>\n    <input type="hidden" name="requested_plan" value={requestedPlan}/>
     <input type="hidden" name="referral_code" value={referralCode}/>
 
     {referralCode&&<div className="field full"><div className="notice success"><strong>Vendor referral applied ✓</strong><p>You were invited by a My Portland Wedding vendor. Complete signup normally — their referral reward is handled automatically after your first successful paid month.</p></div></div>}
@@ -69,7 +69,7 @@ export default function FoundingVendorSignupForm({ defaultPlan = "professional",
       </div>}
     </div>
 
-    <div className="field full"><label>Membership</label><select value={plan} onChange={e=>setPlan(e.target.value)}>{Object.entries(plans).map(([slug,p])=><option key={slug} value={slug}>{p.name} — {p.price?`$${p.price}/month`:"Free"}</option>)}</select><small>{plan==="free"?"Free listings are intentionally limited and do not reserve a Founding Vendor position.":"Paid plans unlock Wedding Builder by My Portland Wedding visibility and direct inquiries."}</small></div>
+    <div className="field full"><label>Membership</label><select value={plan} onChange={e=>{setPlan(e.target.value);setRequestedPlan(e.target.value)}}>{Object.entries(plans).map(([slug,p])=><option key={slug} value={slug}>{p.name} — {p.price?`$${p.price}/month`:"Free"}</option>)}</select><small>{plan==="free"?"Free listings are intentionally limited and do not reserve a Founding Vendor position.":"Paid plans unlock Wedding Builder by My Portland Wedding visibility and direct inquiries."}</small></div>
 
     {foundingAvailable && plan!=="free" && <div className="field full foundingIncluded">
       <strong>You’re getting the full Premium package.</strong>
