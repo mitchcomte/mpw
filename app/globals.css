@@ -1310,3 +1310,15 @@ body{background-color:#fffaf6!important}
 .siteFooter .footerBrand{width:235px!important;max-width:235px!important}
 .siteFooter .footerBrand .mpwMasterLogo{width:235px!important;max-width:235px!important}
 @media(max-width:760px){.siteFooter .footerBrand{width:min(68vw,225px)!important;max-width:min(68vw,225px)!important}.siteFooter .footerBrand .mpwMasterLogo{width:100%!important;max-width:100%!important}}
+
+
+/* MPW Expert Contribution Center */
+.expertContributionPanel{position:relative;overflow:hidden;border:1px solid rgba(174,139,68,.32);background:linear-gradient(135deg,rgba(255,250,239,.98),rgba(247,241,225,.96))}
+.expertContributionPanel:before{content:"";position:absolute;inset:0 0 auto 0;height:4px;background:linear-gradient(90deg,#294b3b,#b98967,#c7a45b,#294b3b)}
+.expertQuestionList{display:grid;gap:16px;margin-top:18px}
+.expertQuestionCard{padding:20px;border:1px solid rgba(41,75,59,.16);border-radius:16px;background:rgba(255,255,255,.74)}
+.expertQuestionCard h3{margin:5px 0 12px;line-height:1.35}
+.expertQuestionCard textarea{width:100%;resize:vertical;min-height:118px}
+.expertContributionActions{display:flex;align-items:center;justify-content:space-between;gap:16px;margin-top:10px}
+.expertContributionActions small{color:#66726b;max-width:420px}
+@media(max-width:760px){.expertQuestionCard{padding:16px}.expertContributionActions{align-items:stretch;flex-direction:column}.expertContributionActions .btn{width:100%}}
