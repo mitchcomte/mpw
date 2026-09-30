@@ -60,7 +60,8 @@ export default async function CategoryPage({params,searchParams}:{params:Promise
  const heroSrc=photoUrl(heroPhotos[0]?.storage_path);
  const heroVendorName=heroVendor ? decodeDisplayText(heroVendor.business_name) : "";
  // The category hero and lower Featured Vendor are separate placements and must never repeat the same business.
- const featuredCandidates=categoryVendors.filter((v:any)=>v.id!==heroVendor?.id&&String(v.plan||"").toLowerCase()!=="free");
+ const heroBusinessKey=String(heroVendor?.business_name||"").trim().toLowerCase();
+ const featuredCandidates=categoryVendors.filter((v:any)=>v.id!==heroVendor?.id&&v.slug!==heroVendor?.slug&&String(v.business_name||"").trim().toLowerCase()!==heroBusinessKey&&String(v.plan||"").toLowerCase()!=="free");
  const featuredPriority=(v:any)=>v.founding_vendor?5:(weight[String(v.plan||"").toLowerCase()]||0);
  const highestFeaturedPriority=featuredCandidates.reduce((max:number,v:any)=>Math.max(max,featuredPriority(v)),0);
  const featuredPool=featuredCandidates.filter((v:any)=>featuredPriority(v)===highestFeaturedPriority).sort((a:any,b:any)=>String(a.id).localeCompare(String(b.id)));
