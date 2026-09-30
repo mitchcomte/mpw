@@ -10,6 +10,9 @@ export type InspirationArticle = {
   seoDescription?: string;
   publishedAt?: string;
   updatedAt?: string;
+  reviewedBy?: string;
+  methodology?: string;
+  sources?: { label: string; href: string }[];
   heroImage?: ArticleImage;
   relatedSlugs?: string[];
   sections: ArticleSection[];
