@@ -825,3 +825,31 @@ main>.section:nth-of-type(4n),main>section.section:nth-of-type(4n){background-co
 /* Thin Builder bridge between featured vendor and marketplace */
 .builderBridge{padding:8px 0;background:#26372e;border-top:1px solid rgba(190,156,89,.65);border-bottom:1px solid rgba(190,156,89,.65)}.builderBridgeInner{min-height:42px;display:flex;align-items:center;justify-content:center;gap:28px;color:#f8f2e7;font-size:.78rem;text-align:center}.builderBridgeInner b{color:#fff}.builderBridgeInner a{flex:0 0 auto;padding:7px 12px;border:1px solid rgba(217,187,127,.75);border-radius:999px;background:#f7f0df;color:#314a3b;font-weight:900;font-size:.68rem}
 @media(max-width:700px){.featuredVendorSpot{grid-template-columns:40% 1fr!important;min-height:112px!important}.featuredVendorStripHead>span{display:none}.categoryFeaturedVendor{grid-template-columns:115px 1fr;min-height:130px}.categoryFeaturedPhoto{min-height:130px}.categoryFeaturedCopy{padding:13px}.categoryFeaturedCopy h2{font-size:1.05rem}.categoryFeaturedCopy p{display:none}.builderBridgeInner{justify-content:space-between;gap:10px;text-align:left;font-size:.67rem}.builderBridgeInner a{font-size:.6rem}}
+
+
+/* Desktop marketplace density — browse, don't billboard */
+@media(min-width:900px){
+ .vendorMarketplaceSection{padding-top:26px!important;padding-bottom:42px!important}
+ .vendorResultsHead{min-height:48px!important;margin-bottom:18px!important;padding:9px 14px!important;border-radius:14px!important}
+ .vendorResultsHead p{font-size:.9rem!important;margin:0!important}
+ .vendorResultsHead p strong{display:inline-grid!important;place-items:center!important;width:30px!important;height:30px!important;margin-right:8px!important;font-size:.72rem!important}
+ .vendorMarketplaceGrid{grid-template-columns:repeat(3,minmax(0,1fr))!important;gap:18px!important}
+ .marketVendorCard{border-radius:17px!important;min-height:0!important}
+ .marketVendorPhoto{height:210px!important;min-height:210px!important}
+ .marketVendorBody{padding:15px 17px 17px!important}
+ .marketVendorBody h3{font-size:1.22rem!important;line-height:1.1!important;margin:0 0 5px!important}
+ .marketVendorMeta{font-size:.78rem!important;margin:0 0 8px!important}
+ .marketVendorBio{font-size:.76rem!important;line-height:1.4!important;margin:0 0 11px!important;display:-webkit-box!important;-webkit-line-clamp:2!important;-webkit-box-orient:vertical!important;overflow:hidden!important;min-height:2.1em!important}
+ .vendorCardCta{font-size:.68rem!important;padding:6px 10px!important}
+ .marketVendorBadge{left:12px!important;bottom:10px!important;transform:scale(.88)!important;transform-origin:left bottom!important}
+ .mpwVendorImageFallback.compact img{width:46px!important;height:46px!important}
+ .mpwVendorImageFallback.compact span{font-size:.85rem!important}
+ .categoryFeaturedBand{padding:14px 0 8px!important}
+ .categoryFeaturedVendor{grid-template-columns:205px 1fr!important;min-height:128px!important;max-width:960px!important}
+ .categoryFeaturedPhoto{min-height:128px!important;max-height:128px!important}
+ .categoryFeaturedCopy{padding:14px 19px!important}
+ .categoryFeaturedCopy h2{font-size:1.22rem!important}
+ .categoryFeaturedCopy p{font-size:.75rem!important;line-height:1.3!important;margin-bottom:6px!important}
+ .builderBridge{padding:5px 0!important}.builderBridgeInner{min-height:34px!important}
+}
+@media(min-width:900px) and (max-width:1180px){.vendorMarketplaceGrid{grid-template-columns:repeat(2,minmax(0,1fr))!important}}
