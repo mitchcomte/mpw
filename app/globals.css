@@ -919,3 +919,7 @@ main>.section:nth-of-type(4n),main>section.section:nth-of-type(4n){background-co
 .featuredVendorTileCopy b{color:#315b49;font-size:.82rem}
 @media(max-width:900px){.featuredVendorTrio{grid-template-columns:1fr}.featuredVendorTile{display:grid;grid-template-columns:42% 1fr}.featuredVendorTileMedia{height:150px}.featuredVendorTileCopy{border-top:0;border-left:3px solid rgba(228,137,148,.18)}.featuredVendorTileCopy:before{left:-3px;top:16px;width:3px;height:50px;background:linear-gradient(#315b49,#b99a5f,#e5808f)}}
 @media(max-width:560px){.featuredVendorShowcase{padding:16px!important}.featuredVendorTile{grid-template-columns:40% 1fr;border-radius:16px}.featuredVendorTileMedia{height:138px}.featuredVendorTileCopy{padding:12px}.featuredVendorTileCopy h3{font-size:1.08rem}.featuredVendorTileCopy p{font-size:.78rem;margin-bottom:7px}.featuredVendorTileMedia>span{font-size:.48rem;padding:5px 7px;left:7px;top:7px}}
+
+
+/* Opt MPW out of UA automatic darkening where the browser honors CSS Color Adjustment. */
+:root,html,body{color-scheme:only light!important}
