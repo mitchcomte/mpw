@@ -923,3 +923,15 @@ main>.section:nth-of-type(4n),main>section.section:nth-of-type(4n){background-co
 
 /* Opt MPW out of UA automatic darkening where the browser honors CSS Color Adjustment. */
 :root,html,body{color-scheme:only light!important}
+
+
+/* Refine MPW lockup scale in global chrome */
+.siteHeader .mpwNav .brandLogo{width:285px!important}
+.siteHeader .mpwNav .heartMarkImage{width:39px!important;height:39px!important;flex-basis:39px!important}
+.siteHeader .mpwNav .brandName{font-size:1.48rem!important}
+.siteHeader .mpwNav{grid-template-columns:285px minmax(560px,1fr) 280px!important;min-height:74px!important}
+.siteFooter .footerBrand .heartMarkImage{width:38px!important;height:38px!important}
+.siteFooter .footerBrand .brandName{font-size:1.22rem!important}
+.siteFooter .footerBrand .brandLockup small{font-size:.48rem!important;letter-spacing:.18em!important;margin-top:5px!important}
+@media(max-width:1240px) and (min-width:761px){.siteHeader .mpwNav{grid-template-columns:235px minmax(500px,1fr) 245px!important}.siteHeader .mpwNav .brandLogo{width:235px!important}.siteHeader .mpwNav .heartMarkImage{width:34px!important;height:34px!important;flex-basis:34px!important}.siteHeader .mpwNav .brandName{font-size:1.22rem!important}}
+@media(max-width:760px){.siteHeader .mpwNav .heartMarkImage{width:31px!important;height:31px!important;flex-basis:31px!important}.siteHeader .mpwNav .brandName{font-size:1.08rem!important}.siteFooter .footerBrand .heartMarkImage{width:34px!important;height:34px!important}.siteFooter .footerBrand .brandName{font-size:1.08rem!important}}
