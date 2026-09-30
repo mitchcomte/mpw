@@ -458,4 +458,77 @@ export const planningChecklists = [
       {question:"Should couples give their DJ a complete playlist?",answer:"Usually you can provide priorities, must-plays and do-not-plays while leaving room for the DJ to respond to the crowd. Discuss the level of control you want during planning."}
     ]
   }
+,
+  {
+    slug:"portland-bridal-hair-makeup-guide",
+    category:"Hair & Makeup",
+    title:"Portland Bridal Hair & Makeup Guide: Trials, Timing and Choosing the Right Beauty Team",
+    dek:"Plan wedding hair and makeup around your style, wedding-morning timeline, party size, trials and the practical details that keep the morning calm.",
+    readTime:"12 min read",
+    seoTitle:"Portland Bridal Hair & Makeup Guide: Trials, Costs & Timing",
+    seoDescription:"Plan Portland wedding hair and makeup with guidance on choosing artists, trials, timing, party size, touch-ups and wedding-morning logistics.",
+    relatedSlugs:["portland-wedding-planning-checklist","wedding-planner-vs-coordinator-portland","how-to-choose-portland-wedding-vendors"],
+    sections:[
+      {heading:"Choose the artist by the work you actually want to wear",paragraphs:["Start with portfolios that repeatedly show the type of hair or makeup you are drawn to. Look beyond one dramatic transformation and pay attention to skin texture, hair texture, different ages and how the finished work photographs.","Bring references to consultations, but describe what you like about them: soft skin, defined eyes, polished waves, natural texture or a particular silhouette. That gives the artist more useful direction than asking for an exact copy of someone else's look."]},
+      {heading:"A trial is a working session, not just a preview",paragraphs:["Use the trial to test both the look and the communication process. Wear the style for several hours if possible and notice comfort, durability and whether it still feels like you.","Photograph the result in different light. If you want changes, be specific about them so the wedding-day notes reflect the final direction rather than the first attempt."]},
+      {heading:"Build the morning timeline backward from when everyone must be finished",paragraphs:["Hair and makeup schedules depend on the number of services, number of artists and complexity of the looks. Add buffer before dressing, portraits or travel rather than scheduling the final service to end at the exact moment you need to leave.","If several people are receiving services, ask the beauty team to help build the order. Some teams may recommend adding artists rather than beginning extremely early."],bullets:["Number of hair services","Number of makeup services","Artist and assistant count","Getting-ready location access","Photography start time","First look or pre-ceremony portraits","Travel time to the ceremony"]},
+      {heading:"Think about Portland weather without fighting your natural texture",paragraphs:["Rain, wind, heat and humidity can affect hair and makeup, especially when portraits or ceremonies are outdoors. Ask how the artist would prepare your specific hair and skin for the conditions expected around your date.","A weather-aware plan can include product choices, hairstyle adjustments, blotting or touch-up supplies without requiring you to abandon the look you love."]},
+      {heading:"Clarify travel, minimums and additional services",paragraphs:["Before booking, understand minimum service requirements, travel charges, early-start fees, parking, assistant fees and whether lashes, extensions, touch-up kits or on-site touch-ups are included.","If your getting-ready location changes later, tell the team early because travel time and setup conditions can affect the schedule."]},
+      {heading:"The right team should make the morning easier",paragraphs:["Skill matters, but so does temperament. Your beauty team is present during an emotionally busy part of the day. Clear communication, punctuality and a calm process can be as valuable as the finished look."]}
+    ],
+    checklist:["Save examples of the hair and makeup style you actually want","Confirm who will personally provide each service","Schedule and photograph your trial","Count every requested hair and makeup service","Build buffer into the morning timeline","Discuss weather and touch-up needs","Confirm travel, minimums and early-start policies"],
+    faq:[
+      {question:"Do you need a wedding hair and makeup trial?",answer:"A trial is useful for testing the look, comfort, durability and communication with the artist before the wedding. Whether it is required depends on the provider."},
+      {question:"How do you build a wedding hair and makeup timeline?",answer:"Count all services, confirm the number of artists and work backward from the time everyone must be finished, including buffer for dressing, portraits and travel."},
+      {question:"Should wedding hair and makeup be finished before the photographer arrives?",answer:"Not necessarily. Many photographers document final beauty preparations, but the schedule should ensure the people needed for planned portraits are ready on time."}
+    ]
+  },
+  {
+    slug:"portland-wedding-cake-dessert-guide",
+    category:"Cakes",
+    title:"Portland Wedding Cake & Dessert Guide: Servings, Flavors, Display and the Questions to Ask",
+    dek:"Plan wedding dessert around guest count, serving style, design, venue conditions and the kind of sweet ending you actually want your guests to enjoy.",
+    readTime:"11 min read",
+    seoTitle:"Portland Wedding Cake & Dessert Guide: Servings, Flavors & Planning",
+    seoDescription:"Plan a Portland wedding cake or dessert table with guidance on servings, flavors, display, delivery, venue conditions and baker questions.",
+    relatedSlugs:["portland-wedding-catering-guide","portland-wedding-budget-guide","best-portland-wedding-venues-guide"],
+    sections:[
+      {heading:"Start with how dessert will be served",paragraphs:["A traditional tiered cake, cutting cake with sheet cake, dessert table, cupcakes and individual sweets all create different serving and display needs. Decide whether dessert is a formal reception moment or something guests can explore over time.","Your caterer, planner and baker may share responsibility for cutting, plating, moving or replenishing desserts, so establish those roles before the wedding."]},
+      {heading:"Guest count is the starting point, not always the exact serving count",paragraphs:["The amount you need depends on whether cake is the only dessert, whether other sweets are offered and how dessert is served. Ask the baker how they calculate portions for their cake sizes rather than relying on a generic diagram.","If you want multiple flavors, discuss whether they can be distributed predictably or whether guests will simply receive whichever flavor is being cut."]},
+      {heading:"Design choices can affect both labor and structure",paragraphs:["Intricate piping, handmade sugar flowers, sculpted details, metallic finishes and unusual shapes can require significant production time. Fresh flowers may require coordination between the baker and florist.","Bring visual references, but identify the elements you love—texture, shape, color, simplicity or floral treatment—so the baker can design something appropriate for your serving needs and budget."]},
+      {heading:"Venue conditions matter more than couples expect",paragraphs:["Heat, direct sun, uneven outdoor surfaces, refrigeration and the amount of time a cake sits on display can influence design and setup. Tell the baker where the dessert will be displayed and whether the reception is outdoors.","Confirm delivery timing and who is responsible for moving the cake if weather or room plans change."]},
+      {heading:"A tasting should help narrow the menu",paragraphs:["Use tastings to compare flavor combinations and discuss which fillings or finishes work well with the design and season. Consider offering contrast rather than choosing several flavors that taste very similar.","If dietary alternatives are important, ask how those items are prepared, packaged and identified, especially when allergies are involved."]},
+      {heading:"Plan the cake-cutting moment with the larger reception",paragraphs:["Coordinate timing with the planner, photographer, DJ and catering team. If you want photographs of the cake before guests begin eating dessert, make sure everyone knows when cutting and service will happen."]}
+    ],
+    checklist:["Choose the dessert service style","Estimate servings with your baker","Discuss design labor and structural needs","Confirm venue temperature and display conditions","Assign cake cutting and plating responsibility","Coordinate fresh flowers if used","Put cake cutting into the reception timeline"],
+    faq:[
+      {question:"Do you need wedding cake for every guest?",answer:"Not always. The appropriate number of servings depends on the dessert format, other sweets being served and how the baker portions the cake."},
+      {question:"Who cuts the wedding cake?",answer:"It varies by venue and vendor team. Ask whether the caterer, venue or another professional provides cake cutting and whether a fee applies."},
+      {question:"Can a wedding cake be displayed outside?",answer:"Sometimes, but temperature, sun, wind and the cake's construction matter. Discuss the exact setting with the baker before planning an outdoor display."}
+    ]
+  },
+  {
+    slug:"portland-wedding-rentals-guide",
+    category:"Rentals",
+    title:"Portland Wedding Rentals Guide: What You Need, What You Don’t and What Your Venue Already Includes",
+    dek:"A practical guide to wedding tables, chairs, linens, tabletop pieces, lighting, tents and décor rentals—and how to avoid ordering before you understand the venue.",
+    readTime:"12 min read",
+    seoTitle:"Portland Wedding Rentals Guide: Tables, Chairs, Linens & Decor",
+    seoDescription:"Plan Portland wedding rentals by comparing venue inclusions, tables, chairs, linens, tabletop pieces, lighting, delivery and setup needs.",
+    relatedSlugs:["best-portland-wedding-venues-guide","portland-wedding-budget-guide","wedding-planner-vs-coordinator-portland"],
+    sections:[
+      {heading:"Inventory the venue before creating a rental wish list",paragraphs:["The fastest way to overspend on rentals is to shop before you know what the venue provides. Ask for an inventory with quantities, sizes, colors and condition rather than relying on a phrase such as tables and chairs included.","Also confirm whether included items can be used in every part of the property and who moves them between ceremony and reception spaces."]},
+      {heading:"Separate functional rentals from design rentals",paragraphs:["Functional rentals are things the event needs to operate: tables, chairs, linens, glassware, flatware, plates, service equipment or a tent. Design rentals are chosen primarily to shape the look or guest experience: specialty chairs, lounge furniture, upgraded linens, statement bars or decorative pieces.","Knowing which problem each rental solves makes it easier to decide where an upgrade is worth the money."]},
+      {heading:"Build quantities from the floor plan",paragraphs:["Guest count alone does not tell you how many tables you need. Table shape and size, seating layout, wedding party arrangements, buffet or station placement and accessibility all affect quantities.","Create or obtain a floor plan before finalizing the order, then include non-dining needs such as cake tables, welcome tables, DJ tables or ceremony chairs if they are not provided."],bullets:["Guest dining tables and chairs","Ceremony seating","Cocktail tables","Bars and back bars","Buffet or food-station tables","Cake and dessert tables","Welcome and guest-book tables","Lounge or specialty furniture"]},
+      {heading:"Delivery and setup can be a major part of the rental plan",paragraphs:["Ask about delivery windows, pickup timing, minimum orders, stairs, elevators, long carries and after-hours pickup. A venue with a narrow setup window may require more staffing or a different delivery arrangement.","Clarify which items the rental company sets up and which are simply delivered in stacks or crates for another vendor to place."]},
+      {heading:"Outdoor weddings need a weather decision process",paragraphs:["Tents, heaters, umbrellas, flooring or sidewalls may require reservations before the forecast is reliable. Ask vendors and the venue when weather-related decisions must be made and whether backup inventory can be held.","Do not assume a tent solves every weather issue. Wind, ground conditions, power, lighting, permits and installation access can all matter."]},
+      {heading:"Edit the rental plan after the design comes together",paragraphs:["Once the venue, florist, caterer and planner have clarified their needs, review the rental order again. Remove duplicates, confirm final quantities and protect the upgrades that have the greatest visual or functional impact."]}
+    ],
+    checklist:["Get a detailed venue inventory","Separate must-have rentals from design upgrades","Build quantities from a floor plan","Confirm caterer tabletop and service needs","Understand delivery and pickup windows","Clarify who sets up each item","Create an outdoor weather decision plan"],
+    faq:[
+      {question:"What wedding rentals do most venues include?",answer:"Inclusions vary widely. Some venues provide tables and chairs while others include linens, tabletop items or very little. Request an itemized inventory from your venue."},
+      {question:"Who sets up wedding rentals?",answer:"It depends on the contract. Rental companies may deliver only, provide setup for certain pieces or offer setup as an added service. Venues, caterers and planners also have different responsibilities."},
+      {question:"When should rental quantities be finalized?",answer:"Final timing varies by company, but quantities are most reliable after the floor plan, guest count and catering needs are clearer. Follow the deadlines in your rental agreement."}
+    ]
+  }
 ];
