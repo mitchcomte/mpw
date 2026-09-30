@@ -1178,3 +1178,50 @@ body{background-color:#fffaf6!important}
  .siteFooter .footerTop{display:flex!important;flex-direction:column!important;align-items:flex-start!important}
  .siteFooter .footerBrand{overflow:visible!important;margin:0!important}
 }
+
+
+/* Mobile MPW chrome polish: keep the full logo visible and remove logo tiles. */
+@media(max-width:800px){
+ .siteHeader .mpwNav{
+  display:flex!important;
+  grid-template-columns:none!important;
+  min-height:72px!important;
+  align-items:center!important;
+  justify-content:space-between!important;
+  gap:10px!important;
+  padding:8px 0!important;
+  overflow:visible!important
+ }
+ .siteHeader .mpwNav .brandLogo{
+  order:2!important;
+  width:min(205px,42vw)!important;
+  max-width:min(205px,42vw)!important;
+  min-width:0!important;
+  height:auto!important;
+  margin:0!important;
+  padding:4px 0!important;
+  overflow:visible!important;
+  background:transparent!important;
+  border:0!important;
+  box-shadow:none!important
+ }
+ .siteHeader .mpwNav .brandLogo .heartMarkImage{
+  width:30px!important;height:30px!important;flex:0 0 30px!important;
+  object-fit:contain!important
+ }
+ .siteHeader .mpwNav .brandLogo .brandLockup{min-width:0!important;overflow:visible!important}
+ .siteHeader .mpwNav .brandLogo .brandName{font-size:.94rem!important;white-space:nowrap!important}
+ .siteHeader .mpwNav .brandLogo .brandLockup small{font-size:.36rem!important;letter-spacing:.12em!important;white-space:nowrap!important}
+ .siteHeader .mobileNavActions{order:1!important;flex:1 1 auto!important;min-width:0!important}
+}
+.siteHeader .brandLogo,.siteFooter .footerBrand{
+ background:transparent!important;border:0!important;box-shadow:none!important
+}
+.siteFooter .footerBrand{
+ display:inline-flex!important;align-items:center!important;width:auto!important;max-width:100%!important;
+ padding:0!important;overflow:visible!important
+}
+.siteFooter .footerBrand .heartMarkImage{object-fit:contain!important}
+.siteFooter .footerBrand .brandLockup{overflow:visible!important}
+.siteFooter .footerBrand .brandName,.siteFooter .footerBrand .brandLockup small{color:#f8f0df!important}
+.siteFooter .footerLinks a,.siteFooter .footerBottom,.siteFooter .footerBottom a{color:#e7dfd2!important}
