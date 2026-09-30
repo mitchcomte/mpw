@@ -786,3 +786,28 @@ main>.section:nth-of-type(4n),main>section.section:nth-of-type(4n){background-co
  .compareFour .wbCompareHead{position:relative!important;min-height:62px!important;height:auto!important;padding-right:48px!important}
  .compareFour .wbCompareHead>button{position:absolute!important;right:0!important;top:0!important}
 }
+
+
+/* Purpose-built mobile header — never reuse desktop nav geometry */
+.mobileNavActions,.mobileMenu{display:none}
+@media(max-width:800px){
+ html,body{max-width:100%;overflow-x:hidden}
+ .siteHeader{position:sticky!important;top:0!important;z-index:1000!important}
+ .siteHeader .mpwNav{position:relative!important;display:grid!important;grid-template-columns:minmax(0,1fr) auto!important;width:100%!important;max-width:100%!important;min-height:66px!important;padding:8px 14px!important;gap:10px!important}
+ .siteHeader .brandLogo{display:flex!important;width:auto!important;min-width:0!important;max-width:100%!important;gap:8px!important;overflow:hidden!important}
+ .siteHeader .heartMarkImage{width:36px!important;height:42px!important;flex:0 0 36px!important}
+ .siteHeader .brandLockup{min-width:0!important}
+ .siteHeader .brandName{display:block!important;font-size:clamp(1.05rem,5vw,1.38rem)!important;line-height:1!important;white-space:nowrap!important;overflow:hidden!important;text-overflow:ellipsis!important}
+ .siteHeader .brandLockup small{display:none!important}
+ .siteHeader .consumerNav,.siteHeader .navActions{display:none!important}
+ .mobileNavActions{display:flex!important;align-items:center!important;gap:7px!important}
+ .mobileWedding{display:flex;align-items:center;height:38px;padding:0 10px;border:1px solid #e4c7c2;border-radius:999px;background:#fffaf7;font-size:.7rem;font-weight:850;white-space:nowrap;box-shadow:0 4px 12px rgba(65,52,42,.06)}
+ .mobileMenuButton{width:40px;height:40px;padding:9px;border:1px solid #d6c6b3;border-radius:50%;background:#365545;display:flex;flex-direction:column;justify-content:center;gap:4px;box-shadow:0 5px 14px rgba(35,52,43,.16)}
+ .mobileMenuButton span{display:block;width:18px;height:2px;margin:auto;background:#fff;border-radius:2px}
+ .mobileMenu{display:flex!important;position:absolute!important;left:12px!important;right:12px!important;top:calc(100% + 6px)!important;z-index:1002!important;flex-direction:column!important;padding:10px!important;border:1px solid #cdb98f!important;border-radius:18px!important;background:rgba(255,252,247,.99)!important;box-shadow:0 18px 42px rgba(27,38,31,.2)!important;overflow:hidden!important}
+ .mobileMenu>a{display:flex!important;align-items:center!important;justify-content:space-between!important;min-height:45px!important;padding:9px 12px!important;border-bottom:1px solid rgba(197,169,111,.18)!important;font-size:.86rem!important;font-weight:800!important}
+ .mobileMenu>a:last-child{border-bottom:0!important}
+ .mobileMenu .mobileBuilderLink{color:#7e3f4b!important}.mobileMenu .mobileBuilderLink small{font-size:.52rem;color:#8d8578;font-weight:650}
+ .mobileMenu .mobileVendorLink{margin-top:6px!important;border:0!important;border-radius:12px!important;background:#e98594!important;color:#1e2923!important;justify-content:center!important}
+}
+@media(max-width:390px){.mobileWedding{font-size:.62rem;padding:0 8px}.siteHeader .heartMarkImage{width:32px!important;flex-basis:32px!important}.siteHeader .brandName{font-size:1rem!important}}
