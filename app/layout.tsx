@@ -20,7 +20,7 @@ export const metadata: Metadata = {
   twitter:{card:"summary_large_image",title,description,images:["/brand/mpw-social-share.png"]},
   manifest: "/manifest.webmanifest",
   other: {
-    "color-scheme": "light",
+    "color-scheme": "light only",
     "supported-color-schemes": "light"
   },
   appleWebApp: { capable: true, title: "My Portland Wedding", statusBarStyle: "default" },
@@ -33,5 +33,5 @@ export const viewport: Viewport = {
 };
 
 export default function RootLayout({children}:{children:React.ReactNode}){
- return <html lang="en"><body><Header/>{children}<Footer/><Analytics/></body></html>
+ return <html lang="en" style={{colorScheme:"light"}}><head><meta name="color-scheme" content="light only"/><meta name="supported-color-schemes" content="light"/></head><body style={{colorScheme:"light",backgroundColor:"#fffaf6"}}><Header/>{children}<Footer/><Analytics/></body></html>
 }
