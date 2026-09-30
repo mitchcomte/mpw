@@ -1305,3 +1305,8 @@ body{background-color:#fffaf6!important}
  .notificationPreferenceForm{align-items:stretch;flex-direction:column}
  .notificationPreferenceForm .btn{width:100%}
 }
+
+/* Slightly smaller footer master logo */
+.siteFooter .footerBrand{width:235px!important;max-width:235px!important}
+.siteFooter .footerBrand .mpwMasterLogo{width:235px!important;max-width:235px!important}
+@media(max-width:760px){.siteFooter .footerBrand{width:min(68vw,225px)!important;max-width:min(68vw,225px)!important}.siteFooter .footerBrand .mpwMasterLogo{width:100%!important;max-width:100%!important}}
