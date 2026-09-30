@@ -967,3 +967,45 @@ main>.section:nth-of-type(4n),main>section.section:nth-of-type(4n){background-co
  .siteFooter .footerBrand .heartMarkImage{width:28px!important;height:28px!important;flex-basis:28px!important}
  .siteFooter .footerBrand .brandName{font-size:.98rem!important}
 }
+
+
+/* Marketplace featured trio — MPW green/blush refinement */
+.featuredVendorShowcase{
+ background:
+  radial-gradient(circle at 8% 18%,rgba(229,128,143,.10),transparent 25%),
+  radial-gradient(circle at 92% 82%,rgba(49,91,73,.10),transparent 28%),
+  linear-gradient(120deg,#fbf7f3 0%,#f5f5ef 54%,#faf2f2 100%)!important;
+ border-color:rgba(49,91,73,.28)!important;
+ box-shadow:0 14px 36px rgba(36,57,46,.10)!important
+}
+.featuredVendorTile{
+ border-color:rgba(49,91,73,.38)!important;
+ background:#fffdfa!important;
+ box-shadow:0 8px 22px rgba(36,57,46,.10),inset 0 0 0 1px rgba(229,128,143,.14)!important
+}
+.featuredVendorTile:hover{box-shadow:0 14px 30px rgba(36,57,46,.16),0 0 0 2px rgba(229,128,143,.12)!important}
+.featuredVendorTileMedia>span{border-color:rgba(49,91,73,.38)!important;color:#315b49!important;background:rgba(255,253,250,.96)!important}
+.featuredVendorTileCopy{border-top-color:rgba(229,128,143,.34)!important}
+.featuredVendorTileCopy:before{background:linear-gradient(90deg,#315b49 0 58%,#e5808f 58% 86%,#b99a5f 86%)!important}
+.featuredVendorTileCopy small{color:#315b49!important}
+
+/* Category featured portfolio — make the editorial slash dividers deliberate. */
+.categoryFeaturedPortfolio{position:relative}
+.categoryFeaturedPortfolio .portfolioSlash,
+.categoryFeaturedPortfolio .featuredPortfolioSlash{
+ position:relative!important;
+ z-index:6!important;
+ display:flex!important;
+ align-items:center!important;
+ justify-content:center!important;
+ width:22px!important;
+ min-width:22px!important;
+ margin:0 -11px!important;
+ color:#fff!important;
+ font-family:Georgia,serif!important;
+ font-size:2.35rem!important;
+ font-weight:400!important;
+ line-height:1!important;
+ text-shadow:0 1px 5px rgba(25,39,31,.55)!important;
+ filter:drop-shadow(0 0 1px rgba(49,91,73,.7))!important
+}
