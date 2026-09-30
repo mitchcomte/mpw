@@ -1181,3 +1181,15 @@ body{background-color:#fffaf6!important}
 .siteFooter,.siteFooter p,.siteFooter span,.siteFooter small,.siteFooter a,.footer,.footer p,.footer span,.footer small,.footer a{color:#4d554e!important}
 .siteFooter a,.footer a{opacity:1!important;text-decoration-color:rgba(54,85,69,.35)!important}
 .siteFooter a:hover,.footer a:hover{color:#294b3b!important}
+
+/* Master logo surface fixes: keep mobile header inside viewport and let footer blend into green. */
+@media(max-width:760px){
+ .siteHeader .mpwNav{overflow:visible!important}
+ .siteHeader .brandLogo{width:150px!important;max-width:150px!important;min-width:0!important;overflow:visible!important}
+ .siteHeader .brandLogo .mpwMasterLogo{width:150px!important;max-width:150px!important;height:auto!important;object-fit:contain!important}
+}
+.siteFooter .footerBrand{background:transparent!important;border:0!important;box-shadow:none!important}
+.siteFooter .footerBrand .mpwMasterLogo{
+ background:transparent!important;
+ mix-blend-mode:multiply!important;
+}
