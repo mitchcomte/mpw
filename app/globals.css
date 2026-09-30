@@ -1381,3 +1381,10 @@ body{background-color:#fffaf6!important}
 .articleCategoryBridge h2{margin:4px 0 8px;font-family:Georgia,serif;font-size:2rem;color:#203d31}
 .articleCategoryBridge p{max-width:700px;margin:0;color:#596961;line-height:1.65}
 @media(max-width:760px){.articleCategoryBridge{grid-template-columns:1fr;padding:24px}.articleCategoryBridge .btn{width:100%;text-align:center}}
+
+.editorialTrust{margin:50px 0;padding:26px 30px;border-top:1px solid rgba(41,75,59,.18);border-bottom:1px solid rgba(41,75,59,.18);background:rgba(246,241,229,.55)}
+.editorialTrust p{max-width:820px;color:#53635b;line-height:1.65}
+.editorialSources{display:flex;flex-wrap:wrap;gap:10px 18px;align-items:center;margin-top:14px}
+.editorialSources strong{width:100%;color:#203d31}
+.editorialSources a{color:#294b3b;font-size:.88rem;font-weight:700;text-decoration-thickness:1px;text-underline-offset:3px}
+@media(max-width:760px){.editorialTrust{padding:22px 20px}}
