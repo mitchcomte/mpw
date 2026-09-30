@@ -385,4 +385,77 @@ export const planningChecklists = [
       {question:"Can you hire a planner after you have already started planning?",answer:"Often, yes. Partial planning or customized services may be available, depending on the planner and how far along the wedding is."}
     ]
   }
+,
+  {
+    slug:"portland-wedding-flower-cost-guide",
+    category:"Florists",
+    title:"Portland Wedding Flower Costs: How to Build a Floral Plan Around What Matters Most",
+    dek:"A practical guide to the choices that shape wedding flower pricing, from bouquets and centerpieces to installations, labor, seasonality and repurposing.",
+    readTime:"12 min read",
+    seoTitle:"Portland Wedding Flower Costs: Budget & Planning Guide",
+    seoDescription:"Understand what affects Portland wedding flower costs and how bouquets, centerpieces, installations, seasonality and labor shape a floral proposal.",
+    relatedSlugs:["portland-wedding-budget-guide","how-to-choose-portland-wedding-vendors","best-time-year-portland-wedding"],
+    sections:[
+      {heading:"Wedding flower pricing is really a design-and-labor equation",paragraphs:["A floral proposal is not simply a price list for stems. The final number can reflect flower varieties, quantities, mechanics, vessels, delivery, setup, teardown, staffing and the time required to design each piece.","That is why two weddings with a similar number of bouquets and tables can have very different floral budgets. A low centerpiece in a simple vessel is a different production challenge from a suspended installation or a ceremony structure that must be built safely on site."]},
+      {heading:"Start with the moments where flowers will have the most visual impact",paragraphs:["Instead of trying to put flowers everywhere, identify the scenes that matter most to you. Personal flowers appear in portraits throughout the day. Ceremony flowers frame a meaningful moment. Reception flowers influence what guests see for several hours.","A florist can often help concentrate the budget into a few memorable elements and simplify areas that will receive less attention."],bullets:["Bouquets and personal flowers","Ceremony focal point","Aisle or entry flowers","Cocktail-hour details","Guest-table centerpieces","Sweetheart or head table","Bar, cake or welcome-table flowers"]},
+      {heading:"Seasonality affects availability more than it dictates your entire design",paragraphs:["Oregon has distinct growing seasons, but wedding floral design is not limited to flowers grown locally that week. Ask your florist which varieties, colors and textures are most dependable around your date and what substitutions they recommend if a specific flower is unavailable.","Being flexible about exact varieties can give the designer more room to protect the overall palette and feeling of the arrangement."]},
+      {heading:"Large installations carry hidden work",paragraphs:["Arches, hanging flowers and other installations may require structures, mechanics, ladders, additional staff, venue access time and teardown. Ask whether those services are included in the proposal and whether the venue has restrictions on attachment methods, open flame, water, petals or cleanup."]},
+      {heading:"Repurposing can create value when logistics allow it",paragraphs:["Ceremony arrangements may sometimes be moved to the reception, but repurposing is not automatically free or practical. The florist needs enough time, staff and access to move pieces safely while guests are transitioning.","Ask what can realistically be reused and where it will have the greatest impact instead of assuming every ceremony arrangement can become a reception centerpiece."]},
+      {heading:"Compare proposals by scope, not just the bottom line",paragraphs:["Look at flower counts, approximate dimensions, vessel rentals, delivery, setup, teardown and substitutions. If two proposals are far apart, the designs may not actually be equivalent.","The best floral budget is one that protects the visual priorities you care about and gives the florist enough flexibility to execute them well."]}
+    ],
+    checklist:["Choose the floral moments that matter most","Share inspiration for feeling and palette, not only exact flowers","Ask what labor and rentals are included","Confirm venue setup and teardown windows","Discuss realistic repurposing opportunities","Understand substitution language in the agreement"],
+    faq:[
+      {question:"What affects the cost of wedding flowers most?",answer:"Scale, flower varieties, quantities, design complexity, installations, labor, delivery and setup can all affect the proposal. The mix matters more than any single item."},
+      {question:"Can ceremony flowers be reused at the reception?",answer:"Sometimes. Whether it works depends on the design, distance, timing, staffing and venue access. Ask the florist which pieces can be moved safely and efficiently."},
+      {question:"Do wedding flowers have to match the season?",answer:"Not necessarily, but season and availability can affect sourcing. Flexibility about exact varieties can help a florist preserve the overall color and design when availability changes."}
+    ]
+  },
+  {
+    slug:"portland-wedding-catering-guide",
+    category:"Catering",
+    title:"Portland Wedding Catering Guide: How to Compare Menus, Service Styles and the Real Scope of a Proposal",
+    dek:"A detailed guide to choosing wedding catering by guest experience, service style, staffing, dietary needs, rentals and the details hidden behind a per-person price.",
+    readTime:"13 min read",
+    seoTitle:"Portland Wedding Catering Guide: Costs, Menus & Service",
+    seoDescription:"Compare Portland wedding catering by menu, service style, staffing, dietary needs, rentals and proposal details before choosing a caterer.",
+    relatedSlugs:["portland-wedding-budget-guide","how-to-choose-portland-wedding-vendors","best-portland-wedding-venues-guide"],
+    sections:[
+      {heading:"Begin with the kind of dinner you want guests to experience",paragraphs:["Food is only one part of catering. The service format affects pacing, staffing, room layout and how guests move through the reception. Start by deciding whether dinner should feel formal, communal, relaxed or fast-moving, then compare caterers that execute that style well.","Your venue matters too. Kitchen access, load-in routes, power, water, trash requirements and rental needs can change what is practical."]},
+      {heading:"Understand the tradeoffs between common service styles",paragraphs:["Plated meals can create a polished, structured dinner but usually require significant staffing and careful meal tracking. Buffets can offer variety and flexibility but need enough space and a plan to prevent long lines. Family-style service can feel warm and communal while requiring table space for serving dishes."],bullets:["Plated: structured service and individual courses","Buffet: flexible selection and guest movement","Family style: shared dishes at each table","Stations: multiple food experiences around the room","Cocktail style: smaller plates with more movement and seating flexibility"]},
+      {heading:"A per-person price rarely tells the whole story",paragraphs:["When comparing proposals, identify what sits outside the food price. Staffing, service charge, rentals, china, glassware, linens, delivery, cake cutting, coffee service, travel and gratuity policies can materially change the total.","Ask for an estimated all-in proposal based on your current guest count and venue whenever possible. That makes comparisons more meaningful than looking at menu prices alone."]},
+      {heading:"Plan dietary needs early enough to make them part of the menu",paragraphs:["Ask guests about dietary restrictions during the RSVP process and discuss the caterer's approach before finalizing the menu. The goal is not simply to have something available; guests with restrictions should understand what they can eat and service staff should know how those meals are handled.","If allergies are severe, ask specifically about preparation practices and cross-contact rather than assuming a menu label represents an allergy-safe environment."]},
+      {heading:"The tasting should answer operational questions too",paragraphs:["Use a tasting to discuss portioning, presentation, substitutions, seasonality and service—not only whether you like the dish. Ask what will be different when the kitchen is producing the meal for your actual guest count at your venue."]},
+      {heading:"Choose the caterer who can execute the whole service",paragraphs:["Great food matters, but so do communication, staffing, timing and coordination with the venue and planner. A strong catering team understands how cocktail hour, dinner, speeches, dessert and bar service fit into the larger reception timeline."]}
+    ],
+    checklist:["Choose a preferred service style","Confirm venue kitchen and catering requirements","Compare estimated all-in proposals","Ask what rentals and staffing are included","Plan dietary information with RSVPs","Discuss service charges and gratuity policy","Use the tasting to confirm logistics as well as flavor"],
+    faq:[
+      {question:"Which wedding catering style is best?",answer:"There is no single best style. Plated, buffet, family-style, stations and cocktail-style service create different guest experiences and staffing needs. Choose based on your venue, priorities and reception flow."},
+      {question:"What should you compare in catering proposals?",answer:"Compare the menu plus staffing, rentals, delivery, service charges, beverage or coffee service, setup, cleanup and any venue-specific costs so you are evaluating a similar scope."},
+      {question:"When should guests provide dietary restrictions?",answer:"Collect dietary information with enough time to send final counts and needs to the caterer by the deadline in your agreement."}
+    ]
+  },
+  {
+    slug:"how-to-choose-portland-wedding-dj",
+    category:"DJs",
+    title:"How to Choose a Portland Wedding DJ Who Can Read the Room, Run the Timeline and Keep the Party Moving",
+    dek:"Go beyond the playlist and compare wedding DJs by MC style, sound, planning process, backup equipment, ceremony support and their ability to manage a reception.",
+    readTime:"11 min read",
+    seoTitle:"How to Choose a Portland Wedding DJ: Complete Guide",
+    seoDescription:"Learn how to compare Portland wedding DJs by MC style, planning process, sound, ceremony support, backup equipment and reception experience.",
+    relatedSlugs:["how-to-choose-portland-wedding-vendors","portland-wedding-planning-checklist","best-portland-wedding-venues-guide"],
+    sections:[
+      {heading:"A wedding DJ is managing energy as much as music",paragraphs:["The playlist matters, but a wedding DJ also works with the planner or coordinator to move guests through introductions, dinner, speeches, formal dances and open dancing. The best fit understands the atmosphere you want and does not make the reception feel like someone else's template.","Ask how the DJ reads a room when the planned song sequence is not working. Their answer can tell you more than a sample playlist."]},
+      {heading:"Decide how much MC presence you want",paragraphs:["Some couples want an energetic host who interacts frequently with guests. Others want concise announcements and almost no microphone presence beyond what the timeline requires. Neither approach is universally better.","Describe what would feel natural—and what would make you uncomfortable—so you can compare the DJ's normal style with your expectations."]},
+      {heading:"Ask how music planning actually works",paragraphs:["A useful planning process should capture must-plays, do-not-plays, special songs, genres you enjoy and the preferences of the crowd without requiring you to program every minute yourself.","Talk about explicit lyrics, guest requests and how much flexibility the DJ has to change direction during dancing."],bullets:["Must-play songs","Do-not-play songs","Formal dance selections","Guest-request policy","Preferred genres and eras","Songs or styles that represent your families or cultures"]},
+      {heading:"Ceremony and reception audio may be separate jobs",paragraphs:["If the DJ is providing ceremony sound, confirm microphones, speaker placement, music cues and whether the ceremony location needs a separate system. Outdoor ceremonies can require different equipment and power planning than an indoor reception.","Also ask whether cocktail hour uses a separate speaker setup so music can continue while the main reception system is being prepared."]},
+      {heading:"Professional backup plans matter",paragraphs:["Ask what happens if a laptop, mixer, speaker or microphone fails and what the company does if the assigned DJ becomes unavailable. You do not need to understand every piece of equipment; you do want to know that a realistic backup process exists."]},
+      {heading:"Look for someone who fits your wedding, not the loudest sales pitch",paragraphs:["Strong DJs can explain their approach without promising that every dance floor will look the same. Your guest mix, timeline, venue and preferences all influence the reception.","Choose the professional whose communication, planning process, music knowledge and MC approach make you confident they can adapt while keeping the celebration feeling like yours."]}
+    ],
+    checklist:["Define the MC style you prefer","Discuss must-play and do-not-play music","Ask how guest requests are handled","Confirm ceremony and cocktail-hour audio needs","Ask about backup equipment and personnel","Review reception timeline responsibilities","Confirm setup, teardown and overtime terms"],
+    faq:[
+      {question:"What should you ask a wedding DJ before booking?",answer:"Ask about MC style, music planning, guest requests, ceremony sound, backup equipment, timeline coordination, setup requirements and who will personally perform at your wedding."},
+      {question:"Can a wedding DJ provide ceremony sound?",answer:"Many can, but services vary. Confirm microphones, speakers, music cues, power needs and whether a separate ceremony system is included."},
+      {question:"Should couples give their DJ a complete playlist?",answer:"Usually you can provide priorities, must-plays and do-not-plays while leaving room for the DJ to respond to the crowd. Discuss the level of control you want during planning."}
+    ]
+  }
 ];
