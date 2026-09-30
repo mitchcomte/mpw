@@ -289,54 +289,7 @@ export const inspirationArticles: InspirationArticle[] = [
       {heading:"How to use this with Wedding Builder", paragraphs:["Wedding Builder gives every category a planning allocation so you can see the tradeoffs. When an allocation is small, treat it as a decision point—not a command to spend that amount. Keep it, move it to a priority, simplify that category, or use a DIY approach. Your total budget should serve your wedding, not the other way around."]}
     ],
     checklist:["Protect your top three priorities first","Circle categories that feel optional to you","Simplify before buying DIY supplies","Estimate materials plus your real time","Assign one person to transport/setup each DIY project","Check venue rules before making décor or food plans","Avoid starting new DIY projects during wedding week","Move unused category money back to your highest priorities"]
-  }
-];
-
-export const planningChecklists = [
-  {slug:"master-wedding-checklist", title:"Master Wedding Checklist", eyebrow:"Timeline", intro:"A start-to-finish planning roadmap you can check off as you go.", sections:[
-    {title:"12–18 months before", items:["Set a realistic total budget","Draft your guest list","Choose your preferred season/date range","Research and tour venues","Book your venue","Hire a full-service planner if using one","Create a wedding website","Start a vendor inspiration folder"]},
-    {title:"9–12 months before", items:["Book photographer","Book videographer","Book caterer/bar if separate","Book DJ or band","Book florist","Begin attire shopping","Reserve guest hotel blocks if needed","Schedule engagement photos"]},
-    {title:"6–9 months before", items:["Book hair and makeup","Book officiant","Order wedding attire","Book cake/dessert","Reserve rentals and lighting","Arrange transportation","Send save-the-dates","Plan honeymoon","Build registry"]},
-    {title:"3–6 months before", items:["Finalize menu","Choose ceremony details","Order invitations","Plan rehearsal dinner","Choose wedding party attire","Confirm floral/design direction","Book photo booth or specialty entertainment","Plan favors/welcome gifts if desired"]},
-    {title:"1–3 months before", items:["Mail invitations","Finalize ceremony script","Build reception timeline","Create shot-list priorities","Schedule final fittings","Apply for marriage license within appropriate timeframe","Create seating plan","Confirm final vendor details","Prepare vendor payments/tips"]},
-    {title:"Final 2 weeks", items:["Give final guest count","Confirm transportation","Confirm vendor arrival times","Pack décor and personal items","Prepare emergency kit","Break in wedding shoes","Share timeline with wedding party","Assign someone to collect gifts/cards","Confirm weather backup plan"]},
-    {title:"Wedding day", items:["Eat and hydrate","Keep marriage license/rings secure","Have payment/tip envelopes ready","Give phone to a trusted person during key moments","Take a private moment together","Enjoy the day"]},
-    {title:"After the wedding", items:["Return rentals","Preserve attire if desired","Send thank-you notes","Leave vendor reviews","Select album photos","Update legal name/documents if applicable"]}
-  ]},
-  {slug:"venue-tour-checklist", title:"Wedding Venue Tour Checklist", eyebrow:"Venues", intro:"Use the same questions at every tour so you can compare spaces fairly.", sections:[
-    {title:"Before the tour",items:["Know estimated guest count","Know comfortable venue budget","Bring phone/camera for notes and photos","List your non-negotiables","Confirm date availability"]},
-    {title:"Space and experience",items:["See ceremony space","See cocktail-hour space","See reception space","See rain backup","Check getting-ready rooms","Check restrooms","Check accessibility","Walk guest arrival path","Check dance-floor size","Look at indoor and outdoor photo locations"]},
-    {title:"Included items",items:["Tables","Chairs","Linens","Place settings","Setup","Cleanup","On-site coordinator","Security","Parking staff","Rehearsal time"]},
-    {title:"Rules and logistics",items:["Confirm event hours","Confirm vendor access time","Ask about music/noise limits","Ask about décor/candle restrictions","Ask about catering rules","Ask about alcohol rules","Ask about required vendors","Ask about event insurance","Ask about parking/rideshare","Ask about overnight item storage"]},
-    {title:"Pricing",items:["Get base fee in writing","Ask about taxes","Ask about service charges","Ask about minimum spends","Ask about deposits","Ask about payment schedule","Ask about overtime rates","Ask about cancellation/postponement policy"]}
-  ]},
-  {slug:"vendor-booking-checklist", title:"Vendor Booking Checklist", eyebrow:"Vendors", intro:"A practical order for assembling your wedding team.", sections:[
-    {title:"Book first",items:["Venue","Planner or coordinator","Photographer","Videographer","Caterer/bar","DJ or band"]},
-    {title:"Book next",items:["Florist/event designer","Hair and makeup","Cake/dessert","Rentals/lighting","Officiant","Transportation"]},
-    {title:"Finishing team",items:["Stationery","Photo booth","Content creator","Live entertainment","Guest accommodations","Honeymoon/travel support"]},
-    {title:"Before signing every contract",items:["Review total price and payment schedule","Confirm exact hours of coverage","Confirm cancellation/rescheduling terms","Confirm travel/delivery charges","Confirm insurance requirements","Confirm what happens if the vendor is unavailable","Save a signed copy of the contract"]}
-  ]},
-  {slug:"wedding-budget-checklist", title:"Wedding Budget Checklist", eyebrow:"Budget", intro:"Keep the real cost visible from first deposit through final payment.", sections:[
-    {title:"Build the budget",items:["Set total comfortable spend","Confirm contributions","Choose top 3 priorities","Estimate guest count","Create 5–10% contingency reserve"]},
-    {title:"Track categories",items:["Venue","Catering","Bar","Photography","Videography","Planning/coordination","Florals/design","Music/entertainment","Attire/alterations","Beauty","Cake/desserts","Rentals/lighting","Stationery/postage","Transportation","Accommodations","Officiant/license","Favors/gifts","Honeymoon","Tips/miscellaneous"]},
-    {title:"For every vendor",items:["Record contracted total","Record deposit paid","Record remaining balance","Record due date","Include tax/service fee","Include delivery/travel","Include gratuity if applicable"]}
-  ]},
-  {slug:"wedding-week-checklist", title:"Wedding Week Checklist", eyebrow:"Final Week", intro:"A calm, practical list for the final seven days.", sections:[
-    {title:"Confirm",items:["Final vendor arrival times","Final guest count","Transportation schedule","Rehearsal details","Weather plan","Ceremony processional order","Who has rings and marriage license","Who handles gifts/cards","Who takes décor home"]},
-    {title:"Pack",items:["Wedding attire and accessories","Shoes","Rings","Vows","Marriage license","Invitation suite for photos","Details for flat-lay photos","Emergency kit","Touch-up beauty products","Comfortable change of shoes","Vendor payment/tip envelopes"]},
-    {title:"Protect your time",items:["Finish major DIY projects","Delegate unanswered guest questions","Hydrate and sleep","Avoid last-minute major design changes","Schedule a quiet meal or date together"]}
-  ]},
-  {slug:"photography-planning-checklist", title:"Wedding Photography Checklist", eyebrow:"Photography", intro:"Help your photographer capture the people and details that matter most without turning the day into a photo shoot.", sections:[
-    {title:"Before the wedding",items:["Share final timeline","Share venue addresses","List important family combinations","Note sensitive family dynamics","Identify meaningful details/heirlooms","Share any venue photo restrictions","Plan rain portrait locations","Confirm sunset timing with photographer"]},
-    {title:"Details to gather",items:["Invitation suite","Rings","Vow books","Shoes","Jewelry","Perfume/cologne","Bouquet","Family heirlooms","Special gifts/letters"]},
-    {title:"Must-consider moments",items:["Getting ready","First look if doing one","Wedding party portraits","Immediate family portraits","Ceremony reactions","Couple portraits","Reception room before guests enter","First dance","Parent dances","Toasts","Dance floor","Private last dance/send-off"]}
-  ]},
-  {slug:"guest-experience-checklist", title:"Guest Experience Checklist", eyebrow:"Guests", intro:"Small logistics that make a wedding feel thoughtful and effortless for the people attending.", sections:[
-    {title:"Before the wedding",items:["Clear directions on wedding website","Hotel recommendations","Transportation details","Dress-code guidance","Weather guidance","Accessibility contact information","RSVP deadline","Meal/allergy collection"]},
-    {title:"At the venue",items:["Easy-to-find parking/arrival","Clear signage","Comfortable ceremony seating","Accessible restrooms","Water available","Shade/heating as needed","Enough cocktail-hour seating","Efficient bar service","Logical table layout","Late-night transportation plan"]},
-    {title:"Personal touches",items:["Welcome note","Local Portland recommendations","Thoughtful seating assignments","Meaningful music","Late-night snack","Simple thank-you/favor"]}
-  ]}
-,
+  },
   {
     slug:"how-to-choose-portland-wedding-photographer",
     category:"Photography",
@@ -604,4 +557,51 @@ export const planningChecklists = [
       {question:"What wedding stationery is optional?",answer:"Programs, menus, individual place cards and many signs can be optional depending on how your event communicates the same information. Choose pieces that solve a real guest need or add meaningful design value."}
     ]
   }
+];
+
+export const planningChecklists = [
+  {slug:"master-wedding-checklist", title:"Master Wedding Checklist", eyebrow:"Timeline", intro:"A start-to-finish planning roadmap you can check off as you go.", sections:[
+    {title:"12–18 months before", items:["Set a realistic total budget","Draft your guest list","Choose your preferred season/date range","Research and tour venues","Book your venue","Hire a full-service planner if using one","Create a wedding website","Start a vendor inspiration folder"]},
+    {title:"9–12 months before", items:["Book photographer","Book videographer","Book caterer/bar if separate","Book DJ or band","Book florist","Begin attire shopping","Reserve guest hotel blocks if needed","Schedule engagement photos"]},
+    {title:"6–9 months before", items:["Book hair and makeup","Book officiant","Order wedding attire","Book cake/dessert","Reserve rentals and lighting","Arrange transportation","Send save-the-dates","Plan honeymoon","Build registry"]},
+    {title:"3–6 months before", items:["Finalize menu","Choose ceremony details","Order invitations","Plan rehearsal dinner","Choose wedding party attire","Confirm floral/design direction","Book photo booth or specialty entertainment","Plan favors/welcome gifts if desired"]},
+    {title:"1–3 months before", items:["Mail invitations","Finalize ceremony script","Build reception timeline","Create shot-list priorities","Schedule final fittings","Apply for marriage license within appropriate timeframe","Create seating plan","Confirm final vendor details","Prepare vendor payments/tips"]},
+    {title:"Final 2 weeks", items:["Give final guest count","Confirm transportation","Confirm vendor arrival times","Pack décor and personal items","Prepare emergency kit","Break in wedding shoes","Share timeline with wedding party","Assign someone to collect gifts/cards","Confirm weather backup plan"]},
+    {title:"Wedding day", items:["Eat and hydrate","Keep marriage license/rings secure","Have payment/tip envelopes ready","Give phone to a trusted person during key moments","Take a private moment together","Enjoy the day"]},
+    {title:"After the wedding", items:["Return rentals","Preserve attire if desired","Send thank-you notes","Leave vendor reviews","Select album photos","Update legal name/documents if applicable"]}
+  ]},
+  {slug:"venue-tour-checklist", title:"Wedding Venue Tour Checklist", eyebrow:"Venues", intro:"Use the same questions at every tour so you can compare spaces fairly.", sections:[
+    {title:"Before the tour",items:["Know estimated guest count","Know comfortable venue budget","Bring phone/camera for notes and photos","List your non-negotiables","Confirm date availability"]},
+    {title:"Space and experience",items:["See ceremony space","See cocktail-hour space","See reception space","See rain backup","Check getting-ready rooms","Check restrooms","Check accessibility","Walk guest arrival path","Check dance-floor size","Look at indoor and outdoor photo locations"]},
+    {title:"Included items",items:["Tables","Chairs","Linens","Place settings","Setup","Cleanup","On-site coordinator","Security","Parking staff","Rehearsal time"]},
+    {title:"Rules and logistics",items:["Confirm event hours","Confirm vendor access time","Ask about music/noise limits","Ask about décor/candle restrictions","Ask about catering rules","Ask about alcohol rules","Ask about required vendors","Ask about event insurance","Ask about parking/rideshare","Ask about overnight item storage"]},
+    {title:"Pricing",items:["Get base fee in writing","Ask about taxes","Ask about service charges","Ask about minimum spends","Ask about deposits","Ask about payment schedule","Ask about overtime rates","Ask about cancellation/postponement policy"]}
+  ]},
+  {slug:"vendor-booking-checklist", title:"Vendor Booking Checklist", eyebrow:"Vendors", intro:"A practical order for assembling your wedding team.", sections:[
+    {title:"Book first",items:["Venue","Planner or coordinator","Photographer","Videographer","Caterer/bar","DJ or band"]},
+    {title:"Book next",items:["Florist/event designer","Hair and makeup","Cake/dessert","Rentals/lighting","Officiant","Transportation"]},
+    {title:"Finishing team",items:["Stationery","Photo booth","Content creator","Live entertainment","Guest accommodations","Honeymoon/travel support"]},
+    {title:"Before signing every contract",items:["Review total price and payment schedule","Confirm exact hours of coverage","Confirm cancellation/rescheduling terms","Confirm travel/delivery charges","Confirm insurance requirements","Confirm what happens if the vendor is unavailable","Save a signed copy of the contract"]}
+  ]},
+  {slug:"wedding-budget-checklist", title:"Wedding Budget Checklist", eyebrow:"Budget", intro:"Keep the real cost visible from first deposit through final payment.", sections:[
+    {title:"Build the budget",items:["Set total comfortable spend","Confirm contributions","Choose top 3 priorities","Estimate guest count","Create 5–10% contingency reserve"]},
+    {title:"Track categories",items:["Venue","Catering","Bar","Photography","Videography","Planning/coordination","Florals/design","Music/entertainment","Attire/alterations","Beauty","Cake/desserts","Rentals/lighting","Stationery/postage","Transportation","Accommodations","Officiant/license","Favors/gifts","Honeymoon","Tips/miscellaneous"]},
+    {title:"For every vendor",items:["Record contracted total","Record deposit paid","Record remaining balance","Record due date","Include tax/service fee","Include delivery/travel","Include gratuity if applicable"]}
+  ]},
+  {slug:"wedding-week-checklist", title:"Wedding Week Checklist", eyebrow:"Final Week", intro:"A calm, practical list for the final seven days.", sections:[
+    {title:"Confirm",items:["Final vendor arrival times","Final guest count","Transportation schedule","Rehearsal details","Weather plan","Ceremony processional order","Who has rings and marriage license","Who handles gifts/cards","Who takes décor home"]},
+    {title:"Pack",items:["Wedding attire and accessories","Shoes","Rings","Vows","Marriage license","Invitation suite for photos","Details for flat-lay photos","Emergency kit","Touch-up beauty products","Comfortable change of shoes","Vendor payment/tip envelopes"]},
+    {title:"Protect your time",items:["Finish major DIY projects","Delegate unanswered guest questions","Hydrate and sleep","Avoid last-minute major design changes","Schedule a quiet meal or date together"]}
+  ]},
+  {slug:"photography-planning-checklist", title:"Wedding Photography Checklist", eyebrow:"Photography", intro:"Help your photographer capture the people and details that matter most without turning the day into a photo shoot.", sections:[
+    {title:"Before the wedding",items:["Share final timeline","Share venue addresses","List important family combinations","Note sensitive family dynamics","Identify meaningful details/heirlooms","Share any venue photo restrictions","Plan rain portrait locations","Confirm sunset timing with photographer"]},
+    {title:"Details to gather",items:["Invitation suite","Rings","Vow books","Shoes","Jewelry","Perfume/cologne","Bouquet","Family heirlooms","Special gifts/letters"]},
+    {title:"Must-consider moments",items:["Getting ready","First look if doing one","Wedding party portraits","Immediate family portraits","Ceremony reactions","Couple portraits","Reception room before guests enter","First dance","Parent dances","Toasts","Dance floor","Private last dance/send-off"]}
+  ]},
+  {slug:"guest-experience-checklist", title:"Guest Experience Checklist", eyebrow:"Guests", intro:"Small logistics that make a wedding feel thoughtful and effortless for the people attending.", sections:[
+    {title:"Before the wedding",items:["Clear directions on wedding website","Hotel recommendations","Transportation details","Dress-code guidance","Weather guidance","Accessibility contact information","RSVP deadline","Meal/allergy collection"]},
+    {title:"At the venue",items:["Easy-to-find parking/arrival","Clear signage","Comfortable ceremony seating","Accessible restrooms","Water available","Shade/heating as needed","Enough cocktail-hour seating","Efficient bar service","Logical table layout","Late-night transportation plan"]},
+    {title:"Personal touches",items:["Welcome note","Local Portland recommendations","Thoughtful seating assignments","Meaningful music","Late-night snack","Simple thank-you/favor"]}
+  ]}
+
 ];
