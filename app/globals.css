@@ -1225,3 +1225,26 @@ body{background-color:#fffaf6!important}
 .siteFooter .footerBrand .brandLockup{overflow:visible!important}
 .siteFooter .footerBrand .brandName,.siteFooter .footerBrand .brandLockup small{color:#f8f0df!important}
 .siteFooter .footerLinks a,.siteFooter .footerBottom,.siteFooter .footerBottom a{color:#e7dfd2!important}
+
+
+/* Desktop header logo must sit directly on the header — never inside a white tile. */
+@media(min-width:801px){
+ .siteHeader .mpwNav .brandLogo,
+ .siteHeader .mpwNav .brandLogo:hover,
+ .siteHeader .mpwNav .brandLogo:focus,
+ .siteHeader .mpwNav .brandLogo:active{
+  background:transparent!important;
+  background-color:transparent!important;
+  background-image:none!important;
+  border:0!important;
+  border-radius:0!important;
+  box-shadow:none!important;
+  outline-offset:3px!important;
+  padding:0!important;
+  overflow:visible!important
+ }
+ .siteHeader .mpwNav .brandLogo:before,
+ .siteHeader .mpwNav .brandLogo:after{display:none!important;content:none!important}
+ .siteHeader .mpwNav .brandLogo .heartMarkImage,
+ .siteHeader .mpwNav .brandLogo .brandLockup{background:transparent!important;box-shadow:none!important}
+}
