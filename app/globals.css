@@ -1374,3 +1374,10 @@ body{background-color:#fffaf6!important}
 .relatedEditorialGrid a strong{display:block;font:1.28rem/1.25 Georgia,serif}
 .relatedEditorialGrid a p{color:#66726b;font-size:.92rem;line-height:1.55}
 @media(max-width:760px){.magazineHeroPhoto{height:340px;margin:-26px -2px 34px;border-radius:16px}.photoCredit{text-align:left}.relatedEditorialGrid{grid-template-columns:1fr}.editorialPullQuote{padding-left:18px}}
+
+.articleBreadcrumbs{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin:28px 0 0;color:#68766f;font-size:.82rem}
+.articleBreadcrumbs a{color:#294b3b;text-decoration:none;font-weight:700}
+.articleCategoryBridge{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:28px;align-items:center;margin:58px 0;padding:30px 34px;border:1px solid rgba(177,139,98,.35);border-radius:20px;background:linear-gradient(135deg,#fffaf0,#edf2ed)}
+.articleCategoryBridge h2{margin:4px 0 8px;font-family:Georgia,serif;font-size:2rem;color:#203d31}
+.articleCategoryBridge p{max-width:700px;margin:0;color:#596961;line-height:1.65}
+@media(max-width:760px){.articleCategoryBridge{grid-template-columns:1fr;padding:24px}.articleCategoryBridge .btn{width:100%;text-align:center}}
