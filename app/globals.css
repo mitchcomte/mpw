@@ -853,3 +853,28 @@ main>.section:nth-of-type(4n),main>section.section:nth-of-type(4n){background-co
  .builderBridge{padding:5px 0!important}.builderBridgeInner{min-height:34px!important}
 }
 @media(min-width:900px) and (max-width:1180px){.vendorMarketplaceGrid{grid-template-columns:repeat(2,minmax(0,1fr))!important}}
+
+
+/* FINAL MOBILE PALETTE + HEADER RESET
+   Prevent legacy contrast/header rules from turning MPW into a dark mobile theme. */
+@media(max-width:800px){
+ html{background:#f7f3eb!important;color-scheme:light!important}
+ body{background:#f7f3eb!important;color:#262820!important;color-scheme:light!important}
+ .siteHeader{background:#fffaf6!important;color:#262820!important;border-bottom:1px solid rgba(180,151,95,.24)!important;box-shadow:0 5px 18px rgba(54,48,40,.07)!important}
+ .siteHeader .mpwNav{background:#fffaf6!important}
+ .siteHeader .brandName{color:#385847!important}
+ .siteHeader .consumerNav,.siteHeader .navActions,.siteHeader .vendorNavDropdown{display:none!important;visibility:hidden!important;position:absolute!important;pointer-events:none!important}
+ .mobileNavActions{display:flex!important;visibility:visible!important;position:static!important}
+ .romanticHome{background:#f8f4ed!important;color:#262820!important}
+ .romanticHome .builderHero,.romanticHome .homeHeroCompact{background:linear-gradient(135deg,#fff5f2 0%,#fbf4ef 54%,#edf2e8 100%)!important;color:#262820!important}
+ .romanticHome .builderHero::before,.romanticHome .builderHero::after,.romanticHome .homeHeroCompact::before,.romanticHome .homeHeroCompact::after{opacity:.35!important}
+ .romanticHome .builderHeroCopy h1,.romanticHome .builderHeroCopy p,.romanticHome .builderHeroCopy .eyebrow,.romanticHome .scriptWord{color:#262820!important}
+ .romanticHome .scribbleHeart{color:#e98594!important}
+ .romanticHome .homeBuilderShowcase{background:linear-gradient(135deg,#fffdf9,#f7f0e6 58%,#edf1e8)!important;color:#262820!important;border-color:#c9ad75!important}
+ .romanticHome .homeBuilderShowcase h2,.romanticHome .homeBuilderShowcase p,.romanticHome .homeBuilderShowcase strong,.romanticHome .homeBuilderShowcase small{color:#262820!important}
+ .romanticHome .homeBuilderShowcaseBrand>span{color:#385847!important}
+ .romanticHome .featuredSection,.romanticHome .bubbleCategoryStrip,.romanticHome .planningBubbles,.romanticHome .inspirationSection{background-color:#f8f4ed!important;color:#262820!important}
+ .romanticHome .featuredSection:nth-of-type(even),.romanticHome .planningBubbles{background-color:#eef0e9!important}
+ .romanticHome .vendorBubbleCard,.romanticHome .categoryBubble,.romanticHome .inspoBubble,.romanticHome .planningIconCard{background:#fff!important;color:#262820!important}
+ main.romanticHome{box-shadow:none!important}
+}
