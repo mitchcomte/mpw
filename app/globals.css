@@ -1248,3 +1248,28 @@ body{background-color:#fffaf6!important}
  .siteHeader .mpwNav .brandLogo .heartMarkImage,
  .siteHeader .mpwNav .brandLogo .brandLockup{background:transparent!important;box-shadow:none!important}
 }
+
+
+/* Footer brand lockup: transparent on every viewport/state, no white card or tile. */
+.siteFooter .footerBrand,
+.siteFooter .footerBrand:hover,
+.siteFooter .footerBrand:focus,
+.siteFooter .footerBrand:active{
+ background:transparent!important;
+ background-color:transparent!important;
+ background-image:none!important;
+ border:0!important;
+ border-radius:0!important;
+ box-shadow:none!important;
+ padding:0!important;
+ overflow:visible!important
+}
+.siteFooter .footerBrand:before,
+.siteFooter .footerBrand:after{display:none!important;content:none!important}
+.siteFooter .footerBrand .heartMarkImage,
+.siteFooter .footerBrand .brandLockup{
+ background:transparent!important;
+ background-color:transparent!important;
+ box-shadow:none!important;
+ border:0!important
+}
