@@ -1275,3 +1275,22 @@ body{background-color:#fffaf6!important}
  .siteHeader .mpwNav .brandLogo .mpwMasterLogo{width:100%!important;max-width:100%!important}
  .siteFooter .footerBrand{width:min(82vw,300px)!important;max-width:min(82vw,300px)!important}
 }
+
+
+/* Final approved MPW logo: intentionally compact in site chrome. */
+.siteHeader .mpwNav{grid-template-columns:220px minmax(540px,1fr) 280px!important;min-height:70px!important}
+.siteHeader .mpwNav .brandLogo{width:220px!important;max-width:220px!important;height:auto!important;overflow:visible!important;background:transparent!important}
+.siteHeader .mpwNav .brandLogo .mpwMasterLogo{width:220px!important;max-width:220px!important;height:auto!important;object-fit:contain!important}
+.siteFooter .footerBrand{width:260px!important;max-width:260px!important;padding:0!important;background:transparent!important;border:0!important;box-shadow:none!important;overflow:visible!important}
+.siteFooter .footerBrand .mpwMasterLogo{width:260px!important;max-width:260px!important;height:auto!important;background:transparent!important;object-fit:contain!important}
+@media(max-width:1180px) and (min-width:801px){
+ .siteHeader .mpwNav{grid-template-columns:195px minmax(470px,1fr) 245px!important}
+ .siteHeader .mpwNav .brandLogo,.siteHeader .mpwNav .brandLogo .mpwMasterLogo{width:195px!important;max-width:195px!important}
+}
+@media(max-width:800px){
+ .siteHeader .mpwNav{grid-template-columns:minmax(0,1fr) auto!important;min-height:68px!important;padding:7px 10px!important;gap:7px!important;overflow:visible!important}
+ .siteHeader .mpwNav .brandLogo{width:min(43vw,160px)!important;max-width:min(43vw,160px)!important;height:auto!important;min-width:0!important;overflow:visible!important;flex:0 1 auto!important}
+ .siteHeader .mpwNav .brandLogo .mpwMasterLogo{width:100%!important;max-width:100%!important;height:auto!important;object-fit:contain!important;object-position:left center!important}
+ .siteFooter .footerBrand{width:min(72vw,245px)!important;max-width:min(72vw,245px)!important;margin-inline:auto!important}
+ .siteFooter .footerBrand .mpwMasterLogo{width:100%!important;max-width:100%!important}
+}
