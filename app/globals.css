@@ -1064,3 +1064,19 @@ main>.section:nth-of-type(4n),main>section.section:nth-of-type(4n){background-co
  .romanticHome .section+.section,.vendorLanding .vendorBrowseSection,.vendorMarketplaceSection,.inspirationSection,.planningSection,.aboutIntroSection,.aboutBuilderSection,.aboutWishesSection,.featuredSectionEarly{border-top-width:2px}
  .sectionHeadingRow:before,.vendorResultsHead:before,.vendorCategoryPreviewHead:before{width:42px;height:3px;margin-bottom:9px}
 }
+
+
+/* Sitewide Wedding Builder rail */
+.siteBuilderRail{
+ display:flex;align-items:center;justify-content:center;gap:34px;width:100%;min-height:38px;padding:7px 24px;
+ background:#203a30;color:#fffaf4;text-decoration:none;border-top:1px solid rgba(255,255,255,.08);border-bottom:1px solid rgba(185,154,95,.55);
+ box-shadow:0 5px 14px rgba(32,58,48,.12);position:relative;z-index:45
+}
+.siteBuilderRail span{display:flex;align-items:baseline;gap:7px;white-space:nowrap}
+.siteBuilderRail strong{font-family:Georgia,serif;font-size:.98rem;letter-spacing:.015em}
+.siteBuilderRail em{font-style:normal;font-size:.69rem;font-weight:700;color:#f0d9dc}
+.siteBuilderRail i{font-style:normal;font-size:.78rem;color:rgba(255,250,244,.82);margin-left:10px}
+.siteBuilderRail>b{display:inline-flex;align-items:center;padding:5px 12px;border:1px solid rgba(255,250,244,.44);border-radius:999px;background:rgba(255,255,255,.06);font-size:.72rem;white-space:nowrap;transition:background .16s ease,transform .16s ease}
+.siteBuilderRail:hover>b{background:rgba(255,255,255,.13);transform:translateX(2px)}
+@media(max-width:900px){.siteBuilderRail{min-height:34px;padding:6px 14px;gap:14px;justify-content:space-between}.siteBuilderRail i{display:none}.siteBuilderRail strong{font-size:.86rem}.siteBuilderRail em{font-size:.61rem}.siteBuilderRail>b{font-size:.65rem;padding:4px 9px}}
+@media(max-width:480px){.siteBuilderRail{gap:8px}.siteBuilderRail span{gap:5px}.siteBuilderRail em{display:none}.siteBuilderRail>b{font-size:.62rem}.siteBuilderRail strong:after{content:" · by MPW";font-family:inherit;font-size:.62rem;font-weight:600;color:#f0d9dc}}
