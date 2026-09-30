@@ -336,4 +336,53 @@ export const planningChecklists = [
     {title:"At the venue",items:["Easy-to-find parking/arrival","Clear signage","Comfortable ceremony seating","Accessible restrooms","Water available","Shade/heating as needed","Enough cocktail-hour seating","Efficient bar service","Logical table layout","Late-night transportation plan"]},
     {title:"Personal touches",items:["Welcome note","Local Portland recommendations","Thoughtful seating assignments","Meaningful music","Late-night snack","Simple thank-you/favor"]}
   ]}
+,
+  {
+    slug:"how-to-choose-portland-wedding-photographer",
+    category:"Photography",
+    title:"How to Choose a Portland Wedding Photographer You’ll Still Love Years Later",
+    dek:"A practical Portland guide to photography style, coverage, experience, communication, contracts and the questions that reveal whether a photographer really fits your wedding.",
+    readTime:"12 min read",
+    seoTitle:"How to Choose a Portland Wedding Photographer: Complete Guide",
+    seoDescription:"Learn how to compare Portland wedding photographers by style, coverage, experience, contracts, galleries and fit before you book.",
+    relatedSlugs:["portland-wedding-photographer-cost-guide","questions-to-ask-on-a-wedding-venue-tour","how-to-choose-portland-wedding-vendors"],
+    sections:[
+      {heading:"Start with how you want the wedding to feel in photographs",paragraphs:["Before comparing packages, decide what you want to remember when you open the gallery years from now. Some couples want documentary images that feel spontaneous and observant. Others are drawn to polished editorial portraits, true-to-life color, a darker cinematic finish or a bright romantic look.","Do not judge that from a photographer’s best twelve Instagram posts. Look for consistency across complete wedding galleries, including getting ready, ceremony, family portraits, reception lighting and the parts of the day that are harder to photograph."]},
+      {heading:"Compare full galleries, not highlight reels",paragraphs:["A portfolio is designed to show a photographer’s strongest work. A complete gallery shows how they handle an entire wedding. Ask to see examples from celebrations with conditions similar to yours: indoor ceremonies, dark receptions, outdoor summer light, rainy Portland days or whatever resembles your plan."],bullets:["Look for consistent skin tones and color","Check indoor and low-light reception work","Notice whether candid moments feel natural","Review family and group photographs","See how details and room-wide scenes are documented"]},
+      {heading:"Decide how much coverage your timeline actually needs",paragraphs:["Coverage should follow the story of the day rather than an arbitrary package number. Work backward from the moments you care about: getting ready, first look, ceremony, portraits, cocktail hour, dinner, speeches, dancing and any planned exit.","A photographer who understands timelines can help identify where coverage is valuable and where an extra hour may add little. If the wedding has multiple locations, travel time also belongs in the coverage calculation."]},
+      {heading:"Ask who will actually photograph your wedding",paragraphs:["For studios with multiple photographers, confirm whether the person whose work you are viewing will be the person photographing your wedding. If an associate will cover it, review that photographer’s galleries and understand who edits and delivers the final images."]},
+      {heading:"Read the contract like a planning document",paragraphs:["The agreement should make the practical expectations clear: coverage time, payment schedule, cancellation or rescheduling terms, image delivery, usage rights, backup procedures and what happens if the photographer becomes unavailable.","Clarify whether engagement sessions, second photographers, travel, albums, prints or rehearsal coverage are included or optional rather than assuming two similarly priced packages contain the same services."]},
+      {heading:"Choose someone you are comfortable having close to you",paragraphs:["Your photographer may spend more time near you on the wedding day than almost any other vendor. Communication style matters. You should understand how they direct portraits, how much they intervene during candid moments and how they coordinate with planners and other vendors.","The strongest fit is not simply the portfolio you like most. It is the combination of work, reliability, communication, approach and coverage that matches the wedding you are actually planning."]}
+    ],
+    checklist:["Choose the photography style you are drawn to","Review at least one relevant full wedding gallery","Confirm who will photograph the wedding","Compare coverage rather than package names","Read delivery and usage terms","Ask about backups and emergencies","Make sure the communication style feels comfortable"],
+    faq:[
+      {question:"How early should you book a Portland wedding photographer?",answer:"Photographers can book popular dates well in advance, so begin researching once your date and venue are established. Availability varies by photographer, season and day of the week."},
+      {question:"Do you need a second wedding photographer?",answer:"Not every wedding does. A second photographer can be useful for simultaneous getting-ready coverage, multiple angles, large guest counts or complicated timelines. Ask what a second photographer would add to your specific plan."},
+      {question:"Should you ask to see a full wedding gallery?",answer:"Yes. Full galleries help you evaluate consistency across changing light, locations and parts of a wedding day rather than judging only a curated portfolio."}
+    ]
+  },
+  {
+    slug:"wedding-planner-vs-coordinator-portland",
+    category:"Planning",
+    title:"Wedding Planner vs. Coordinator: What Does Your Portland Wedding Actually Need?",
+    dek:"Understand the practical difference between full planning, partial planning and wedding coordination so you can hire the level of help that fits your celebration.",
+    readTime:"11 min read",
+    seoTitle:"Wedding Planner vs Coordinator in Portland: What Do You Need?",
+    seoDescription:"Compare Portland wedding planners and coordinators, what each service typically handles, when to hire and how to decide which level of support fits.",
+    relatedSlugs:["portland-wedding-planning-checklist","which-wedding-vendors-should-you-book-first","how-to-choose-portland-wedding-vendors"],
+    sections:[
+      {heading:"The difference is mostly about when the professional becomes involved",paragraphs:["A full-service planner is generally involved throughout much of the planning process. Coordination is focused more heavily on turning an existing plan into an organized wedding day. Partial planning sits between those two ends of the spectrum.","Titles are not standardized, so compare the actual scope of work instead of assuming every company defines planner, coordinator or month-of service the same way."]},
+      {heading:"Full-service planning is for couples who want a planning partner",paragraphs:["Full planning can include budget development, venue and vendor research, design direction, contract and timeline support, logistics, meetings and wedding-day management. The exact scope varies by company.","This level of support can be especially useful for complex weddings, couples planning from outside Oregon, demanding work schedules or anyone who wants professional involvement in the decisions leading up to the wedding—not only execution at the end."]},
+      {heading:"Coordination is for plans that already have an owner",paragraphs:["A coordinator typically steps in later, learns the plan you have created, confirms logistics with vendors, develops or refines the timeline and manages execution around the wedding. That does not mean coordination is a small job; it means the couple usually owns more of the planning beforehand."],bullets:["Confirm when coordination officially begins","Ask whether vendor communication is included","Understand rehearsal coverage","Clarify setup and teardown responsibilities","Ask how timeline creation works","Confirm the number of on-site team members"]},
+      {heading:"Partial planning can solve the middle-ground problem",paragraphs:["Some couples are comfortable making many decisions themselves but want professional help with the hardest pieces: finding a venue, building a budget, sourcing specific vendors or shaping the design. Partial planning can provide that support without transferring the entire planning process."]},
+      {heading:"Compare scope before comparing price",paragraphs:["Two services with the same label can include very different amounts of work. Ask for a written description of responsibilities and identify what remains yours. A less expensive package is not necessarily less valuable, and a more comprehensive package is not automatically necessary.","The useful question is whether the service removes the work, uncertainty or wedding-day responsibility you actually want removed."]},
+      {heading:"Your venue may change the answer",paragraphs:["Venue managers and venue coordinators are valuable, but their responsibilities are usually centered on the venue itself. Ask what your venue team handles for ceremony cues, personal décor, outside vendors, timeline management and end-of-night tasks before assuming separate coordination would duplicate their role."]}
+    ],
+    checklist:["List the planning tasks you want to keep","Identify the tasks you want someone else to own","Ask your venue exactly what its team coordinates","Compare written scopes of service","Confirm when the planner or coordinator begins working with you","Ask about rehearsal and wedding-day staffing"],
+    faq:[
+      {question:"Is a venue coordinator the same as a wedding coordinator?",answer:"Usually not. A venue coordinator commonly focuses on the property and venue responsibilities, while an independent wedding coordinator may oversee the broader vendor team, personal details and overall timeline. Ask each professional for their exact scope."},
+      {question:"What is month-of coordination?",answer:"The term usually describes support that begins in the final stretch before the wedding and continues through wedding-day execution, but the start date and included work vary by company."},
+      {question:"Can you hire a planner after you have already started planning?",answer:"Often, yes. Partial planning or customized services may be available, depending on the planner and how far along the wedding is."}
+    ]
+  }
 ];
