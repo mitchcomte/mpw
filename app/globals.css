@@ -1161,3 +1161,20 @@ body{background-color:#fffaf6!important}
 @media(max-width:760px){
  .categoryFeaturedGalleryItem:not(:last-of-type){border-right-width:2px!important}
 }
+
+
+/* Mobile brand lockup hardening — keep the full logo visible and remove legacy logo-card framing. */
+.siteHeader .brandLogo,.siteFooter .footerBrand{background:transparent!important;border:0!important;box-shadow:none!important;border-radius:0!important;padding:0!important}
+.siteHeader .brandLogo{overflow:visible!important}
+.siteHeader .heartMarkImage,.siteFooter .heartMarkImage{object-fit:contain!important;object-position:center!important}
+.siteFooter .footerBrand{width:max-content!important;max-width:100%!important}
+.siteFooter .footerTop{overflow:visible!important}
+@media(max-width:800px){
+ .siteHeader .mpwNav{overflow:visible!important;padding-top:10px!important;padding-bottom:10px!important}
+ .siteHeader .brandLogo{overflow:visible!important;align-self:center!important}
+ .siteHeader .brandLogo .heartMarkImage{width:34px!important;height:34px!important;flex:0 0 34px!important}
+ .siteHeader .brandLockup{overflow:visible!important}
+ .siteHeader .brandName{overflow:visible!important;text-overflow:clip!important}
+ .siteFooter .footerTop{display:flex!important;flex-direction:column!important;align-items:flex-start!important}
+ .siteFooter .footerBrand{overflow:visible!important;margin:0!important}
+}
