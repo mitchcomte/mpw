@@ -1149,3 +1149,15 @@ body{background-color:#fffaf6!important}
 }
 .featuredVendorTile{background:#fcf8f0!important;border-color:rgba(49,91,73,.24)!important;box-shadow:0 10px 24px rgba(32,58,48,.10)!important}
 .featuredVendorTileCopy{background:linear-gradient(180deg,rgba(252,248,240,.98),rgba(247,243,234,.98))!important}
+
+
+/* Featured portfolio: simple full-height photo gutters, no literal slash ornaments. */
+.categoryFeaturedGalleryItem>span{display:none!important}
+.categoryFeaturedGalleryItem:not(:last-of-type){border-right:3px solid rgba(248,240,223,.92)!important}
+.categoryFeaturedGalleryItem:not(:last-of-type)::after{
+ content:"";position:absolute;z-index:7;right:-2px;top:0;bottom:0;width:1px;
+ background:rgba(185,154,95,.42);pointer-events:none
+}
+@media(max-width:760px){
+ .categoryFeaturedGalleryItem:not(:last-of-type){border-right-width:2px!important}
+}
