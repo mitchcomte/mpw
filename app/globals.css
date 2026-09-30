@@ -1294,3 +1294,15 @@ body{background-color:#fffaf6!important}
  .siteFooter .footerBrand{width:min(72vw,245px)!important;max-width:min(72vw,245px)!important;margin-inline:auto!important}
  .siteFooter .footerBrand .mpwMasterLogo{width:100%!important;max-width:100%!important}
 }
+
+
+/* Vendor notification preferences + mobile footer logo contrast */
+.notificationPreferenceCard{display:grid;gap:14px;margin:14px 0 18px;padding:16px 18px;border:1px solid rgba(49,91,73,.18);border-radius:14px;background:rgba(255,250,244,.72)}
+.notificationPreferenceCard p{margin:.35rem 0 0}
+.notificationPreferenceForm{display:flex;align-items:center;justify-content:space-between;gap:18px}
+.notificationPreferenceForm .consentCheck{margin:0;flex:1}
+@media(max-width:760px){
+ .notificationPreferenceForm{align-items:stretch;flex-direction:column}
+ .notificationPreferenceForm .btn{width:100%}
+ .siteFooter .footerBrand .mpwMasterLogo{filter:contrast(1.08) saturate(1.1)!important;opacity:1!important}
+}
