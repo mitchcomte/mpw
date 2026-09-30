@@ -1110,3 +1110,20 @@ main>.section:nth-of-type(4n),main>section.section:nth-of-type(4n){background-co
 @media(max-width:760px){
  .vendorMarketplaceSection,.aboutBuilderSection,.featuredSectionEarly{border-top-width:2px!important}
 }
+
+
+/* Android/Samsung forced-dark hard stop. These surfaces are intentionally authored for light mode. */
+html,body,#__next,.siteHeader,.siteHeader *,.siteFooter,.siteFooter *,main,main *{
+ -webkit-print-color-adjust:exact;
+ print-color-adjust:exact;
+}
+html,body,.siteHeader,.siteFooter,main,.romanticHome,.vendorLanding,.vendorEditorialHero,.vendorMarketplaceSection,.categoryFeaturedBand{
+ forced-color-adjust:none!important;
+}
+html{background-color:#fffaf6!important}
+body{background-color:#fffaf6!important}
+@media(max-width:800px){
+ html,body{background-color:#fffaf6!important;background-image:none!important}
+ body:before,body:after{display:none!important}
+ .romanticHome,.vendorLanding,main{background-color:#f8f4ed!important}
+}
