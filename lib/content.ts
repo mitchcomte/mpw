@@ -1,10 +1,17 @@
-export type ArticleSection = { heading: string; paragraphs?: string[]; bullets?: string[] };
+export type ArticleImage = { src: string; alt: string; caption?: string; credit?: string; creditUrl?: string };
+export type ArticleSection = { heading: string; paragraphs?: string[]; bullets?: string[]; image?: ArticleImage; pullQuote?: string };
 export type InspirationArticle = {
   slug: string;
   category: string;
   title: string;
   dek: string;
   readTime: string;
+  seoTitle?: string;
+  seoDescription?: string;
+  publishedAt?: string;
+  updatedAt?: string;
+  heroImage?: ArticleImage;
+  relatedSlugs?: string[];
   sections: ArticleSection[];
   checklist?: string[];
   faq?: { question: string; answer: string }[];
