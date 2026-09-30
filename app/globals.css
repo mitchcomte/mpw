@@ -1161,3 +1161,6 @@ body{background-color:#fffaf6!important}
 @media(max-width:760px){
  .categoryFeaturedGalleryItem:not(:last-of-type){border-right-width:2px!important}
 }
+
+/* Keep the MPW trademark symbol visually subordinate to the wordmark. */
+.siteHeader .brandName>sup,.siteFooter .brandName>sup,.footer .brandName>sup{font-size:.34em!important;line-height:0!important;vertical-align:super!important;margin-left:2px!important;font-weight:600!important;letter-spacing:0!important}
