@@ -1273,3 +1273,29 @@ body{background-color:#fffaf6!important}
  box-shadow:none!important;
  border:0!important
 }
+
+
+/* Footer logo: remove every card/tile treatment on desktop and mobile. */
+.siteFooter .footerBrand,
+.siteFooter .footerBrand:hover,
+.siteFooter .footerBrand:focus,
+.siteFooter .footerBrand:active{
+ background:transparent!important;
+ background-color:transparent!important;
+ background-image:none!important;
+ border:0!important;
+ border-radius:0!important;
+ box-shadow:none!important;
+ padding:0!important;
+ overflow:visible!important
+}
+.siteFooter .footerBrand:before,
+.siteFooter .footerBrand:after{display:none!important;content:none!important}
+.siteFooter .footerBrand .heartMarkImage,
+.siteFooter .footerBrand .brandLockup{
+ background:transparent!important;
+ background-color:transparent!important;
+ border:0!important;
+ border-radius:0!important;
+ box-shadow:none!important
+}
