@@ -1256,3 +1256,22 @@ body{background-color:#fffaf6!important}
   .siteFooter .footerBrand{width:min(92vw,380px)!important;max-width:min(92vw,380px)!important;margin-inline:auto!important}
   .siteFooter .footerBrand .mpwMasterLogo{width:100%!important;max-width:100%!important}
 }
+
+
+/* Balanced master-logo scale: complement navigation without dominating it. */
+.siteHeader .mpwNav{grid-template-columns:255px minmax(520px,1fr) 280px!important;min-height:76px!important}
+.siteHeader .mpwNav .brandLogo{width:255px!important;max-width:255px!important}
+.siteHeader .mpwNav .brandLogo .mpwMasterLogo{width:255px!important;max-width:255px!important}
+.siteFooter .footerBrand{width:min(100%,320px)!important;max-width:320px!important}
+.siteFooter .footerBrand .mpwMasterLogo{width:100%!important;max-width:320px!important}
+@media(max-width:1180px) and (min-width:801px){
+ .siteHeader .mpwNav{grid-template-columns:220px minmax(460px,1fr) 245px!important}
+ .siteHeader .mpwNav .brandLogo{width:220px!important;max-width:220px!important}
+ .siteHeader .mpwNav .brandLogo .mpwMasterLogo{width:220px!important;max-width:220px!important}
+}
+@media(max-width:800px){
+ .siteHeader .mpwNav{min-height:72px!important}
+ .siteHeader .mpwNav .brandLogo{width:min(47vw,175px)!important;max-width:min(47vw,175px)!important}
+ .siteHeader .mpwNav .brandLogo .mpwMasterLogo{width:100%!important;max-width:100%!important}
+ .siteFooter .footerBrand{width:min(82vw,300px)!important;max-width:min(82vw,300px)!important}
+}
