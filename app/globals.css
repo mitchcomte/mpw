@@ -1021,3 +1021,46 @@ main>.section:nth-of-type(4n),main>section.section:nth-of-type(4n){background-co
  text-shadow:0 1px 4px rgba(0,0,0,.35)!important;box-shadow:0 4px 12px rgba(25,39,31,.16)!important
 }
 @media(max-width:760px){.categoryFeaturedGalleryItem>span{right:-11px!important;width:22px!important;height:44px!important;font-size:1.6rem!important}}
+
+
+/* MPW structural contrast — repeat the Builder bridge green as restrained site rhythm */
+:root{--mpw-deep-green:#203a30}
+
+/* Major light-page transitions get a crisp dark-green rule instead of another pale divider. */
+.romanticHome .section+.section,
+.vendorLanding .vendorBrowseSection,
+.vendorMarketplaceSection,
+.inspirationSection,
+.planningSection,
+.aboutIntroSection,
+.aboutBuilderSection,
+.aboutWishesSection,
+.featuredSectionEarly{
+ border-top:3px solid var(--mpw-deep-green)
+}
+
+/* Editorial/marketplace section headings get a small green anchor, not a full dark block. */
+.sectionHeadingRow,
+.vendorResultsHead,
+.vendorCategoryPreviewHead,
+.featuredVendorStripHead{
+ position:relative
+}
+.sectionHeadingRow:before,
+.vendorResultsHead:before,
+.vendorCategoryPreviewHead:before{
+ content:"";display:block;width:58px;height:4px;margin:0 0 12px;border-radius:99px;background:var(--mpw-deep-green)
+}
+
+/* A few important content bands carry a subtle dark edge to create depth. */
+.categoryFeaturedBand,
+.featuredVendorStrip,
+.featuredSection{
+ box-shadow:inset 0 3px 0 rgba(32,58,48,.92)
+}
+
+/* Keep mobile contrast elegant rather than chunky. */
+@media(max-width:760px){
+ .romanticHome .section+.section,.vendorLanding .vendorBrowseSection,.vendorMarketplaceSection,.inspirationSection,.planningSection,.aboutIntroSection,.aboutBuilderSection,.aboutWishesSection,.featuredSectionEarly{border-top-width:2px}
+ .sectionHeadingRow:before,.vendorResultsHead:before,.vendorCategoryPreviewHead:before{width:42px;height:3px;margin-bottom:9px}
+}
