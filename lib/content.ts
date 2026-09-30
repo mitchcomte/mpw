@@ -531,4 +531,77 @@ export const planningChecklists = [
       {question:"When should rental quantities be finalized?",answer:"Final timing varies by company, but quantities are most reliable after the floor plan, guest count and catering needs are clearer. Follow the deadlines in your rental agreement."}
     ]
   }
+,
+  {
+    slug:"oregon-wedding-officiant-ceremony-guide",
+    category:"Officiants",
+    title:"Oregon Wedding Officiant & Ceremony Guide: How to Create a Ceremony That Feels Like You",
+    dek:"Choose an officiant, shape the ceremony, plan vows and understand the practical questions that deserve attention before the wedding day.",
+    readTime:"11 min read",
+    seoTitle:"Oregon Wedding Officiant Guide: Ceremony, Vows & Planning",
+    seoDescription:"Choose an Oregon wedding officiant and plan a personal ceremony with guidance on vows, ceremony structure, rehearsal, audio and practical details.",
+    relatedSlugs:["portland-wedding-planning-checklist","wedding-planner-vs-coordinator-portland","how-to-choose-portland-wedding-vendors"],
+    sections:[
+      {heading:"Choose an officiant whose presence fits the ceremony",paragraphs:["An officiant does more than read a script. They set the tone, guide guests through the ceremony and help the couple feel grounded in a moment that can move very quickly.","Think about whether you want the ceremony to feel warm and conversational, traditional, spiritual, secular, humorous, concise or story-driven. Ask prospective officiants how they learn about a couple and how much of the ceremony is customized."]},
+      {heading:"Understand what the planning process includes",paragraphs:["Some officiants provide questionnaires, planning meetings, sample readings and vow guidance. Others work from a more established ceremony structure. Neither approach is automatically better, but you should know how much collaboration to expect.","Ask when the ceremony draft is created, whether you can review it, how changes are handled and what information the officiant needs from you."]},
+      {heading:"Build a ceremony with a clear beginning, middle and ending",paragraphs:["Most ceremonies include an entrance, welcome, words about marriage or the couple, vows, ring exchange, pronouncement and recessional, but the structure can be adapted. Readings, cultural traditions, music or participation from loved ones can add meaning when they have a real reason to be there."],bullets:["Processional and entrance","Welcome and opening remarks","Story, reflection or reading","Vows","Ring exchange","Optional ritual or tradition","Pronouncement","Recessional"]},
+      {heading:"Decide how you want to handle vows",paragraphs:["Personal vows can be written independently, created with prompts or spoken privately while traditional vows are used during the ceremony. Agree on approximate length and tone so one person does not arrive with three sentences while the other brings three pages.","If you are nervous about reading, print vows clearly or use vow books rather than relying on a phone screen."]},
+      {heading:"Rehearse logistics even if you do not rehearse every word",paragraphs:["The rehearsal is useful for entrances, standing positions, handoffs, microphones, rings and the recessional. The ceremony usually feels more natural when people know where to go without rehearsing the emotion out of it.","Coordinate the officiant's needs with the planner or coordinator and whoever is responsible for ceremony audio."]},
+      {heading:"Confirm Oregon legal requirements from an official source",paragraphs:["Marriage-license procedures and legal requirements can change and can depend on jurisdiction. Before the wedding, verify the current requirements with the appropriate Oregon county or state source rather than relying on an old planning article.","Your officiant should also understand their responsibilities for completing and returning the marriage documents, but the couple should know the process too."]}
+    ],
+    checklist:["Choose the ceremony tone you want","Ask how the officiant customizes ceremonies","Decide how vows will work","Confirm readings and traditions","Plan microphones and ceremony audio","Rehearse entrances and positions","Verify current marriage-license requirements with the appropriate government source"],
+    faq:[
+      {question:"How long should a wedding ceremony be?",answer:"There is no required length. The right duration depends on your traditions, readings, vows and ceremony style. Prioritize meaning and pacing rather than aiming for a universal number."},
+      {question:"Do you need a wedding rehearsal?",answer:"A rehearsal can be especially useful for larger wedding parties, complicated entrances or unfamiliar ceremony spaces. Even a brief logistics rehearsal can clarify positions, cues and the recessional."},
+      {question:"Can a friend officiate a wedding in Oregon?",answer:"Rules and documentation requirements should be verified with the relevant Oregon government source before relying on a friend or family member to officiate."}
+    ]
+  },
+  {
+    slug:"portland-wedding-transportation-guide",
+    category:"Transportation",
+    title:"Portland Wedding Transportation Guide: Shuttles, Guest Logistics and Building a Timeline That Works",
+    dek:"Figure out whether you need wedding transportation, who actually needs a ride and how hotels, parking, multiple venues and the reception timeline affect the plan.",
+    readTime:"12 min read",
+    seoTitle:"Portland Wedding Transportation Guide: Shuttles & Guest Logistics",
+    seoDescription:"Plan Portland wedding transportation with guidance on shuttles, hotels, parking, multiple venues, guest timing, pickup windows and vendor questions.",
+    relatedSlugs:["best-portland-wedding-venues-guide","portland-wedding-planning-checklist","wedding-planner-vs-coordinator-portland"],
+    sections:[
+      {heading:"Start by identifying the transportation problem",paragraphs:["Not every wedding needs professional transportation. The need usually comes from a specific logistical issue: limited parking, a remote venue, separate ceremony and reception locations, a large hotel block, guests unfamiliar with the area or a plan that involves alcohol and a difficult return trip.","Map the guest journey before shopping for vehicles. You may discover that only one portion of the day needs transportation."]},
+      {heading:"Decide who actually needs a seat",paragraphs:["Transportation for the couple and wedding party is different from guest transportation. Build separate counts for each group and do not assume every hotel guest will use a shuttle.","If guest transportation is optional, communicate departure times clearly and consider how you will estimate ridership before final vehicle counts are due."]},
+      {heading:"Build the schedule around loading, not just drive time",paragraphs:["A twenty-minute drive does not create a twenty-minute transportation block. Guests need time to gather, board, unload and walk from the drop-off point. Traffic, event congestion and venue access can add uncertainty.","Ask the transportation company how much loading time they recommend for the vehicle and passenger count you are considering."],bullets:["Hotel pickup window","Boarding time","Drive time with realistic traffic","Venue unloading location","Walking time to ceremony seating","Return-trip waves","Final departure after the reception"]},
+      {heading:"One shuttle may be able to make multiple loops",paragraphs:["For shorter routes, one vehicle can sometimes make several trips instead of moving every guest at once. That can change cost and capacity needs, but only if the timeline leaves enough margin.","Work through the loop timing with the company rather than assuming the same vehicle can be in two places at nearly the same time."]},
+      {heading:"Late-night transportation deserves as much planning as arrival",paragraphs:["Guests do not always leave a reception at the same time. Consider whether you need an early return, a main departure and a final departure, especially when the venue is far from hotels or rideshare availability may be limited.","Make departure information visible at the reception so guests are not relying on a message they received weeks earlier."]},
+      {heading:"Confirm the details vehicles need before wedding day",paragraphs:["Provide exact addresses, venue access instructions, contact names and a final schedule. Ask about vehicle size restrictions, parking or staging requirements, overtime, gratuity policies and what happens if a vehicle has a mechanical issue.","A transportation plan is successful when guests barely have to think about it."]}
+    ],
+    checklist:["Map every location guests may travel between","Separate wedding-party and guest transportation needs","Estimate realistic ridership","Add loading and unloading time","Plan return-trip waves","Confirm vehicle access with the venue","Share a final transportation schedule with the vendor team"],
+    faq:[
+      {question:"Does every wedding need guest transportation?",answer:"No. Transportation is most useful when it solves a specific issue such as limited parking, remote venues, separate locations or moving a large group from hotels."},
+      {question:"How many wedding shuttles do you need?",answer:"It depends on passenger count, vehicle capacity, route length and whether vehicles can make multiple loops. A transportation provider can model the schedule around those details."},
+      {question:"Should you provide transportation back to the hotel?",answer:"If you provide arrival transportation, plan the return carefully too. Multiple departure times may work better than a single end-of-night trip."}
+    ]
+  },
+  {
+    slug:"wedding-invitation-stationery-timeline-guide",
+    category:"Stationery",
+    title:"Wedding Invitation & Stationery Timeline: What to Send, When to Send It and What Couples Forget",
+    dek:"Organize save-the-dates, invitations, RSVPs and wedding-day stationery around one practical timeline without ordering pieces you do not need.",
+    readTime:"12 min read",
+    seoTitle:"Wedding Invitation Timeline: Save-the-Dates, RSVPs & Stationery",
+    seoDescription:"Build a wedding invitation and stationery timeline covering save-the-dates, invitations, RSVPs, menus, programs, place cards and day-of pieces.",
+    relatedSlugs:["portland-wedding-planning-checklist","portland-wedding-budget-guide","how-to-choose-portland-wedding-vendors"],
+    sections:[
+      {heading:"Think of stationery as a communication system",paragraphs:["Wedding stationery is not only paper. It tells guests where to go, when to respond, what to wear and what to expect. Start by listing the information guests need at each stage, then decide which pieces should be printed and which can live on the wedding website.","That approach can reduce clutter and keep the visual design consistent across the pieces you actually need."]},
+      {heading:"Save-the-dates give guests the planning signal",paragraphs:["Save-the-dates are especially useful when many guests will travel, the wedding falls during a busy season or accommodations should be reserved early. Before sending them, make sure the date and location information you publish is firm.","If the wedding website is ready, including it can give guests one place to find travel information as plans develop."]},
+      {heading:"Invitations need enough time for both guests and your vendor deadlines",paragraphs:["Work backward from the date your caterer, venue or planner needs the final guest count. Your RSVP deadline should leave time to follow up with missing responses and organize meal choices or seating before those vendor deadlines.","Ask your stationer about production and mailing time before deciding when invitations must be ordered."]},
+      {heading:"Day-of stationery should follow the final plan",paragraphs:["Menus, escort cards, place cards, programs, bar signs, table numbers and welcome signs are often ordered later because names, meal selections and timeline details can change.","Do not finalize personalized pieces until the information they depend on is stable."],bullets:["Ceremony programs","Welcome and directional signs","Escort cards or seating chart","Place cards","Table numbers","Menus","Bar and signature-drink signs","Guest-book or favor signage"]},
+      {heading:"Proof every factual detail separately from the design",paragraphs:["A beautiful invitation can still create problems if the date, time, address or website is wrong. Proof names, numbers, addresses and URLs deliberately. Ask another person to review the final proof because familiarity makes errors easier to miss.","For mailed pieces, confirm postage requirements after you know the finished size, weight and shape rather than assuming a standard stamp will apply."]},
+      {heading:"Build in a small quantity cushion",paragraphs:["Extra invitations can cover late additions, damaged envelopes and keepsakes. For day-of pieces, a small buffer can help with last-minute seating changes, depending on the format.","Ask the stationer when reprints become expensive or impractical so you can decide how much cushion makes sense."]}
+    ],
+    checklist:["List the information guests need at each stage","Confirm date and location before save-the-dates","Work backward from final guest-count deadlines","Allow production and mailing time","Delay personalized day-of pieces until details are stable","Proof every date, address, name and URL","Check finished postage requirements"],
+    faq:[
+      {question:"When should wedding invitations be sent?",answer:"Timing depends on your wedding, guest travel needs and RSVP deadlines. Work backward from the final guest-count deadline and allow time to follow up with guests who do not respond."},
+      {question:"Do you need both escort cards and place cards?",answer:"Not always. Escort cards or a seating chart direct guests to a table; place cards identify an assigned seat. You only need both when your seating plan uses both levels of assignment."},
+      {question:"What wedding stationery is optional?",answer:"Programs, menus, individual place cards and many signs can be optional depending on how your event communicates the same information. Choose pieces that solve a real guest need or add meaningful design value."}
+    ]
+  }
 ];
