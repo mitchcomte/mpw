@@ -1176,3 +1176,8 @@ body{background-color:#fffaf6!important}
 .siteHeader .brandLogo .mpwMasterLogo{display:block!important;width:240px!important;max-width:240px!important;height:auto!important;object-fit:contain!important}
 @media(max-width:1180px){.siteHeader .brandLogo{width:205px!important;max-width:205px!important}.siteHeader .brandLogo .mpwMasterLogo{width:205px!important;max-width:205px!important}}
 @media(max-width:760px){.siteHeader .brandLogo{width:180px!important;max-width:180px!important}.siteHeader .brandLogo .mpwMasterLogo{width:180px!important;max-width:180px!important}}
+
+/* Footer contrast lock — legal/navigation text must remain readable. */
+.siteFooter,.siteFooter p,.siteFooter span,.siteFooter small,.siteFooter a,.footer,.footer p,.footer span,.footer small,.footer a{color:#4d554e!important}
+.siteFooter a,.footer a{opacity:1!important;text-decoration-color:rgba(54,85,69,.35)!important}
+.siteFooter a:hover,.footer a:hover{color:#294b3b!important}
