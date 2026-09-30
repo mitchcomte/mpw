@@ -1193,3 +1193,22 @@ body{background-color:#fffaf6!important}
  background:transparent!important;
  mix-blend-mode:multiply!important;
 }
+
+/* Final master-logo correction. The source PNG has a white canvas: never blend it dark. */
+.siteFooter .footerBrand .mpwMasterLogo{mix-blend-mode:normal!important;background:#fff!important;border-radius:0!important}
+.siteFooter .footerBrand{background:#fff!important;padding:6px 10px!important;border-radius:8px!important}
+
+/* Mobile: center the entire logo artwork inside its own safe box so neither edge can clip. */
+@media(max-width:800px){
+ .siteHeader .mpwNav{padding-left:14px!important;padding-right:14px!important}
+ .siteHeader .mpwNav .brandLogo{
+   width:132px!important;max-width:132px!important;height:54px!important;
+   display:flex!important;align-items:center!important;justify-content:center!important;
+   overflow:hidden!important;flex:0 0 132px!important
+ }
+ .siteHeader .mpwNav .brandLogo .mpwMasterLogo{
+   width:126px!important;max-width:126px!important;height:auto!important;
+   display:block!important;object-fit:contain!important;object-position:center center!important;
+   margin:0 auto!important;transform:none!important
+ }
+}
