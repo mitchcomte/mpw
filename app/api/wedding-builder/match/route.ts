@@ -1,5 +1,6 @@
 import { NextRequest, NextResponse } from "next/server";
 import { createAdminClient } from "../../../../lib/supabase/admin";
+import { createSupabaseServerClient } from "../../../../lib/supabase/server";
 import { sendVendorPush } from "../../../../lib/web-push";
 import { consumeBuilderQuota } from "../../../../lib/wedding-builder-guard";
 import { sendEmailOnce, emailButton, siteUrl } from "../../../../lib/email";
@@ -8,6 +9,9 @@ const uuid=/^[0-9a-f]{8}-[0-9a-f]{4}-[1-5][0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]
 export async function POST(req:NextRequest){
   try{
     if(process.env.VERCEL_ENV==="preview"||process.env.MPW_PREVIEW_MODE==="1") return NextResponse.json({ok:true,count:0,preview:true});
+    const sessionDb=await createSupabaseServerClient();
+    const {data:{user}}=await sessionDb.auth.getUser();
+    if(user){const {data:isAdmin}=await sessionDb.from("admin_users").select("user_id").eq("user_id",user.id).maybeSingle();if(isAdmin)return NextResponse.json({ok:true,count:0,test:true,reason:"admin_session"});}
     if(!(await consumeBuilderQuota(req,"match"))) return NextResponse.json({error:"Too many Wedding Builder by My Portland Wedding requests. Please try again shortly."},{status:429});
     const b=await req.json();
     const sessionId=String(b?.builder_session_id||"").slice(0,120);
