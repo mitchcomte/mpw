@@ -1164,3 +1164,9 @@ body{background-color:#fffaf6!important}
 
 /* Keep the MPW trademark symbol visually subordinate to the wordmark. */
 .siteHeader .brandName>sup,.siteFooter .brandName>sup,.footer .brandName>sup{font-size:.34em!important;line-height:0!important;vertical-align:super!important;margin-left:2px!important;font-weight:600!important;letter-spacing:0!important}
+
+/* Exact master MPW logo artwork */
+.siteHeader .brandLogo .mpwMasterLogo{display:block!important;width:100%!important;max-width:330px!important;height:auto!important;object-fit:contain!important}
+.siteFooter .footerBrand .mpwMasterLogo,.footer .footerBrand .mpwMasterLogo{display:block!important;width:min(100%,360px)!important;height:auto!important;object-fit:contain!important}
+@media(max-width:1180px){.siteHeader .brandLogo .mpwMasterLogo{max-width:260px!important}}
+@media(max-width:760px){.siteHeader .brandLogo .mpwMasterLogo{max-width:230px!important}.siteFooter .footerBrand .mpwMasterLogo{max-width:280px!important}}
