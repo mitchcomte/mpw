@@ -1080,3 +1080,33 @@ main>.section:nth-of-type(4n),main>section.section:nth-of-type(4n){background-co
 .siteBuilderRail:hover>b{background:rgba(255,255,255,.13);transform:translateX(2px)}
 @media(max-width:900px){.siteBuilderRail{min-height:34px;padding:6px 14px;gap:14px;justify-content:space-between}.siteBuilderRail i{display:none}.siteBuilderRail strong{font-size:.86rem}.siteBuilderRail em{font-size:.61rem}.siteBuilderRail>b{font-size:.65rem;padding:4px 9px}}
 @media(max-width:480px){.siteBuilderRail{gap:8px}.siteBuilderRail span{gap:5px}.siteBuilderRail em{display:none}.siteBuilderRail>b{font-size:.62rem}.siteBuilderRail strong:after{content:" · by MPW";font-family:inherit;font-size:.62rem;font-weight:600;color:#f0d9dc}}
+
+
+/* Refine structural green: fewer, stronger transitions — avoid a wireframe effect. */
+.romanticHome .section+.section,
+.vendorLanding .vendorBrowseSection,
+.vendorMarketplaceSection,
+.inspirationSection,
+.planningSection,
+.aboutIntroSection,
+.aboutBuilderSection,
+.aboutWishesSection,
+.featuredSectionEarly{border-top:0!important}
+
+/* Keep green only at selected major transitions. */
+.vendorMarketplaceSection,
+.aboutBuilderSection,
+.featuredSectionEarly{border-top:3px solid var(--mpw-deep-green)!important}
+
+/* Featured areas keep their premium card borders; remove the extra dark inset line. */
+.categoryFeaturedBand,
+.featuredVendorStrip,
+.featuredSection{box-shadow:none}
+
+/* Short green heading anchors remain subtle and selective. */
+.vendorResultsHead:before{display:none!important}
+.sectionHeadingRow:before,
+.vendorCategoryPreviewHead:before{width:48px!important;height:3px!important;opacity:.9}
+@media(max-width:760px){
+ .vendorMarketplaceSection,.aboutBuilderSection,.featuredSectionEarly{border-top-width:2px!important}
+}
