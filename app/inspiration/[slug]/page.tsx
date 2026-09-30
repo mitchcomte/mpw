@@ -18,7 +18,7 @@ function vendorImage(v:any,feature:any){
 
 export default async function Page({params}:{params:Promise<{slug:string}>}){
  const {slug}=await params;const a=inspirationArticles.find(x=>x.slug===slug);if(!a)notFound();
- const admin=await createAdminClient();
+ const admin=createAdminClient();
  const {data:features}=await admin.from("inspiration_article_features").select("id,vendor_id,eyebrow,headline,blurb,image_url,sort_order").eq("article_slug",a.slug).eq("active",true).order("sort_order").limit(3);
  const vendorIds=(features||[]).map((x:any)=>x.vendor_id);
  const {data:vendors}=vendorIds.length?await admin.from("vendor_profiles").select("id,business_name,slug,description,city,state,profile_image_url,primary_category,plan,founding_vendor").in("id",vendorIds).eq("status","active"):{data:[] as any[]};
