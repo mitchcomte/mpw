@@ -1,18 +1,10 @@
 import { createServerClient } from "@supabase/ssr";
-import { createClient } from "@supabase/supabase-js";
 import { cookies } from "next/headers";
 
 export async function createSupabaseServerClient() {
-  // Public server-rendered pages should see the same MPW inventory as production.
-  // Prefer the server-only service role when available so preview is not affected by anonymous RLS.
-  if (process.env.SUPABASE_SERVICE_ROLE_KEY) {
-    return createClient(
-      process.env.NEXT_PUBLIC_SUPABASE_URL!,
-      process.env.SUPABASE_SERVICE_ROLE_KEY,
-      { auth: { persistSession: false, autoRefreshToken: false } }
-    );
-  }
-
+  // Requests that depend on the signed-in user must use the cookie-aware
+  // Supabase client. A service-role client does not persist auth sessions,
+  // which causes successful logins to redirect back to the login screen.
   const cookieStore = await cookies();
   return createServerClient(
     process.env.NEXT_PUBLIC_SUPABASE_URL!,
