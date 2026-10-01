@@ -47,13 +47,17 @@ export const inspirationArticles: InspirationArticle[] = [
     category:"Budget",
     title:"Portland Wedding Budget Guide: How to Divide Your Budget by Priority",
     dek:"A category-by-category approach to building a Portland wedding budget that reflects what you actually care about.",
-    readTime:"8 min read",
+    readTime:"8 min read",,
+    relatedSlugs:["how-to-build-a-wedding-budget-that-feels-realistic","portland-wedding-budget-contingency-guide","which-wedding-vendors-should-you-book-first"]
     sections:[
       {heading:"Start with your non-negotiable total", paragraphs:["Decide what you can spend before browsing packages. Your budget should be a decision-making tool, not a scorecard that grows every time you see another idea online."]},
       {heading:"Protect the categories that matter most", paragraphs:["Rank your priorities before assigning money. If the venue is your dream, protect it. If photos are the thing you will keep forever, give photography room. If your people care about dinner and dancing, put more toward catering, bar and entertainment."]},
       {heading:"Plan the major categories", bullets:["Venue","Catering and bar","Photography and videography","Planning and coordination","Flowers and design","DJ, band or live entertainment","Attire and beauty","Cake and desserts","Rentals and lighting","Stationery","Transportation and lodging","Ceremony and officiant"]},
       {heading:"Look for intentional tradeoffs", paragraphs:["Saving money works best when you remove or simplify something that matters less—not when you make every category slightly worse. A simpler floral plan could protect photography. A smaller guest list could create room for a better meal. A Friday or off-season date may open different venue options."]},
-      {heading:"Rebalance as quotes come in", paragraphs:["Your first budget is a hypothesis. Replace estimates with real quotes as you receive them and move unused money toward categories that matter more. Wedding Builder is designed to help you see those tradeoffs instead of treating every allocation as fixed."]}
+      {heading:"Rebalance as quotes come in", paragraphs:["Your first budget is a hypothesis. Replace estimates with real quotes as you receive them and move unused money toward categories that matter more. Wedding Builder is designed to help you see those tradeoffs instead of treating every allocation as fixed."]},
+      {heading:"Turn percentages into priorities, not rules",paragraphs:["Budget percentages are useful only as a starting model. Two Portland weddings with the same total budget can reasonably spend very differently depending on guest count, venue inclusions and whether the couple values food, photography, music, design or another experience most.","Create a first-pass allocation, then deliberately move money toward your top priorities before you begin requesting quotes."]},
+      {heading:"Compare estimates with real quotes",paragraphs:["Replace estimates category by category as proposals arrive. Keep mandatory fees, delivery, staffing, overtime and taxes visible so a seemingly affordable quote does not hide costs elsewhere.","When a real quote exceeds the working allocation, decide whether to reallocate from a lower priority, simplify the scope or keep shopping—rather than automatically increasing the total."]},
+      {heading:"Use one living budget",paragraphs:["Your working budget should change when contracts are signed, guest count moves or a category is completed. Wedding Builder can help keep the category plan connected to your priorities instead of treating each purchase separately.","Save progress in your couple account so the current plan—not an old spreadsheet assumption—guides the next decision."]}
     ],
     faq:[{question:"Should every wedding use the same budget percentages?",answer:"No. Percentages are only a starting point. Your allocations should reflect your priorities, guest count, venue and actual vendor quotes."},{question:"When should we create our wedding budget?",answer:"Create a working budget before signing major contracts, then update it whenever you receive a real quote or make a booking."}]
   },
@@ -205,13 +209,17 @@ export const inspirationArticles: InspirationArticle[] = [
     category:"Vendors",
     title:"How to Choose Wedding Vendors in Portland Without Getting Overwhelmed",
     dek:"A practical process for turning hundreds of Portland wedding options into a vendor team that fits your budget, style and priorities.",
-    readTime:"8 min read",
+    readTime:"8 min read",,
+    relatedSlugs:["which-wedding-vendors-should-you-book-first","portland-wedding-vendor-contract-guide","portland-wedding-vendor-response-time-guide"]
     sections:[
       {heading:"Start with your wedding, not the vendor list", paragraphs:["Before comparing businesses, write down your budget, guest count, wedding area, vibe and top priorities. Those decisions eliminate options that are not a fit and make every vendor conversation more useful."]},
       {heading:"Compare fit before price", bullets:["Does their work match your style?","Do they regularly serve weddings like yours?","Can they handle your guest count and location?","Does their communication feel clear?","Is the package built around what you need?","Do the contract and policies make sense?"]},
       {heading:"Ask for complete pricing", paragraphs:["Starting prices can help with an initial filter, but compare the likely total for your wedding. Ask about travel, delivery, service charges, overtime, assistants, rentals and upgrades that may apply."]},
       {heading:"Look at recent, complete work", paragraphs:["For visual vendors, ask for full galleries or complete examples. For service vendors, read detailed reviews and ask how they handle timelines, changes and problems—not only what happens when everything goes perfectly."]},
-      {heading:"Build a team, not a collection of individual bookings", paragraphs:["Your vendors will work together. Share venue rules, timelines and major decisions early. Wedding Builder can help create a local vendor roster around your priorities so you begin with a more focused shortlist."]}
+      {heading:"Build a team, not a collection of individual bookings", paragraphs:["Your vendors will work together. Share venue rules, timelines and major decisions early. Wedding Builder can help create a local vendor roster around your priorities so you begin with a more focused shortlist."]},
+      {heading:"Define fit before opening ten tabs",paragraphs:["Write down the three or four things that would make a vendor a strong fit for your wedding: service style, budget range, aesthetic, communication, logistical capability or another priority. Use those criteria consistently.","This keeps a large local vendor market from turning into an endless popularity contest."]},
+      {heading:"Compare the work they will actually do",paragraphs:["Ask for examples, packages or explanations that match your venue type, guest count and priorities. A portfolio can establish taste, but the contract and process explain what you are actually buying.","For service vendors, pay attention to who will personally be present, what happens if plans change and what responsibilities fall outside the package."]},
+      {heading:"Build a shortlist, then stop browsing",paragraphs:["Once several vendors meet the requirements, compare them directly and make the decision. Continuing to browse after you have strong options often adds noise rather than useful information.","Use Wedding Builder to organize the vendor search around your actual wedding, then save the shortlist and booking progress in your couple account."]}
     ],
     checklist:["Define budget and guest count","Choose your top priorities","Shortlist by fit","Compare complete packages","Review recent work and reviews","Read contracts before paying","Confirm communication expectations","Save all signed agreements"],
     faq:[{question:"How many wedding vendors should we contact in each category?",answer:"There is no required number. Contact enough qualified vendors to understand fit, availability and pricing without creating a comparison list so large that it becomes difficult to evaluate."},{question:"Should price be the first filter?",answer:"Budget matters, but style, service, availability and what is included also determine value. Compare the expected total and the actual fit for your wedding."}]
@@ -2867,13 +2875,16 @@ export const inspirationArticles: InspirationArticle[] = [
     publishedAt:"2026-10-01T00:00:00-07:00",
     updatedAt:"2026-10-01T00:00:00-07:00",
     reviewedBy:"My Portland Wedding Editorial",
-    relatedSlugs:[],
+    relatedSlugs:["portland-wedding-dj-speech-audio-guide","portland-wedding-officiant-arrival-timeline-guide","portland-wedding-ceremony-guide"],
     sections:[
       {heading:"Decide who provides ceremony audio",paragraphs:["Treat this as a logistics decision rather than a last-minute detail. Confirm the people, timing and physical setup involved so the plan still works when the wedding day is busy."]},
       {heading:"Choose microphones around the ceremony",paragraphs:["Ask the relevant vendor what their normal process includes, then compare it with the venue timeline and any other vendor responsibilities. Clear ownership prevents two teams from assuming the other one is handling the same task."]},
       {heading:"Rehearse microphone movement",paragraphs:["Build the decision around your actual guest count, location and wedding format. A Portland-area celebration can involve city loading zones, rural travel, weather changes or venue-specific rules, so generic advice should be checked against the real site."]},
       {heading:"Protect the vows from wind and distance",paragraphs:["Put the final decision in the shared wedding timeline or vendor notes. Small operational details are easiest to execute when everyone who touches them can see the same plan."]},
-      {heading:"Assign one audio owner",paragraphs:["Confirm the final version during the last vendor check-in. If conditions, guest count or timing changed, update the plan rather than relying on an early assumption."]}
+      {heading:"Assign one audio owner",paragraphs:["Confirm the final version during the last vendor check-in. If conditions, guest count or timing changed, update the plan rather than relying on an early assumption."]},
+      {heading:"Choose the microphone around movement",paragraphs:["Ask whether the officiant remains in one position, whether the couple will speak personal vows and whether readers or musicians also need amplification. One microphone setup may not cover every voice equally well.","The DJ, audio provider or venue should know the ceremony format before deciding what equipment is sufficient."]},
+      {heading:"Schedule a real sound check",paragraphs:["A sound check should happen after equipment is placed but before guests occupy the ceremony space. Test actual speaking voices and positions rather than simply confirming that the microphone powers on.","For outdoor ceremonies, test from the guest area as well; wind and distance can change intelligibility even when the speaker hears themselves clearly."]},
+      {heading:"Assign audio responsibility",paragraphs:["Name who supplies, places, tests and removes the equipment, and who the officiant should approach if something changes. Add those responsibilities to the ceremony timeline.","Save the ceremony plan with the rest of your couple planning so audio is coordinated with the officiant, venue and entertainment rather than treated as somebody else's problem."]}
     ],
     checklist:["Confirm the responsible vendor or person","Check the venue rules","Add the decision to the wedding timeline","Share it with affected vendors","Reconfirm during the final planning check-in"],
     faq:[
@@ -2942,13 +2953,16 @@ export const inspirationArticles: InspirationArticle[] = [
     publishedAt:"2026-10-01T00:00:00-07:00",
     updatedAt:"2026-10-01T00:00:00-07:00",
     reviewedBy:"My Portland Wedding Editorial",
-    relatedSlugs:[],
+    relatedSlugs:["portland-wedding-ring-jewelry-guide","portland-wedding-jewelry-day-of-storage-guide","portland-wedding-officiant-script-guide"],
     sections:[
       {heading:"Decide who physically carries the rings",paragraphs:["Treat this as a logistics decision rather than a last-minute detail. Confirm the people, timing and physical setup involved so the plan still works when the wedding day is busy."]},
       {heading:"Choose a secure holder",paragraphs:["Ask the relevant vendor what their normal process includes, then compare it with the venue timeline and any other vendor responsibilities. Clear ownership prevents two teams from assuming the other one is handling the same task."]},
       {heading:"Coordinate detail photos",paragraphs:["Build the decision around your actual guest count, location and wedding format. A Portland-area celebration can involve city loading zones, rural travel, weather changes or venue-specific rules, so generic advice should be checked against the real site."]},
       {heading:"Practice the handoff",paragraphs:["Put the final decision in the shared wedding timeline or vendor notes. Small operational details are easiest to execute when everyone who touches them can see the same plan."]},
-      {heading:"Have one post-ceremony destination",paragraphs:["Confirm the final version during the last vendor check-in. If conditions, guest count or timing changed, update the plan rather than relying on an early assumption."]}
+      {heading:"Have one post-ceremony destination",paragraphs:["Confirm the final version during the last vendor check-in. If conditions, guest count or timing changed, update the plan rather than relying on an early assumption."]},
+      {heading:"Decide who physically controls the rings",paragraphs:["The ring box is only part of the plan. Name the person who receives the rings before the ceremony, where they keep them and when they hand them to the officiant or wedding party.","Avoid passing valuable rings through several people simply because a photo or tradition seems to require it."]},
+      {heading:"Coordinate detail photos without losing custody",paragraphs:["If the photographer will photograph the rings, decide when and where that happens and who receives them afterward. Keep the handoff explicit, especially when getting-ready locations are separate.","A beautiful detail photo is not worth creating uncertainty about where the rings went next."]},
+      {heading:"Put the handoff in the ceremony plan",paragraphs:["Add the ring holder and handoff point to the ceremony notes or timeline. Wedding Builder can keep the ceremony vendor plan connected to the larger day, while your couple account gives you a place to save the final planning decisions.","Small details become stressful mostly when ownership is ambiguous; solve that before the wedding morning."]}
     ],
     checklist:["Confirm the responsible vendor or person","Check the venue rules","Add the decision to the wedding timeline","Share it with affected vendors","Reconfirm during the final planning check-in"],
     faq:[
