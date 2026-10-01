@@ -14,7 +14,6 @@ export type InspirationArticle = {
   methodology?: string;
   sources?: { label: string; href: string }[];
   heroImage?: ArticleImage;
-  stats?: { value: string; label: string; note?: string }[];
   relatedSlugs?: string[];
   sections: ArticleSection[];
   checklist?: string[];
@@ -68,16 +67,9 @@ export const inspirationArticles: InspirationArticle[] = [
     publishedAt:"2026-09-30T12:00:00-07:00",
     updatedAt:"2026-09-30T12:00:00-07:00",
     heroImage:{src:"/about/hero-couple.jpg",alt:"Wedding couple celebrating together",caption:"Start with how you want the day to feel—then find the Portland venue that supports it."},
-    stats:[
-      {value:"25,058",label:"marriages in Oregon in 2024",note:"Oregon Health Authority"},
-      {value:"4,902",label:"marriages in Multnomah County in 2024",note:"Oregon Health Authority"},
-      {value:"3,268",label:"Oregon marriages in August 2024—the year's busiest month",note:"Oregon Health Authority"},
-      {value:"200+",label:"Portland parks, gardens & natural settings managed by PP&R",note:"Portland Parks & Recreation"}
-    ],
     reviewedBy:"My Portland Wedding Editorial",
-    methodology:"MPW combines practical local planning guidance with public Oregon and Portland data. Statistics are attributed to their original source; they are not presented as proprietary MPW data.",
+    methodology:"MPW combines practical local planning guidance with public Oregon and Portland information when it directly helps a venue decision.",
     sources:[
-      {label:"Oregon Health Authority — 2024 marriages by month and county",href:"https://www.oregon.gov/oha/PH/BIRTHDEATHCERTIFICATES/VITALSTATISTICS/MarriageData/marr24.pdf"},
       {label:"Portland Parks & Recreation — Wedding Reservations",href:"https://www.portland.gov/parks/wedding"}
     ],
     relatedSlugs:["affordable-portland-wedding-venues","outdoor-wedding-venues-portland-guide","portland-wedding-budget-guide"],
