@@ -1180,6 +1180,162 @@ export const inspirationArticles: InspirationArticle[] = [
       {question:"Do wedding guests expect welcome bags?",answer:"No. They are optional. Clear travel and event information matters more than providing gifts."},
       {question:"Should every guest receive a bag?",answer:"Couples often plan by room or household, but the right quantity depends on the contents and hotel distribution plan."}
     ]
+  },
+  {
+    slug:"portland-wedding-catering-tasting-guide",category:"Catering",title:"Wedding Catering Tastings: What to Learn Before You Finalize the Menu",dek:"Use the tasting to evaluate more than flavor—service, portions, presentation, dietary needs and the decisions that affect the full reception.",readTime:"9 min read",seoTitle:"Portland Wedding Catering Tasting Guide",seoDescription:"Prepare for a Portland wedding catering tasting with practical questions about menu choices, service, dietary needs, portions and final decisions.",relatedSlugs:["portland-wedding-catering-guide","portland-wedding-dietary-allergy-catering-guide","portland-wedding-buffet-plated-family-style-guide"],sections:[
+      {heading:"Know what the tasting is designed to answer",paragraphs:["Some tastings compare menu options while others confirm an already selected direction. Ask what is included so you arrive with the right decisions in mind."]},
+      {heading:"Evaluate the plate as part of the event",paragraphs:["Flavor matters, but so do portion, temperature, presentation and how the dish will be produced for the full guest count. Ask what may differ at event scale."]},
+      {heading:"Bring dietary needs into the conversation",paragraphs:["If important guests need accommodations, use the tasting process to understand what alternatives are available and how they will be identified during service."]},
+      {heading:"Discuss service while the menu is concrete",paragraphs:["Once you can see the food, it is easier to ask about plating, buffet replenishment, family-style portions, clearing and the timing between courses."]},
+      {heading:"Leave with documented decisions",paragraphs:["Write down approved dishes, substitutions and open questions. The final contract or banquet documentation should reflect what the catering team has actually agreed to provide."]}
+    ],checklist:["Confirm tasting format","Review menu choices","Discuss portion and presentation","Ask about dietary alternatives","Review service timing","Document approved changes"],faq:[
+      {question:"When should we schedule a wedding catering tasting?",answer:"The caterer should advise based on its booking and menu process. Ask when the tasting will be most useful for making final decisions."},
+      {question:"Should we bring family to the tasting?",answer:"Only if their input is genuinely needed and the caterer allows additional attendees. Too many opinions can make a focused decision harder."}
+    ]
+  },
+  {
+    slug:"portland-wedding-floral-repurpose-guide",category:"Florists",title:"Wedding Flower Repurposing: Move Arrangements Without Making the Day Feel Like a Moving Crew",dek:"Reuse ceremony flowers thoughtfully by planning placement, labor, timing and scale with the florist before the wedding day.",readTime:"9 min read",seoTitle:"Portland Wedding Flower Repurposing Guide",seoDescription:"Learn how to repurpose Portland wedding flowers from ceremony to reception with practical planning for labor, timing, scale and placement.",relatedSlugs:["portland-wedding-flower-cost-guide","portland-wedding-flower-season-guide","portland-wedding-cocktail-hour-guide"],sections:[
+      {heading:"Design for the second location from the beginning",paragraphs:["An arrangement that looks balanced on a ceremony structure may feel awkward on a small table. Tell the florist where pieces may move before the design is finalized."]},
+      {heading:"Someone has to move everything",paragraphs:["Repurposing requires labor during a narrow transition window. Confirm whether the florist, planner, venue team or another approved person is responsible."]},
+      {heading:"Prioritize the pieces guests will notice",paragraphs:["Large arrangements, aisle flowers or statement pieces may have useful second lives at an escort display, bar or reception focal point when scale works."]},
+      {heading:"Do not compromise the ceremony teardown",paragraphs:["Venue turnover rules and photography timing may limit what can remain in place. Build the transfer into the actual room-flip plan."]},
+      {heading:"Compare repurposing with simpler design",paragraphs:["Moving flowers is not automatically cheaper once labor and mechanics are considered. Ask the florist which approach makes sense for the design and budget."]}
+    ],checklist:["Identify movable arrangements","Choose second locations","Confirm scale works","Assign transfer responsibility","Check venue turnover rules","Confirm labor or fees"],faq:[
+      {question:"Can ceremony flowers become centerpieces?",answer:"Sometimes, but dimensions, mechanics and vase style need to work in both settings. Ask the florist to design with repurposing in mind."},
+      {question:"Does repurposing flowers always save money?",answer:"No. Labor, installation and design mechanics can affect the total, so compare the complete approach with your florist."}
+    ]
+  },
+  {
+    slug:"portland-wedding-bouquet-guide",category:"Florists",title:"Wedding Bouquets: Size, Shape, Season and How the Flowers Fit the Whole Look",dek:"Choose bouquet direction by considering attire, photography, season and the floral story across the wedding rather than copying a single inspiration photo.",readTime:"9 min read",seoTitle:"Portland Wedding Bouquet Guide: Size, Shape & Season",seoDescription:"Plan a Portland wedding bouquet with guidance on scale, shape, seasonal availability, attire, photography and floral priorities.",relatedSlugs:["portland-wedding-flower-cost-guide","portland-wedding-flower-season-guide","portland-wedding-dress-shopping-guide"],sections:[
+      {heading:"Scale the bouquet to the person and attire",paragraphs:["Bouquet size changes how the dress or suit reads in photographs. Share attire images with the florist so shape and scale support rather than overwhelm the overall look."]},
+      {heading:"Use inspiration for direction, not duplication",paragraphs:["Flower availability, season and color variation make exact replication unrealistic. Identify what you love about an image—movement, palette, texture or shape."]},
+      {heading:"Decide where specialty flowers matter most",paragraphs:["If a particular bloom is expensive or limited, the bouquet may be a high-impact place to use it while other arrangements rely on supporting flowers and foliage."]},
+      {heading:"Think about the bouquet in photographs",paragraphs:["The bouquet appears in portraits, ceremony images and detail photographs. Discuss how it will sit naturally in the hand and whether any trailing elements affect movement."]},
+      {heading:"Plan what happens after the ceremony",paragraphs:["Decide where bouquets rest during dinner, whether they will be displayed and what preservation or take-home plan exists if that matters to you."]}
+    ],checklist:["Share attire images","Choose shape direction","Discuss seasonal flexibility","Identify priority flowers","Plan bouquet handoff","Choose post-ceremony location"],faq:[
+      {question:"Do wedding bouquets have to match centerpieces?",answer:"No. They can share palette, texture or flower families without being identical."},
+      {question:"Can a florist guarantee a specific flower variety?",answer:"Availability can vary. Ask how the florist handles substitutions while preserving the intended color, texture and overall design."}
+    ]
+  },
+  {
+    slug:"portland-wedding-dj-do-not-play-guide",category:"DJs",title:"Wedding DJ Do-Not-Play Lists: Protect the Vibe Without Programming Every Song",dek:"Give your DJ useful boundaries, must-plays and context while leaving enough flexibility to read the room.",readTime:"8 min read",seoTitle:"Wedding DJ Do-Not-Play List Guide | Portland",seoDescription:"Build a useful wedding DJ do-not-play list with must-plays, boundaries, guest requests and enough flexibility for a responsive dance floor.",relatedSlugs:["how-to-choose-portland-wedding-dj","portland-wedding-ceremony-music-guide","portland-wedding-cocktail-hour-guide"],sections:[
+      {heading:"Separate true no-go songs from simple preferences",paragraphs:["A short list of songs or artists you genuinely do not want is easier to honor than hundreds of tracks you merely would not choose yourself."]},
+      {heading:"Tell the DJ why a boundary matters when useful",paragraphs:["A song tied to a difficult memory or a genre that changes the desired atmosphere deserves different treatment from a casual dislike. Context helps the DJ understand the priority."]},
+      {heading:"Use must-plays sparingly too",paragraphs:["A handful of meaningful songs can anchor the night. An enormous required playlist may leave little room for the DJ to respond to guests."]},
+      {heading:"Decide how guest requests should work",paragraphs:["Tell the DJ whether requests are welcome, filtered through your preferences or largely ignored. This prevents a well-meaning guest from redirecting the reception."]},
+      {heading:"Trust the professional you selected",paragraphs:["The planning conversation should establish taste and boundaries. During the reception, a strong DJ can then adjust pacing and song selection to the room."]}
+    ],checklist:["List true do-not-plays","Choose a few must-plays","Describe desired genres","Discuss guest requests","Flag meaningful boundaries","Share final list before wedding"],faq:[
+      {question:"How long should a do-not-play list be?",answer:"There is no fixed number, but a focused list of real boundaries is generally more useful than cataloging every song you do not love."},
+      {question:"Should we let guests request songs?",answer:"That is a preference to discuss with your DJ. Requests can be accepted selectively while still respecting your music direction."}
+    ]
+  },
+  {
+    slug:"portland-wedding-first-dance-guide",category:"DJs",title:"Your First Dance: Song Length, Floor Placement and Making the Moment Feel Natural",dek:"Plan the first dance around comfort, room flow and the reception timeline instead of worrying about performing for the room.",readTime:"8 min read",seoTitle:"Portland Wedding First Dance Guide",seoDescription:"Plan a comfortable wedding first dance with guidance on song length, DJ edits, dance-floor placement, photography and reception timing.",relatedSlugs:["how-to-choose-portland-wedding-dj","portland-wedding-day-timeline-guide","portland-wedding-ceremony-music-guide"],sections:[
+      {heading:"Choose a song for meaning before choreography",paragraphs:["A song you both enjoy can carry the moment without an elaborate routine. If the full track feels long, ask the DJ whether a natural edit is possible."]},
+      {heading:"Decide where the dance fits in the reception",paragraphs:["Some couples dance immediately on entering while others wait until after dinner or toasts. Each choice changes guest attention and the transition into open dancing."]},
+      {heading:"Check the actual floor",paragraphs:["Practice expectations should match the floor size, surface and attire. A move that works in a studio may feel different in formal clothing on the venue's dance floor."]},
+      {heading:"Give photography room to work",paragraphs:["Lighting, guests standing at the edge and DJ equipment can affect images. Your photographer and DJ can coordinate placement when the floor plan is being finalized."]},
+      {heading:"Know how the moment ends",paragraphs:["A clean transition into parent dances, dinner, an invitation for guests to join or open dancing keeps the room from wondering what happens next."]}
+    ],checklist:["Choose song","Discuss edit if desired","Choose reception timing","Check floor size","Practice in appropriate shoes","Plan transition after dance"],faq:[
+      {question:"Does a first dance need to use the full song?",answer:"No. If you prefer a shorter moment, ask your DJ about an edit that preserves a natural beginning and ending."},
+      {question:"Do we need dance lessons?",answer:"No. Lessons are optional and can be useful if they would make you more comfortable or if you want planned choreography."}
+    ]
+  },
+  {
+    slug:"portland-wedding-hair-makeup-trial-guide",category:"Hair & Makeup",title:"Wedding Hair and Makeup Trials: How to Make the Appointment Actually Useful",dek:"Bring the right references, test the complete look and leave the trial with clear notes for the wedding morning.",readTime:"9 min read",seoTitle:"Portland Wedding Hair & Makeup Trial Guide",seoDescription:"Prepare for a Portland bridal hair and makeup trial with guidance on references, accessories, skin prep, timing and documenting the final look.",relatedSlugs:["portland-bridal-hair-makeup-guide","portland-wedding-dress-shopping-guide","portland-wedding-day-timeline-guide"],sections:[
+      {heading:"Bring references that explain what you like",paragraphs:["A few focused images are more useful than a giant board of unrelated looks. Point out the specific finish, shape, texture or detail you want to explore."]},
+      {heading:"Wear or bring the details that change the look",paragraphs:["Veils, hair accessories, extensions or statement jewelry can affect balance. Ask the artist what should come to the trial."]},
+      {heading:"Evaluate the look in different light",paragraphs:["Check the result in natural light as well as indoor light when possible. Take photographs from several angles so you can evaluate how it reads beyond the mirror."]},
+      {heading:"Speak up while adjustments are easy",paragraphs:["A trial is designed for refinement. Specific feedback about coverage, lashes, lip color, volume or placement gives the artist something actionable."]},
+      {heading:"Document the final version",paragraphs:["Once the look is right, confirm products or notes the artist wants recorded and whether any skin, hair or timing preparation is needed before the wedding."]}
+    ],checklist:["Choose focused references","Bring accessories if requested","Discuss skin/hair considerations","Photograph finished look","Request adjustments","Confirm wedding-day prep"],faq:[
+      {question:"Do I need a wedding hair and makeup trial?",answer:"It is optional, but a trial can reduce uncertainty and create time to refine the look before the wedding day."},
+      {question:"Should I wear white to the trial?",answer:"It is not required. Some people find a neckline or color similar to their wedding attire helpful for visual context."}
+    ]
+  },
+  {
+    slug:"portland-wedding-getting-ready-guide",category:"Planning",title:"Getting Ready on the Wedding Morning: Build a Space and Schedule That Stay Calm",dek:"Plan hair, makeup, clothing, food, photography and room organization so the first hours of the wedding support the rest of the day.",readTime:"10 min read",seoTitle:"Portland Wedding Getting Ready Guide",seoDescription:"Plan a calm Portland wedding morning with hair and makeup timing, food, room setup, photography, clothing and transportation logistics.",relatedSlugs:["portland-wedding-day-timeline-guide","portland-bridal-hair-makeup-guide","portland-wedding-day-emergency-kit-guide"],sections:[
+      {heading:"Choose the room for function as well as photos",paragraphs:["Natural light is useful, but so are outlets, mirrors, seating, climate control and enough space for the people actually getting ready."]},
+      {heading:"Hair and makeup create the morning clock",paragraphs:["Service count, number of artists and desired finish time determine the start. Build the schedule from the team's realistic service timing rather than a guess."]},
+      {heading:"Feed people before the ceremony",paragraphs:["Easy food and water help keep the room functional without risking clothing or slowing services. Assign someone other than the person getting married to manage delivery."]},
+      {heading:"Keep photography details together",paragraphs:["Rings, stationery, shoes, jewelry and other meaningful items are easier to photograph when gathered before the photographer arrives."]},
+      {heading:"Plan the room exit",paragraphs:["Know who packs personal belongings, who carries ceremony items and how everyone gets to the next location. A clean departure prevents small objects from becoming emergencies."]}
+    ],checklist:["Confirm room access time","Count beauty services","Plan food and water","Gather photo details","Steam attire in advance","Assign cleanup/packing","Confirm transportation departure"],faq:[
+      {question:"How early should getting ready start?",answer:"Work backward from the required ready time using the hair and makeup team's service estimates, photography needs and transportation time."},
+      {question:"Who should be in the getting-ready room?",answer:"Invite the people who contribute to the experience without making the room too crowded for beauty services, dressing and photography."}
+    ]
+  },
+  {
+    slug:"portland-wedding-signage-guide",category:"Stationery",title:"Wedding Signage: What Guests Need to Know and What You Can Skip",dek:"Use signs to solve navigation and information problems, then let the venue, people and design do the rest.",readTime:"8 min read",seoTitle:"Portland Wedding Signage Guide: What You Actually Need",seoDescription:"Plan useful Portland wedding signage for arrival, seating, bar, guest book and directions without cluttering the venue.",relatedSlugs:["wedding-invitation-stationery-timeline-guide","portland-wedding-seating-chart-guide","portland-wedding-guest-experience-guide"],sections:[
+      {heading:"Start with guest decisions",paragraphs:["A sign earns its place when it helps a guest know where to go, where to sit or what to do. Decorative signs are optional, not a planning requirement."]},
+      {heading:"Prioritize arrival and wayfinding",paragraphs:["Large properties, multiple buildings or hidden ceremony spaces may need directional signs more than a compact venue with obvious flow. Walk the guest route before ordering."]},
+      {heading:"Make seating information readable",paragraphs:["Escort displays and seating charts need enough scale and contrast for guests to find names without creating a bottleneck. Alphabetical organization can help larger lists."]},
+      {heading:"Do not repeat information everywhere",paragraphs:["If the bar menu is visible at the bar, it may not need another sign at cocktail hour. Consolidating messages keeps the visual environment cleaner."]},
+      {heading:"Assign installation and removal",paragraphs:["Confirm who brings, places and retrieves every sign and stand. Venue access and cleanup deadlines should be part of the plan."]}
+    ],checklist:["Walk guest arrival route","Identify true wayfinding needs","Choose seating display","Confirm readable sizes","Coordinate sign stands","Assign setup","Assign removal"],faq:[
+      {question:"What wedding signs are essential?",answer:"That depends on the venue. Focus first on signs that solve navigation, seating or service questions guests would otherwise need to ask."},
+      {question:"Do we need a welcome sign?",answer:"No. It can be a design element, but it is not required if arrival is already obvious and well managed."}
+    ]
+  },
+  {
+    slug:"portland-wedding-invitation-postage-guide",category:"Stationery",title:"Wedding Invitation Postage: Weigh the Finished Suite Before You Buy Stamps",dek:"Avoid assumptions about postage by assembling the real invitation, checking dimensions and confirming current mailing requirements.",readTime:"8 min read",seoTitle:"Wedding Invitation Postage Guide | Portland",seoDescription:"Plan wedding invitation postage by weighing the finished suite, checking size and shape, testing envelopes and confirming current USPS requirements.",relatedSlugs:["wedding-invitation-stationery-timeline-guide","portland-wedding-rsvp-wording-guide","portland-wedding-save-the-date-guide"],sections:[
+      {heading:"The finished invitation determines postage",paragraphs:["Paper stock, inserts, envelope thickness and embellishments can change weight and machinability. Test the assembled suite rather than estimating from a single card."]},
+      {heading:"Shape and thickness matter too",paragraphs:["Unusual dimensions, rigid elements or bulky closures can affect how mail is processed. Current postal requirements should be checked before stamps are purchased."]},
+      {heading:"Take a sample to the post office",paragraphs:["A completed invitation can be weighed and evaluated before you commit to postage for the entire mailing. This is especially useful for layered or nonstandard suites."]},
+      {heading:"Protect the response method",paragraphs:["If using mailed RSVP cards, confirm return postage and addressing. If using online RSVPs, test the printed URL or QR destination before production."]},
+      {heading:"Build mailing time into the stationery plan",paragraphs:["Assembly, addressing and postal delivery all take time. Work backward from the RSVP deadline and vendor final-count requirements."]}
+    ],checklist:["Assemble complete invitation","Check dimensions","Weigh sample","Confirm current postal requirements","Test RSVP method","Purchase correct postage","Plan mailing date"],faq:[
+      {question:"How much postage does a wedding invitation need?",answer:"It depends on the finished suite's weight, dimensions, thickness and other mailing characteristics. Verify the assembled invitation with USPS before purchasing postage."},
+      {question:"Should we hand-cancel wedding invitations?",answer:"Ask USPS about current options and whether they are appropriate for your specific mailing. Do not rely on old wedding-mailing advice without verification."}
+    ]
+  },
+  {
+    slug:"portland-wedding-photo-booth-prop-guide",category:"Photo Booths",title:"Wedding Photo Booth Props and Backdrops: Make Them Fit the Wedding Instead of a Party Store",dek:"Create a booth that feels integrated with the reception through better backdrop, lighting, prop and placement choices.",readTime:"8 min read",seoTitle:"Portland Wedding Photo Booth Backdrop & Props Guide",seoDescription:"Plan a Portland wedding photo booth with better backdrop, prop, lighting, placement and guest-flow decisions.",relatedSlugs:["portland-wedding-photo-booth-guide","portland-wedding-guest-experience-guide","portland-wedding-lighting-guide"],sections:[
+      {heading:"Start with the backdrop, not the props",paragraphs:["The backdrop appears in every image and has more visual impact than a basket of accessories. Coordinate it with the room and booth framing."]},
+      {heading:"Use fewer props with more personality",paragraphs:["A small collection tied to the couple or event can feel more intentional than generic signs and novelty items. Props are optional if the booth experience works without them."]},
+      {heading:"Lighting determines image quality",paragraphs:["Ask the booth provider how faces are lit and how the setup handles the venue's ambient lighting. Decorative lighting alone may not be enough for flattering images."]},
+      {heading:"Placement affects participation",paragraphs:["A booth near reception activity is easier to discover, but it should not block the dance floor, bar line or catering paths."]},
+      {heading:"Decide what guests receive",paragraphs:["Prints, digital delivery, galleries and guest-book copies create different experiences. Confirm the output and any privacy settings before the wedding."]}
+    ],checklist:["Choose backdrop direction","Review booth framing","Select props if desired","Check lighting","Choose visible placement","Confirm print/digital delivery","Review gallery settings"],faq:[
+      {question:"Do wedding photo booths need props?",answer:"No. Strong lighting, a good backdrop and an easy guest experience can work without props."},
+      {question:"Where should a photo booth go?",answer:"Place it where guests can discover it without interfering with major traffic paths, dinner service or the dance floor."}
+    ]
+  },
+  {
+    slug:"portland-wedding-content-creator-shot-guide",category:"Content Creation",title:"Wedding Content Creator Shot Priorities: Capture the Energy Without Recreating the Photographer's Job",dek:"Define what fast-turnaround phone content should add to the wedding while keeping professional photo and video coverage unobstructed.",readTime:"9 min read",seoTitle:"Portland Wedding Content Creator Shot Guide",seoDescription:"Plan wedding content creator priorities with behind-the-scenes moments, vertical video, vendor coordination and boundaries with photo and video teams.",relatedSlugs:["portland-wedding-content-creator-guide","portland-wedding-videography-photography-team-guide","portland-wedding-day-timeline-guide"],sections:[
+      {heading:"Define what content creation adds",paragraphs:["Fast-turnaround vertical clips, behind-the-scenes moments and informal reactions can complement professional coverage when the role is clearly defined."]},
+      {heading:"Prioritize moments suited to a phone-first perspective",paragraphs:["Room reveals, outfit details, candid preparation and quick guest reactions can work well without asking the creator to reproduce every formal portrait."]},
+      {heading:"Protect professional camera positions",paragraphs:["The photographer and videographer should not have key moments blocked by another device. Share vendor information and establish movement expectations before the wedding."]},
+      {heading:"Decide what can be posted and when",paragraphs:["Some couples want immediate sharing while others prefer privacy until they have seen professional previews. Put expectations in writing."]},
+      {heading:"Keep the shot priorities short",paragraphs:["A content creator can respond more naturally when the list identifies a few important themes rather than scripting hundreds of clips."]}
+    ],checklist:["Define creator role","Choose priority moments","Connect photo/video teams","Discuss ceremony positioning","Set posting permissions","Confirm delivery timing"],faq:[
+      {question:"Does a wedding content creator replace a videographer?",answer:"They are different services. Content creators commonly focus on quick, phone-first social content while videographers may provide professionally captured and edited films."},
+      {question:"Should the photographer know we hired a content creator?",answer:"Yes. Vendor coordination helps establish positions and avoid obstructing key moments."}
+    ]
+  },
+  {
+    slug:"portland-wedding-live-band-guide",category:"Live Entertainment",title:"Hiring a Live Wedding Band in Portland: Space, Sound, Breaks and Reception Flow",dek:"Plan live music around the room, power, performance schedule and guest experience so the band feels built into the reception.",readTime:"10 min read",seoTitle:"Portland Live Wedding Band Guide",seoDescription:"Hire and plan a Portland wedding band with guidance on stage space, sound, power, breaks, song requests and reception timing.",relatedSlugs:["portland-wedding-live-music-guide","portland-wedding-ceremony-audio-guide","portland-wedding-first-dance-guide"],sections:[
+      {heading:"Confirm the band's physical footprint",paragraphs:["Musicians, instruments, speakers and stands require more room than the visible performance line suggests. Get stage or floor-space requirements before finalizing the reception layout."]},
+      {heading:"Power and sound rules can shape the setup",paragraphs:["Ask the venue about electrical access and sound restrictions, then share that information with the band before the wedding."]},
+      {heading:"Understand performance sets and breaks",paragraphs:["Live bands typically structure the night in sets. Ask how breaks are covered and coordinate those periods with dinner, speeches or recorded music."]},
+      {heading:"Discuss key songs early",paragraphs:["If a first dance or other song must be performed live, confirm whether it is already in the repertoire, can be learned, or should use a recording."]},
+      {heading:"Build the timeline with the bandleader",paragraphs:["Introductions, dances, toasts and open dancing all interact with performance timing. Give the bandleader the same final timeline used by the planner and other reception vendors."]}
+    ],checklist:["Confirm band footprint","Review power needs","Check sound restrictions","Understand set schedule","Confirm key songs","Plan break music","Share final timeline"],faq:[
+      {question:"Do live wedding bands take breaks?",answer:"Many do. Ask the specific band how sets and breaks are structured and what music is provided between sets."},
+      {question:"Can a wedding band learn our first-dance song?",answer:"Possibly. Ask early about repertoire, arrangement needs, learning fees or deadlines."}
+    ]
+  },
+  {
+    slug:"portland-wedding-honeymoon-departure-guide",category:"Honeymoons",title:"Leaving for the Honeymoon After the Wedding: Build a Departure That Does Not Add Stress",dek:"Choose when to leave based on travel logistics, recovery time, documents and the wedding cleanup that still has to happen.",readTime:"8 min read",seoTitle:"Wedding-to-Honeymoon Departure Guide | Portland",seoDescription:"Plan the transition from a Portland wedding to your honeymoon with practical guidance on departure timing, documents, packing and post-wedding responsibilities.",relatedSlugs:["portland-wedding-honeymoon-planning-guide","portland-wedding-day-timeline-guide","wedding-week-checklist"],sections:[
+      {heading:"You do not have to leave the next morning",paragraphs:["An immediate departure can feel exciting, but a buffer day may reduce pressure after a late reception. Choose based on flight timing, energy and responsibilities."]},
+      {heading:"Separate honeymoon packing from wedding packing",paragraphs:["Pack travel documents, medication and core honeymoon items before the wedding weekend so they do not get mixed with décor, gifts or attire."]},
+      {heading:"Assign post-wedding responsibilities",paragraphs:["Rental returns, décor pickup, gifts and leftover items still need owners if the couple leaves town quickly. Confirm those handoffs before the reception."]},
+      {heading:"Protect important documents",paragraphs:["Verify current passport, identification and destination entry requirements well before travel. Keep critical documents separate from wedding-day bags."]},
+      {heading:"Build recovery into the plan",paragraphs:["Travel is part of the experience. A schedule with enough sleep, food and transfer time can make the first honeymoon day feel like a beginning rather than another deadline."]}
+    ],checklist:["Choose departure day","Verify travel documents","Pack honeymoon separately","Assign rental/decor returns","Secure gifts/cards","Confirm airport transportation","Leave recovery time"],faq:[
+      {question:"Should we leave for our honeymoon the day after the wedding?",answer:"Only if that timing works for your travel and energy. Many couples benefit from a buffer, while others prefer to depart immediately."},
+      {question:"Who handles wedding items if we leave town?",answer:"Assign trusted people or vendors specific responsibilities for rentals, décor, gifts and personal items before the wedding."}
+    ]
   }
 ];
 
