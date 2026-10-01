@@ -3857,11 +3857,11 @@ export const inspirationArticles: InspirationArticle[] = [
       {heading:"Create a rule for reallocation",paragraphs:["When a category exceeds plan, first ask whether the overage supports a top priority or fixes a real requirement. If yes, identify a deliberate lower-priority tradeoff before using additional money.","Wedding Builder can help view that trade across the whole wedding."]},
       {heading:"Release the reserve intentionally",paragraphs:["Near the end of planning, once major variables are settled, decide what unused reserve does: remain unspent, cover final necessities or fund a chosen upgrade.","Save the current budget in your couple account so every later decision uses the same working total."]}
     ],
-    checklist:["Define what success means for this decision","Compare practical details, not just appearance or price","Test the choice against venue and timeline","Check the effect on budget and priorities","Save the decision and next action in your wedding plan"],
+    checklist:["Choose a contingency amount before signing major contracts","Keep the reserve separate from category wish lists","Record which risks the reserve is meant to cover","Reallocate only after identifying the tradeoff","Review unused reserve after major variables are settled"],
     faq:[
-      {question:"How do we know when we have enough information to decide?",answer:"When you can explain the meaningful tradeoffs, understand the responsibilities and see how the choice fits your budget, venue and timeline, more research may add noise rather than value."},
-      {question:"How does My Portland Wedding help after we read this?",answer:"Wedding Builder can translate your budget, guest count, location, style and priorities into a personalized local plan. Create or sign into a couple account to save your progress and keep the decisions connected."},
-      {question:"Should we always choose the least expensive option that works?",answer:"Not necessarily. Compare the difference in cost with the difference in outcome, reliability, convenience or importance to you. The best use of the budget depends on your priorities."}
+      {question:"What should our wedding contingency fund actually cover?",answer:"Use it for plausible planning uncertainty: contract changes, overlooked logistics, weather-related needs or other necessary costs that were not confidently known when the first budget was built. It should not become an automatic upgrade fund."},
+      {question:"When is it reasonable to use the reserve for an upgrade?",answer:"After the major requirements are understood, compare the upgrade with the remaining uncertainty. If the upgrade supports a top priority, make the tradeoff deliberately rather than quietly erasing the buffer."},
+      {question:"How can we keep contingency changes from throwing off the whole budget?",answer:"Update the working total whenever the reserve is used. Wedding Builder can help you see the effect across categories, and a couple account can preserve the latest version of the plan."}
     ]
   },
   {
@@ -3874,11 +3874,11 @@ export const inspirationArticles: InspirationArticle[] = [
       {heading:"Use price differences deliberately",paragraphs:["If an alternative costs less, decide whether the difference stays unspent or strengthens another priority. If it costs more, identify the tradeoff before committing.","Wedding Builder can help model that change across categories."]},
       {heading:"Save a short ranked list",paragraphs:["Keep two or three viable choices with the reason each fits. Once one is booked, stop searching unless circumstances change.","Save the selection and next deadline in your couple account."]}
     ],
-    checklist:["Define what success means for this decision","Compare practical details, not just appearance or price","Test the choice against venue and timeline","Check the effect on budget and priorities","Save the decision and next action in your wedding plan"],
+    checklist:["Confirm each vendor is available for the actual date and required hours","Compare scope, staffing and responsibilities side by side","Check venue, travel and timeline compatibility","Identify the budget tradeoff before choosing a higher-cost option","Keep only two or three genuinely viable finalists"],
     faq:[
-      {question:"How do we know when we have enough information to decide?",answer:"When you can explain the meaningful tradeoffs, understand the responsibilities and see how the choice fits your budget, venue and timeline, more research may add noise rather than value."},
-      {question:"How does My Portland Wedding help after we read this?",answer:"Wedding Builder can translate your budget, guest count, location, style and priorities into a personalized local plan. Create or sign into a couple account to save your progress and keep the decisions connected."},
-      {question:"Should we always choose the least expensive option that works?",answer:"Not necessarily. Compare the difference in cost with the difference in outcome, reliability, convenience or importance to you. The best use of the budget depends on your priorities."}
+      {question:"Should we compare vendors who are only tentatively available?",answer:"You can keep them in consideration, but distinguish a confirmed available date from a soft hold, waitlist or unresolved schedule. Ask what would make the date secure before treating the option as equivalent."},
+      {question:"What if our favorite vendor costs more than the alternatives?",answer:"Compare what the additional cost changes in scope, reliability or a priority you care about, then identify what would need to move elsewhere in the budget before booking."},
+      {question:"How many vendor options should we keep active?",answer:"Enough to preserve a real choice without creating decision overload. Once you have a small set that fits the date, venue, scope and budget, deeper comparison is usually more useful than adding more names."}
     ]
   },
   {
@@ -3891,11 +3891,11 @@ export const inspirationArticles: InspirationArticle[] = [
       {heading:"Protect decisions with real deadlines",paragraphs:["If another quote expires or your date is being held temporarily, state the relevant deadline without manufacturing urgency. Keep another viable option moving when availability matters.","Do not let one unanswered inquiry freeze an entire category."]},
       {heading:"Set expectations after booking",paragraphs:["Once contracted, ask how routine questions, urgent wedding-week communication and final confirmations are handled. Save the preferred contact method in your couple account.","Wedding Builder can keep vendor progress visible so unanswered inquiries do not disappear into old email threads."]}
     ],
-    checklist:["Define what success means for this decision","Compare practical details, not just appearance or price","Test the choice against venue and timeline","Check the effect on budget and priorities","Save the decision and next action in your wedding plan"],
+    checklist:["Record the date and method of the first inquiry","Send one concise follow-up with the key wedding details","Note any real quote or hold deadlines","Keep another viable vendor moving when timing matters","Save the booked vendor's normal and urgent contact methods"],
     faq:[
-      {question:"How do we know when we have enough information to decide?",answer:"When you can explain the meaningful tradeoffs, understand the responsibilities and see how the choice fits your budget, venue and timeline, more research may add noise rather than value."},
-      {question:"How does My Portland Wedding help after we read this?",answer:"Wedding Builder can translate your budget, guest count, location, style and priorities into a personalized local plan. Create or sign into a couple account to save your progress and keep the decisions connected."},
-      {question:"Should we always choose the least expensive option that works?",answer:"Not necessarily. Compare the difference in cost with the difference in outcome, reliability, convenience or importance to you. The best use of the budget depends on your priorities."}
+      {question:"How long should we wait before following up with a wedding vendor?",answer:"There is no universal response-time rule. Consider the vendor's stated office hours, season and any real deadline you face, then send a concise follow-up rather than repeated messages across several channels."},
+      {question:"When should we move on to another vendor?",answer:"If communication is preventing you from meeting a genuine booking deadline or you cannot establish a workable communication pattern, keep another qualified option moving instead of freezing the category."},
+      {question:"Does a slow inquiry response mean the vendor will communicate poorly after booking?",answer:"Not necessarily. Inquiry handling and client communication can use different systems. Before booking, ask how contracted clients receive routine updates, final confirmations and urgent wedding-week communication."}
     ]
   },
   {
@@ -3908,11 +3908,11 @@ export const inspirationArticles: InspirationArticle[] = [
       {heading:"Prepare for variable weather",paragraphs:["Give guests practical attire or footwear guidance when meaningful to the venue and season, especially for outdoor walking or exposed spaces.","Build indoor alternatives for hosted activities when weather could materially affect them."]},
       {heading:"Create one guest information source",paragraphs:["Keep addresses, times, transportation and key contacts consistent across the wedding website and other communications. Save the same itinerary in your couple account.","Wedding Builder can connect lodging and transportation choices to guest count and venue location."]}
     ],
-    checklist:["Define what success means for this decision","Compare practical details, not just appearance or price","Test the choice against venue and timeline","Check the effect on budget and priorities","Save the decision and next action in your wedding plan"],
+    checklist:["Map the ceremony, reception, lodging and optional activities","Separate hosted events from optional recommendations","Give guests realistic transportation and parking information","Add weather and footwear guidance when the setting calls for it","Keep one current itinerary source for addresses and times"],
     faq:[
-      {question:"How do we know when we have enough information to decide?",answer:"When you can explain the meaningful tradeoffs, understand the responsibilities and see how the choice fits your budget, venue and timeline, more research may add noise rather than value."},
-      {question:"How does My Portland Wedding help after we read this?",answer:"Wedding Builder can translate your budget, guest count, location, style and priorities into a personalized local plan. Create or sign into a couple account to save your progress and keep the decisions connected."},
-      {question:"Should we always choose the least expensive option that works?",answer:"Not necessarily. Compare the difference in cost with the difference in outcome, reliability, convenience or importance to you. The best use of the budget depends on your priorities."}
+      {question:"Do we need to plan activities for the entire guest weekend?",answer:"No. A clear wedding itinerary plus a few optional ideas can be more useful than filling every hour. Guests may want time to rest, explore Portland independently or visit family and friends."},
+      {question:"What information matters most for out-of-town guests?",answer:"Prioritize where they need to be, when they need to be there, how they can get there and anything about the venue or weather that changes what they should bring or wear."},
+      {question:"How do we avoid conflicting guest information?",answer:"Choose one primary itinerary source and update it whenever a time, address or transportation plan changes. Keep the same final details in your couple planning so your own timeline matches what guests receive."}
     ]
   },
   {
@@ -3925,11 +3925,11 @@ export const inspirationArticles: InspirationArticle[] = [
       {heading:"Check the full look in useful light",paragraphs:["View the gown and undergarments from several angles and, when possible, in lighting that reveals transparency or lines. Take fitting photos if the salon permits so you can review the complete effect.","Prioritize how you feel and move over chasing an invisible-perfect standard."]},
       {heading:"Keep the wedding-day plan simple",paragraphs:["Pack only the foundation pieces actually required plus a sensible backup if there is a realistic failure point. Save fitting and attire deadlines with your couple planning.","Wedding Builder can keep attire timing visible alongside the rest of the vendor and wedding schedule."]}
     ],
-    checklist:["Define what success means for this decision","Compare practical details, not just appearance or price","Test the choice against venue and timeline","Check the effect on budget and priorities","Save the decision and next action in your wedding plan"],
+    checklist:["Bring the planned bra, shapewear or foundation pieces to fittings","Test sitting, walking, reaching and dancing movement","Check straps, seams and edges from multiple angles","Review the full look in useful lighting","Pack only the necessary foundation pieces and a realistic backup"],
     faq:[
-      {question:"How do we know when we have enough information to decide?",answer:"When you can explain the meaningful tradeoffs, understand the responsibilities and see how the choice fits your budget, venue and timeline, more research may add noise rather than value."},
-      {question:"How does My Portland Wedding help after we read this?",answer:"Wedding Builder can translate your budget, guest count, location, style and priorities into a personalized local plan. Create or sign into a couple account to save your progress and keep the decisions connected."},
-      {question:"Should we always choose the least expensive option that works?",answer:"Not necessarily. Compare the difference in cost with the difference in outcome, reliability, convenience or importance to you. The best use of the budget depends on your priorities."}
+      {question:"Should we buy wedding undergarments before the first alteration fitting?",answer:"If a foundation piece changes support, shape or where the gown sits, having the intended piece available for fittings can help the alterations team evaluate the dress as it will actually be worn."},
+      {question:"Is shapewear necessary with a wedding dress?",answer:"No. It is a comfort and styling choice, not a requirement. The useful question is whether a specific piece improves the fit or confidence you want without creating discomfort or visible lines."},
+      {question:"What should we test besides how the dress looks while standing?",answer:"Sit, walk, bend, raise your arms and move the way you expect to during portraits and dancing. A foundation setup that photographs well but restricts normal wedding-day movement may not be the right one."}
     ]
   },
   {
@@ -3942,11 +3942,11 @@ export const inspirationArticles: InspirationArticle[] = [
       {heading:"Confirm return instructions",paragraphs:["Record return date, location, packaging and late-return process. If one person returns several rentals, decide how everything gets back to them.","Keep rental bags and identifying labels through the wedding."]},
       {heading:"Assign garment responsibility",paragraphs:["Put pickup, wedding-day transport and return ownership into the planning notes. Wedding Builder can keep formalwear in the vendor timeline and your couple account can save the handoff.","Everyone wearing a rental should know the return plan."]}
     ],
-    checklist:["Define what success means for this decision","Compare practical details, not just appearance or price","Test the choice against venue and timeline","Check the effect on budget and priorities","Save the decision and next action in your wedding plan"],
+    checklist:["Confirm every rental item is present at pickup","Try on the complete outfit before leaving when possible","Resolve fit problems while exchanges may still be available","Record the return date, location and packaging instructions","Assign who is responsible for transporting and returning each rental"],
     faq:[
-      {question:"How do we know when we have enough information to decide?",answer:"When you can explain the meaningful tradeoffs, understand the responsibilities and see how the choice fits your budget, venue and timeline, more research may add noise rather than value."},
-      {question:"How does My Portland Wedding help after we read this?",answer:"Wedding Builder can translate your budget, guest count, location, style and priorities into a personalized local plan. Create or sign into a couple account to save your progress and keep the decisions connected."},
-      {question:"Should we always choose the least expensive option that works?",answer:"Not necessarily. Compare the difference in cost with the difference in outcome, reliability, convenience or importance to you. The best use of the budget depends on your priorities."}
+      {question:"What should we check before leaving with a tux or suit rental?",answer:"Verify the garment pieces, shirt, accessories and shoes included in the order, then check fit and movement. Resolve missing or incorrect items while there is still time to act."},
+      {question:"Who should be responsible for returning wedding-party rentals?",answer:"Assign the responsibility explicitly. One organized return can work well, but only if everyone knows when and where their items must be handed off."},
+      {question:"What rental details belong in our wedding plan?",answer:"Keep pickup timing, final fit issues, wedding-day transport, return instructions and the responsible person together. That prevents the formalwear task from ending at pickup."}
     ]
   },
   {
@@ -3959,11 +3959,11 @@ export const inspirationArticles: InspirationArticle[] = [
       {heading:"Test heat during movement",paragraphs:["Standing for a fitting is not the same as walking, posing and dancing. Wear the full combination long enough to notice heat and restriction.","Build water and short cooling breaks into long outdoor portrait periods when conditions warrant."]},
       {heading:"Save the comfort plan",paragraphs:["Record outerwear, backup items and transportation assumptions with the attire plan. Wedding Builder can connect formalwear to venue and season decisions.","Your couple account can keep the final pickup, wear and return details together."]}
     ],
-    checklist:["Define what success means for this decision","Compare practical details, not just appearance or price","Test the choice against venue and timeline","Check the effect on budget and priorities","Save the decision and next action in your wedding plan"],
+    checklist:["Check how the full outfit feels indoors and outdoors","Plan a useful outer layer when exposure is likely","Choose footwear for the actual walking surfaces","Decide where wet outerwear can go indoors","Build water or cooling breaks into long warm-weather portrait periods when needed"],
     faq:[
-      {question:"How do we know when we have enough information to decide?",answer:"When you can explain the meaningful tradeoffs, understand the responsibilities and see how the choice fits your budget, venue and timeline, more research may add noise rather than value."},
-      {question:"How does My Portland Wedding help after we read this?",answer:"Wedding Builder can translate your budget, guest count, location, style and priorities into a personalized local plan. Create or sign into a couple account to save your progress and keep the decisions connected."},
-      {question:"Should we always choose the least expensive option that works?",answer:"Not necessarily. Compare the difference in cost with the difference in outcome, reliability, convenience or importance to you. The best use of the budget depends on your priorities."}
+      {question:"How should Portland weather affect suit or tux choices?",answer:"Think about the specific venue, season, indoor-outdoor transitions and how long the wedding party will be exposed. Comfort planning can involve layers, footwear and transportation as much as fabric choice."},
+      {question:"Do we need a rain backup for formalwear?",answer:"If portraits, ceremony movement or transportation involve uncovered outdoor time, decide how garments and shoes will stay practical. The plan can be simple, but it should exist before rain is already falling."},
+      {question:"What is easy to overlook with warm-weather formalwear?",answer:"Heat often becomes more noticeable during walking, portraits and dancing than during a fitting. Test the complete outfit in motion and plan reasonable water or cooling breaks when conditions warrant."}
     ]
   },
   {
@@ -3976,11 +3976,11 @@ export const inspirationArticles: InspirationArticle[] = [
       {heading:"Understand what may be omitted",paragraphs:["Camera tests, accidental clips, unusable footage or material affected by technical issues may not be part of a raw-footage delivery. Ask what the vendor excludes rather than assuming every recorded second is provided.","The contract should describe the deliverable more clearly than the marketing label."]},
       {heading:"Decide based on preservation goals",paragraphs:["If hearing complete vows or speeches matters, ask whether a documentary edit may serve that goal better than a folder of camera files. Wedding Builder can keep videography spending aligned with your priorities.","Save the chosen deliverables and delivery expectations in your couple account."]}
     ],
-    checklist:["Define what success means for this decision","Compare practical details, not just appearance or price","Test the choice against venue and timeline","Check the effect on budget and priorities","Save the decision and next action in your wedding plan"],
+    checklist:["Ask exactly what the vendor means by raw footage","Confirm file format, delivery method and retention window","Ask whether audio files or multicamera clips are included","Understand what unusable or test footage may be excluded","Compare raw footage with documentary-edit options before paying for both"],
     faq:[
-      {question:"How do we know when we have enough information to decide?",answer:"When you can explain the meaningful tradeoffs, understand the responsibilities and see how the choice fits your budget, venue and timeline, more research may add noise rather than value."},
-      {question:"How does My Portland Wedding help after we read this?",answer:"Wedding Builder can translate your budget, guest count, location, style and priorities into a personalized local plan. Create or sign into a couple account to save your progress and keep the decisions connected."},
-      {question:"Should we always choose the least expensive option that works?",answer:"Not necessarily. Compare the difference in cost with the difference in outcome, reliability, convenience or importance to you. The best use of the budget depends on your priorities."}
+      {question:"Does raw wedding footage mean every second the cameras recorded?",answer:"Not necessarily. Vendors can define raw or unedited footage differently, and unusable clips, tests or technical failures may be excluded. The contract or proposal should describe the actual deliverable."},
+      {question:"Will raw footage be easy to watch on a phone or television?",answer:"Do not assume it will. Ask about file types, organization and delivery. Camera-original material may be less convenient to browse than a documentary or edited film."},
+      {question:"Is raw footage the best way to preserve full vows and speeches?",answer:"Sometimes, but ask whether the videographer offers a documentary edit or full-length ceremony and speech deliverables. Those may preserve important moments in a more watchable form."}
     ]
   },
   {
@@ -3993,11 +3993,11 @@ export const inspirationArticles: InspirationArticle[] = [
       {heading:"Ask about natural audio",paragraphs:["Vows, speeches, ambient sound and reactions can carry as much emotion as music. Ask how those elements are recorded and mixed into the film.","If specific spoken moments matter, flag them before the wedding."]},
       {heading:"Confirm the delivered versions",paragraphs:["Ask what film lengths and formats you receive and whether versions intended for social sharing differ. Save those expectations in your couple account.","Wedding Builder can keep videography choices connected to the overall media budget and priorities."]}
     ],
-    checklist:["Define what success means for this decision","Compare practical details, not just appearance or price","Test the choice against venue and timeline","Check the effect on budget and priorities","Save the decision and next action in your wedding plan"],
+    checklist:["Describe the feeling you want rather than prescribing every edit","Share a few musical references if the videographer welcomes them","Ask how music licensing affects delivered films","Identify vows, speeches or natural audio you especially want preserved","Confirm whether social-sharing versions differ from the main film"],
     faq:[
-      {question:"How do we know when we have enough information to decide?",answer:"When you can explain the meaningful tradeoffs, understand the responsibilities and see how the choice fits your budget, venue and timeline, more research may add noise rather than value."},
-      {question:"How does My Portland Wedding help after we read this?",answer:"Wedding Builder can translate your budget, guest count, location, style and priorities into a personalized local plan. Create or sign into a couple account to save your progress and keep the decisions connected."},
-      {question:"Should we always choose the least expensive option that works?",answer:"Not necessarily. Compare the difference in cost with the difference in outcome, reliability, convenience or importance to you. The best use of the budget depends on your priorities."}
+      {question:"Can we choose any song we want for our wedding film?",answer:"Music use can depend on the videographer's licensing and the way the film will be delivered or shared. Ask what options their workflow supports before building expectations around one specific track."},
+      {question:"How specific should our music direction be?",answer:"Give useful creative guidance: energy, mood, genres or examples you connect with. Then ask how much selection the videographer normally handles so your expectations match their editing process."},
+      {question:"Should music be the main focus of the wedding film?",answer:"That depends on the style you want. Vows, speeches, room sound and reactions can carry much of the story, so discuss how natural audio and music will work together rather than treating them as separate afterthoughts."}
     ]
   },
   {
@@ -4010,11 +4010,11 @@ export const inspirationArticles: InspirationArticle[] = [
       {heading:"Consider mobility and warmth",paragraphs:["Wet or uneven surfaces can be more difficult for guests using mobility aids or anyone who moves slowly. Check the most accessible covered route and the distance from drop-off.","For outdoor portions, tell guests enough about conditions to choose appropriate layers and footwear."]},
       {heading:"Activate the plan from the forecast",paragraphs:["Set a point when the venue or planner decides which arrival setup is used. Save the rain-plan responsibilities in your couple account.","Wedding Builder can connect weather-sensitive venue, rental and transportation decisions instead of treating guest comfort separately."]}
     ],
-    checklist:["Define what success means for this decision","Compare practical details, not just appearance or price","Test the choice against venue and timeline","Check the effect on budget and priorities","Save the decision and next action in your wedding plan"],
+    checklist:["Identify every uncovered guest transition at the venue","Confirm where coats and wet umbrellas can be stored","Give footwear guidance when paths or ground conditions matter","Protect waiting areas for transportation or shuttles","Keep the rain plan consistent across guest communications and the wedding timeline"],
     faq:[
-      {question:"How do we know when we have enough information to decide?",answer:"When you can explain the meaningful tradeoffs, understand the responsibilities and see how the choice fits your budget, venue and timeline, more research may add noise rather than value."},
-      {question:"How does My Portland Wedding help after we read this?",answer:"Wedding Builder can translate your budget, guest count, location, style and priorities into a personalized local plan. Create or sign into a couple account to save your progress and keep the decisions connected."},
-      {question:"Should we always choose the least expensive option that works?",answer:"Not necessarily. Compare the difference in cost with the difference in outcome, reliability, convenience or importance to you. The best use of the budget depends on your priorities."}
+      {question:"What matters most for guest comfort at a rainy Portland wedding?",answer:"Focus on the transitions guests actually make: parking or drop-off to the entrance, ceremony to reception, restroom access and transportation pickup. A short uncovered walk can matter more than a decorative rain detail."},
+      {question:"Should we tell guests to bring umbrellas?",answer:"If uncovered walking is likely, practical guidance can help, but also consider what happens to wet umbrellas once guests are inside. The venue's entry and storage plan is part of the answer."},
+      {question:"How early should we activate a rain plan?",answer:"Set the decision process before wedding week: who watches conditions, what venue or vendor deadlines matter and how guests will be told if logistics change. Avoid inventing a universal weather cutoff that may not fit your contracts."}
     ]
   }
 ];
