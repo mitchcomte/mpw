@@ -2850,7 +2850,7 @@ export const inspirationArticles: InspirationArticle[] = [
     publishedAt:"2026-10-01T00:00:00-07:00",
     updatedAt:"2026-10-01T00:00:00-07:00",
     reviewedBy:"My Portland Wedding Editorial",
-    relatedSlugs:[],
+    relatedSlugs:["portland-wedding-rentals-guide","portland-wedding-rental-delivery-guide","portland-wedding-rental-return-pickup-guide"],
     sections:[
       {heading:"A waiver is not automatically insurance",paragraphs:["Treat this as a logistics decision rather than a last-minute detail. Confirm the people, timing and physical setup involved so the plan still works when the wedding day is busy."]},
       {heading:"Ask what damage is excluded",paragraphs:["Ask the relevant vendor what their normal process includes, then compare it with the venue timeline and any other vendor responsibilities. Clear ownership prevents two teams from assuming the other one is handling the same task."]},
@@ -2903,7 +2903,7 @@ export const inspirationArticles: InspirationArticle[] = [
     publishedAt:"2026-10-01T00:00:00-07:00",
     updatedAt:"2026-10-01T00:00:00-07:00",
     reviewedBy:"My Portland Wedding Editorial",
-    relatedSlugs:[],
+    relatedSlugs:["portland-wedding-transportation-guide","portland-wedding-shuttle-route-guide","portland-wedding-shuttle-last-run-guide"],
     sections:[
       {heading:"Choose unmistakable pickup points",paragraphs:["Treat this as a logistics decision rather than a last-minute detail. Confirm the people, timing and physical setup involved so the plan still works when the wedding day is busy."]},
       {heading:"Add loading time to every run",paragraphs:["Ask the relevant vendor what their normal process includes, then compare it with the venue timeline and any other vendor responsibilities. Clear ownership prevents two teams from assuming the other one is handling the same task."]},
@@ -2981,7 +2981,7 @@ export const inspirationArticles: InspirationArticle[] = [
     publishedAt:"2026-10-01T00:00:00-07:00",
     updatedAt:"2026-10-01T00:00:00-07:00",
     reviewedBy:"My Portland Wedding Editorial",
-    relatedSlugs:[],
+    relatedSlugs:["portland-wedding-photo-booth-guide","portland-wedding-photo-booth-placement-guide","portland-wedding-photo-booth-backdrop-guide"],
     sections:[
       {heading:"Put it where guests naturally pass",paragraphs:["Treat this as a logistics decision rather than a last-minute detail. Confirm the people, timing and physical setup involved so the plan still works when the wedding day is busy."]},
       {heading:"Avoid competing queues",paragraphs:["Ask the relevant vendor what their normal process includes, then compare it with the venue timeline and any other vendor responsibilities. Clear ownership prevents two teams from assuming the other one is handling the same task."]},
@@ -3031,7 +3031,7 @@ export const inspirationArticles: InspirationArticle[] = [
     publishedAt:"2026-10-01T00:00:00-07:00",
     updatedAt:"2026-10-01T00:00:00-07:00",
     reviewedBy:"My Portland Wedding Editorial",
-    relatedSlugs:[],
+    relatedSlugs:["portland-wedding-live-music-guide","portland-wedding-live-band-guide","portland-wedding-live-music-soundcheck-guide"],
     sections:[
       {heading:"Ask how sets are structured",paragraphs:["Treat this as a logistics decision rather than a last-minute detail. Confirm the people, timing and physical setup involved so the plan still works when the wedding day is busy."]},
       {heading:"Choose fill music ownership",paragraphs:["Ask the relevant vendor what their normal process includes, then compare it with the venue timeline and any other vendor responsibilities. Clear ownership prevents two teams from assuming the other one is handling the same task."]},
@@ -3081,7 +3081,7 @@ export const inspirationArticles: InspirationArticle[] = [
     publishedAt:"2026-10-01T00:00:00-07:00",
     updatedAt:"2026-10-01T00:00:00-07:00",
     reviewedBy:"My Portland Wedding Editorial",
-    relatedSlugs:[],
+    relatedSlugs:["portland-wedding-mobile-bar-guide","portland-wedding-mobile-bar-setup-guide","portland-wedding-mobile-bar-ice-guide"],
     sections:[
       {heading:"Start with venue rules",paragraphs:["Treat this as a logistics decision rather than a last-minute detail. Confirm the people, timing and physical setup involved so the plan still works when the wedding day is busy."]},
       {heading:"Calculate more than one glass per guest",paragraphs:["Ask the relevant vendor what their normal process includes, then compare it with the venue timeline and any other vendor responsibilities. Clear ownership prevents two teams from assuming the other one is handling the same task."]},
