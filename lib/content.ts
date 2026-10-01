@@ -12,6 +12,7 @@ export type InspirationArticle = {
   updatedAt?: string;
   reviewedBy?: string;
   methodology?: string;
+  quickFacts?: { value: string; label: string; context: string; sourceLabel?: string }[];
   sources?: { label: string; href: string }[];
   heroImage?: ArticleImage;
   relatedSlugs?: string[];
@@ -69,6 +70,11 @@ export const inspirationArticles: InspirationArticle[] = [
     heroImage:{src:"/about/hero-couple.jpg",alt:"Wedding couple celebrating together",caption:"Start with how you want the day to feel—then find the Portland venue that supports it."},
     reviewedBy:"My Portland Wedding Editorial",
     methodology:"MPW combines practical local planning guidance with public Oregon and Portland information when it directly helps a venue decision.",
+    quickFacts:[
+      {value:"200+",label:"Portland parks, gardens & natural settings",context:"Portland Parks & Recreation manages more than 200 settings that may be reserved for weddings and/or receptions—one reason an outdoor or garden venue search can have more variety than couples expect.",sourceLabel:"Portland Parks & Recreation"},
+      {value:"45 days",label:"before the wedding",context:"PP&R says wedding permit requests should be made at least 45 days ahead to avoid rush fees. A useful reminder that venue logistics can have deadlines long before the wedding day.",sourceLabel:"Portland Parks & Recreation"},
+      {value:"14",label:"Portland park wedding sites",context:"Portland's current park search lists 14 locations under the Wedding Site reservation filter, giving couples a concrete starting point for city-managed outdoor options.",sourceLabel:"Portland Parks & Recreation"}
+    ],
     sources:[
       {label:"Portland Parks & Recreation — Wedding Reservations",href:"https://www.portland.gov/parks/wedding"}
     ],
