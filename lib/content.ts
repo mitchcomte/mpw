@@ -2632,6 +2632,150 @@ export const inspirationArticles: InspirationArticle[] = [
       {question:"Should I book my honeymoon in my new last name?",answer:"Book under the name that will match the identification or passport you will actually use, and verify carrier requirements."},
       {question:"Does marriage automatically change my passport name?",answer:"No. Document changes require their own process. Check current official government instructions."}
     ]
+  },
+  {
+    slug:"portland-wedding-venue-security-guide",category:"Venues",title:"Wedding Venue Security: Know What the Property Requires Before the Final Invoice",dek:"Clarify security staffing, guest access and end-of-night responsibilities before the venue's requirements become a late planning surprise.",readTime:"8 min read",seoTitle:"Portland Wedding Venue Security Guide",seoDescription:"Understand Portland wedding venue security requirements, staffing, guest access, alcohol-related policies and event responsibilities.",relatedSlugs:["portland-wedding-venue-contract-guide","portland-wedding-venue-alcohol-rules-guide","portland-wedding-guest-experience-guide"],sections:[
+      {heading:"Ask whether security is required",paragraphs:["Some venues require professional security based on guest count, alcohol service or event hours. Include required staffing in the venue cost comparison."]},
+      {heading:"Clarify who hires and pays",paragraphs:["The venue may provide security, require an approved company or leave contracting to the couple. Get the process in writing."]},
+      {heading:"Define the role",paragraphs:["Security may focus on entrances, alcohol-related concerns, property rules or closing procedures. Understand what the staff will and will not do."]},
+      {heading:"Coordinate access for vendors and guests",paragraphs:["Loading entrances, locked doors and restricted areas should be clear to planners and vendors before setup."]},
+      {heading:"Treat security as operations, not atmosphere",paragraphs:["Well-run security can be discreet. The goal is a safe, orderly event without making guests feel policed."]}
+    ],checklist:["Ask security requirement","Confirm staffing minimum","Identify approved provider","Record cost","Share access plan","Confirm closing duties"],faq:[
+      {question:"Do all Portland wedding venues require security?",answer:"No. Requirements vary by property, event size and policies."},
+      {question:"Is venue security the same as a wedding coordinator?",answer:"No. Their responsibilities are different; ask each provider to define its scope."}
+    ]
+  },
+  {
+    slug:"portland-wedding-venue-cleanup-guide",category:"Venues",title:"Wedding Venue Cleanup: Who Takes the Trash, Décor and Leftovers at Midnight?",dek:"Assign teardown responsibilities before the wedding so the final hour is not a negotiation between exhausted vendors and family.",readTime:"8 min read",seoTitle:"Portland Wedding Venue Cleanup & Teardown Guide",seoDescription:"Plan Portland wedding venue cleanup, décor removal, trash, rentals, food, florals and end-of-night responsibilities.",relatedSlugs:["portland-wedding-venue-contract-guide","portland-wedding-rental-delivery-guide","portland-wedding-floral-ceremony-to-reception-guide"],sections:[
+      {heading:"Separate cleaning from teardown",paragraphs:["Venue cleaning may cover floors and facilities while couples or vendors remain responsible for décor, personal items and rentals."]},
+      {heading:"List what leaves that night",paragraphs:["Signs, candles, gifts, flowers, leftover alcohol and personal décor all need an owner and destination."]},
+      {heading:"Rental pickup may happen later",paragraphs:["If rentals stay overnight, confirm the venue permits it and who secures the items until pickup."]},
+      {heading:"Trash responsibility varies",paragraphs:["Caterers, venues and outside vendors may each handle different waste streams. Clarify responsibilities in advance."]},
+      {heading:"Build teardown into staffing",paragraphs:["A complex installation cannot disappear instantly. Make sure paid labor and venue access cover the actual removal work."]}
+    ],checklist:["Read cleanup clause","List personal décor","Assign leftover items","Confirm trash roles","Schedule rental pickup","Staff teardown"],faq:[
+      {question:"Does a venue cleanup fee mean we can leave everything?",answer:"Not necessarily. Ask exactly what the fee covers and what must be removed."},
+      {question:"Who takes wedding flowers after the reception?",answer:"Decide in advance whether guests, the couple, florist or another person takes or disposes of them."}
+    ]
+  },
+  {
+    slug:"portland-wedding-catering-dessert-service-guide",category:"Catering",title:"Dessert Service Beyond the Cake: Plates, Forks, Cutting and the People Who Make It Happen",dek:"Coordinate the dessert vendor, caterer and venue so sweets do not arrive without the service pieces or labor they need.",readTime:"8 min read",seoTitle:"Portland Wedding Dessert Service Planning Guide",seoDescription:"Plan Portland wedding dessert service including cake cutting, plates, forks, staffing, display, storage and outside desserts.",relatedSlugs:["portland-wedding-dessert-service-guide","portland-wedding-cake-cutting-guide","portland-wedding-catering-guide"],sections:[
+      {heading:"Ask who physically serves dessert",paragraphs:["A bakery may deliver and leave, while the caterer plates or cuts. Make the handoff explicit."]},
+      {heading:"Confirm plates and utensils",paragraphs:["Dessert plates, forks, napkins and serving tools may come from different vendors. Include them in the rental and catering count."]},
+      {heading:"Display and service are different jobs",paragraphs:["A beautiful dessert table still needs replenishment, cutting or cleanup depending on the menu."]},
+      {heading:"Storage can matter before service",paragraphs:["Temperature-sensitive desserts may need refrigeration or a protected staging area. Ask both venue and provider."]},
+      {heading:"Outside-dessert fees should be known early",paragraphs:["Some caterers or venues charge cutting or service fees for externally supplied desserts."]}
+    ],checklist:["Name dessert server","Confirm cutting responsibility","Count plates/forks","Plan storage","Check outside-dessert fee","Plan cleanup"],faq:[
+      {question:"Does the bakery cut the wedding cake?",answer:"Often the bakery delivers rather than remaining for service. Confirm who will cut and plate it."},
+      {question:"Do we need dessert plates for cupcakes?",answer:"It depends on the service style, but napkins, utensils and cleanup still need consideration."}
+    ]
+  },
+  {
+    slug:"portland-wedding-catering-rental-coordination-guide",category:"Catering",title:"Catering Rentals: Make Sure the Kitchen and Tables Are Renting the Same Wedding",dek:"Coordinate china, glassware, linens and service equipment across caterer, venue and rental company.",readTime:"9 min read",seoTitle:"Portland Wedding Catering Rental Coordination Guide",seoDescription:"Coordinate Portland wedding catering rentals including china, glassware, linens, flatware, service equipment and final counts.",relatedSlugs:["portland-wedding-rental-tabletop-guide","portland-wedding-catering-guide","portland-wedding-rental-delivery-guide"],sections:[
+      {heading:"Identify who owns the rental order",paragraphs:["Caterer, planner or couple may place the order. One person should control quantities and changes."]},
+      {heading:"Guest place settings are only part of it",paragraphs:["Buffet equipment, trays, water service, coffee and bar glassware can add significant rental inventory."]},
+      {heading:"Build in realistic extras",paragraphs:["Breakage, dropped utensils and glass turnover may require quantities beyond one item per guest. Use professional recommendations."]},
+      {heading:"Final counts need a deadline",paragraphs:["RSVP changes affect tables and service pieces. Know when rental quantities become final."]},
+      {heading:"Return condition is part of the plan",paragraphs:["Ask whether items are scraped, rinsed, bagged or simply racked for pickup and who performs that work."]}
+    ],checklist:["Choose rental-order owner","List guest settings","Add service/bar pieces","Set final-count date","Confirm delivery","Confirm return prep"],faq:[
+      {question:"Does catering usually include plates and glassware?",answer:"Sometimes, but not always. Review the proposal and venue inclusions."},
+      {question:"Why order extra glassware?",answer:"Guests may use multiple glasses and service conditions vary. Follow caterer or rental-company recommendations."}
+    ]
+  },
+  {
+    slug:"portland-wedding-flower-weather-guide",category:"Florists",title:"Wedding Flowers in Heat, Wind and Rain: Design for the Weather They Will Actually Live In",dek:"Discuss exposure and backup placement with the florist so delicate flowers are not expected to perform in impossible conditions.",readTime:"8 min read",seoTitle:"Portland Wedding Flowers & Weather Guide",seoDescription:"Plan Portland wedding flowers for heat, rain, wind, direct sun and outdoor ceremonies with florist guidance.",relatedSlugs:["portland-wedding-weather-and-season-guide","portland-wedding-flower-season-guide","portland-wedding-flower-installation-guide"],sections:[
+      {heading:"Tell the florist where each design lives",paragraphs:["A bouquet carried briefly outdoors faces different conditions from an arch standing in sun or rain for hours."]},
+      {heading:"Direct sun can matter even on mild days",paragraphs:["Exposure and duration affect flowers differently. Let the florist choose materials and installation timing accordingly."]},
+      {heading:"Wind affects structure as well as petals",paragraphs:["Outdoor arrangements and arches need appropriate mechanics and placement, not just weather-resistant flower varieties."]},
+      {heading:"Rain plans should include the flowers",paragraphs:["If the ceremony moves indoors, decide which arrangements move too and whether the alternate space changes scale."]},
+      {heading:"Trust substitutions when conditions change",paragraphs:["A professional may recommend sturdier materials or altered installation methods as the forecast becomes clearer."]}
+    ],checklist:["Map indoor/outdoor designs","Discuss sun exposure","Discuss wind","Include florals in rain plan","Confirm install timing","Allow weather substitutions"],faq:[
+      {question:"Can wedding flowers stay outside in rain?",answer:"Some designs tolerate conditions better than others. Follow the florist's recommendation for the specific flowers and mechanics."},
+      {question:"Should outdoor flowers be installed at the last minute?",answer:"Timing depends on the design, weather and setup logistics. Let the florist plan the installation window."}
+    ]
+  },
+  {
+    slug:"portland-wedding-floral-breakdown-guide",category:"Florists",title:"After the Flowers: What Happens to Vases, Mechanics and Arrangements After the Reception",dek:"Plan floral teardown, rental returns and guest takeaways before anyone walks out with a vase the florist owns.",readTime:"7 min read",seoTitle:"Wedding Floral Teardown & Breakdown Guide | Portland",seoDescription:"Plan wedding floral teardown, vase and rental returns, arrangement takeaways, mechanics and post-event responsibilities.",relatedSlugs:["portland-wedding-flower-preservation-guide","portland-wedding-venue-cleanup-guide","portland-wedding-floral-repurpose-guide"],sections:[
+      {heading:"Know which vessels are rentals",paragraphs:["Vases, stands, arches and candleholders may belong to the florist or rental company even when the flowers can be taken."]},
+      {heading:"Ask whether guests may take arrangements",paragraphs:["If permitted, decide how flowers are separated from rented vessels and communicate that clearly."]},
+      {heading:"Large mechanics need professional removal",paragraphs:["Installations may require tools, ladders or trained staff. Include teardown labor in the floral plan."]},
+      {heading:"Preservation flowers should be separated early",paragraphs:["Identify the bouquet or specific blooms intended for preservation so they are not discarded during cleanup."]},
+      {heading:"Confirm pickup timing with the venue",paragraphs:["Late-night teardown and next-day pickup create different staffing and access needs."]}
+    ],checklist:["Identify rented vessels","Set guest-takeaway policy","Schedule installation removal","Separate preservation flowers","Confirm pickup window","Assign remaining flowers"],faq:[
+      {question:"Can guests take wedding centerpieces home?",answer:"Only if the florist permits it and rented vessels or mechanics are handled correctly."},
+      {question:"Who removes a floral arch?",answer:"Confirm with the florist; large installations often require professional breakdown."}
+    ]
+  },
+  {
+    slug:"portland-wedding-dj-dance-floor-opening-guide",category:"DJs",title:"Opening the Dance Floor: Make the Transition Feel Intentional",dek:"Use formal dances, music and a clear cue to move guests from dinner into the party without an awkward announcement vacuum.",readTime:"7 min read",seoTitle:"Wedding Dance Floor Opening Guide | Portland",seoDescription:"Plan the transition from dinner to wedding dancing with formal dances, DJ cues, lighting and guest participation.",relatedSlugs:["portland-wedding-dance-floor-guide","portland-wedding-first-dance-guide","portland-wedding-dj-mc-guide"],sections:[
+      {heading:"Choose the transition point",paragraphs:["Cake, formal dances or another reception moment can lead naturally into open dancing. Put the sequence on the timeline."]},
+      {heading:"Give guests a visual cue",paragraphs:["Lighting changes, cleared floor space and the couple moving onto the floor can communicate the shift without excessive announcements."]},
+      {heading:"Start with music that welcomes people in",paragraphs:["The DJ can choose an opening run that fits your guests and musical direction rather than chasing a universal wedding formula."]},
+      {heading:"Keep competing activities limited",paragraphs:["If dessert, photo booth and other attractions all open simultaneously, dancing may build more slowly. Decide what matters most."]},
+      {heading:"Let the DJ read the response",paragraphs:["Once the floor opens, professional adaptation matters more than a minute-by-minute song plan."]}
+    ],checklist:["Choose opening sequence","Set DJ cue","Coordinate lighting","Clear dance floor","Time competing activities","Give DJ flexibility"],faq:[
+      {question:"What song should open the dance floor?",answer:"Choose with your DJ based on your musical taste and guests rather than a universal song."},
+      {question:"Should the couple stay on the floor after the first dance?",answer:"They can if that helps invite guests into dancing, but there is no required format."}
+    ]
+  },
+  {
+    slug:"portland-wedding-dj-last-song-guide",category:"DJs",title:"The Last Song: End the Reception on Purpose Instead of Letting It Fade Out",dek:"Choose how the night closes, coordinate last call and transportation, and give the DJ a clear ending plan.",readTime:"7 min read",seoTitle:"Wedding Last Song & Reception Ending Guide",seoDescription:"Plan a wedding last song, last call, reception ending, guest departure and DJ closing announcement.",relatedSlugs:["portland-wedding-bar-last-call-guide","portland-wedding-dj-song-request-guide","portland-wedding-transportation-guide"],sections:[
+      {heading:"Decide whether the last song is sentimental or explosive",paragraphs:["A private-feeling singalong and a high-energy finale create different endings. Pick the emotional note you want."]},
+      {heading:"Coordinate with last call",paragraphs:["Bar closing, final song and transportation should not all surprise guests at once. Build a deliberate sequence."]},
+      {heading:"Tell the DJ what happens afterward",paragraphs:["Guests may move to an exit, shuttle pickup or after-party. The closing announcement should direct them clearly."]},
+      {heading:"Protect venue end time",paragraphs:["The final song needs to finish with enough time for guests to depart within venue rules."]},
+      {heading:"You do not need a staged exit",paragraphs:["A strong musical ending can be the final reception moment without sparklers or another production element."]}
+    ],checklist:["Choose ending mood","Select last song or let DJ choose","Coordinate last call","Confirm venue cutoff","Plan departure direction","Coordinate transportation"],faq:[
+      {question:"Do we need to choose the last wedding song?",answer:"No. You can select it or give the DJ the desired mood and let them choose."},
+      {question:"When should last call happen?",answer:"Coordinate bar policy, venue end time and transportation with the bar team and planner."}
+    ]
+  },
+  {
+    slug:"portland-wedding-hair-wash-prep-guide",category:"Hair & Makeup",title:"Wedding Hair Prep: Wash Timing, Products and Why Generic Internet Rules Can Backfire",dek:"Follow your stylist's preparation instructions for your actual hair and chosen style instead of assuming everyone needs day-old hair.",readTime:"7 min read",seoTitle:"Wedding Hair Wash & Prep Guide",seoDescription:"Prepare hair for a wedding style using your stylist's guidance on washing, drying, products, extensions and wedding-morning prep.",relatedSlugs:["portland-wedding-hair-makeup-trial-guide","portland-wedding-hair-extension-guide","portland-wedding-beauty-timeline-guide"],sections:[
+      {heading:"Ask your stylist when to wash",paragraphs:["Hair type, products and style affect preparation. The old blanket rule that everyone needs dirty hair is not useful for every client."]},
+      {heading:"Know whether hair should arrive dry",paragraphs:["Some services assume fully dry hair while others include blow-drying. Confirm what your booked service includes."]},
+      {heading:"Avoid unfamiliar products right before styling",paragraphs:["Heavy oils or new treatments may change how hair behaves. Follow the stylist's recommended routine."]},
+      {heading:"Prepare extensions separately",paragraphs:["If extensions are part of the style, follow the stylist's washing, drying and storage instructions for them too."]},
+      {heading:"Share texture and scalp concerns early",paragraphs:["Your stylist can plan more effectively when they know how your hair normally behaves and what makes you comfortable."]}
+    ],checklist:["Ask wash timing","Confirm dry/wet arrival","Follow product guidance","Prepare extensions","Avoid last-minute treatments","Share hair concerns"],faq:[
+      {question:"Should wedding hair be dirty?",answer:"Not as a universal rule. Follow the stylist's instructions for your hair type and chosen style."},
+      {question:"Should I arrive with wet hair?",answer:"Only if your stylist specifically asks you to. Confirm what the service includes."}
+    ]
+  },
+  {
+    slug:"portland-wedding-dress-shopping-appointment-guide",category:"Bridal",title:"Wedding Dress Appointments: Make the Shopping Day Useful, Not a Performance",dek:"Bring the right people, useful undergarments and an open mind so the appointment stays focused on finding a dress you want to wear.",readTime:"8 min read",seoTitle:"Portland Wedding Dress Shopping Appointment Guide",seoDescription:"Prepare for Portland wedding dress appointments with timing, guests, undergarments, budget, photos and practical shopping expectations.",relatedSlugs:["portland-wedding-dress-shopping-guide","portland-wedding-dress-alterations-guide","portland-wedding-shoe-guide"],sections:[
+      {heading:"Know the complete dress budget",paragraphs:["Leave room for alterations, accessories and any required shipping or customization rather than treating the gown price as the entire attire cost."]},
+      {heading:"Bring a small, useful support group",paragraphs:["Too many opinions can make it harder to hear your own reaction. Invite people who understand your priorities and can support decisions."]},
+      {heading:"Wear simple undergarments",paragraphs:["The salon can advise what is needed for fittings. Avoid buying specialty shapewear before knowing the dress construction."]},
+      {heading:"Try shapes beyond the saved folder",paragraphs:["Inspiration is useful, but fabric and silhouette can feel different on your body than in photographs."]},
+      {heading:"Ask before taking photos",paragraphs:["Salon policies vary. If permitted, photos can help compare details, but how the dress feels remains important."]}
+    ],checklist:["Set complete attire budget","Choose support people","Wear simple undergarments","Bring shoes if requested","Stay open to silhouettes","Ask photo policy"],faq:[
+      {question:"How many people should I bring dress shopping?",answer:"Bring the number that helps you make a comfortable decision and fits the salon's guest policy."},
+      {question:"Do I need bridal shapewear before shopping?",answer:"Not necessarily. Dress construction varies; wait for guidance once you know the garment."}
+    ]
+  },
+  {
+    slug:"portland-wedding-formalwear-measurement-guide",category:"Formalwear",title:"Wedding-Party Measurements: Get Everyone Sized Without Chasing Them for Three Months",dek:"Use the formalwear provider's exact measurement process and one shared deadline for local and out-of-town attendants.",readTime:"7 min read",seoTitle:"Wedding Party Suit & Tux Measurement Guide",seoDescription:"Coordinate wedding-party suit and tux measurements with provider instructions, remote attendants, deadlines and final fittings.",relatedSlugs:["portland-wedding-formalwear-fitting-guide","portland-wedding-suit-tux-guide","portland-wedding-tux-return-guide"],sections:[
+      {heading:"Use the provider's measurement method",paragraphs:["Different rental and suit systems may request different information. Send attendants the company's exact instructions rather than a generic chart."]},
+      {heading:"Set one clear deadline",paragraphs:["A shared due date makes it easier to identify missing measurements before they threaten ordering timelines."]},
+      {heading:"Give remote attendants an approved option",paragraphs:["Ask whether they can visit a partner location, submit professional measurements or use another provider-approved method."]},
+      {heading:"Measurements are not the final fitting",paragraphs:["Bodies and garments vary. Plan any required try-on or adjustment step when the formalwear arrives."]},
+      {heading:"Track completion in one place",paragraphs:["A simple status list prevents repeated group texts and makes it obvious who still needs to act."]}
+    ],checklist:["Get provider instructions","Set measurement deadline","Send remote options","Track completion","Schedule final try-on","Confirm pickup"],faq:[
+      {question:"Can attendants measure themselves for a tux?",answer:"Use the formalwear provider's approved process; some may allow it while others recommend professional measurements."},
+      {question:"What if someone's measurements change?",answer:"Contact the provider promptly and follow its alteration or replacement process."}
+    ]
+  },
+  {
+    slug:"portland-wedding-ring-engraving-guide",category:"Jewelry",title:"Wedding Ring Engraving: Make the Tiny Detail Legible, Timely and Meaningful",dek:"Choose wording, font and timing with the jeweler before a sentimental idea collides with the physical limits of the band.",readTime:"7 min read",seoTitle:"Wedding Ring Engraving Guide | Portland",seoDescription:"Plan wedding ring engraving with wording, character limits, fonts, timing, sizing and jeweler coordination.",relatedSlugs:["portland-wedding-ring-shopping-guide","portland-wedding-ring-care-sizing-guide","portland-wedding-ring-jewelry-guide"],sections:[
+      {heading:"The ring sets the character limit",paragraphs:["Band width, size and interior shape determine how much text can be engraved clearly. Ask the jeweler before finalizing a long message."]},
+      {heading:"Keep the meaning personal",paragraphs:["Dates, initials, short phrases or private references can all work. The engraving does not need to make sense to anyone else."]},
+      {heading:"Choose readability over novelty",paragraphs:["Very ornate fonts or tiny symbols may not reproduce well at small scale. Review examples from the jeweler's actual engraving method."]},
+      {heading:"Coordinate engraving with sizing",paragraphs:["Resizing can affect an existing engraving depending on the ring. Ask about order of operations."]},
+      {heading:"Leave production time",paragraphs:["Engraving can add lead time, especially with custom rings. Put the deadline well before the wedding."]}
+    ],checklist:["Ask engraving limits","Choose wording","Choose font/style","Confirm spelling/date","Coordinate sizing","Confirm completion date"],faq:[
+      {question:"How much can be engraved inside a wedding ring?",answer:"It depends on the ring's dimensions and the jeweler's engraving process."},
+      {question:"Should engraving happen before or after sizing?",answer:"Ask the jeweler because the best sequence depends on the ring and resizing method."}
+    ]
   }
 ];
 
