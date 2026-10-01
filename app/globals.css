@@ -1486,3 +1486,15 @@ body{background-color:#fffaf6!important}
 .magazineContents a b{font:800 .68rem/1.6 Arial,sans-serif;color:#b88b5a;letter-spacing:.08em}
 .articleSection{scroll-margin-top:120px}
 @media(max-width:760px){.magazineContents>div{grid-template-columns:1fr}.magazineContents{padding:16px}}
+
+/* Long-form editorial rhythm + clear handoff to MPW's full planning products */
+.magazineSectionAlt{position:relative}
+.magazineSectionAlt:before{content:"";position:absolute;inset:-22px -26px;border-radius:24px;background:linear-gradient(135deg,rgba(247,241,228,.66),rgba(232,241,235,.52));z-index:-1}
+.editorialSaveStrip{margin:48px 0 34px;padding:28px 30px;border-radius:24px;background:#294b3b;color:#fff;box-shadow:0 18px 45px rgba(28,55,43,.13)}
+.editorialSaveStrip>span{display:block;color:#e6c995;font-size:.7rem;font-weight:900;letter-spacing:.17em;margin-bottom:8px}
+.editorialSaveStrip strong{display:block;font:700 clamp(1.45rem,3vw,2rem)/1.1 Georgia,serif;margin-bottom:8px}
+.editorialSaveStrip p{max-width:720px;margin:0 0 18px;color:rgba(255,255,255,.88);line-height:1.65}
+.editorialSaveStrip div{display:flex;gap:10px;flex-wrap:wrap}
+.editorialSaveStrip a{display:inline-flex;padding:10px 15px;border-radius:999px;background:#fff;color:#294b3b;text-decoration:none;font-weight:800;font-size:.82rem}
+.editorialSaveStrip a+ a{background:transparent;color:#fff;border:1px solid rgba(255,255,255,.5)}
+@media(max-width:760px){.magazineSectionAlt:before{inset:-16px -10px}.editorialSaveStrip{padding:23px 20px}}
