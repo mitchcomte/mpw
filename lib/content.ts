@@ -1624,6 +1624,150 @@ export const inspirationArticles: InspirationArticle[] = [
       {question:"Should we book an outdoor venue if we dislike its rain backup?",answer:"That is an important tradeoff to consider. In a weather-variable region, the backup space can become the actual ceremony venue."},
       {question:"Who decides when to use the rain plan?",answer:"The contract and venue process may define the decision. Confirm who makes the call and by what deadline."}
     ]
+  },
+  {
+    slug:"portland-wedding-guest-list-guide",category:"Planning",title:"Building a Wedding Guest List: Make the Hard Decisions Before the Venue Makes Them for You",dek:"Turn family expectations, budget and venue capacity into a guest list you can actually plan around.",readTime:"10 min read",seoTitle:"Portland Wedding Guest List Planning Guide",seoDescription:"Build a Portland wedding guest list with practical guidance on capacity, budget, plus-ones, children, family expectations and list tiers.",relatedSlugs:["portland-wedding-budget-guide","best-portland-wedding-venues-guide","portland-wedding-rsvp-wording-guide"],sections:[
+      {heading:"Start with a working ceiling",paragraphs:["Budget and venue capacity both change with guest count. Set an initial maximum before collecting every possible name."]},
+      {heading:"Build from relationships, not obligation categories",paragraphs:["Create consistent principles for coworkers, extended family and family friends so individual decisions do not feel arbitrary."]},
+      {heading:"Define plus-one rules before invitations",paragraphs:["Decide how named partners and additional guests will be handled, then apply the approach consistently where practical."]},
+      {heading:"Decide how children fit the event",paragraphs:["An adults-only wedding, all-children invitation or limited family approach each requires clear communication. Venue and catering needs may also matter."]},
+      {heading:"Keep one source of truth",paragraphs:["Use a single working guest list for addresses, households, invitations and RSVPs so duplicate versions do not create count errors."]}
+    ],checklist:["Set guest ceiling","Create household list","Define plus-one approach","Decide children policy","Track addresses","Use one master list"],faq:[
+      {question:"Should we make an A-list and B-list?",answer:"Some couples use invitation waves, but timing and guest experience need care. A clear RSVP schedule is essential if later invitations depend on declines."},
+      {question:"Does every single guest need a plus-one?",answer:"There is no universal rule. Decide an approach that fits your event, relationships and capacity, then communicate invitations clearly."}
+    ]
+  },
+  {
+    slug:"portland-wedding-seating-chart-strategy-guide",category:"Planning",title:"Wedding Seating Charts: Build Tables Around Comfort, Conversation and Real Room Constraints",dek:"Turn the RSVP list into a floor plan that works for guests, catering and the reception instead of treating seating as a puzzle on paper.",readTime:"10 min read",seoTitle:"Portland Wedding Seating Chart Strategy Guide",seoDescription:"Build a Portland wedding seating chart using guest relationships, accessibility, table sizes, catering and reception flow.",relatedSlugs:["portland-wedding-seating-chart-guide","portland-wedding-venue-layout-guide","portland-wedding-guest-list-guide"],sections:[
+      {heading:"Start with the venue's real table inventory",paragraphs:["Table shapes, sizes and room dimensions determine the seating puzzle. Use the actual floor plan rather than a generic chart."]},
+      {heading:"Seat for conversation, not perfect symmetry",paragraphs:["Tables do not need identical social groups. Look for enough shared context that guests can settle into conversation comfortably."]},
+      {heading:"Place accessibility needs first",paragraphs:["Guests with mobility, hearing or other access needs may benefit from specific routes or locations. Ask what would make attendance easier rather than guessing."]},
+      {heading:"Keep service and entertainment in mind",paragraphs:["Avoid trapping seats against walls, blocking catering paths or placing guests directly beside speakers when alternatives exist."]},
+      {heading:"Freeze the chart at the right time",paragraphs:["Late changes ripple into escort cards, meals and venue setup. Align the final seating deadline with catering and stationery production."]}
+    ],checklist:["Get final floor plan","Confirm table capacities","Place accessibility needs","Group for conversation","Protect service paths","Set final seating deadline"],faq:[
+      {question:"Do couples need assigned seats or just assigned tables?",answer:"Either can work depending on service style and venue. Plated meals with individual selections may benefit from more precise seat information."},
+      {question:"Where should parents sit?",answer:"There is no required arrangement. Choose seating that reflects relationships and gives important family members a comfortable experience."}
+    ]
+  },
+  {
+    slug:"portland-wedding-rehearsal-guide",category:"Planning",title:"Wedding Rehearsals: Practice the Movement, Not the Emotion",dek:"Use rehearsal time to solve entrances, spacing, handoffs and ceremony logistics without trying to perform the entire wedding in advance.",readTime:"8 min read",seoTitle:"Portland Wedding Ceremony Rehearsal Guide",seoDescription:"Plan a useful Portland wedding rehearsal covering processional order, spacing, ceremony cues, rings, readers and venue logistics.",relatedSlugs:["portland-wedding-ceremony-guide","portland-wedding-officiant-script-guide","portland-wedding-rehearsal-dinner-guide"],sections:[
+      {heading:"Focus on where people go",paragraphs:["The rehearsal is most useful for entrances, standing positions, exits and handoffs. It does not need to recreate every spoken word."]},
+      {heading:"Confirm the processional order",paragraphs:["Line everyone up in the real sequence and identify who walks alone, together or escorts another person."]},
+      {heading:"Practice the physical ceremony details",paragraphs:["Ring handoff, bouquets, microphones, readings and any cultural or family elements can benefit from a quick physical run-through."]},
+      {heading:"Give readers and musicians clear cues",paragraphs:["Participants should know when they move and who signals them. This matters more than rehearsing a perfect performance."]},
+      {heading:"End with the recessional",paragraphs:["Practice how the couple and wedding party leave so the ceremony finishes cleanly and guests understand what happens next."]}
+    ],checklist:["Confirm participants","Set processional order","Practice positions","Review ring/bouquet handoffs","Cue readers/music","Practice recessional"],faq:[
+      {question:"Does every wedding need a rehearsal?",answer:"No. A rehearsal is most useful when the ceremony has multiple participants, processional complexity or unfamiliar logistics."},
+      {question:"Do we read the entire ceremony script at rehearsal?",answer:"Usually that is not necessary unless the officiant recommends it. Movement and cues are often the priority."}
+    ]
+  },
+  {
+    slug:"portland-wedding-ceremony-seating-guide",category:"Planning",title:"Wedding Ceremony Seating: Capacity, Aisles and Making Every Guest Feel Included",dek:"Plan ceremony chairs around sightlines, accessibility and processional movement instead of simply filling rows.",readTime:"8 min read",seoTitle:"Portland Wedding Ceremony Seating Guide",seoDescription:"Plan Portland wedding ceremony seating with guest capacity, aisle width, accessibility, family seating and outdoor considerations.",relatedSlugs:["portland-wedding-ceremony-guide","portland-wedding-venue-layout-guide","portland-wedding-guest-experience-guide"],sections:[
+      {heading:"Use the ceremony area's real capacity",paragraphs:["A venue's overall event capacity may not equal the comfortable seated capacity of a specific ceremony location. Ask for the layout you will actually use."]},
+      {heading:"Protect the processional path",paragraphs:["Aisles need enough room for attire, escorts and photography while still keeping guests connected to the ceremony."]},
+      {heading:"Plan accessible seating intentionally",paragraphs:["Reserve appropriate spaces and companion seating where needed, with a practical route from arrival to ceremony."]},
+      {heading:"Family seating does not need to follow one tradition",paragraphs:["Choose front-row arrangements that fit the relationships involved. Communicate reserved seating to ushers or coordinators."]},
+      {heading:"Outdoor seating needs weather awareness",paragraphs:["Sun direction, wet ground, heat and uneven surfaces can affect comfort. Evaluate the ceremony area at a similar time of day when possible."]}
+    ],checklist:["Confirm seated capacity","Set aisle layout","Reserve accessible spaces","Plan family rows","Review sun/weather","Brief ushers"],faq:[
+      {question:"Do we need ushers at a wedding ceremony?",answer:"Not always, but they can be useful when seating is assigned, family rows are reserved or the venue layout needs guidance."},
+      {question:"Should there be extra ceremony chairs?",answer:"Ask the venue or rental provider about an appropriate buffer based on the final attendance and layout."}
+    ]
+  },
+  {
+    slug:"portland-wedding-coffee-service-guide",category:"Catering",title:"Wedding Coffee Service: A Small Detail That Can Matter More Than Another Favor",dek:"Plan coffee around dessert, weather and guest flow so it is hot, visible and available when people actually want it.",readTime:"7 min read",seoTitle:"Portland Wedding Coffee Service Guide",seoDescription:"Plan Portland wedding coffee service with dessert timing, quantities, decaf, milk options, placement and late-night guest experience.",relatedSlugs:["portland-wedding-catering-guide","portland-wedding-dessert-service-guide","portland-wedding-guest-experience-guide"],sections:[
+      {heading:"Choose when coffee opens",paragraphs:["Coffee can accompany dessert, begin after dinner or remain available later. Timing affects both staffing and how guests discover it."]},
+      {heading:"Put it where guests can see it",paragraphs:["A station hidden away from dessert or reception activity may be underused. Placement should fit the room without creating a traffic pinch point."]},
+      {heading:"Plan decaf and additions",paragraphs:["Ask the caterer what regular, decaf, milk and sweetener options are included rather than assuming a standard setup."]},
+      {heading:"Keep temperature and replenishment in mind",paragraphs:["Coffee sitting too long loses quality. Service format and guest count determine whether batches, staffed service or another approach works best."]},
+      {heading:"Lean into Portland only when it adds value",paragraphs:["Local coffee can be a meaningful regional touch if it fits the catering plan, but the basic guest experience still comes first."]}
+    ],checklist:["Choose service timing","Select station location","Confirm regular/decaf","Review milk/sweeteners","Plan replenishment","Coordinate with dessert"],faq:[
+      {question:"Does every wedding need coffee service?",answer:"No. It is optional, but it can be appreciated with dessert, in cooler weather or at longer receptions."},
+      {question:"Can we bring in a local coffee cart?",answer:"Possibly, subject to venue and catering rules. Confirm power, access, insurance and service requirements first."}
+    ]
+  },
+  {
+    slug:"portland-wedding-late-night-snack-guide",category:"Catering",title:"Late-Night Wedding Snacks: Serve Them When Guests Are Hungry, Not Just Because They Photograph Well",dek:"Choose a late-night bite around dinner timing, dancing and service logistics so it earns its place in the reception.",readTime:"8 min read",seoTitle:"Portland Wedding Late-Night Snack Guide",seoDescription:"Plan Portland wedding late-night snacks with timing, quantities, service style, dietary needs and reception flow.",relatedSlugs:["portland-wedding-late-night-food-guide","portland-wedding-catering-guide","portland-wedding-bar-last-call-guide"],sections:[
+      {heading:"Start with dinner timing",paragraphs:["A substantial dinner that ends late may reduce demand, while an early meal followed by hours of dancing can make a snack more useful."]},
+      {heading:"Choose food that can be served quickly",paragraphs:["Late-night service works best when guests can grab food without creating another long meal period or complicated line."]},
+      {heading:"Coordinate with the bar and last call",paragraphs:["Food, water and transportation can work together near the end of the reception. Build the timing with the coordinator and bar team."]},
+      {heading:"Plan quantities with the caterer",paragraphs:["Not every invited guest will still be present or hungry. Let the provider estimate based on attendance, timing and portion size."]},
+      {heading:"Check outside-food rules",paragraphs:["Food trucks and specialty vendors may need venue approval, insurance, power or designated service areas."]}
+    ],checklist:["Review dinner end time","Choose service time","Select easy-to-eat menu","Estimate quantity with provider","Check venue rules","Coordinate bar/transportation"],faq:[
+      {question:"What time should a late-night wedding snack be served?",answer:"Base it on when dinner ends, reception length and guest energy rather than a fixed clock time."},
+      {question:"Does every guest need a late-night serving?",answer:"Usually demand differs from dinner attendance. Ask the caterer or food provider to recommend quantities for the actual timeline."}
+    ]
+  },
+  {
+    slug:"portland-wedding-flower-installation-guide",category:"Florists",title:"Wedding Floral Installations: Arches, Hanging Flowers and the Logistics Behind the Look",dek:"Plan statement flowers around structure, installation time, venue approval and teardown before falling in love with a reference image.",readTime:"9 min read",seoTitle:"Portland Wedding Floral Installation Guide",seoDescription:"Plan Portland wedding floral arches and installations with venue approval, mechanics, setup time, weather, safety and teardown.",relatedSlugs:["portland-wedding-flower-cost-guide","portland-wedding-floral-repurpose-guide","portland-wedding-rental-delivery-guide"],sections:[
+      {heading:"The venue decides what can be attached",paragraphs:["Walls, ceilings, beams and ceremony structures may have restrictions. Share installation ideas with the venue before design is finalized."]},
+      {heading:"Mechanics are part of the floral design",paragraphs:["Large installations need stable structures and professional methods that support the materials safely. The hidden engineering affects labor and cost."]},
+      {heading:"Installation time must fit venue access",paragraphs:["A design requiring hours of work may not be feasible if vendors receive short setup windows. Florist and venue schedules need to align."]},
+      {heading:"Outdoor installations need weather planning",paragraphs:["Wind, heat and rain can affect both structure and flowers. Ask how the florist adapts the design for the site and season."]},
+      {heading:"Teardown belongs in the proposal",paragraphs:["Large structures and mechanics must leave the venue after the event. Confirm removal timing and who is responsible."]}
+    ],checklist:["Get venue approval","Confirm structure/mechanics","Check setup window","Discuss weather exposure","Coordinate other vendors","Confirm teardown"],faq:[
+      {question:"Can florists attach flowers to venue walls or ceilings?",answer:"Only if the venue permits it and the installation method is appropriate. Get approval before finalizing the design."},
+      {question:"Why do floral installations cost more than the flowers alone?",answer:"Structures, mechanics, labor, setup and teardown can be significant parts of a large installation."}
+    ]
+  },
+  {
+    slug:"portland-wedding-flower-preservation-guide",category:"Florists",title:"Wedding Flower Preservation: Decide Before the Bouquet Is Left in a Hot Car",dek:"If you want to preserve flowers, choose the method and handoff plan before the wedding so the bouquet reaches the preservation artist in usable condition.",readTime:"8 min read",seoTitle:"Portland Wedding Flower Preservation Guide",seoDescription:"Plan wedding flower preservation with bouquet handling, drying, pressing, resin options, timing and post-wedding handoff.",relatedSlugs:["portland-wedding-bouquet-guide","portland-wedding-flower-cost-guide","wedding-week-checklist"],sections:[
+      {heading:"Choose the preservation result you actually want",paragraphs:["Pressed frames, dried arrangements and resin pieces create very different finished objects. Review examples from the preservation provider before booking."]},
+      {heading:"Freshness affects the outcome",paragraphs:["Flowers begin changing immediately after the event. Ask the preservation artist how the bouquet should be stored and how quickly it needs to arrive."]},
+      {heading:"Not every flower preserves the same way",paragraphs:["Color, moisture and petal structure can change during drying or pressing. Ask what results are realistic for your bouquet varieties."]},
+      {heading:"Assign the post-wedding handoff",paragraphs:["The couple may be traveling or exhausted. Give a trusted person exact packaging, refrigeration or delivery instructions from the provider."]},
+      {heading:"Preservation is optional",paragraphs:["A bouquet can be meaningful without becoming a permanent object. Choose preservation because you want the finished piece, not because it feels required."]}
+    ],checklist:["Choose preservation style","Book provider","Ask flower-specific expectations","Get storage instructions","Assign handoff person","Confirm delivery deadline"],faq:[
+      {question:"When should wedding flowers be sent for preservation?",answer:"Follow the preservation artist's specific timing and handling instructions; freshness often matters."},
+      {question:"Will preserved flowers keep their exact wedding-day color?",answer:"Not necessarily. Drying, pressing and resin processes can change color and texture."}
+    ]
+  },
+  {
+    slug:"portland-wedding-dj-lighting-guide",category:"DJs",title:"DJ Lighting at Weddings: Make the Dance Floor Feel Alive Without Turning Dinner Into a Nightclub",dek:"Separate reception ambiance from dance-floor effects and coordinate lighting with photography, venue rules and the room design.",readTime:"8 min read",seoTitle:"Portland Wedding DJ Lighting Guide",seoDescription:"Plan Portland wedding DJ lighting for dance floors, uplighting, room ambiance, photography and venue restrictions.",relatedSlugs:["how-to-choose-portland-wedding-dj","portland-wedding-lighting-design-guide","portland-wedding-first-dance-guide"],sections:[
+      {heading:"Ask what lighting is actually included",paragraphs:["DJ packages may include simple dance effects, uplighting or more advanced fixtures. Review examples rather than relying on package names."]},
+      {heading:"Keep dinner and dancing visually distinct",paragraphs:["A room can begin warm and understated, then become more energetic when dancing opens. Lighting changes can support that transition."]},
+      {heading:"Coordinate strong colors with photography",paragraphs:["Intense colored light can affect skin tones and photographs. Tell the photographer and DJ what look you prefer."]},
+      {heading:"Check venue restrictions",paragraphs:["Some venues limit rigging, haze or certain effects. Confirm rules before adding equipment to the entertainment package."]},
+      {heading:"More effects are not automatically better",paragraphs:["Lighting should support the music and room. A focused setup can feel more polished than constant movement everywhere."]}
+    ],checklist:["Review included lighting","Choose dinner ambiance","Choose dance-floor energy","Coordinate photographer","Check venue rules","Confirm setup footprint"],faq:[
+      {question:"Is DJ lighting the same as wedding uplighting?",answer:"Not always. Dance effects and architectural uplighting can be separate services, so ask what the package includes."},
+      {question:"Can colored DJ lights ruin photos?",answer:"Strong colors can affect images. Coordination between the DJ and photographer helps balance atmosphere and photography."}
+    ]
+  },
+  {
+    slug:"portland-wedding-beauty-timeline-guide",category:"Hair & Makeup",title:"Wedding Hair and Makeup Timelines: Work Backward From Ready, Not Forward From Breakfast",dek:"Calculate the beauty schedule from service count, artist staffing and the time everyone must be dressed and available for photos.",readTime:"9 min read",seoTitle:"Portland Wedding Hair & Makeup Timeline Guide",seoDescription:"Build a Portland wedding hair and makeup timeline using service counts, artist staffing, photography, touchups and departure time.",relatedSlugs:["portland-bridal-hair-makeup-guide","portland-wedding-hair-makeup-trial-guide","portland-wedding-getting-ready-guide"],sections:[
+      {heading:"Define the real ready time",paragraphs:["The ceremony is not the deadline. First looks, portraits, travel and dressing may require beauty services to finish much earlier."]},
+      {heading:"Count services, not people",paragraphs:["One person receiving hair and makeup represents two services. Give the beauty team the exact service count when building timing."]},
+      {heading:"Staffing changes the start time",paragraphs:["Additional artists may shorten the morning but can affect cost and workspace. Let the company calculate staffing for the desired finish time."]},
+      {heading:"Build in dressing and touchup time",paragraphs:["Finishing makeup at the exact departure minute creates unnecessary pressure. Leave room for clothing, accessories, photos and final touchups."]},
+      {heading:"Prepare the room before artists arrive",paragraphs:["Clear surfaces, chairs, outlets and natural light can help the team begin efficiently. Follow any preparation instructions they provide."]}
+    ],checklist:["Set required ready time","Count hair services","Count makeup services","Confirm artist staffing","Add dressing buffer","Prepare workspace"],faq:[
+      {question:"Who should go first for wedding hair and makeup?",answer:"The beauty team can recommend order based on services, photography and who needs to be ready earliest."},
+      {question:"Should the person getting married go last?",answer:"Not necessarily. Going too late can create pressure. Build the order around the required ready time and artist recommendation."}
+    ]
+  },
+  {
+    slug:"portland-wedding-formalwear-fitting-guide",category:"Formalwear",title:"Wedding Suit and Tux Fittings: Fit, Shoes and Pickup Without Last-Minute Surprises",dek:"Coordinate measurements, alterations, accessories and pickup so formalwear is ready before the wedding weekend begins.",readTime:"8 min read",seoTitle:"Portland Wedding Suit & Tux Fitting Guide",seoDescription:"Plan Portland wedding suit and tux fittings with measurements, alterations, shoes, accessories, pickup and wedding-party coordination.",relatedSlugs:["portland-wedding-suit-tux-guide","portland-wedding-day-emergency-kit-guide","wedding-week-checklist"],sections:[
+      {heading:"Know whether you are renting or buying",paragraphs:["Rental and purchase timelines, alteration options and return requirements differ. Understand the process before coordinating a wedding party."]},
+      {heading:"Fit is more than the jacket size",paragraphs:["Sleeve, trouser, shirt and overall proportion affect the finished look. Ask what adjustments are included and when they are completed."]},
+      {heading:"Bring the shoes and accessories that matter",paragraphs:["Shoe height, belt or suspenders, shirt and tie choices can affect the complete fit. Confirm what to bring to the fitting."]},
+      {heading:"Coordinate remote wedding-party members early",paragraphs:["If attendants live elsewhere, give them measurement or fitting instructions and deadlines from the formalwear provider."]},
+      {heading:"Try everything on at pickup",paragraphs:["A final try-on can catch missing pieces or fit issues while the shop still has time to help."]}
+    ],checklist:["Choose rent or purchase","Schedule measurements","Confirm alteration scope","Coordinate remote attendants","Bring shoes/accessories","Try on at pickup","Record return deadline"],faq:[
+      {question:"When should wedding suits or tuxes be fitted?",answer:"Follow the formalwear provider's timeline because rental, custom and off-the-rack options differ."},
+      {question:"Should rental formalwear be tried on at pickup?",answer:"Yes when possible, so missing items or fit concerns can be addressed before the wedding."}
+    ]
+  },
+  {
+    slug:"portland-wedding-jewelry-insurance-guide",category:"Jewelry",title:"Engagement and Wedding Ring Insurance: Questions to Ask Before Assuming You Are Covered",dek:"Understand documentation, coverage limits and insurer requirements so valuable jewelry is not protected by assumption.",readTime:"8 min read",seoTitle:"Wedding Ring Insurance Guide | Portland Couples",seoDescription:"Understand wedding and engagement ring insurance questions including appraisals, documentation, coverage limits and claims considerations.",relatedSlugs:["portland-wedding-ring-jewelry-guide","portland-wedding-ring-care-sizing-guide","portland-wedding-honeymoon-departure-guide"],sections:[
+      {heading:"Start with your existing insurance",paragraphs:["Homeowners or renters policies may provide some jewelry coverage, but limits and covered events vary. Ask the insurer what your policy actually includes."]},
+      {heading:"Find out what documentation is required",paragraphs:["Receipts, descriptions or appraisals may be needed for scheduled coverage. Keep copies somewhere separate from the jewelry itself."]},
+      {heading:"Ask what loss scenarios are covered",paragraphs:["Theft, accidental loss, damage and mysterious disappearance may be treated differently. Coverage details belong in the insurer's policy terms."]},
+      {heading:"Understand deductibles and settlement",paragraphs:["Ask how a claim would be valued and whether a deductible applies. Premium alone does not describe the full coverage."]},
+      {heading:"Update documentation when appropriate",paragraphs:["Jewelry values and circumstances can change. Ask the insurer whether updated appraisals or policy reviews are recommended."]}
+    ],checklist:["Review existing policy","Ask coverage limits","Gather receipts/appraisal","Compare covered losses","Check deductible","Store documentation safely"],faq:[
+      {question:"Is an engagement ring automatically covered by renters insurance?",answer:"Do not assume so. Policies and limits vary; ask the insurer about the specific jewelry and coverage."},
+      {question:"Does MPW recommend a specific jewelry insurer?",answer:"No. This guide identifies questions couples can use when evaluating coverage; insurance advice should come from licensed providers."}
+    ]
   }
 ];
 
