@@ -3146,7 +3146,7 @@ export const inspirationArticles: InspirationArticle[] = [
     publishedAt:"2026-10-01T00:00:00-07:00",
     updatedAt:"2026-10-01T00:00:00-07:00",
     reviewedBy:"My Portland Wedding Editorial",
-    relatedSlugs:[],
+    relatedSlugs:["portland-wedding-cake-dessert-guide","portland-wedding-cake-cutting-guide","portland-wedding-cake-flavor-tasting-guide"],
     sections:[
       {heading:"Start with the number of guests likely to eat cake",paragraphs:["Treat this as a coordination decision, not a decorative afterthought. The useful answer depends on the guest count, venue rules, vendor process and the way the rest of the wedding day is scheduled."]},
       {heading:"Account for other desserts",paragraphs:["Ask the vendor what they normally provide and what they expect someone else to handle. Then compare that answer with the venue's access rules and the responsibilities already assigned in your timeline."]},
@@ -3171,7 +3171,7 @@ export const inspirationArticles: InspirationArticle[] = [
     publishedAt:"2026-10-01T00:00:00-07:00",
     updatedAt:"2026-10-01T00:00:00-07:00",
     reviewedBy:"My Portland Wedding Editorial",
-    relatedSlugs:[],
+    relatedSlugs:["portland-wedding-rentals-guide","portland-wedding-rental-delivery-guide","portland-wedding-rental-return-pickup-guide"],
     sections:[
       {heading:"Separate fixed rentals from guest-count rentals",paragraphs:["Treat this as a coordination decision, not a decorative afterthought. The useful answer depends on the guest count, venue rules, vendor process and the way the rest of the wedding day is scheduled."]},
       {heading:"Know the vendor's final-count deadline",paragraphs:["Ask the vendor what they normally provide and what they expect someone else to handle. Then compare that answer with the venue's access rules and the responsibilities already assigned in your timeline."]},
@@ -3196,7 +3196,7 @@ export const inspirationArticles: InspirationArticle[] = [
     publishedAt:"2026-10-01T00:00:00-07:00",
     updatedAt:"2026-10-01T00:00:00-07:00",
     reviewedBy:"My Portland Wedding Editorial",
-    relatedSlugs:[],
+    relatedSlugs:["portland-wedding-officiant-rehearsal-guide","portland-wedding-officiant-microphone-guide","portland-wedding-officiant-license-handoff-guide"],
     sections:[
       {heading:"Work backward from ceremony start",paragraphs:["Treat this as a coordination decision, not a decorative afterthought. The useful answer depends on the guest count, venue rules, vendor process and the way the rest of the wedding day is scheduled."]},
       {heading:"Leave time for the sound check",paragraphs:["Ask the vendor what they normally provide and what they expect someone else to handle. Then compare that answer with the venue's access rules and the responsibilities already assigned in your timeline."]},
@@ -3296,7 +3296,7 @@ export const inspirationArticles: InspirationArticle[] = [
     publishedAt:"2026-10-01T00:00:00-07:00",
     updatedAt:"2026-10-01T00:00:00-07:00",
     reviewedBy:"My Portland Wedding Editorial",
-    relatedSlugs:[],
+    relatedSlugs:["portland-wedding-photo-booth-guide","portland-wedding-photo-booth-placement-guide","portland-wedding-photo-booth-line-guide"],
     sections:[
       {heading:"Get the booth footprint first",paragraphs:["Treat this as a coordination decision, not a decorative afterthought. The useful answer depends on the guest count, venue rules, vendor process and the way the rest of the wedding day is scheduled."]},
       {heading:"Measure height as well as width",paragraphs:["Ask the vendor what they normally provide and what they expect someone else to handle. Then compare that answer with the venue's access rules and the responsibilities already assigned in your timeline."]},
@@ -3396,7 +3396,7 @@ export const inspirationArticles: InspirationArticle[] = [
     publishedAt:"2026-10-01T00:00:00-07:00",
     updatedAt:"2026-10-01T00:00:00-07:00",
     reviewedBy:"My Portland Wedding Editorial",
-    relatedSlugs:[],
+    relatedSlugs:["portland-wedding-mobile-bar-guide","portland-wedding-mobile-bar-ice-guide","portland-wedding-mobile-bar-last-call-guide"],
     sections:[
       {heading:"Decide whether water is self-serve or staffed",paragraphs:["Treat this as a coordination decision, not a decorative afterthought. The useful answer depends on the guest count, venue rules, vendor process and the way the rest of the wedding day is scheduled."]},
       {heading:"Keep water visible away from the alcohol queue",paragraphs:["Ask the vendor what they normally provide and what they expect someone else to handle. Then compare that answer with the venue's access rules and the responsibilities already assigned in your timeline."]},
