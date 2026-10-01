@@ -1768,6 +1768,150 @@ export const inspirationArticles: InspirationArticle[] = [
       {question:"Is an engagement ring automatically covered by renters insurance?",answer:"Do not assume so. Policies and limits vary; ask the insurer about the specific jewelry and coverage."},
       {question:"Does MPW recommend a specific jewelry insurer?",answer:"No. This guide identifies questions couples can use when evaluating coverage; insurance advice should come from licensed providers."}
     ]
+  },
+  {
+    slug:"portland-wedding-save-the-date-mailing-guide",category:"Stationery",title:"Save-the-Date Mailing: Give Guests Useful Notice Without Locking Every Detail",dek:"Choose timing, recipients and information around travel needs and your actual planning progress.",readTime:"8 min read",seoTitle:"Portland Wedding Save-the-Date Mailing Guide",seoDescription:"Plan Portland wedding save-the-dates with mailing timing, guest list, travel details, addresses and wedding website information.",relatedSlugs:["portland-wedding-save-the-date-guide","wedding-invitation-stationery-timeline-guide","portland-wedding-guest-list-guide"],sections:[
+      {heading:"Send only to people you intend to invite",paragraphs:["A save-the-date creates a clear expectation of a later invitation. Finalize the relevant portion of the guest list before mailing."]},
+      {heading:"Travel needs influence timing",paragraphs:["Guests coming from farther away may need more planning time for flights, lodging or time off. Destination-like Oregon locations can add travel complexity even for regional guests."]},
+      {heading:"Keep the information durable",paragraphs:["Names, date and general location are safer than details likely to change. Use the wedding website for evolving travel and schedule information."]},
+      {heading:"Collect addresses early",paragraphs:["Address gathering often takes longer than expected. Keep household names and mailing information in the same master guest list used later for invitations."]},
+      {heading:"Proof every date and URL",paragraphs:["A beautiful card cannot undo a wrong date. Check the printed date, city and website carefully before production."]}
+    ],checklist:["Finalize recipients","Confirm date/location","Collect addresses","Test website URL","Proof names/date","Plan mailing"],faq:[
+      {question:"Does everyone who gets a save-the-date need an invitation?",answer:"Couples should generally treat a save-the-date as a commitment to invite that recipient unless exceptional circumstances change the event."},
+      {question:"Do save-the-dates need the venue address?",answer:"Not necessarily. The date and general location may be enough while detailed logistics live on the wedding website."}
+    ]
+  },
+  {
+    slug:"portland-wedding-invitation-addressing-guide",category:"Stationery",title:"Wedding Invitation Addressing: Households, Names and Clarity Over Guesswork",dek:"Build envelopes from the actual guest list and make it clear who is invited without turning addressing into an etiquette exam.",readTime:"8 min read",seoTitle:"Wedding Invitation Addressing Guide | Portland",seoDescription:"Address wedding invitations clearly using household names, partners, children, plus-ones and a consistent guest-list system.",relatedSlugs:["wedding-invitation-stationery-timeline-guide","portland-wedding-rsvp-wording-guide","portland-wedding-guest-list-guide"],sections:[
+      {heading:"Let the guest list drive the envelope",paragraphs:["The invitation should reflect exactly who is invited. Start with household records rather than trying to reconstruct names while addressing."]},
+      {heading:"Use names whenever you know them",paragraphs:["Named partners create clarity and feel more personal than a generic guest label when the person's identity is known."]},
+      {heading:"Make children's invitations clear",paragraphs:["If children are invited, naming them or otherwise clarifying the household invitation can reduce uncertainty."]},
+      {heading:"Choose a formality level and stay consistent",paragraphs:["Traditional titles are optional. What matters most is respectful, accurate naming and a consistent approach across the suite."]},
+      {heading:"Match envelope and RSVP settings",paragraphs:["Online RSVP systems should recognize the same household members the invitation names so guests do not receive conflicting signals."]}
+    ],checklist:["Clean master guest list","Verify names/spelling","Define household groups","Clarify children/plus-ones","Choose formality level","Test RSVP lookup"],faq:[
+      {question:"Do wedding invitations have to use formal titles?",answer:"No. Couples can choose a naming style that fits the event while keeping names accurate and respectful."},
+      {question:"How do we show that children are invited?",answer:"Use clear household naming and make sure the RSVP system reflects the same invited people."}
+    ]
+  },
+  {
+    slug:"portland-wedding-vendor-contract-guide",category:"Vendors",title:"Wedding Vendor Contracts: A Planning Review Before You Sign",dek:"Understand scope, payments, timing, cancellation and deliverables so the contract matches the service you think you are buying.",readTime:"10 min read",seoTitle:"Portland Wedding Vendor Contract Planning Guide",seoDescription:"Review Portland wedding vendor contracts for scope, payments, cancellation, timing, deliverables, travel and responsibilities before signing.",relatedSlugs:["how-to-choose-portland-wedding-vendors","which-wedding-vendors-should-you-book-first","portland-wedding-venue-contract-guide"],sections:[
+      {heading:"Match the scope to the proposal",paragraphs:["Package names are not enough. Confirm hours, products, staffing, setup and any specific services discussed during sales conversations."]},
+      {heading:"Map every payment date",paragraphs:["Record deposits and final balances in the wedding budget so multiple vendor deadlines do not arrive unexpectedly."]},
+      {heading:"Read cancellation and rescheduling provisions",paragraphs:["Understand what happens to payments and obligations if plans change. For legal interpretation, consult a qualified attorney."]},
+      {heading:"Check travel, delivery and overtime",paragraphs:["Extra hours, mileage, delivery or accommodation can materially change the final cost. Ask how those charges are calculated."]},
+      {heading:"Save the signed version",paragraphs:["Keep the final executed contract and amendments in one organized place rather than relying on an email thread months later."]}
+    ],checklist:["Verify scope","Record payment dates","Review cancellation terms","Check travel/delivery","Check overtime","Save signed copy"],faq:[
+      {question:"Can MPW tell us whether a contract term is legally fair?",answer:"No. MPW can identify planning questions, but legal interpretation should come from a qualified attorney."},
+      {question:"Should verbal promises be added to the contract?",answer:"If a detail matters to your decision, ask the vendor how it will be documented in the written agreement."}
+    ]
+  },
+  {
+    slug:"portland-wedding-vendor-tip-guide",category:"Vendors",title:"Wedding Vendor Tipping: Build the Decision Into the Budget Before the Final Week",dek:"Review contracts, service charges and your own preferences early so gratuity does not become a stack of last-minute envelopes.",readTime:"9 min read",seoTitle:"Portland Wedding Vendor Tipping Planning Guide",seoDescription:"Plan wedding vendor gratuities by reviewing contracts, service charges, company policies and final payment logistics without relying on rigid rules.",relatedSlugs:["how-to-choose-portland-wedding-vendors","portland-wedding-budget-guide","wedding-week-checklist"],sections:[
+      {heading:"Start with contracts and invoices",paragraphs:["Service charges and gratuity are not always the same thing. Read each agreement and ask the company what is already included."]},
+      {heading:"Avoid treating a universal chart as law",paragraphs:["Vendor business models and policies vary. Decide based on the specific service, contract and your preferences rather than an inflexible internet formula."]},
+      {heading:"Separate required charges from optional appreciation",paragraphs:["If a contract requires a fee, budget for it as a cost. Optional gratuity or gifts can then be considered separately."]},
+      {heading:"Plan the handoff",paragraphs:["If using envelopes, label them and assign a trusted person to distribute them at the appropriate time. Digital methods should also be confirmed in advance."]},
+      {heading:"A thoughtful review can matter too",paragraphs:["For many small businesses, a specific public review and permission to share wedding images can provide meaningful value beyond the wedding day."]}
+    ],checklist:["Review contracts","Identify service charges","Ask unclear policies","Set gratuity budget if desired","Prepare handoff","Plan vendor reviews"],faq:[
+      {question:"Is a service charge always a tip?",answer:"No. Terminology and distribution vary. Ask the vendor or caterer what the charge represents."},
+      {question:"Do couples have to tip every wedding vendor?",answer:"There is no universal rule across every service. Review contracts and company policies, then make your own gratuity decisions."}
+    ]
+  },
+  {
+    slug:"portland-wedding-vendor-communication-guide",category:"Vendors",title:"Wedding Vendor Communication: Give Every Pro the Information They Need Without Living in Your Inbox",dek:"Create a clean system for contacts, decisions and final details so vendors can work from the same version of the wedding.",readTime:"8 min read",seoTitle:"Portland Wedding Vendor Communication Guide",seoDescription:"Organize wedding vendor communication with contacts, timelines, decisions, final details and a clear wedding-week handoff.",relatedSlugs:["how-to-choose-portland-wedding-vendors","portland-wedding-day-timeline-guide","portland-wedding-month-of-coordination-guide"],sections:[
+      {heading:"Keep one contact record",paragraphs:["Store company, primary contact, phone, email and contract details in one planning system so information is not buried across messages."]},
+      {heading:"Send decisions, not every thought",paragraphs:["Vendors need clear final direction. Organize inspiration and questions before sending them rather than forwarding every idea as it appears."]},
+      {heading:"Respect each vendor's planning process",paragraphs:["Some use questionnaires, portals or scheduled meetings. Following their workflow can reduce duplicate communication."]},
+      {heading:"Share the final timeline intentionally",paragraphs:["Send the version relevant to vendors once it is stable and identify who controls updates. Multiple conflicting timelines create avoidable mistakes."]},
+      {heading:"Create a wedding-day point person",paragraphs:["Couples should not need to answer routine logistics during the ceremony or reception. Give vendors an appropriate coordinator or trusted contact."]}
+    ],checklist:["Create vendor contact record","Track open questions","Use vendor workflows","Finalize timeline owner","Share final logistics","Name wedding-day contact"],faq:[
+      {question:"Should all vendors receive the same timeline?",answer:"They should receive consistent core timing, though some vendors may also need role-specific details."},
+      {question:"Who should vendors call on the wedding day?",answer:"Choose a planner, coordinator or trusted contact who understands logistics and is authorized to answer routine questions."}
+    ]
+  },
+  {
+    slug:"portland-wedding-photo-backup-weather-guide",category:"Photography",title:"Rainy Wedding Photos in Portland: Build a Backup That Still Looks Intentional",dek:"Choose covered portrait locations, umbrellas and timing before the forecast so rain changes the plan without erasing the photographs you wanted.",readTime:"9 min read",seoTitle:"Portland Rainy Wedding Photography Guide",seoDescription:"Plan Portland rainy wedding photos with covered locations, umbrellas, lighting, timing, footwear and photographer coordination.",relatedSlugs:["portland-wedding-rain-plan-guide","portland-wedding-photography-timeline-guide","portland-wedding-weather-and-season-guide"],sections:[
+      {heading:"Scout covered options before wedding week",paragraphs:["Overhangs, porches, indoor rooms and nearby covered areas can preserve portrait variety when outdoor conditions change."]},
+      {heading:"Rain does not always mean staying indoors",paragraphs:["Light rain can work with appropriate protection and photographer technique. Decide how adventurous you want to be before formalwear is involved."]},
+      {heading:"Umbrellas should be functional first",paragraphs:["Enough coverage, sturdy construction and a plan for wet umbrellas matter more than matching a styled photo."]},
+      {heading:"Protect the ground-level details",paragraphs:["Shoes, hems and pathways can become the bigger challenge after rain. Bring practical footwear or towels when the venue warrants it."]},
+      {heading:"Let the photographer adjust the timeline",paragraphs:["Short weather windows may appear. A flexible portrait plan can take advantage of changing conditions without disrupting the entire event."]}
+    ],checklist:["Identify covered portrait spots","Discuss rain tolerance","Prepare umbrellas","Plan practical footwear","Protect attire","Keep portrait timing flexible"],faq:[
+      {question:"Can wedding photographers shoot in the rain?",answer:"Many can, but equipment, conditions and personal comfort matter. Discuss the plan with your photographer."},
+      {question:"Should we buy clear umbrellas for wedding photos?",answer:"They can be useful, but any suitable umbrella that provides coverage and fits your preferences can work."}
+    ]
+  },
+  {
+    slug:"portland-wedding-videography-drone-guide",category:"Videography",title:"Drone Wedding Video: When an Aerial Shot Adds Something—and When It Does Not",dek:"Evaluate location, weather, permissions and storytelling value before treating drone footage as a must-have package feature.",readTime:"8 min read",seoTitle:"Portland Wedding Drone Videography Guide",seoDescription:"Understand wedding drone video considerations including venue permission, weather, airspace, operator requirements and storytelling value.",relatedSlugs:["portland-wedding-videographer-guide","portland-wedding-videography-style-guide","outdoor-wedding-venues-portland-guide"],sections:[
+      {heading:"Aerial footage works best when the location earns it",paragraphs:["Large landscapes, vineyards, mountains or distinctive properties can benefit from an establishing view. An aerial shot is less meaningful when it adds little context."]},
+      {heading:"Permission and airspace come first",paragraphs:["Drone operations are subject to aviation rules, location restrictions and property permission. The operator should determine whether a flight is lawful and appropriate."]},
+      {heading:"Weather can remove the option",paragraphs:["Wind, rain, visibility and other conditions can prevent safe operation. Treat drone footage as conditional rather than a guaranteed wedding-day moment."]},
+      {heading:"Ask who operates the aircraft",paragraphs:["The videography company should be able to explain its drone process and applicable operator requirements."]},
+      {heading:"Do not let the drone interrupt the wedding",paragraphs:["Aerial coverage should support the film without creating unnecessary noise or delaying key moments."]}
+    ],checklist:["Ask whether venue suits aerials","Confirm venue permission","Ask operator process","Understand weather limits","Discuss when drone is used","Confirm backup if unavailable"],faq:[
+      {question:"Can a drone fly at every Portland wedding venue?",answer:"No. Airspace, property rules, weather and operational requirements can limit or prohibit flights."},
+      {question:"Is drone footage essential for a wedding film?",answer:"No. It is an optional perspective that is most useful when it adds meaningful location context."}
+    ]
+  },
+  {
+    slug:"portland-wedding-videography-delivery-guide",category:"Videography",title:"Wedding Video Delivery: Highlight Films, Ceremony Edits and the Files You Will Actually Receive",dek:"Compare videography packages by finished deliverables, audio and access—not only by hours of coverage.",readTime:"8 min read",seoTitle:"Portland Wedding Video Delivery Guide",seoDescription:"Compare Portland wedding videography deliverables including highlight films, ceremony edits, speeches, raw footage, downloads and delivery terms.",relatedSlugs:["portland-wedding-videographer-guide","portland-wedding-videography-style-guide","portland-wedding-video-audio-guide"],sections:[
+      {heading:"List every finished deliverable",paragraphs:["A cinematic highlight, full ceremony and edited speeches are different products. Make sure the contract names what the package includes."]},
+      {heading:"Ask what raw footage means",paragraphs:["Raw footage may be unedited camera files, lightly organized clips or not offered at all. Ask for the studio's definition before comparing packages."]},
+      {heading:"Understand music and sharing",paragraphs:["Music licensing can affect where films can be posted. Ask how the videographer selects music and what sharing rights come with the final film."]},
+      {heading:"Know how files are delivered",paragraphs:["Online galleries, downloads and physical media have different access periods. Save personal copies according to the studio's instructions."]},
+      {heading:"Review delivery terms in the contract",paragraphs:["Editing is substantial post-production work. Read the stated delivery process and discuss any deadline that matters before booking."]}
+    ],checklist:["List included films","Define raw footage","Ask music approach","Confirm delivery method","Plan backups","Review contract timing"],faq:[
+      {question:"Is raw footage included with wedding videography?",answer:"Not necessarily. It varies by studio and package, and the term itself can mean different things."},
+      {question:"Can we post our wedding film anywhere?",answer:"Sharing permissions and music licensing can affect use. Review the videographer's terms."}
+    ]
+  },
+  {
+    slug:"portland-wedding-officiant-rehearsal-guide",category:"Officiants",title:"Working With Your Officiant at Rehearsal: Cues, Positions and the Ceremony Handoff",dek:"Use the rehearsal to connect the script to the physical space and make sure everyone knows who is leading each transition.",readTime:"8 min read",seoTitle:"Portland Wedding Officiant Rehearsal Guide",seoDescription:"Coordinate your Portland wedding officiant at rehearsal with processional cues, positions, readings, rings, microphones and ceremony transitions.",relatedSlugs:["oregon-wedding-officiant-ceremony-guide","portland-wedding-rehearsal-guide","portland-wedding-officiant-script-guide"],sections:[
+      {heading:"Confirm who leads the rehearsal",paragraphs:["The officiant, planner or coordinator may run it depending on the team. Decide in advance so participants receive one set of instructions."]},
+      {heading:"Place the ceremony physically",paragraphs:["Mark where the couple, officiant and wedding party stand, then check sightlines and microphone position."]},
+      {heading:"Practice handoffs",paragraphs:["Rings, bouquets, readings and unity elements should move between specific people at clear moments."]},
+      {heading:"Coordinate processional cues",paragraphs:["The person controlling music needs to know who signals each entrance and how the officiant knows the ceremony can begin."]},
+      {heading:"Review the ending",paragraphs:["Pronouncement, kiss, announcement language and recessional should connect smoothly into what guests do next."]}
+    ],checklist:["Name rehearsal leader","Set standing positions","Practice handoffs","Coordinate music cues","Review microphone","Practice recessional"],faq:[
+      {question:"Does the officiant have to attend the rehearsal?",answer:"Not always; availability and service packages vary. If absent, confirm who will lead ceremony logistics."},
+      {question:"Should vows be practiced at rehearsal?",answer:"Couples can practice where and how vows are exchanged without necessarily reading the private words aloud."}
+    ]
+  },
+  {
+    slug:"portland-wedding-marriage-license-planning-guide",category:"Officiants",title:"Oregon Marriage License Planning: Put the Legal Step on the Wedding Timeline",dek:"Treat licensing as a planning task with current county requirements, identification and post-ceremony responsibilities that should be verified with official sources.",readTime:"8 min read",seoTitle:"Oregon Marriage License Wedding Planning Guide",seoDescription:"Plan for an Oregon marriage license by checking current county requirements, timing, identification and officiant responsibilities with official sources.",relatedSlugs:["oregon-wedding-officiant-ceremony-guide","portland-wedding-officiant-script-guide","wedding-week-checklist"],sections:[
+      {heading:"Use the county as the authority",paragraphs:["Marriage-license requirements can change. Verify current timing, fees, identification and application procedures with the issuing Oregon county rather than relying on an old wedding article."]},
+      {heading:"Put the application into the planning calendar",paragraphs:["Once you know the current rules, schedule the application so it fits any required timing and the wedding date."]},
+      {heading:"Confirm the officiant understands their responsibility",paragraphs:["Ask the officiant how the license is handled during and after the ceremony and who is responsible for returning completed paperwork."]},
+      {heading:"Keep the document secure on the wedding day",paragraphs:["Assign a specific person or location for the license so it does not disappear among décor, gifts or personal bags."]},
+      {heading:"Know how to obtain certified copies",paragraphs:["If copies will be needed later, check the issuing authority's current process rather than assuming the ceremonial document serves every purpose."]}
+    ],checklist:["Check official county requirements","Record application timing","Gather required identification","Confirm officiant process","Assign document keeper","Check certified-copy process"],faq:[
+      {question:"What are Oregon's current marriage-license rules?",answer:"Requirements can change and may vary by issuing county. Verify them directly with the appropriate county office before applying."},
+      {question:"Does MPW issue or validate marriage licenses?",answer:"No. MPW provides planning guidance; official county authorities control licensing requirements and records."}
+    ]
+  },
+  {
+    slug:"portland-wedding-photo-booth-placement-guide",category:"Photo Booths",title:"Where to Put the Photo Booth: Visibility Without Creating a Reception Traffic Jam",dek:"Choose a location that guests naturally discover while protecting the dance floor, bar line and service routes.",readTime:"7 min read",seoTitle:"Portland Wedding Photo Booth Placement Guide",seoDescription:"Choose the best wedding photo booth placement using guest traffic, backdrop space, power, lighting and reception flow.",relatedSlugs:["portland-wedding-photo-booth-guide","portland-wedding-photo-booth-prop-guide","portland-wedding-venue-layout-guide"],sections:[
+      {heading:"Keep it connected to the party",paragraphs:["A booth hidden in a remote room can be forgotten. Place it close enough to reception activity that guests encounter it naturally."]},
+      {heading:"Stay out of the bar and restroom routes",paragraphs:["Photo booths create small groups waiting and watching. Avoid narrow paths that already carry heavy guest traffic."]},
+      {heading:"Measure the complete footprint",paragraphs:["Backdrop, camera, lighting and queue space require more room than the booth hardware alone. Ask the provider for dimensions."]},
+      {heading:"Confirm power and connectivity",paragraphs:["Some systems need electrical power or connectivity for sharing features. Verify the venue location supports the selected booth."]},
+      {heading:"Think about sound",paragraphs:["Guests need to hear booth instructions, but the setup should not compete with speeches or ceremony audio."]}
+    ],checklist:["Get full booth dimensions","Choose visible area","Protect traffic paths","Confirm power","Plan queue space","Check sound conflicts"],faq:[
+      {question:"Can a photo booth go next to the dance floor?",answer:"It can if there is enough room and it does not interfere with dancing, speakers or major traffic routes."},
+      {question:"How much room does a photo booth need?",answer:"It varies by booth, backdrop and lighting. Use the provider's complete footprint, including guest queue space."}
+    ]
+  },
+  {
+    slug:"portland-wedding-content-delivery-guide",category:"Content Creation",title:"Wedding Content Delivery: What 'Next Day' Actually Means",dek:"Compare content-creator packages by clip organization, editing, posting permissions and delivery method instead of a vague promise of fast content.",readTime:"8 min read",seoTitle:"Portland Wedding Content Creator Delivery Guide",seoDescription:"Compare wedding content creator delivery including raw clips, edited reels, turnaround, file access, posting permissions and storage.",relatedSlugs:["portland-wedding-content-creator-guide","portland-wedding-content-creator-shot-guide","portland-wedding-videography-delivery-guide"],sections:[
+      {heading:"Define the deliverables",paragraphs:["Raw vertical clips, edited reels, story-ready snippets and curated folders are different outputs. Ask exactly what the package includes."]},
+      {heading:"Turnaround should name the product",paragraphs:["A creator may deliver raw clips quickly while edited content takes longer. Clarify which files arrive on which timeline."]},
+      {heading:"Ask how clips are organized",paragraphs:["Hundreds of unnamed phone files can be difficult to use. Folder structure, favorites or chronological organization may add meaningful value."]},
+      {heading:"Set posting permissions",paragraphs:["Decide whether the creator may post before the couple, tag vendors or share behind-the-scenes material publicly."]},
+      {heading:"Download and back up the files",paragraphs:["Cloud links may expire. Save the delivered content according to the creator's instructions and maintain your own copy."]}
+    ],checklist:["List deliverables","Define turnaround by file type","Ask organization method","Set posting permissions","Confirm download window","Back up files"],faq:[
+      {question:"Does next-day wedding content mean edited reels?",answer:"Not always. Ask whether the stated turnaround applies to raw clips, edited pieces or both."},
+      {question:"Who owns wedding content-creator clips?",answer:"Usage and ownership depend on the service agreement. Review the creator's contract and permissions."}
+    ]
   }
 ];
 
