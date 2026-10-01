@@ -1396,3 +1396,12 @@ body{background-color:#fffaf6!important}
 .venueMoodBoard{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin:22px 0 42px}.venueMoodBoard>div{position:relative;min-height:190px;padding:22px;border-radius:22px;overflow:hidden;display:flex;flex-direction:column;justify-content:flex-end;background:linear-gradient(145deg,#f4e6d7,#fffaf3);border:1px solid #e3d2bc;box-shadow:0 12px 28px rgba(52,64,55,.08)}.venueMoodBoard>div:nth-child(2){background:linear-gradient(145deg,#e7eee7,#fffaf3)}.venueMoodBoard>div:nth-child(3){background:linear-gradient(145deg,#d8e4dc,#f8f1e7)}.venueMoodBoard>div:nth-child(4){background:linear-gradient(145deg,#f1ddd3,#fff9f0)}.venueMoodBoard span{position:absolute;top:18px;right:18px;font-family:Georgia,serif;font-size:36px;color:#b57a42;opacity:.7}.venueMoodBoard strong{font-family:Georgia,serif;font-size:25px;color:#173f34;line-height:1.05}.venueMoodBoard small{margin-top:7px;color:#665d51}
 @media(max-width:760px){.mpwByNumbers{padding:24px 18px;border-radius:22px}.mpwStatGrid{grid-template-columns:1fr 1fr}.mpwStatCard{min-height:145px}.mpwStatCard strong{font-size:31px}.venueMoodBoard{grid-template-columns:1fr 1fr}.venueMoodBoard>div{min-height:150px;padding:17px}.venueMoodBoard strong{font-size:21px}}
 @media(max-width:480px){.mpwStatGrid,.venueMoodBoard{grid-template-columns:1fr}.mpwStatCard,.venueMoodBoard>div{min-height:130px}}
+
+/* Flagship editorial polish from review */
+.magazineHeroPhoto{max-width:920px;height:clamp(260px,34vw,430px);margin:-20px auto 40px}
+.articleCategoryBridge{grid-template-columns:minmax(0,1fr) max-content;gap:30px;padding:32px 36px}
+.articleCategoryBridgeCopy{min-width:0}
+.articleCategoryBridgeCopy .eyebrow{display:block;margin-bottom:6px}
+.articleCategoryBridgeCopy h2{margin:0 0 8px;line-height:1.08}
+.articleCategoryBridgeButton{white-space:nowrap;min-width:190px;text-align:center;align-self:center}
+@media(max-width:760px){.magazineHeroPhoto{height:280px;max-width:100%;margin:-18px 0 30px}.articleCategoryBridge{grid-template-columns:1fr;gap:20px;padding:24px}.articleCategoryBridgeButton{width:100%;min-width:0}}
