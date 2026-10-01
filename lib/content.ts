@@ -1480,6 +1480,150 @@ export const inspirationArticles: InspirationArticle[] = [
       {question:"Does a large wedding always need two photographers?",answer:"No. Guest count is one factor alongside venue layout, timeline, coverage priorities and the photographer's working style."},
       {question:"Can we hire our own second photographer?",answer:"Do not do so without the contracted photographer's approval. Photography agreements may address exclusivity and team structure."}
     ]
+  },
+  {
+    slug:"portland-wedding-photography-timeline-guide",category:"Photography",title:"Wedding Photography Timelines: Give the Camera Time Without Letting Photos Take Over",dek:"Build portrait and detail coverage into the day with realistic transitions, family organization and enough flexibility to stay present.",readTime:"10 min read",seoTitle:"Portland Wedding Photography Timeline Guide",seoDescription:"Plan a Portland wedding photography timeline with getting-ready details, portraits, family photos, sunset and reception coverage.",relatedSlugs:["portland-wedding-day-timeline-guide","portland-wedding-family-photo-list-guide","portland-wedding-first-look-guide"],sections:[
+      {heading:"Start with the moments that cannot move",paragraphs:["Ceremony time, venue access, sunset goals and reception service create the boundaries. Photography should be designed inside the real wedding schedule."]},
+      {heading:"Detail photos need preparation more than extra time",paragraphs:["Gather stationery, rings, jewelry and meaningful objects before the photographer arrives so coverage begins efficiently."]},
+      {heading:"Portrait time includes gathering people",paragraphs:["Family photographs take longer when relatives must be found. A concise list and designated helpers can protect both portrait quality and cocktail hour."]},
+      {heading:"A first look changes the options, not the rules",paragraphs:["Seeing each other before the ceremony may allow more portraits earlier, but it is a personal choice rather than a requirement for a good timeline."]},
+      {heading:"Leave room for the wedding to happen",paragraphs:["The strongest timeline supports candid moments instead of moving the couple from one staged setup to another all day."]}
+    ],checklist:["Confirm coverage hours","Gather detail items","Choose portrait priorities","Build family list","Discuss first look","Check sunset timing","Protect candid time"],faq:[
+      {question:"How much wedding-day time should be reserved for photos?",answer:"It depends on coverage priorities, locations, family groups and the photographer's process. Build the schedule with the photographer rather than using a universal formula."},
+      {question:"Do sunset photos have to happen exactly at sunset?",answer:"No. Your photographer can recommend the useful light window for the location and season."}
+    ]
+  },
+  {
+    slug:"portland-wedding-photo-delivery-guide",category:"Photography",title:"Wedding Photo Delivery: Galleries, Albums, Printing Rights and What Happens After the Wedding",dek:"Understand the finished photography experience before booking so gallery delivery, downloads and albums do not become surprises later.",readTime:"8 min read",seoTitle:"Wedding Photo Gallery & Album Delivery Guide | Portland",seoDescription:"Understand Portland wedding photography delivery including online galleries, downloads, printing rights, albums, backups and delivery timing.",relatedSlugs:["how-to-choose-portland-wedding-photographer","portland-wedding-photographer-cost-guide","portland-wedding-photography-second-shooter-guide"],sections:[
+      {heading:"Ask what the finished gallery includes",paragraphs:["Photographers differ in image selection and editing approach. Ask how final photographs are chosen and whether a typical gallery range can be discussed for weddings like yours."]},
+      {heading:"Printing rights are not the same as copyright",paragraphs:["A client may receive permission to print and share images while the photographer retains copyright. Read the contract to understand the actual license."]},
+      {heading:"Know how long the gallery stays online",paragraphs:["Online galleries are convenient, but couples should download and back up their files according to the photographer's instructions rather than treating a hosted gallery as permanent storage."]},
+      {heading:"Albums are a separate design experience",paragraphs:["If an album matters, compare page count, materials, revision process and parent-copy options before assuming every package includes the same product."]},
+      {heading:"Understand the delivery process before the wedding",paragraphs:["Contracts should explain expected delivery and products. If timing matters for gifts or announcements, discuss it before booking."]}
+    ],checklist:["Review gallery delivery","Understand image license","Plan personal backup","Compare album inclusions","Ask revision process","Read delivery terms"],faq:[
+      {question:"Do couples own the copyright to wedding photos?",answer:"Not automatically. Rights depend on the photographer's contract and applicable law. Review the license provided with your agreement."},
+      {question:"Should we download our wedding gallery?",answer:"Yes. Follow the photographer's instructions and maintain your own backups rather than relying solely on a hosted gallery."}
+    ]
+  },
+  {
+    slug:"portland-wedding-cake-cutting-guide",category:"Cakes",title:"Wedding Cake Cutting: Portions, Timing and Getting Dessert to the Guests",dek:"Coordinate the display, ceremonial cut and actual dessert service so the cake works as both a design feature and food.",readTime:"8 min read",seoTitle:"Portland Wedding Cake Cutting & Service Guide",seoDescription:"Plan Portland wedding cake cutting and dessert service with practical guidance on timing, portions, display, catering and leftovers.",relatedSlugs:["portland-wedding-cake-dessert-guide","portland-wedding-dessert-table-guide","portland-wedding-day-timeline-guide"],sections:[
+      {heading:"Decide whether the cut is a guest-facing moment",paragraphs:["Some couples make cake cutting a formal reception cue while others do it quietly. Tell the photographer, DJ and caterer which experience you want."]},
+      {heading:"Display conditions matter before service",paragraphs:["Temperature, sunlight and room placement can affect certain cakes and frostings. Follow the baker's guidance on display and delivery."]},
+      {heading:"Confirm who actually cuts the cake",paragraphs:["The ceremonial slice is only the beginning. Ask whether catering staff, venue staff or the baker handles portioning and whether a service fee applies."]},
+      {heading:"Match portion planning to the dessert plan",paragraphs:["Cake servings depend on cake dimensions and cutting method, while additional desserts may reduce demand. Let the baker and caterer coordinate quantities."]},
+      {heading:"Plan leftovers before the end of the night",paragraphs:["Confirm whether boxes are available and who takes remaining cake. Venue food-handling rules may affect what can be saved."]}
+    ],checklist:["Choose cake-cutting timing","Confirm display conditions","Assign cutting/service","Coordinate portion count","Tell photographer/DJ","Plan leftovers"],faq:[
+      {question:"Who cuts a wedding cake after the couple's first slice?",answer:"It varies. Confirm whether the caterer, venue or another service provider is responsible and whether fees apply."},
+      {question:"Do we need cake for every guest if we have other desserts?",answer:"Not necessarily. Discuss the full dessert menu and expected serving sizes with the baker and caterer."}
+    ]
+  },
+  {
+    slug:"portland-wedding-dessert-service-guide",category:"Cakes",title:"Wedding Dessert Service: Cake, Mini Desserts and Late-Night Sweet Tables",dek:"Plan dessert around guest movement, replenishment and the reception timeline instead of simply placing sweets on a table.",readTime:"8 min read",seoTitle:"Portland Wedding Dessert Service Guide",seoDescription:"Plan wedding dessert service in Portland with cake, mini desserts, display, quantities, dietary labeling, replenishment and timing.",relatedSlugs:["portland-wedding-dessert-table-guide","portland-wedding-cake-dessert-guide","portland-wedding-cake-cutting-guide"],sections:[
+      {heading:"Choose when dessert becomes available",paragraphs:["Opening dessert immediately after dinner creates a different flow than waiting until dancing begins. Coordinate the moment with catering and reception events."]},
+      {heading:"Display quantity is not total quantity",paragraphs:["A dessert table can be replenished rather than holding every serving at once. This may keep the display cleaner and food fresher."]},
+      {heading:"Small desserts still need serving logistics",paragraphs:["Plates, napkins, utensils, tongs and trash collection should be considered even when desserts are self-service."]},
+      {heading:"Label dietary options carefully",paragraphs:["If items are intended for specific dietary needs, use labels approved by the food provider and avoid making allergen claims the kitchen cannot support."]},
+      {heading:"Place dessert where guests will find it",paragraphs:["A beautiful table in a remote room can be overlooked. Connect dessert placement to coffee, dancing or another natural guest path."]}
+    ],checklist:["Set dessert opening time","Plan display/replenishment","Count serviceware","Confirm dietary labels","Choose visible location","Plan leftovers"],faq:[
+      {question:"When should wedding dessert be served?",answer:"Choose timing that fits dinner, formal events and dancing, then coordinate it with catering and entertainment."},
+      {question:"Can a dessert table be self-service?",answer:"Often yes, depending on the food and venue. Plan utensils, replenishment, labeling and cleanup with the provider."}
+    ]
+  },
+  {
+    slug:"portland-wedding-bar-menu-guide",category:"Mobile Bars",title:"Wedding Bar Menus: Build a Drink List Guests Can Order Quickly",dek:"Choose beer, wine, cocktails and nonalcoholic options with service speed and guest experience in mind.",readTime:"9 min read",seoTitle:"Portland Wedding Bar Menu Guide",seoDescription:"Build a Portland wedding bar menu with beer, wine, signature cocktails, nonalcoholic drinks and efficient service planning.",relatedSlugs:["portland-wedding-mobile-bar-guide","portland-wedding-bar-last-call-guide","portland-wedding-cocktail-hour-guide"],sections:[
+      {heading:"A shorter menu can improve service",paragraphs:["Every additional cocktail can add ingredients and decision time. Ask the bar provider what menu size works well for your guest count and staffing."]},
+      {heading:"Signature drinks should be practical at volume",paragraphs:["A favorite cocktail may need adaptation for fast service. Let the bartender recommend batching or a simplified build when appropriate."]},
+      {heading:"Give nonalcoholic drinks real consideration",paragraphs:["Water, sparkling options and thoughtfully designed zero-proof drinks make the bar more useful to every guest."]},
+      {heading:"Use signage to reduce repeated questions",paragraphs:["A readable menu can help guests decide before reaching the bartender. Keep descriptions short enough to scan in line."]},
+      {heading:"Coordinate the menu with purchasing and licensing",paragraphs:["Alcohol sourcing and service rules vary by provider and venue. Confirm who purchases product and what the licensed service allows."]}
+    ],checklist:["Choose service scope","Select beer/wine","Choose practical cocktails","Add zero-proof options","Create readable menu","Confirm sourcing rules"],faq:[
+      {question:"How many signature cocktails should a wedding have?",answer:"There is no required number. A focused menu can simplify service, especially at larger receptions."},
+      {question:"Should we offer nonalcoholic cocktails?",answer:"They are optional, but thoughtful alcohol-free choices can improve the bar experience for guests who are not drinking."}
+    ]
+  },
+  {
+    slug:"portland-wedding-bar-quantity-guide",category:"Mobile Bars",title:"Wedding Bar Quantities: Stop Guessing and Let the Service Plan Drive the Order",dek:"Estimate beverages from guest count, service hours, menu and provider experience without treating a generic drinks-per-person formula as a guarantee.",readTime:"9 min read",seoTitle:"Portland Wedding Bar Quantity Planning Guide",seoDescription:"Plan Portland wedding beverage quantities using guest count, service duration, menu, non-drinkers and professional bar guidance.",relatedSlugs:["portland-wedding-mobile-bar-guide","portland-wedding-bar-menu-guide","portland-wedding-bar-last-call-guide"],sections:[
+      {heading:"Guest count is only the starting point",paragraphs:["Age mix, drinking preferences, service duration and the menu all influence demand. Generic online formulas cannot know your actual crowd."]},
+      {heading:"Beer, wine and cocktails split demand differently",paragraphs:["A full bar requires a different inventory mix than beer and wine or a limited cocktail menu. Use the final menu before estimating quantities."]},
+      {heading:"Nonalcoholic demand belongs in the same plan",paragraphs:["Water and alcohol-free drinks are not an afterthought. Weather, dancing and transportation can all increase demand."]},
+      {heading:"Ask the provider how they estimate",paragraphs:["Experienced bartenders or caterers can use guest count and event details to recommend purchasing. Ask what assumptions are behind the estimate."]},
+      {heading:"Understand unopened-product policies",paragraphs:["If the couple purchases alcohol, confirm return eligibility, storage and who removes unopened product after the event."]}
+    ],checklist:["Confirm drinking-age guest count","Set service hours","Finalize bar menu","Estimate product mix with provider","Plan nonalcoholic volume","Confirm leftover policy"],faq:[
+      {question:"How many drinks per person should we buy for a wedding?",answer:"There is no reliable universal number. Use your guest profile, service duration and menu with the licensed bar provider's experience."},
+      {question:"Can we return unopened alcohol after the wedding?",answer:"Policies depend on the retailer, product and applicable rules. Confirm before purchasing."}
+    ]
+  },
+  {
+    slug:"portland-wedding-rental-delivery-guide",category:"Rentals",title:"Wedding Rental Delivery and Pickup: The Logistics Behind the Pretty Tables",dek:"Coordinate loading access, setup responsibilities, inventory and pickup so rentals arrive when the venue can actually receive them.",readTime:"9 min read",seoTitle:"Portland Wedding Rental Delivery & Pickup Guide",seoDescription:"Plan Portland wedding rental delivery, setup and pickup with venue access, loading, inventory, room flips and after-hours logistics.",relatedSlugs:["portland-wedding-rentals-guide","portland-wedding-rental-tabletop-guide","portland-wedding-day-timeline-guide"],sections:[
+      {heading:"Venue access controls the delivery window",paragraphs:["Rental companies need enough time to unload before setup begins. Confirm when the venue accepts deliveries and whether another event limits access."]},
+      {heading:"Delivery does not always mean setup",paragraphs:["Some orders are dropped in a designated area while others include placement. Know who unfolds tables, places chairs and sets tabletop items."]},
+      {heading:"Loading conditions affect labor",paragraphs:["Stairs, elevators, long carries and restricted loading zones can change delivery complexity. Share accurate site information before the quote is final."]},
+      {heading:"Room flips need named responsibilities",paragraphs:["If ceremony chairs or cocktail furniture move during the event, confirm exactly which team performs the change and how much time they have."]},
+      {heading:"Pickup can happen after everyone leaves",paragraphs:["Late-night or next-day pickup must fit venue rules. Assign someone to verify rental items are consolidated and personal décor is separated."]}
+    ],checklist:["Confirm venue delivery window","Describe loading access","Clarify setup scope","Assign room flips","Review inventory","Confirm pickup window","Separate personal items"],faq:[
+      {question:"Does a rental delivery fee include setup?",answer:"Not necessarily. Ask the rental company exactly what delivery, placement, setup and pickup include."},
+      {question:"Who is responsible for missing rental items?",answer:"The contract should explain inventory and loss or damage responsibilities. Review it before the event."}
+    ]
+  },
+  {
+    slug:"portland-wedding-lighting-design-guide",category:"Rentals",title:"Wedding Lighting Design: Use Light to Shape the Room, Not Just Make It Brighter",dek:"Coordinate ambient, decorative and functional lighting so dining, dancing and photography all work in the same space.",readTime:"9 min read",seoTitle:"Portland Wedding Lighting Design Guide",seoDescription:"Plan Portland wedding lighting with ambient light, uplighting, pendants, dance-floor effects, power and photography considerations.",relatedSlugs:["portland-wedding-lighting-guide","portland-wedding-rentals-guide","portland-wedding-photo-booth-prop-guide"],sections:[
+      {heading:"Separate functional light from decorative light",paragraphs:["Guests need to read menus and move safely while design lighting creates atmosphere. A room can look dramatic without leaving tables unusably dark."]},
+      {heading:"Color temperature changes the room",paragraphs:["Warm and cool sources can make florals, linens and skin tones read differently. Review lighting choices with the venue and design team."]},
+      {heading:"Dance-floor lighting has a different job",paragraphs:["Moving or colored effects may support dancing but can affect photographs. DJs, lighting providers and photographers can coordinate the desired look."]},
+      {heading:"Power and rigging are part of the design",paragraphs:["Hanging fixtures and substantial lighting systems may require approved attachment points, power distribution or professional installation."]},
+      {heading:"See the venue after dark if possible",paragraphs:["A room toured at noon may feel completely different during an evening reception. Venue photos or a nighttime visit can reveal what existing lighting actually does."]}
+    ],checklist:["Identify functional-light needs","Choose design mood","Review color temperature","Coordinate dance lighting","Confirm power/rigging","Review venue after-dark examples"],faq:[
+      {question:"Is uplighting necessary at a wedding?",answer:"No. It is one design option among many. Choose lighting based on the venue, desired atmosphere and functional needs."},
+      {question:"Can wedding lighting affect photography?",answer:"Yes. Discuss strong colors, moving effects or very dark spaces with the photographer and lighting provider."}
+    ]
+  },
+  {
+    slug:"portland-wedding-planner-interview-guide",category:"Planning",title:"Questions to Ask a Wedding Planner Before You Hire Them",dek:"Compare planners by scope, communication, vendor process and problem-solving style rather than personality alone.",readTime:"10 min read",seoTitle:"Questions to Ask a Portland Wedding Planner",seoDescription:"Interview Portland wedding planners with practical questions about services, communication, vendor recommendations, contracts and wedding-day coverage.",relatedSlugs:["wedding-planner-vs-coordinator-portland","portland-wedding-planning-checklist","how-to-choose-portland-wedding-vendors"],sections:[
+      {heading:"Clarify what the service actually includes",paragraphs:["Full planning, partial planning and coordination can mean different things across companies. Ask for concrete responsibilities and the point at which the planner becomes involved."]},
+      {heading:"Learn how communication works",paragraphs:["Ask who your primary contact is, typical response practices and how meetings or planning documents are handled. The process matters over many months."]},
+      {heading:"Ask how vendor recommendations are made",paragraphs:["A planner should be able to explain how vendors are selected for a couple's budget, style and needs. Ask about any financial relationships or referral arrangements that matter to you."]},
+      {heading:"Talk through a problem scenario",paragraphs:["Weather, late transportation or a vendor delay can reveal how the planner thinks. You are listening for process and judgment, not a rehearsed promise that nothing goes wrong."]},
+      {heading:"Understand wedding-day staffing",paragraphs:["Confirm who will actually be present, how many team members are included and when coverage begins and ends."]}
+    ],checklist:["Compare service scope","Ask communication process","Discuss vendor recommendations","Ask problem scenario","Confirm wedding-day lead","Review staffing/hours","Read contract"],faq:[
+      {question:"What is the difference between a planner and coordinator?",answer:"Service definitions vary. Compare the actual scope and start date rather than relying only on the package title."},
+      {question:"Should a planner choose our vendors for us?",answer:"A planner can recommend and help evaluate vendors, but couples should understand the process and remain comfortable with the final choices."}
+    ]
+  },
+  {
+    slug:"portland-wedding-month-of-coordination-guide",category:"Planning",title:"Month-of Wedding Coordination: What the Handoff Should Actually Look Like",dek:"Prepare contracts, contacts, timelines and open decisions so a coordinator can take operational control without reconstructing a year of planning.",readTime:"9 min read",seoTitle:"Portland Month-of Wedding Coordination Guide",seoDescription:"Prepare for month-of wedding coordination with vendor handoff, contracts, timelines, floor plans and unresolved decisions.",relatedSlugs:["wedding-planner-vs-coordinator-portland","portland-wedding-day-timeline-guide","portland-wedding-planner-interview-guide"],sections:[
+      {heading:"The handoff starts with organized information",paragraphs:["Vendor contracts, contact details, floor plans and planning notes should be easy for the coordinator to review. A scattered handoff wastes the limited transition period."]},
+      {heading:"Surface unresolved decisions immediately",paragraphs:["Do not hide unfinished seating, transportation or ceremony details. A coordinator can help prioritize remaining work when they know what is actually open."]},
+      {heading:"Vendor confirmation should have one owner",paragraphs:["Clarify when the coordinator takes over communication and what information vendors should send directly to them."]},
+      {heading:"Build one operational timeline",paragraphs:["Different vendors may have internal schedules, but the wedding needs one shared version for arrivals, major moments and transitions."]},
+      {heading:"Know what coordination does not include",paragraphs:["A late-stage coordinator may not provide full design, budgeting or vendor sourcing. Compare the contract with the help you still need."]}
+    ],checklist:["Organize contracts","Create vendor contact list","Share floor plan","List unresolved decisions","Confirm communication handoff","Finalize master timeline","Review coordinator scope"],faq:[
+      {question:"When does month-of coordination begin?",answer:"The exact start varies by company and package. Confirm the handoff date and included planning meetings in the contract."},
+      {question:"Can a coordinator fix unfinished planning?",answer:"They can often help prioritize and execute within their scope, but late-stage coordination is not automatically a substitute for full planning."}
+    ]
+  },
+  {
+    slug:"portland-wedding-venue-layout-guide",category:"Venues",title:"Wedding Venue Layouts: Test the Guest Journey Before You Finalize the Floor Plan",dek:"Walk arrival, ceremony, cocktail hour, dinner and dancing as one continuous experience so beautiful spaces also function well.",readTime:"10 min read",seoTitle:"Portland Wedding Venue Layout & Floor Plan Guide",seoDescription:"Plan a Portland wedding venue layout around guest flow, ceremony, cocktail hour, dinner, dancing, bars, accessibility and service paths.",relatedSlugs:["best-portland-wedding-venues-guide","portland-wedding-seating-chart-guide","portland-wedding-guest-experience-guide"],sections:[
+      {heading:"Start at the guest's arrival point",paragraphs:["Parking, shuttle drop-off and venue entrance determine the first movement. Make the path to ceremony or cocktail hour obvious."]},
+      {heading:"Keep service paths out of guest bottlenecks",paragraphs:["Catering, bar restocking and vendor movement need routes that do not constantly cross the main guest flow."]},
+      {heading:"Place the bar strategically",paragraphs:["A bar can activate an area, but placing it in a narrow doorway or directly beside seating can create congestion."]},
+      {heading:"Connect dinner and dancing",paragraphs:["Guests are more likely to stay engaged when the dance floor feels part of the reception rather than hidden in another disconnected room."]},
+      {heading:"Walk the plan for accessibility",paragraphs:["Consider distance, grade, surface, seating access and restroom routes for guests with mobility needs. Ask the venue about available accommodations."]}
+    ],checklist:["Walk arrival path","Map ceremony transition","Protect catering routes","Test bar placement","Connect dance floor","Check restroom paths","Review accessibility"],faq:[
+      {question:"Who creates the wedding floor plan?",answer:"The venue often provides a starting layout while planners, caterers, rental teams and couples refine it around the event."},
+      {question:"How much space should a dance floor have?",answer:"There is no single size for every wedding. Guest count, room shape and entertainment setup all matter; use venue and rental guidance."}
+    ]
+  },
+  {
+    slug:"portland-wedding-venue-rain-backup-guide",category:"Venues",title:"Venue Rain Backups: Judge the Plan B Space Like It Is Your Wedding Venue",dek:"Evaluate capacity, light, guest flow and room-flip logistics before booking so the weather backup feels intentional rather than improvised.",readTime:"9 min read",seoTitle:"Portland Wedding Venue Rain Backup Guide",seoDescription:"Evaluate Portland wedding venue rain plans by backup capacity, guest flow, ceremony setup, room flips, photography and weather decisions.",relatedSlugs:["portland-wedding-rain-plan-guide","outdoor-wedding-venues-portland-guide","portland-wedding-tent-rain-structure-guide"],sections:[
+      {heading:"Tour the backup space in person",paragraphs:["A floor plan cannot show how the room feels at full ceremony capacity. Stand where the couple and guests would actually be."]},
+      {heading:"Ask whether Plan B requires a room flip",paragraphs:["Some backups share space with dinner or cocktail hour. Understand who resets the room, where guests wait and how long the transition takes."]},
+      {heading:"Check photography options under cover",paragraphs:["Rain may change portrait locations too. Ask the photographer and venue what covered or indoor settings remain available."]},
+      {heading:"Know the decision deadline",paragraphs:["The venue or rental team may need a weather call hours or days before the ceremony. Put that deadline into the final-week plan."]},
+      {heading:"Design the backup with intention",paragraphs:["If there is a meaningful chance you will use the space, consider how florals, lighting and ceremony décor translate there rather than treating it as an afterthought."]}
+    ],checklist:["Tour backup space","Confirm full capacity","Understand room flip","Identify covered portraits","Record weather decision deadline","Plan décor transfer"],faq:[
+      {question:"Should we book an outdoor venue if we dislike its rain backup?",answer:"That is an important tradeoff to consider. In a weather-variable region, the backup space can become the actual ceremony venue."},
+      {question:"Who decides when to use the rain plan?",answer:"The contract and venue process may define the decision. Confirm who makes the call and by what deadline."}
+    ]
   }
 ];
 
