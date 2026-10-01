@@ -1472,3 +1472,8 @@ body{background-color:#fffaf6!important}
 @media(min-width:1181px){.siteHeader .mpwNav{grid-template-columns:200px minmax(540px,1fr) 280px!important}.siteHeader .mpwNav .brandLogo,.siteHeader .mpwNav .brandLogo .mpwMasterLogo{width:200px!important;max-width:200px!important}}
 @media(max-width:1180px) and (min-width:761px){.siteHeader .mpwNav{grid-template-columns:180px minmax(470px,1fr) 245px!important}.siteHeader .mpwNav .brandLogo,.siteHeader .mpwNav .brandLogo .mpwMasterLogo{width:180px!important;max-width:180px!important}}
 @media(max-width:760px){.siteHeader .mpwNav .brandLogo{width:min(40vw,148px)!important;max-width:min(40vw,148px)!important}}
+
+/* Magazine prompt chips for non-calculator editorial interactions */
+.seasonPromptGrid{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin:20px 0}
+.seasonPromptGrid span{display:flex;align-items:center;justify-content:center;min-height:74px;padding:12px;text-align:center;border-radius:16px;background:#fff;border:1px solid rgba(177,139,98,.28);font:700 .82rem/1.25 Georgia,serif;color:#294b3b}
+@media(max-width:760px){.seasonPromptGrid{grid-template-columns:1fr 1fr}.seasonPromptGrid span{min-height:64px}}
