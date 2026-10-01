@@ -71,9 +71,9 @@ export const inspirationArticles: InspirationArticle[] = [
     reviewedBy:"My Portland Wedding Editorial",
     methodology:"MPW combines practical local planning guidance with public Oregon and Portland information when it directly helps a venue decision.",
     quickFacts:[
-      {value:"200+",label:"Portland parks, gardens & natural settings",context:"Portland Parks & Recreation manages more than 200 settings that may be reserved for weddings and/or receptions—one reason an outdoor or garden venue search can have more variety than couples expect.",sourceLabel:"Portland Parks & Recreation"},
-      {value:"45 days",label:"before the wedding",context:"PP&R says wedding permit requests should be made at least 45 days ahead to avoid rush fees. A useful reminder that venue logistics can have deadlines long before the wedding day.",sourceLabel:"Portland Parks & Recreation"},
-      {value:"14",label:"Portland park wedding sites",context:"Portland's current park search lists 14 locations under the Wedding Site reservation filter, giving couples a concrete starting point for city-managed outdoor options.",sourceLabel:"Portland Parks & Recreation"}
+      {value:"8:52 PM",label:"June 1 sunset in Portland",context:"A late-spring Portland wedding can still have daylight well into the reception. That gives couples more flexibility for an outdoor ceremony, portraits and cocktail hour before the light disappears.",sourceLabel:"Timeanddate — Portland sun data"},
+      {value:"45 days",label:"the Portland park-wedding rush-fee line",context:"For a wedding in a Portland park, PP&R says permit requests should be made at least 45 days ahead to avoid rush fees. The venue decision can create a real planning deadline.",sourceLabel:"Portland Parks & Recreation"},
+      {value:"5 people",label:"and your park ceremony needs a permit",context:"In a Portland public park, once the ceremony is more than the couple, officiant and two witnesses, City code requires a wedding permit when guests are invited. Tiny wedding? Still worth checking the rules.",sourceLabel:"Portland Parks & Recreation"}
     ],
     sources:[
       {label:"Portland Parks & Recreation — Wedding Reservations",href:"https://www.portland.gov/parks/wedding"}
