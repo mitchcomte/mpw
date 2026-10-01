@@ -2846,10 +2846,11 @@ export const inspirationArticles: InspirationArticle[] = [
       {heading:"Protect the cake after setup",paragraphs:["Identify who controls room temperature, guest access and any movement after the baker leaves. Make sure photography does not require relocating a finished cake unnecessarily.","Ask the baker about display conditions for the specific design."]},
       {heading:"Plan cutting and leftovers too",paragraphs:["Delivery is only the first handoff. Record cutting time, service responsibility and leftover storage in your couple account.","Wedding Builder can keep cake, catering, venue and timeline decisions connected."]}
     ],
-    checklist:["Confirm the responsible vendor or person","Check the venue rules","Add the decision to the wedding timeline","Share it with affected vendors","Reconfirm during the final planning check-in"],
+    checklist:["Confirm the baker's delivery window and onsite contact","Have the cake table, stand and decor ready before delivery","Share loading, elevator or access instructions in advance","Confirm who may place flowers, toppers or finishing pieces","Record cake-cutting, service and leftover-storage responsibilities"],
     faq:[
-      {question:"When should we finalize this?",answer:"Set the working plan when the relevant vendor is booked, then reconfirm it during final timeline coordination."},
-      {question:"Should this be written into our wedding notes?",answer:"Yes. If multiple vendors or members of the wedding party are affected, document the final responsibility and timing in one shared place."}
+      {question:"Who should meet the baker when the wedding cake arrives?",answer:"Choose one onsite contact who knows the final cake location, display plan and venue access. The couple should not need to interrupt getting ready to solve a delivery question."},
+      {question:"Does the cake table need to be completely ready before delivery?",answer:"Ideally, yes. Confirm the table, linen, stand and any surrounding decor before the baker arrives so the finished cake does not need unnecessary movement after setup."},
+      {question:"What should we ask our Portland venue about cake delivery?",answer:"Ask about vendor access times, loading routes, refrigeration if needed, room temperature, cake-table placement and who handles cutting or service. Use the venue's actual policies rather than assumptions."}
     ]
   },
   {
@@ -2871,10 +2872,11 @@ export const inspirationArticles: InspirationArticle[] = [
       {heading:"Document unusual conditions",paragraphs:["For valuable or specialty rentals, ask whether condition is documented at delivery and what to do if something arrives damaged. Report problems through the rental company's required process.","Keep delivery paperwork until the return is closed."]},
       {heading:"Budget from the contract, not assumptions",paragraphs:["Include waiver charges and realistic exposure in the rental budget. Save the final terms and return responsibilities with your couple planning.","Wedding Builder can keep rental costs connected to the overall budget while the signed contract remains the controlling source."]}
     ],
-    checklist:["Confirm the responsible vendor or person","Check the venue rules","Add the decision to the wedding timeline","Share it with affected vendors","Reconfirm during the final planning check-in"],
+    checklist:["Read the rental company's exact damage-waiver language","Separate coverage for damage, loss, theft and weather exposure","Confirm who controls and moves rented items onsite","Document and report items that arrive damaged","Keep delivery and return paperwork until the order is closed"],
     faq:[
-      {question:"When should we finalize this?",answer:"Set the working plan when the relevant vendor is booked, then reconfirm it during final timeline coordination."},
-      {question:"Should this be written into our wedding notes?",answer:"Yes. If multiple vendors or members of the wedding party are affected, document the final responsibility and timing in one shared place."}
+      {question:"Is a wedding rental damage waiver the same as insurance?",answer:"Not automatically. Rental companies define waivers differently, so read the agreement for covered damage, exclusions, fees and responsibilities rather than relying on the label."},
+      {question:"Does a damage waiver cover missing wedding rentals?",answer:"Do not assume it does. Loss, theft and breakage may be treated differently. Ask specifically how missing inventory is charged and what documentation is required."},
+      {question:"Who is responsible if another wedding vendor damages a rental?",answer:"That depends on the contracts and circumstances. Clarify who has custody of rented items during setup, service, breakdown and pickup, and ask the rental provider how responsibility is handled."}
     ]
   },
   {
@@ -2896,10 +2898,11 @@ export const inspirationArticles: InspirationArticle[] = [
       {heading:"Plan handoffs for readings",paragraphs:["If readers use the same microphone, decide how they approach it and whether anyone adjusts height or position. Put those movements into rehearsal when possible.","Avoid passing a powered microphone unpredictably among several people."]},
       {heading:"Name the audio owner",paragraphs:["One vendor should own setup, batteries, muting and troubleshooting. Save that responsibility in your couple account with the ceremony timeline.","Wedding Builder can keep officiant and entertainment/audio planning connected."]}
     ],
-    checklist:["Confirm the responsible vendor or person","Check the venue rules","Add the decision to the wedding timeline","Share it with affected vendors","Reconfirm during the final planning check-in"],
+    checklist:["Confirm who supplies and operates ceremony audio","Choose microphone types around officiant and couple movement","Test vows and readings at normal speaking volume","Coordinate guest amplification with the videographer's audio plan","Put microphone handoffs and troubleshooting ownership into the ceremony plan"],
     faq:[
-      {question:"When should we finalize this?",answer:"Set the working plan when the relevant vendor is booked, then reconfirm it during final timeline coordination."},
-      {question:"Should this be written into our wedding notes?",answer:"Yes. If multiple vendors or members of the wedding party are affected, document the final responsibility and timing in one shared place."}
+      {question:"Does a wedding officiant need a microphone?",answer:"It depends on the space, guest count, acoustics and ceremony style. The useful test is whether guests throughout the seating area can comfortably hear normal speaking voices."},
+      {question:"Can the officiant's microphone also pick up our vows?",answer:"Sometimes, but do not assume it will. Ask the audio provider how the couple will be amplified and ask the videographer separately how vows will be recorded for the film."},
+      {question:"Who should control the ceremony microphones?",answer:"Assign one audio owner—often the DJ, musician or dedicated sound provider—to setup, test, mute and troubleshoot the system. Avoid leaving technical responsibility undefined between vendors."}
     ]
   },
   {
@@ -2921,10 +2924,11 @@ export const inspirationArticles: InspirationArticle[] = [
       {heading:"Keep the loading zone clear",paragraphs:["Avoid placing decor deliveries, rideshare pickup or smoking areas where shuttle guests need to queue. At night, make the location easy to identify and safely lit.","Coordinate the zone with the hotel or venue."]},
       {heading:"Give the driver one contact",paragraphs:["Provide an onsite transportation lead who can resolve missing riders or access problems. Save loading points, departure times and contacts in your couple account.","Wedding Builder can connect shuttle capacity to lodging, venue and guest-count planning."]}
     ],
-    checklist:["Confirm the responsible vendor or person","Check the venue rules","Add the decision to the wedding timeline","Share it with affected vendors","Reconfirm during the final planning check-in"],
+    checklist:["Give guests and drivers an exact loading point","Confirm the vehicle can legally and physically use the stop","Build boarding time into each departure","Choose how riders will be counted or checked","Assign one transportation contact for driver and guest issues"],
     faq:[
-      {question:"When should we finalize this?",answer:"Set the working plan when the relevant vendor is booked, then reconfirm it during final timeline coordination."},
-      {question:"Should this be written into our wedding notes?",answer:"Yes. If multiple vendors or members of the wedding party are affected, document the final responsibility and timing in one shared place."}
+      {question:"How much loading time should we allow for a wedding shuttle?",answer:"There is no universal number. Guest count, vehicle steps, mobility needs, bags and familiarity with the pickup point all matter. Ask the transportation company what is realistic for the actual vehicle and rider group."},
+      {question:"Should a wedding shuttle wait for late guests?",answer:"Decide that rule before the wedding. A scheduled departure protects the rest of the route, while a named-rider or wedding-party shuttle may need a different process. Tell the transportation lead which rule applies."},
+      {question:"What makes a good Portland wedding shuttle pickup point?",answer:"Use a precise, easy-to-find location with safe vehicle access and enough room for guests to wait without blocking traffic or venue operations. Confirm the stop with the hotel, venue and transportation provider."}
     ]
   },
   {
@@ -2946,10 +2950,11 @@ export const inspirationArticles: InspirationArticle[] = [
       {heading:"Freeze data before personalized printing",paragraphs:["Names, meal selections and table assignments should use one final guest-data source. When changes happen after approval, update the master source first.","This reduces mismatches across place cards, menus and seating materials."]},
       {heading:"Save final wording",paragraphs:["Keep the approved text with your couple planning so the wedding website and later guest messages stay consistent. Wedding Builder can connect stationery timing to guest-count milestones.","Archive the final printer proof separately from working drafts."]}
     ],
-    checklist:["Confirm the responsible vendor or person","Check the venue rules","Add the decision to the wedding timeline","Share it with affected vendors","Reconfirm during the final planning check-in"],
+    checklist:["Verify names, date, day, time and addresses against confirmed sources","Test wedding website URLs, QR codes and RSVP instructions","Read the proof aloud and inspect it near final print size","Have someone who did not write the invitation proof it independently","Archive the approved printer proof separately from working drafts"],
     faq:[
-      {question:"When should we finalize this?",answer:"Set the working plan when the relevant vendor is booked, then reconfirm it during final timeline coordination."},
-      {question:"Should this be written into our wedding notes?",answer:"Yes. If multiple vendors or members of the wedding party are affected, document the final responsibility and timing in one shared place."}
+      {question:"What should we proofread on a wedding invitation besides spelling?",answer:"Check the date and day of week, times, venue name and address, RSVP deadline, website or QR code, enclosure instructions and any wording that affects where guests go or what they do."},
+      {question:"Who should proofread wedding invitations before printing?",answer:"Use at least one careful reader who did not create the wording. Familiarity makes errors easier to skim past, so an independent check can catch assumptions the couple or designer no longer notices."},
+      {question:"Should we test our wedding website and QR code before approving invitations?",answer:"Yes. Follow the invitation exactly as a guest would: type the URL, scan the code and complete the RSVP path. Proof the guest experience, not just the printed words."}
     ]
   },
   {
@@ -2971,10 +2976,11 @@ export const inspirationArticles: InspirationArticle[] = [
       {heading:"Choose the ceremony holder",paragraphs:["Decide whether a wedding-party member, officiant or another trusted person carries the rings and when they receive them. If a child participates ceremonially, consider whether the real rings or symbolic substitutes are appropriate for your plan.","Rehearse the handoff if it is complicated."]},
       {heading:"Close the custody chain",paragraphs:["Save who has the rings during getting ready, photography, ceremony and the end of the night in your couple account. Wedding Builder can keep jewelry connected to ceremony planning.","The box is useful only when the people around it know the handoff plan."]}
     ],
-    checklist:["Confirm the responsible vendor or person","Check the venue rules","Add the decision to the wedding timeline","Share it with affected vendors","Reconfirm during the final planning check-in"],
+    checklist:["Choose a box that safely fits the actual rings","Decide whether photography and ceremony use the same box","Name who has the rings before and after detail photos","Assign the ceremony ring holder and handoff time","Record the custody plan through the end of the wedding"],
     faq:[
-      {question:"When should we finalize this?",answer:"Set the working plan when the relevant vendor is booked, then reconfirm it during final timeline coordination."},
-      {question:"Should this be written into our wedding notes?",answer:"Yes. If multiple vendors or members of the wedding party are affected, document the final responsibility and timing in one shared place."}
+      {question:"Do we need a special ring box for the wedding ceremony?",answer:"No. The priority is secure storage and a clear handoff. A decorative box can be useful for photographs or presentation, but it should fit the actual rings safely."},
+      {question:"Who should hold the wedding rings before the ceremony?",answer:"Choose one trusted person and specify when they receive the rings. If the photographer uses them for detail photos, include an explicit return handoff afterward."},
+      {question:"Should a ring bearer carry the real wedding rings?",answer:"That is a couple-specific risk decision. A child can participate symbolically while a trusted adult holds the actual rings, or the real rings can be used if the couple is comfortable with the plan."}
     ]
   },
   {
@@ -2996,10 +3002,11 @@ export const inspirationArticles: InspirationArticle[] = [
       {heading:"Make the process obvious",paragraphs:["Guests should understand where to enter, how many people can participate and where they exit or collect prints. Simple signage or an attendant can keep groups from clustering around the camera.","Keep guestbook materials out of the exit path."]},
       {heading:"Adjust with real reception priorities",paragraphs:["If the booth is a major guest-experience priority, protect enough operating time and space for it. Save hours and placement in your couple account.","Wedding Builder can keep the booth connected to entertainment, layout and budget decisions."]}
     ],
-    checklist:["Confirm the responsible vendor or person","Check the venue rules","Add the decision to the wedding timeline","Share it with affected vendors","Reconfirm during the final planning check-in"],
+    checklist:["Include the waiting line in the booth's floor-plan footprint","Keep the queue away from bars, exits, restrooms and service paths","Coordinate booth hours with dinner, speeches and dancing","Make entry, group size and print pickup obvious to guests","Give a high-priority booth enough operating time to avoid one large rush"],
     faq:[
-      {question:"When should we finalize this?",answer:"Set the working plan when the relevant vendor is booked, then reconfirm it during final timeline coordination."},
-      {question:"Should this be written into our wedding notes?",answer:"Yes. If multiple vendors or members of the wedding party are affected, document the final responsibility and timing in one shared place."}
+      {question:"Where should a wedding photo booth go?",answer:"Choose a visible location near guest activity without placing the booth or its line in a bar queue, exit, restroom path or service route. Test the full footprint on the final floor plan."},
+      {question:"When should a wedding photo booth open?",answer:"Coordinate the opening with the reception timeline. Avoid forcing guests to choose between the booth and major moments, and give the booth enough operating time that everyone does not arrive at once."},
+      {question:"How can we prevent a long photo booth line?",answer:"Use enough operating time, leave space for a real queue and ask the provider about session capacity. Clear instructions and an attendant can also keep groups moving without crowding the camera area."}
     ]
   },
   {
@@ -3021,10 +3028,11 @@ export const inspirationArticles: InspirationArticle[] = [
       {heading:"Respect unplugged and privacy choices",paragraphs:["If the couple wants an unplugged ceremony or delayed posting, explain how that applies to the hired creator. Professional capture does not automatically equal permission to publish.","Put important privacy restrictions in writing."]},
       {heading:"Give the team an onsite contact",paragraphs:["The couple should not referee positioning during the wedding. Let the planner or designated lead handle conflicts and save expectations in your couple account.","Wedding Builder can keep content creation connected to photography and videography."]}
     ],
-    checklist:["Confirm the responsible vendor or person","Check the venue rules","Add the decision to the wedding timeline","Share it with affected vendors","Reconfirm during the final planning check-in"],
+    checklist:["Set priority camera positions with the photographer and videographer","Define where phone-based coverage may move during key moments","Agree when phone lights are appropriate","Put unplugged-ceremony and posting restrictions in writing","Assign an onsite lead to resolve coverage conflicts"],
     faq:[
-      {question:"When should we finalize this?",answer:"Set the working plan when the relevant vendor is booked, then reconfirm it during final timeline coordination."},
-      {question:"Should this be written into our wedding notes?",answer:"Yes. If multiple vendors or members of the wedding party are affected, document the final responsibility and timing in one shared place."}
+      {question:"Can a wedding content creator get in the photographer's or videographer's way?",answer:"Yes, if positioning is not coordinated. Discuss processional, vows, first kiss, portraits, dances and speeches so every visual vendor knows where close phone coverage is welcome and where another camera has priority."},
+      {question:"Should a wedding content creator use a phone light during the reception?",answer:"Only when it fits the couple's preferences and the visual team's plan. Supplemental phone light can affect professional images and the atmosphere, so discuss low-light coverage before the wedding."},
+      {question:"Does hiring a content creator mean they can post our wedding immediately?",answer:"No. Capture and publication are separate permissions. If you want an unplugged ceremony, delayed posting or privacy around specific guests or moments, put those expectations in writing."}
     ]
   },
   {
@@ -3046,10 +3054,11 @@ export const inspirationArticles: InspirationArticle[] = [
       {heading:"Plan meals and access",paragraphs:["If the contract includes a vendor meal or specific break requirements, place them where musicians can actually eat and return on time. Confirm where instruments remain during breaks.","Keep guest traffic away from unattended equipment."]},
       {heading:"Put sets into the master timeline",paragraphs:["Share performance blocks and breaks with the planner, venue and any other entertainment provider. Save the final schedule in your couple account.","Wedding Builder can keep live entertainment connected to reception timing and budget."]}
     ],
-    checklist:["Confirm the responsible vendor or person","Check the venue rules","Add the decision to the wedding timeline","Share it with affected vendors","Reconfirm during the final planning check-in"],
+    checklist:["Confirm set lengths, break lengths and number of sets","Decide who supplies music between live sets","Align breaks with natural reception moments where practical","Confirm musician meal and equipment-security needs","Put performance blocks and breaks into the master timeline"],
     faq:[
-      {question:"When should we finalize this?",answer:"Set the working plan when the relevant vendor is booked, then reconfirm it during final timeline coordination."},
-      {question:"Should this be written into our wedding notes?",answer:"Yes. If multiple vendors or members of the wedding party are affected, document the final responsibility and timing in one shared place."}
+      {question:"Do wedding bands and live musicians take breaks?",answer:"Many live-performance contracts include breaks, but the structure varies. Ask for the expected set and break pattern so you can coordinate it with dinner, speeches and dancing."},
+      {question:"What should play while the wedding band is on break?",answer:"Decide in advance whether the musicians provide recorded fill music, a DJ takes over or the venue system is used. Assign one person or vendor to control the transition."},
+      {question:"Can musician breaks be scheduled during dinner or speeches?",answer:"Often they can be coordinated with natural timeline moments, but contract requirements and the flow of the reception matter. Build the schedule with the entertainment provider instead of assuming every break can move freely."}
     ]
   },
   {
@@ -3071,10 +3080,11 @@ export const inspirationArticles: InspirationArticle[] = [
       {heading:"Connect lodging to transportation",paragraphs:["If shuttles use the hotel, estimate riders separately from booked rooms and confirm the loading point. A lodging change can affect the transportation plan.","Keep hotel and shuttle communications consistent."]},
       {heading:"Save the milestone",paragraphs:["Put the cutoff, hotel contact and reminder date in your couple account. Wedding Builder can keep lodging connected to guest count and transportation.","After the cutoff, update guest-facing information if booking instructions change."]}
     ],
-    checklist:["Confirm the responsible vendor or person","Check the venue rules","Add the decision to the wedding timeline","Share it with affected vendors","Reconfirm during the final planning check-in"],
+    checklist:["Record the hotel block cutoff date and contract terms","Give guests booking information early enough to act","Monitor room pickup when the hotel provides it","Confirm what happens to rooms and rates after cutoff","Update guest instructions if booking options change"],
     faq:[
-      {question:"When should we finalize this?",answer:"Set the working plan when the relevant vendor is booked, then reconfirm it during final timeline coordination."},
-      {question:"Should this be written into our wedding notes?",answer:"Yes. If multiple vendors or members of the wedding party are affected, document the final responsibility and timing in one shared place."}
+      {question:"What happens after a wedding hotel block cutoff date?",answer:"It depends on the hotel agreement. Unbooked rooms may be released and the group rate or booking method may change. Read the signed contract and ask the hotel what guests can expect afterward."},
+      {question:"Should we remind guests before the hotel block cutoff?",answer:"A reminder can be useful, especially for guests who have RSVP'd but not booked lodging. Give them the actual cutoff and booking instructions without promising availability the hotel has not guaranteed."},
+      {question:"Does hotel room pickup tell us how many guests need a shuttle?",answer:"No. A room can contain multiple guests, and some hotel guests may not use wedding transportation. Estimate shuttle riders separately and confirm the loading point with the hotel."}
     ]
   },
   {
@@ -3096,10 +3106,11 @@ export const inspirationArticles: InspirationArticle[] = [
       {heading:"Plan collection points",paragraphs:["Decide who clears abandoned glasses and where used pieces go. Too few collection points can leave tables and venue ledges crowded even when the original quantity was correct.","Keep collection out of guest circulation routes."]},
       {heading:"Choose disposables deliberately when relevant",paragraphs:["If the venue or event uses disposable drinkware, consider durability, waste handling and whether the material suits the beverage. Confirm venue restrictions before ordering.","Save quantities and provider responsibilities in your couple account; Wedding Builder can connect bar costs to guest count and rentals."]}
     ],
-    checklist:["Confirm the responsible vendor or person","Check the venue rules","Add the decision to the wedding timeline","Share it with affected vendors","Reconfirm during the final planning check-in"],
+    checklist:["Build glassware needs from the actual drink menu","Ask how the bar calculates multiple glass turns per guest","Separate bar glassware from catering and table-service rentals","Plan where used glasses are collected","Confirm venue rules before ordering glass or disposable drinkware"],
     faq:[
-      {question:"When should we finalize this?",answer:"Set the working plan when the relevant vendor is booked, then reconfirm it during final timeline coordination."},
-      {question:"Should this be written into our wedding notes?",answer:"Yes. If multiple vendors or members of the wedding party are affected, document the final responsibility and timing in one shared place."}
+      {question:"How many glasses do we need for a wedding bar?",answer:"Guest count alone is not enough because guests may use multiple glasses. Ask the bar or rental provider how service length, drink menu, washing capacity and collection affect the quantity."},
+      {question:"Who provides wedding bar glassware?",answer:"It may come from the mobile bar, caterer, rental company or venue. Assign each beverage moment—bar service, table water and toasts—to a provider so you avoid duplicate orders or gaps."},
+      {question:"Are disposable cups a good option for a Portland wedding bar?",answer:"They can be practical for some venues and service styles, but confirm venue rules, beverage compatibility, durability and waste handling before choosing them solely for convenience."}
     ]
   },
   {
@@ -3121,10 +3132,11 @@ export const inspirationArticles: InspirationArticle[] = [
       {heading:"Pack before the final wedding days",paragraphs:["Organize travel essentials and required documents before wedding-week activity peaks. Keep honeymoon luggage separate from decor, gifts and wedding cleanup loads.","Verify required documents through official sources for the actual itinerary."]},
       {heading:"Join the wedding exit to the travel plan",paragraphs:["Save departure time, airport transportation and delegated post-wedding tasks in your couple account. Wedding Builder can keep honeymoon timing connected to the final wedding-day responsibilities.","The goal is a clean handoff from celebration to travel, not the earliest possible flight."]}
     ],
-    checklist:["Confirm the responsible vendor or person","Check the venue rules","Add the decision to the wedding timeline","Share it with affected vendors","Reconfirm during the final planning check-in"],
+    checklist:["List post-wedding obligations before choosing the flight","Delegate returns, gifts or pet tasks that do not require the couple","Compare door-to-gate timing, not only departure time","Pack travel documents and essentials before wedding-week activity peaks","Verify airline and destination requirements through official sources"],
     faq:[
-      {question:"When should we finalize this?",answer:"Set the working plan when the relevant vendor is booked, then reconfirm it during final timeline coordination."},
-      {question:"Should this be written into our wedding notes?",answer:"Yes. If multiple vendors or members of the wedding party are affected, document the final responsibility and timing in one shared place."}
+      {question:"Should we fly out for our honeymoon the morning after the wedding?",answer:"You can, but compare the benefit with sleep, hotel checkout, airport travel and any post-wedding responsibilities. The best departure is the one your actual wedding schedule can support without depending on every step going perfectly."},
+      {question:"What should we finish before leaving for the honeymoon?",answer:"Account for attire or rental returns, gifts and cards, decor, hotel checkout, pet or house arrangements, luggage and airport transportation. Delegate tasks that do not require the couple."},
+      {question:"How much connection time should we leave on a honeymoon flight?",answer:"There is no single safe connection time for every itinerary. Consider the airports, airline itinerary, later transfers and consequences of disruption, and rely on current carrier and official travel information for the trip you are booking."}
     ]
   },
   {
