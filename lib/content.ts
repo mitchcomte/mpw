@@ -314,7 +314,7 @@ export const inspirationArticles: InspirationArticle[] = [
     title:"A practical Portland wedding weather and season guide",
     dek:"What to consider when planning around rain, heat, daylight and seasonal guest comfort in the Portland area.",
     readTime:"6 min read",,
-    relatedSlugs:["portland-wedding-portland-guest-weekend-guide","portland-wedding-rain-plan-guide","portland-wedding-wine-country-guide","oregon-coast-wedding-from-portland-guide"]
+    relatedSlugs:["best-time-year-portland-wedding","outdoor-wedding-venues-portland-guide","portland-wedding-rain-plan-guide","portland-wedding-local-rainy-guest-comfort-guide"]
     sections:[
       {heading:"Spring", paragraphs:["Spring can deliver lush greenery and beautiful blooms, but outdoor plans should have a polished rain backup. Covered cocktail spaces and flexible portrait locations are especially valuable."]},
       {heading:"Summer", paragraphs:["Summer offers long evenings and strong outdoor possibilities. Ask about shade, air conditioning, water stations and wildfire-smoke contingencies for outdoor celebrations."]},
