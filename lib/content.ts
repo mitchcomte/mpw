@@ -3678,11 +3678,11 @@ export const inspirationArticles: InspirationArticle[] = [
       {heading:"Plan the delivery route",paragraphs:["Walk the path from vendor unloading to the final table, including doors, stairs, elevators and outdoor surfaces. The display location is only workable if the cake can reach it safely.","Make sure the table is fully dressed and ready before delivery."]},
       {heading:"Plan cutting before guests arrive",paragraphs:["Decide who announces or cues cutting, who physically cuts and plates the cake and where service happens. Save those roles and timing in your couple account.","Wedding Builder can keep cake, catering and venue logistics connected within the overall plan."]}
     ],
-    checklist:["Define the outcome and failure point","Confirm what the vendor provides and excludes","Connect the decision to guest count, venue and budget","Put timing and ownership into the wedding plan","Reconfirm the final version with everyone affected"],
+    checklist:["Confirm the table can support the cake and display pieces","Place the cake away from unstable traffic and environmental risks","Coordinate stand, linen, florals and backdrop before delivery","Check photography and lighting without creating extra movement","Plan how the cake will be accessed for cutting and service"],
     faq:[
-      {question:"When should we start planning this?",answer:"Address it while comparing or booking the relevant vendor so it can influence pricing and logistics. Finalize the operational details after RSVPs, the floor plan and the master timeline are substantially settled."},
-      {question:"How does this fit into the rest of our wedding planning?",answer:"Treat it as one connected decision rather than an isolated task. Use Wedding Builder to shape the broader vendor and budget plan around your wedding, then save your planning progress in a My Portland Wedding couple account so the decisions stay together."},
-      {question:"What should we ask the vendor before signing?",answer:"Ask what is included, what is excluded, what they need from the venue, who handles setup and teardown, what deadlines apply and what happens if the original plan cannot be executed."}
+      {question:"Where should the wedding cake table go?",answer:"Choose a stable, visible location that works for delivery, photography, guest circulation and eventual cutting. Avoid treating an attractive empty corner as suitable until the full reception layout is considered."},
+      {question:"What size table do we need for a wedding cake?",answer:"The answer depends on the cake, stand and additional decor. Ask the baker and rental or venue team for the footprint and support requirements of the actual display."},
+      {question:"Who sets up the wedding cake table?",answer:"Responsibilities vary. Confirm who supplies and places the table, linen, stand, florals, topper and backdrop, and have those pieces ready before the baker needs to complete setup."}
     ]
   },
   {
@@ -3696,11 +3696,11 @@ export const inspirationArticles: InspirationArticle[] = [
       {heading:"Corral small rental pieces",paragraphs:["Create one labeled return zone for votives, chargers, serving pieces or other small items. Count high-loss items when practical before the responsible team leaves.","Photograph the staged return if condition or quantity could become important."]},
       {heading:"Confirm the pickup handoff",paragraphs:["Give the rental company the correct access contact and make sure the venue knows the pickup window. Save the return owner and instructions in your couple account.","Wedding Builder can keep rental delivery and return logistics connected to the venue timeline."]}
     ],
-    checklist:["Define the outcome and failure point","Confirm what the vendor provides and excludes","Connect the decision to guest count, venue and budget","Put timing and ownership into the wedding plan","Reconfirm the final version with everyone affected"],
+    checklist:["Read stacking, packing and return requirements before wedding day","Assign who gathers linens, tabletop items and specialty rentals","Choose a secure pickup staging area","Document damage or discrepancies using the provider's process","Confirm pickup window and who remains onsite if required"],
     faq:[
-      {question:"When should we start planning this?",answer:"Address it while comparing or booking the relevant vendor so it can influence pricing and logistics. Finalize the operational details after RSVPs, the floor plan and the master timeline are substantially settled."},
-      {question:"How does this fit into the rest of our wedding planning?",answer:"Treat it as one connected decision rather than an isolated task. Use Wedding Builder to shape the broader vendor and budget plan around your wedding, then save your planning progress in a My Portland Wedding couple account so the decisions stay together."},
-      {question:"What should we ask the vendor before signing?",answer:"Ask what is included, what is excluded, what they need from the venue, who handles setup and teardown, what deadlines apply and what happens if the original plan cannot be executed."}
+      {question:"Who packs up wedding rentals after the reception?",answer:"It depends on the rental, venue, caterer and planner agreements. Assign responsibility for chairs, tabletop items, linens and specialty pieces instead of assuming the rental company handles everything."},
+      {question:"Do wedding linens need to be cleaned before rental return?",answer:"Follow the rental company's instructions. Providers may require specific handling or bagging, and incorrect treatment can create damage or extra work."},
+      {question:"What happens if wedding rentals are picked up the next day?",answer:"Confirm where items may be securely staged, when access is available and who is responsible until pickup. The venue's overnight-storage rules and the rental contract both matter."}
     ]
   },
   {
@@ -3714,11 +3714,11 @@ export const inspirationArticles: InspirationArticle[] = [
       {heading:"Protect the license handoff",paragraphs:["Make sure the marriage license and any required instructions are controlled by a named person even if the original officiant is absent. Confirm the replacement understands the applicable signing and return process.","Keep the document in a secure folder rather than with decor."]},
       {heading:"Give one person authority to activate the backup",paragraphs:["The couple should not have to coordinate a replacement while getting ready. Name the planner, coordinator or trusted person who can contact the backup and share the ceremony materials.","Save that contingency in your couple account alongside the officiant and ceremony plan."]}
     ],
-    checklist:["Define the outcome and failure point","Confirm what the vendor provides and excludes","Connect the decision to guest count, venue and budget","Put timing and ownership into the wedding plan","Reconfirm the final version with everyone affected"],
+    checklist:["Ask about backup practices while comparing officiants","Keep the final ceremony script accessible to the appropriate people","Confirm how a replacement would receive ceremony details","Know which legal requirements must still be satisfied","Give the coordinator a clear escalation contact"],
     faq:[
-      {question:"When should we start planning this?",answer:"Address it while comparing or booking the relevant vendor so it can influence pricing and logistics. Finalize the operational details after RSVPs, the floor plan and the master timeline are substantially settled."},
-      {question:"How does this fit into the rest of our wedding planning?",answer:"Treat it as one connected decision rather than an isolated task. Use Wedding Builder to shape the broader vendor and budget plan around your wedding, then save your planning progress in a My Portland Wedding couple account so the decisions stay together."},
-      {question:"What should we ask the vendor before signing?",answer:"Ask what is included, what is excluded, what they need from the venue, who handles setup and teardown, what deadlines apply and what happens if the original plan cannot be executed."}
+      {question:"What happens if our wedding officiant gets sick or cannot attend?",answer:"Ask the officiant about their contingency process before booking. A professional network, associate or other backup may be available, but the plan varies by provider."},
+      {question:"Should we have a backup wedding officiant?",answer:"You do not necessarily need to book two people, but you should understand how the ceremony would proceed if the original officiant becomes unavailable and how any legal requirements would still be met."},
+      {question:"What information would a replacement officiant need?",answer:"Keep the final script, names and pronunciations, ceremony timeline, readings, key contacts and any required legal-administrative information organized so a qualified replacement is not starting from zero."}
     ]
   },
   {
@@ -3732,11 +3732,11 @@ export const inspirationArticles: InspirationArticle[] = [
       {heading:"Build realistic boarding time",paragraphs:["Allow enough time for guests to board and exit without pressure. If one vehicle serves multiple runs, include that time in the route schedule.","Do not create a timeline where accessibility needs are treated as delays."]},
       {heading:"Share one operational plan",paragraphs:["Give transportation and venue contacts the same pickup points, timing and assistance notes. Save the plan in your couple account.","Wedding Builder can connect transportation choices to guest count, lodging and venue logistics."]}
     ],
-    checklist:["Define the outcome and failure point","Confirm what the vendor provides and excludes","Connect the decision to guest count, venue and budget","Put timing and ownership into the wedding plan","Reconfirm the final version with everyone affected"],
+    checklist:["Ask guests privately about transportation assistance they actually need","Confirm vehicle boarding and mobility-device capabilities","Check walking distance and surface from stop to venue entrance","Coordinate accessible pickup and drop-off points with the venue","Give guests clear instructions and a contact for transportation help"],
     faq:[
-      {question:"When should we start planning this?",answer:"Address it while comparing or booking the relevant vendor so it can influence pricing and logistics. Finalize the operational details after RSVPs, the floor plan and the master timeline are substantially settled."},
-      {question:"How does this fit into the rest of our wedding planning?",answer:"Treat it as one connected decision rather than an isolated task. Use Wedding Builder to shape the broader vendor and budget plan around your wedding, then save your planning progress in a My Portland Wedding couple account so the decisions stay together."},
-      {question:"What should we ask the vendor before signing?",answer:"Ask what is included, what is excluded, what they need from the venue, who handles setup and teardown, what deadlines apply and what happens if the original plan cannot be executed."}
+      {question:"What should we ask a wedding transportation company about accessibility?",answer:"Describe the actual mobility needs you are planning for and ask about vehicle access, boarding assistance, mobility-device accommodation and the driver's role. Verify the specific vehicle rather than relying on a generic fleet description."},
+      {question:"Is an accessible shuttle enough if the venue entrance is far away?",answer:"Not necessarily. Evaluate the entire route from hotel or pickup point through vehicle boarding, drop-off, walking surface and venue entrance. Accessibility can fail in the gap between services."},
+      {question:"How do we ask wedding guests about mobility needs?",answer:"Use respectful, practical language focused on what would help them participate comfortably. Give guests a private way to share transportation or access needs rather than asking them to disclose more than necessary."}
     ]
   },
   {
@@ -3750,11 +3750,11 @@ export const inspirationArticles: InspirationArticle[] = [
       {heading:"Account for vendor and display needs",paragraphs:["Photographers may want a clean invitation suite for details, while the planner or venue may need sample menus or signs during setup. Include those known uses in the order.","Do not let setup copies consume the guest quantity."]},
       {heading:"Freeze final counts at the right time",paragraphs:["Tie personalized printing to the RSVP and seating deadlines, not to the date you first designed the suite. Save final counts in your couple account.","Wedding Builder can keep guest count changes visible as they affect stationery and other categories."]}
     ],
-    checklist:["Define the outcome and failure point","Confirm what the vendor provides and excludes","Connect the decision to guest count, venue and budget","Put timing and ownership into the wedding plan","Reconfirm the final version with everyone affected"],
+    checklist:["Count invitation mailings by households or addresses, not total guests","Count programs, menus and place cards by how they will actually be used","Add only a deliberate reprint or keepsake buffer","Wait for stable personalized data before final printing","Keep one master guest-data source for names, meals and addresses"],
     faq:[
-      {question:"When should we start planning this?",answer:"Address it while comparing or booking the relevant vendor so it can influence pricing and logistics. Finalize the operational details after RSVPs, the floor plan and the master timeline are substantially settled."},
-      {question:"How does this fit into the rest of our wedding planning?",answer:"Treat it as one connected decision rather than an isolated task. Use Wedding Builder to shape the broader vendor and budget plan around your wedding, then save your planning progress in a My Portland Wedding couple account so the decisions stay together."},
-      {question:"What should we ask the vendor before signing?",answer:"Ask what is included, what is excluded, what they need from the venue, who handles setup and teardown, what deadlines apply and what happens if the original plan cannot be executed."}
+      {question:"How many wedding invitations should we order?",answer:"Start with the number of invitation mailings or households rather than total guests, then add a deliberate buffer for mistakes, late additions or keepsakes based on your printer's reordering process."},
+      {question:"Do we need one wedding program or menu per guest?",answer:"Not always. Programs may be shared and menus can be individual or table-based depending on the design and service. Count each piece according to actual use."},
+      {question:"How many extra wedding invitations should we order?",answer:"There is no universal percentage. Consider likely late additions, addressing mistakes, keepsakes and the cost or turnaround of a small reprint, then choose a buffer intentionally."}
     ]
   },
   {
@@ -3768,11 +3768,11 @@ export const inspirationArticles: InspirationArticle[] = [
       {heading:"Create secure transport and custody",paragraphs:["Use a protective case and name the person responsible for bringing, storing and returning the heirloom. Coordinate any photographer detail shots with that custody plan.","Avoid leaving an irreplaceable piece loose among ordinary accessories."]},
       {heading:"Decide what happens after wearing it",paragraphs:["If the piece comes off during the reception, identify exactly where it goes. Save the handoff in your couple account with other jewelry responsibilities.","Wedding Builder can keep jewelry decisions connected to attire and ceremony planning."]}
     ],
-    checklist:["Define the outcome and failure point","Confirm what the vendor provides and excludes","Connect the decision to guest count, venue and budget","Put timing and ownership into the wedding plan","Reconfirm the final version with everyone affected"],
+    checklist:["Have heirloom pieces inspected early enough for careful repairs","Confirm any sizing or alteration is appropriate for the piece","Test heirloom jewelry with the full wedding look","Use protective cases and explicit wedding-day handoffs","Plan who receives the heirloom after the celebration"],
     faq:[
-      {question:"When should we start planning this?",answer:"Address it while comparing or booking the relevant vendor so it can influence pricing and logistics. Finalize the operational details after RSVPs, the floor plan and the master timeline are substantially settled."},
-      {question:"How does this fit into the rest of our wedding planning?",answer:"Treat it as one connected decision rather than an isolated task. Use Wedding Builder to shape the broader vendor and budget plan around your wedding, then save your planning progress in a My Portland Wedding couple account so the decisions stay together."},
-      {question:"What should we ask the vendor before signing?",answer:"Ask what is included, what is excluded, what they need from the venue, who handles setup and teardown, what deadlines apply and what happens if the original plan cannot be executed."}
+      {question:"When should we have heirloom wedding jewelry inspected?",answer:"Do it early enough that a qualified jeweler can evaluate condition and complete any appropriate work without a wedding-week rush. Fragile or unusual pieces may require more specialized care."},
+      {question:"Can an heirloom ring or necklace be resized or altered for the wedding?",answer:"Sometimes, but suitability depends on the construction, materials, condition and sentimental considerations. Have a qualified jeweler evaluate the actual piece before authorizing changes."},
+      {question:"How should we protect heirloom jewelry on the wedding day?",answer:"Limit unnecessary handling, use appropriate protective storage and assign custody during travel, photography, ceremony and the end of the night. Decide the return handoff before the wedding begins."}
     ]
   },
   {
@@ -3786,11 +3786,11 @@ export const inspirationArticles: InspirationArticle[] = [
       {heading:"Stock the station intentionally",paragraphs:["Keep pens, adhesive and instructions close enough to the booth that guests understand the guestbook without staff repeatedly explaining it. Assign someone to check supplies during the reception if needed.","Avoid placing loose prints where drinks or crowding can damage them."]},
       {heading:"Plan for leftovers and digital copies",paragraphs:["Ask what happens to unclaimed prints and whether the couple receives a digital gallery. Save delivery details in your couple account.","Wedding Builder can keep the booth within the entertainment and guest-experience plan."]}
     ],
-    checklist:["Define the outcome and failure point","Confirm what the vendor provides and excludes","Connect the decision to guest count, venue and budget","Put timing and ownership into the wedding plan","Reconfirm the final version with everyone affected"],
+    checklist:["Decide whether prints are favors, guestbook pieces or both","Confirm print size and number of copies per session","Match guestbook supplies to the actual print format","Ask how paper or media replenishment is handled","Plan a digital backup if prints are important to you"],
     faq:[
-      {question:"When should we start planning this?",answer:"Address it while comparing or booking the relevant vendor so it can influence pricing and logistics. Finalize the operational details after RSVPs, the floor plan and the master timeline are substantially settled."},
-      {question:"How does this fit into the rest of our wedding planning?",answer:"Treat it as one connected decision rather than an isolated task. Use Wedding Builder to shape the broader vendor and budget plan around your wedding, then save your planning progress in a My Portland Wedding couple account so the decisions stay together."},
-      {question:"What should we ask the vendor before signing?",answer:"Ask what is included, what is excluded, what they need from the venue, who handles setup and teardown, what deadlines apply and what happens if the original plan cannot be executed."}
+      {question:"How many prints does a wedding photo booth give each group?",answer:"Packages vary. Ask whether each session produces one print, duplicate strips, one copy per guest or another quantity, especially if prints are intended as favors."},
+      {question:"Can photo booth prints be used in a wedding guestbook?",answer:"Yes, if the print size, guestbook layout and adhesive or mounting method work together. Confirm the booth produces enough copies for guests to keep one when that matters."},
+      {question:"What happens if a wedding photo booth runs out of print supplies?",answer:"Ask whether the attendant monitors and replenishes paper or media and whether digital delivery remains available if printing is interrupted."}
     ]
   },
   {
@@ -3804,11 +3804,11 @@ export const inspirationArticles: InspirationArticle[] = [
       {heading:"Coordinate lighting and audio",paragraphs:["Phone lights, flashes, microphones and audio recorders can affect another vendor's work. Ask the team how they prefer to handle low-light reception moments and important spoken audio.","Small technical conversations before the event can prevent visible or audible conflicts."]},
       {heading:"Set the collaboration expectation in writing",paragraphs:["Tell vendors that cooperative coverage matters to you and identify the planner or coordinator as the onsite escalation point. Save the final visual-team plan in your couple account.","Wedding Builder can keep photography, videography and content creation visible as related—not isolated—decisions."]}
     ],
-    checklist:["Define the outcome and failure point","Confirm what the vendor provides and excludes","Connect the decision to guest count, venue and budget","Put timing and ownership into the wedding plan","Reconfirm the final version with everyone affected"],
+    checklist:["Tell photographer, videographer and content creator about one another before wedding day","Define priority positions for ceremony and major reception moments","Coordinate portrait and couple-session access","Agree on phone-light and movement expectations","Give the planner or coordinator authority to resolve positioning conflicts"],
     faq:[
-      {question:"When should we start planning this?",answer:"Address it while comparing or booking the relevant vendor so it can influence pricing and logistics. Finalize the operational details after RSVPs, the floor plan and the master timeline are substantially settled."},
-      {question:"How does this fit into the rest of our wedding planning?",answer:"Treat it as one connected decision rather than an isolated task. Use Wedding Builder to shape the broader vendor and budget plan around your wedding, then save your planning progress in a My Portland Wedding couple account so the decisions stay together."},
-      {question:"What should we ask the vendor before signing?",answer:"Ask what is included, what is excluded, what they need from the venue, who handles setup and teardown, what deadlines apply and what happens if the original plan cannot be executed."}
+      {question:"How should a wedding content creator work with the photographer?",answer:"Both should understand their roles and priority moments before the wedding. Define where phone-based coverage can work close to the action without blocking professional still photography."},
+      {question:"Can a content creator and videographer film the same wedding?",answer:"Yes, but overlapping coverage makes coordination important. Discuss ceremony positions, couple sessions, speeches, dances and lighting so cameras are not competing for the same space."},
+      {question:"Who decides camera priority during the wedding?",answer:"Set expectations before the event and give the planner or coordinator authority to resolve practical conflicts onsite. The couple should not need to referee camera positions during key moments."}
     ]
   },
   {
@@ -3822,11 +3822,11 @@ export const inspirationArticles: InspirationArticle[] = [
       {heading:"Plan for sound coverage",paragraphs:["Where speakers are placed affects both volume and usable floor space. Ask how the setup changes for ceremony, dinner and dancing if the same entertainment team supports several phases.","Respect venue sound restrictions when designing the layout."]},
       {heading:"Include setup and breakdown space",paragraphs:["Performers need access before and after the visible performance. Add load-in route, storage for cases and breakdown timing to the vendor plan.","Save the approved footprint in your couple account; Wedding Builder can connect entertainment to venue and rental decisions."]}
     ],
-    checklist:["Define the outcome and failure point","Confirm what the vendor provides and excludes","Connect the decision to guest count, venue and budget","Put timing and ownership into the wedding plan","Reconfirm the final version with everyone affected"],
+    checklist:["Get the performer's complete footprint before finalizing the floor plan","Include speakers, stands, cables and equipment—not only people","Confirm stage and power requirements with the venue","Protect guest circulation and emergency paths","Reserve setup and soundcheck access in the timeline"],
     faq:[
-      {question:"When should we start planning this?",answer:"Address it while comparing or booking the relevant vendor so it can influence pricing and logistics. Finalize the operational details after RSVPs, the floor plan and the master timeline are substantially settled."},
-      {question:"How does this fit into the rest of our wedding planning?",answer:"Treat it as one connected decision rather than an isolated task. Use Wedding Builder to shape the broader vendor and budget plan around your wedding, then save your planning progress in a My Portland Wedding couple account so the decisions stay together."},
-      {question:"What should we ask the vendor before signing?",answer:"Ask what is included, what is excluded, what they need from the venue, who handles setup and teardown, what deadlines apply and what happens if the original plan cannot be executed."}
+      {question:"How much space does a wedding band need?",answer:"It depends on the number of performers, instruments, speakers and stage setup. Ask the band for its actual footprint and technical requirements before finalizing the reception floor plan."},
+      {question:"Does a wedding band need a stage?",answer:"Not always. Some performers can work at floor level, while others require or strongly prefer a stage. Confirm the provider's requirements and the venue's capabilities."},
+      {question:"What power does live wedding entertainment need?",answer:"Requirements vary by equipment. Have the entertainment provider give the venue its electrical needs rather than guessing from the number of musicians or speakers."}
     ]
   },
   {
@@ -3840,11 +3840,11 @@ export const inspirationArticles: InspirationArticle[] = [
       {heading:"Coordinate welcome items",paragraphs:["Ask whether the hotel accepts welcome bags, how they are distributed and whether fees or labeling requirements apply. Delivery to rooms and handout at the desk are different services.","Schedule item delivery early enough for hotel staff to process it."]},
       {heading:"Connect check-in to transportation",paragraphs:["If shuttles leave from the hotel, publish the loading point and departure time separately from check-in instructions. Save the lodging timeline in your couple account.","Wedding Builder can keep lodging, guest travel and transportation decisions connected."]}
     ],
-    checklist:["Define the outcome and failure point","Confirm what the vendor provides and excludes","Connect the decision to guest count, venue and budget","Put timing and ownership into the wedding plan","Reconfirm the final version with everyone affected"],
+    checklist:["Compare guest arrival times with the hotel's stated check-in process","Ask about luggage storage for guests arriving before rooms are ready","Avoid promising early check-in unless the hotel guarantees it","Coordinate shuttle timing with realistic room access","Give guests one source for current hotel and transportation instructions"],
     faq:[
-      {question:"When should we start planning this?",answer:"Address it while comparing or booking the relevant vendor so it can influence pricing and logistics. Finalize the operational details after RSVPs, the floor plan and the master timeline are substantially settled."},
-      {question:"How does this fit into the rest of our wedding planning?",answer:"Treat it as one connected decision rather than an isolated task. Use Wedding Builder to shape the broader vendor and budget plan around your wedding, then save your planning progress in a My Portland Wedding couple account so the decisions stay together."},
-      {question:"What should we ask the vendor before signing?",answer:"Ask what is included, what is excluded, what they need from the venue, who handles setup and teardown, what deadlines apply and what happens if the original plan cannot be executed."}
+      {question:"What if wedding guests arrive before hotel check-in?",answer:"Ask the hotel about luggage storage, common areas and any early-arrival options, then give guests realistic instructions. Do not promise early room access unless the hotel has guaranteed it."},
+      {question:"Can a hotel guarantee early check-in for wedding guests?",answer:"Policies vary. Ask the property what can actually be guaranteed versus merely requested, and communicate that distinction clearly to guests."},
+      {question:"How should hotel check-in affect the wedding shuttle schedule?",answer:"Compare guest arrival and room-access timing with shuttle departures. Guests may need time to store luggage, change or reach the loading point before transportation leaves."}
     ]
   },
   {
@@ -3858,11 +3858,11 @@ export const inspirationArticles: InspirationArticle[] = [
       {heading:"Plan the physical close",paragraphs:["Ask what happens to glassware, open bottles, bar decor and rented equipment after service ends. The bar team may still need breakdown time after guests stop ordering.","Coordinate breakdown with venue clearance requirements."]},
       {heading:"Communicate transportation at the same time",paragraphs:["Make ride and shuttle information easy to find near the end of the reception. Save bar close and transportation timing together in your couple account.","Wedding Builder can connect bar service with venue, guest count and transportation planning."]}
     ],
-    checklist:["Define the outcome and failure point","Confirm what the vendor provides and excludes","Connect the decision to guest count, venue and budget","Put timing and ownership into the wedding plan","Reconfirm the final version with everyone affected"],
+    checklist:["Confirm venue and bar-service end times","Coordinate last call with final songs and transportation departures","Decide how guests will know service is ending","Keep water and nonalcoholic options available as planned","Put bar shutdown and cleanup into the master timeline"],
     faq:[
-      {question:"When should we start planning this?",answer:"Address it while comparing or booking the relevant vendor so it can influence pricing and logistics. Finalize the operational details after RSVPs, the floor plan and the master timeline are substantially settled."},
-      {question:"How does this fit into the rest of our wedding planning?",answer:"Treat it as one connected decision rather than an isolated task. Use Wedding Builder to shape the broader vendor and budget plan around your wedding, then save your planning progress in a My Portland Wedding couple account so the decisions stay together."},
-      {question:"What should we ask the vendor before signing?",answer:"Ask what is included, what is excluded, what they need from the venue, who handles setup and teardown, what deadlines apply and what happens if the original plan cannot be executed."}
+      {question:"What time should last call be at a wedding?",answer:"Start with the venue, bar provider and applicable service constraints, then coordinate last call with the reception end, transportation and final entertainment moments. There is no universal wedding last-call time."},
+      {question:"Should wedding last call happen before the final song?",answer:"Often some separation helps bar shutdown and guest departures, but the right sequence depends on the venue and service plan. Coordinate the bar and entertainment timelines rather than treating them independently."},
+      {question:"Who decides when the wedding bar closes?",answer:"The final plan must respect the venue, bar provider and applicable rules. Confirm the contractual service window and who is responsible for announcing or enforcing the end of service."}
     ]
   },
   {
@@ -3876,11 +3876,11 @@ export const inspirationArticles: InspirationArticle[] = [
       {heading:"Plan for large or fragile gifts",paragraphs:["Ask the venue how oversized items can be removed and whether they can remain temporarily if transportation is limited. Do not assume every gift fits into the assigned car.","Protect fragile pieces before cleanup activity accelerates."]},
       {heading:"Close the loop after delivery",paragraphs:["Have the responsible person confirm that gifts and cards reached the secure destination. Save that handoff with your post-wedding tasks in the couple account.","Wedding Builder can keep honeymoon departure timing connected to the wedding's final responsibilities."]}
     ],
-    checklist:["Define the outcome and failure point","Confirm what the vendor provides and excludes","Connect the decision to guest count, venue and budget","Put timing and ownership into the wedding plan","Reconfirm the final version with everyone affected"],
+    checklist:["Choose a secure destination for cards and gifts before the reception","Assign trusted people to collect and transport valuables","Separate honeymoon luggage from wedding cleanup loads","Plan attire, decor and personal-item handoffs","Record who has each important item before the couple departs"],
     faq:[
-      {question:"When should we start planning this?",answer:"Address it while comparing or booking the relevant vendor so it can influence pricing and logistics. Finalize the operational details after RSVPs, the floor plan and the master timeline are substantially settled."},
-      {question:"How does this fit into the rest of our wedding planning?",answer:"Treat it as one connected decision rather than an isolated task. Use Wedding Builder to shape the broader vendor and budget plan around your wedding, then save your planning progress in a My Portland Wedding couple account so the decisions stay together."},
-      {question:"What should we ask the vendor before signing?",answer:"Ask what is included, what is excluded, what they need from the venue, who handles setup and teardown, what deadlines apply and what happens if the original plan cannot be executed."}
+      {question:"Who should take wedding gifts and cards after the reception?",answer:"Assign trusted people before the wedding and give them a secure destination. Avoid deciding where cards, gifts and valuables go only after guests have left."},
+      {question:"What should we do with wedding gifts if we leave for the honeymoon immediately?",answer:"Arrange secure transport and storage with trusted people who are not leaving on the trip. Keep gifts and cards separate from decor returns and general cleanup loads."},
+      {question:"Who should return wedding attire or rentals while we are on our honeymoon?",answer:"Delegate any return that does not require the couple and give that person the deadline, location, packaging and receipt or order information they need."}
     ]
   },
   {
