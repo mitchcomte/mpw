@@ -3376,6 +3376,210 @@ export const inspirationArticles: InspirationArticle[] = [
       {question:"When should we make this decision?",answer:"Set a working plan early enough for vendors to price and prepare it, then finalize it once the guest count, floor plan and wedding-day timeline are stable."},
       {question:"Who should be responsible on the wedding day?",answer:"Choose one person or vendor whose role naturally includes the task, and make that responsibility explicit before the wedding day."}
     ]
+  },
+  {
+    slug:"portland-wedding-cake-flavor-tasting-guide", category:"Cakes", title:"Wedding Cake Tastings: How to Choose Flavors Without Overcomplicating the Cake", dek:"Turn a cake tasting into a useful decision by comparing flavor balance, guest appeal, season, serving plan and how multiple tiers or flavors will actually be served.", readTime:"8 min read",
+    seoTitle:"Wedding Cake Tastings: How to Choose Flavors Without Overcomplicating the Cake", seoDescription:"Turn a cake tasting into a useful decision by comparing flavor balance, guest appeal, season, serving plan and how multiple tiers or flavors will actually be served.", publishedAt:"2026-10-01T00:00:00-07:00", updatedAt:"2026-10-01T00:00:00-07:00", reviewedBy:"My Portland Wedding Editorial",
+    relatedSlugs:[],
+    sections:[
+      {heading:"Decide what the tasting needs to answer",paragraphs:["This decision deserves more than a quick checklist because it affects other parts of the wedding. Start by defining what a successful outcome looks like for your guest count, venue, timeline and priorities before comparing options."]},
+      {heading:"Compare complete bites, not individual flavors",paragraphs:["Ask the vendor for their normal process, limits and handoff points. Good planning means knowing not only what is included, but who owns the task before, during and after the wedding."]},
+      {heading:"Think about season and serving conditions",paragraphs:["Connect the choice to the rest of the day. Portland-area venues can differ significantly in access, travel time, weather exposure and house rules, so the best answer is the one that works with your actual location and schedule."]},
+      {heading:"Choose variety with a purpose",paragraphs:["Record the final choice where the people executing it can see it. Quantities, timing, contacts and responsibilities should live in the shared plan rather than being scattered across texts and old email threads."]},
+      {heading:"Write the final flavor map down",paragraphs:["Use the final planning window to test the assumption one more time against the latest RSVP count, floor plan and timeline. If something changed, update the plan deliberately and tell everyone affected."]}
+    ],
+    checklist:["Define the decision around your real wedding","Confirm vendor and venue responsibilities","Record quantities, timing and ownership","Connect the decision to the wedding-day timeline","Reconfirm after final RSVPs and logistics"],
+    faq:[
+      {question:"When should we finalize this?",answer:"Make the working decision early enough to reserve what you need, then reconfirm it after the guest count, floor plan and wedding-day timeline are substantially final."},
+      {question:"How should we keep track of the decision?",answer:"Keep the final choice with the rest of your wedding plan so the budget, vendor responsibilities and timeline stay connected. Wedding Builder can help shape the larger plan, and a My Portland Wedding couple account lets you save your planning progress."}
+    ]
+  },
+  {
+    slug:"portland-wedding-rental-weather-backup-guide", category:"Rentals", title:"Outdoor Wedding Rentals & Weather Backups: What Needs a Plan B?", dek:"Identify which rental decisions change when Portland-area weather shifts, from chairs and linens to heaters, flooring, tents and delivery access.", readTime:"8 min read",
+    seoTitle:"Outdoor Wedding Rentals & Weather Backups: What Needs a Plan B?", seoDescription:"Identify which rental decisions change when Portland-area weather shifts, from chairs and linens to heaters, flooring, tents and delivery access.", publishedAt:"2026-10-01T00:00:00-07:00", updatedAt:"2026-10-01T00:00:00-07:00", reviewedBy:"My Portland Wedding Editorial",
+    relatedSlugs:[],
+    sections:[
+      {heading:"Separate weather-sensitive rentals from everything else",paragraphs:["This decision deserves more than a quick checklist because it affects other parts of the wedding. Start by defining what a successful outcome looks like for your guest count, venue, timeline and priorities before comparing options."]},
+      {heading:"Ask when backup inventory must be reserved",paragraphs:["Ask the vendor for their normal process, limits and handoff points. Good planning means knowing not only what is included, but who owns the task before, during and after the wedding."]},
+      {heading:"Think about the ground, not only the sky",paragraphs:["Connect the choice to the rest of the day. Portland-area venues can differ significantly in access, travel time, weather exposure and house rules, so the best answer is the one that works with your actual location and schedule."]},
+      {heading:"Coordinate delivery changes with the venue",paragraphs:["Record the final choice where the people executing it can see it. Quantities, timing, contacts and responsibilities should live in the shared plan rather than being scattered across texts and old email threads."]},
+      {heading:"Set the decision deadline before the forecast becomes stressful",paragraphs:["Use the final planning window to test the assumption one more time against the latest RSVP count, floor plan and timeline. If something changed, update the plan deliberately and tell everyone affected."]}
+    ],
+    checklist:["Define the decision around your real wedding","Confirm vendor and venue responsibilities","Record quantities, timing and ownership","Connect the decision to the wedding-day timeline","Reconfirm after final RSVPs and logistics"],
+    faq:[
+      {question:"When should we finalize this?",answer:"Make the working decision early enough to reserve what you need, then reconfirm it after the guest count, floor plan and wedding-day timeline are substantially final."},
+      {question:"How should we keep track of the decision?",answer:"Keep the final choice with the rest of your wedding plan so the budget, vendor responsibilities and timeline stay connected. Wedding Builder can help shape the larger plan, and a My Portland Wedding couple account lets you save your planning progress."}
+    ]
+  },
+  {
+    slug:"portland-wedding-officiant-license-handoff-guide", category:"Officiants", title:"Marriage License Handoff: Who Keeps It Before and After the Ceremony?", dek:"Create a clear custody plan for the marriage license so paperwork is available when needed and does not disappear into a bag, car or décor box.", readTime:"8 min read",
+    seoTitle:"Marriage License Handoff: Who Keeps It Before and After the Ceremony?", seoDescription:"Create a clear custody plan for the marriage license so paperwork is available when needed and does not disappear into a bag, car or décor box.", publishedAt:"2026-10-01T00:00:00-07:00", updatedAt:"2026-10-01T00:00:00-07:00", reviewedBy:"My Portland Wedding Editorial",
+    relatedSlugs:[],
+    sections:[
+      {heading:"Name the person who brings the license",paragraphs:["This decision deserves more than a quick checklist because it affects other parts of the wedding. Start by defining what a successful outcome looks like for your guest count, venue, timeline and priorities before comparing options."]},
+      {heading:"Confirm what the officiant needs",paragraphs:["Ask the vendor for their normal process, limits and handoff points. Good planning means knowing not only what is included, but who owns the task before, during and after the wedding."]},
+      {heading:"Keep paperwork away from décor and gifts",paragraphs:["Connect the choice to the rest of the day. Portland-area venues can differ significantly in access, travel time, weather exposure and house rules, so the best answer is the one that works with your actual location and schedule."]},
+      {heading:"Decide who receives it after signing",paragraphs:["Record the final choice where the people executing it can see it. Quantities, timing, contacts and responsibilities should live in the shared plan rather than being scattered across texts and old email threads."]},
+      {heading:"Follow the official filing instructions for your jurisdiction",paragraphs:["Use the final planning window to test the assumption one more time against the latest RSVP count, floor plan and timeline. If something changed, update the plan deliberately and tell everyone affected."]}
+    ],
+    checklist:["Define the decision around your real wedding","Confirm vendor and venue responsibilities","Record quantities, timing and ownership","Connect the decision to the wedding-day timeline","Reconfirm after final RSVPs and logistics"],
+    faq:[
+      {question:"When should we finalize this?",answer:"Make the working decision early enough to reserve what you need, then reconfirm it after the guest count, floor plan and wedding-day timeline are substantially final."},
+      {question:"How should we keep track of the decision?",answer:"Keep the final choice with the rest of your wedding plan so the budget, vendor responsibilities and timeline stay connected. Wedding Builder can help shape the larger plan, and a My Portland Wedding couple account lets you save your planning progress."}
+    ]
+  },
+  {
+    slug:"portland-wedding-shuttle-last-run-guide", category:"Transportation", title:"The Last Wedding Shuttle: How to Plan Final Runs Without Stranding Guests", dek:"Build the end-of-night transportation schedule around venue exit time, cleanup, hotel destinations and guests who leave at different times.", readTime:"8 min read",
+    seoTitle:"The Last Wedding Shuttle: How to Plan Final Runs Without Stranding Guests", seoDescription:"Build the end-of-night transportation schedule around venue exit time, cleanup, hotel destinations and guests who leave at different times.", publishedAt:"2026-10-01T00:00:00-07:00", updatedAt:"2026-10-01T00:00:00-07:00", reviewedBy:"My Portland Wedding Editorial",
+    relatedSlugs:[],
+    sections:[
+      {heading:"Start with the venue's hard exit time",paragraphs:["This decision deserves more than a quick checklist because it affects other parts of the wedding. Start by defining what a successful outcome looks like for your guest count, venue, timeline and priorities before comparing options."]},
+      {heading:"Offer more than one departure when practical",paragraphs:["Ask the vendor for their normal process, limits and handoff points. Good planning means knowing not only what is included, but who owns the task before, during and after the wedding."]},
+      {heading:"Tell guests the last-run time clearly",paragraphs:["Connect the choice to the rest of the day. Portland-area venues can differ significantly in access, travel time, weather exposure and house rules, so the best answer is the one that works with your actual location and schedule."]},
+      {heading:"Separate guest transport from vendor cleanup",paragraphs:["Record the final choice where the people executing it can see it. Quantities, timing, contacts and responsibilities should live in the shared plan rather than being scattered across texts and old email threads."]},
+      {heading:"Give the driver an end-of-night contact",paragraphs:["Use the final planning window to test the assumption one more time against the latest RSVP count, floor plan and timeline. If something changed, update the plan deliberately and tell everyone affected."]}
+    ],
+    checklist:["Define the decision around your real wedding","Confirm vendor and venue responsibilities","Record quantities, timing and ownership","Connect the decision to the wedding-day timeline","Reconfirm after final RSVPs and logistics"],
+    faq:[
+      {question:"When should we finalize this?",answer:"Make the working decision early enough to reserve what you need, then reconfirm it after the guest count, floor plan and wedding-day timeline are substantially final."},
+      {question:"How should we keep track of the decision?",answer:"Keep the final choice with the rest of your wedding plan so the budget, vendor responsibilities and timeline stay connected. Wedding Builder can help shape the larger plan, and a My Portland Wedding couple account lets you save your planning progress."}
+    ]
+  },
+  {
+    slug:"portland-wedding-rsvp-card-vs-online-guide", category:"Stationery", title:"RSVP Cards vs. Online RSVPs: Which Works Better for Your Guest List?", dek:"Choose a response method around your guests, information needs, stationery budget and the way you want to track meal choices and attendance.", readTime:"8 min read",
+    seoTitle:"RSVP Cards vs. Online RSVPs: Which Works Better for Your Guest List?", seoDescription:"Choose a response method around your guests, information needs, stationery budget and the way you want to track meal choices and attendance.", publishedAt:"2026-10-01T00:00:00-07:00", updatedAt:"2026-10-01T00:00:00-07:00", reviewedBy:"My Portland Wedding Editorial",
+    relatedSlugs:[],
+    sections:[
+      {heading:"List what you need each household to answer",paragraphs:["This decision deserves more than a quick checklist because it affects other parts of the wedding. Start by defining what a successful outcome looks like for your guest count, venue, timeline and priorities before comparing options."]},
+      {heading:"Match the method to the guest list",paragraphs:["Ask the vendor for their normal process, limits and handoff points. Good planning means knowing not only what is included, but who owns the task before, during and after the wedding."]},
+      {heading:"Consider a hybrid approach intentionally",paragraphs:["Connect the choice to the rest of the day. Portland-area venues can differ significantly in access, travel time, weather exposure and house rules, so the best answer is the one that works with your actual location and schedule."]},
+      {heading:"Make the deadline unmistakable",paragraphs:["Record the final choice where the people executing it can see it. Quantities, timing, contacts and responsibilities should live in the shared plan rather than being scattered across texts and old email threads."]},
+      {heading:"Move responses into one planning record",paragraphs:["Use the final planning window to test the assumption one more time against the latest RSVP count, floor plan and timeline. If something changed, update the plan deliberately and tell everyone affected."]}
+    ],
+    checklist:["Define the decision around your real wedding","Confirm vendor and venue responsibilities","Record quantities, timing and ownership","Connect the decision to the wedding-day timeline","Reconfirm after final RSVPs and logistics"],
+    faq:[
+      {question:"When should we finalize this?",answer:"Make the working decision early enough to reserve what you need, then reconfirm it after the guest count, floor plan and wedding-day timeline are substantially final."},
+      {question:"How should we keep track of the decision?",answer:"Keep the final choice with the rest of your wedding plan so the budget, vendor responsibilities and timeline stay connected. Wedding Builder can help shape the larger plan, and a My Portland Wedding couple account lets you save your planning progress."}
+    ]
+  },
+  {
+    slug:"portland-wedding-jewelry-day-of-storage-guide", category:"Jewelry", title:"Wedding-Day Jewelry Storage: Where Rings, Earrings and Heirlooms Should Actually Go", dek:"Protect important jewelry during getting-ready photos, outfit changes and travel by deciding who controls each piece throughout the day.", readTime:"8 min read",
+    seoTitle:"Wedding-Day Jewelry Storage: Where Rings, Earrings and Heirlooms Should Actually Go", seoDescription:"Protect important jewelry during getting-ready photos, outfit changes and travel by deciding who controls each piece throughout the day.", publishedAt:"2026-10-01T00:00:00-07:00", updatedAt:"2026-10-01T00:00:00-07:00", reviewedBy:"My Portland Wedding Editorial",
+    relatedSlugs:[],
+    sections:[
+      {heading:"Inventory meaningful pieces before the wedding",paragraphs:["This decision deserves more than a quick checklist because it affects other parts of the wedding. Start by defining what a successful outcome looks like for your guest count, venue, timeline and priorities before comparing options."]},
+      {heading:"Choose one secure getting-ready location",paragraphs:["Ask the vendor for their normal process, limits and handoff points. Good planning means knowing not only what is included, but who owns the task before, during and after the wedding."]},
+      {heading:"Coordinate detail photos without losing custody",paragraphs:["Connect the choice to the rest of the day. Portland-area venues can differ significantly in access, travel time, weather exposure and house rules, so the best answer is the one that works with your actual location and schedule."]},
+      {heading:"Plan jewelry changes intentionally",paragraphs:["Record the final choice where the people executing it can see it. Quantities, timing, contacts and responsibilities should live in the shared plan rather than being scattered across texts and old email threads."]},
+      {heading:"Assign the end-of-night destination",paragraphs:["Use the final planning window to test the assumption one more time against the latest RSVP count, floor plan and timeline. If something changed, update the plan deliberately and tell everyone affected."]}
+    ],
+    checklist:["Define the decision around your real wedding","Confirm vendor and venue responsibilities","Record quantities, timing and ownership","Connect the decision to the wedding-day timeline","Reconfirm after final RSVPs and logistics"],
+    faq:[
+      {question:"When should we finalize this?",answer:"Make the working decision early enough to reserve what you need, then reconfirm it after the guest count, floor plan and wedding-day timeline are substantially final."},
+      {question:"How should we keep track of the decision?",answer:"Keep the final choice with the rest of your wedding plan so the budget, vendor responsibilities and timeline stay connected. Wedding Builder can help shape the larger plan, and a My Portland Wedding couple account lets you save your planning progress."}
+    ]
+  },
+  {
+    slug:"portland-wedding-photo-booth-digital-gallery-guide", category:"Photo Booths", title:"Photo Booth Galleries: What Couples Should Ask About Downloads, Privacy and Delivery", dek:"Understand how booth photos are delivered, whether guests can access them, how long galleries stay online and what happens to digital files afterward.", readTime:"8 min read",
+    seoTitle:"Photo Booth Galleries: What Couples Should Ask About Downloads, Privacy and Delivery", seoDescription:"Understand how booth photos are delivered, whether guests can access them, how long galleries stay online and what happens to digital files afterward.", publishedAt:"2026-10-01T00:00:00-07:00", updatedAt:"2026-10-01T00:00:00-07:00", reviewedBy:"My Portland Wedding Editorial",
+    relatedSlugs:[],
+    sections:[
+      {heading:"Ask what guests receive immediately",paragraphs:["This decision deserves more than a quick checklist because it affects other parts of the wedding. Start by defining what a successful outcome looks like for your guest count, venue, timeline and priorities before comparing options."]},
+      {heading:"Clarify the couple's full-gallery access",paragraphs:["Ask the vendor for their normal process, limits and handoff points. Good planning means knowing not only what is included, but who owns the task before, during and after the wedding."]},
+      {heading:"Understand gallery privacy",paragraphs:["Connect the choice to the rest of the day. Portland-area venues can differ significantly in access, travel time, weather exposure and house rules, so the best answer is the one that works with your actual location and schedule."]},
+      {heading:"Ask how long files remain available",paragraphs:["Record the final choice where the people executing it can see it. Quantities, timing, contacts and responsibilities should live in the shared plan rather than being scattered across texts and old email threads."]},
+      {heading:"Download and back up what you want to keep",paragraphs:["Use the final planning window to test the assumption one more time against the latest RSVP count, floor plan and timeline. If something changed, update the plan deliberately and tell everyone affected."]}
+    ],
+    checklist:["Define the decision around your real wedding","Confirm vendor and venue responsibilities","Record quantities, timing and ownership","Connect the decision to the wedding-day timeline","Reconfirm after final RSVPs and logistics"],
+    faq:[
+      {question:"When should we finalize this?",answer:"Make the working decision early enough to reserve what you need, then reconfirm it after the guest count, floor plan and wedding-day timeline are substantially final."},
+      {question:"How should we keep track of the decision?",answer:"Keep the final choice with the rest of your wedding plan so the budget, vendor responsibilities and timeline stay connected. Wedding Builder can help shape the larger plan, and a My Portland Wedding couple account lets you save your planning progress."}
+    ]
+  },
+  {
+    slug:"portland-wedding-content-creator-posting-permission-guide", category:"Content Creation", title:"Wedding Content Posting Permissions: Decide What Can Go Online—and When", dek:"Set expectations for real-time posting, vendor tagging, private moments and social-media timing before a content creator starts filming.", readTime:"8 min read",
+    seoTitle:"Wedding Content Posting Permissions: Decide What Can Go Online—and When", seoDescription:"Set expectations for real-time posting, vendor tagging, private moments and social-media timing before a content creator starts filming.", publishedAt:"2026-10-01T00:00:00-07:00", updatedAt:"2026-10-01T00:00:00-07:00", reviewedBy:"My Portland Wedding Editorial",
+    relatedSlugs:[],
+    sections:[
+      {heading:"Decide whether anything can be posted live",paragraphs:["This decision deserves more than a quick checklist because it affects other parts of the wedding. Start by defining what a successful outcome looks like for your guest count, venue, timeline and priorities before comparing options."]},
+      {heading:"Identify private moments and people",paragraphs:["Ask the vendor for their normal process, limits and handoff points. Good planning means knowing not only what is included, but who owns the task before, during and after the wedding."]},
+      {heading:"Coordinate vendor tagging expectations",paragraphs:["Connect the choice to the rest of the day. Portland-area venues can differ significantly in access, travel time, weather exposure and house rules, so the best answer is the one that works with your actual location and schedule."]},
+      {heading:"Separate delivery from permission to publish",paragraphs:["Record the final choice where the people executing it can see it. Quantities, timing, contacts and responsibilities should live in the shared plan rather than being scattered across texts and old email threads."]},
+      {heading:"Put important restrictions in writing",paragraphs:["Use the final planning window to test the assumption one more time against the latest RSVP count, floor plan and timeline. If something changed, update the plan deliberately and tell everyone affected."]}
+    ],
+    checklist:["Define the decision around your real wedding","Confirm vendor and venue responsibilities","Record quantities, timing and ownership","Connect the decision to the wedding-day timeline","Reconfirm after final RSVPs and logistics"],
+    faq:[
+      {question:"When should we finalize this?",answer:"Make the working decision early enough to reserve what you need, then reconfirm it after the guest count, floor plan and wedding-day timeline are substantially final."},
+      {question:"How should we keep track of the decision?",answer:"Keep the final choice with the rest of your wedding plan so the budget, vendor responsibilities and timeline stay connected. Wedding Builder can help shape the larger plan, and a My Portland Wedding couple account lets you save your planning progress."}
+    ]
+  },
+  {
+    slug:"portland-wedding-live-music-ceremony-reception-guide", category:"Live Entertainment", title:"Using Live Music for Both Ceremony & Reception: Plan the Transition", dek:"Coordinate musician location, equipment moves, breaks and timing when the same performers cover more than one part of the wedding.", readTime:"8 min read",
+    seoTitle:"Using Live Music for Both Ceremony & Reception: Plan the Transition", seoDescription:"Coordinate musician location, equipment moves, breaks and timing when the same performers cover more than one part of the wedding.", publishedAt:"2026-10-01T00:00:00-07:00", updatedAt:"2026-10-01T00:00:00-07:00", reviewedBy:"My Portland Wedding Editorial",
+    relatedSlugs:[],
+    sections:[
+      {heading:"Map every performance location",paragraphs:["This decision deserves more than a quick checklist because it affects other parts of the wedding. Start by defining what a successful outcome looks like for your guest count, venue, timeline and priorities before comparing options."]},
+      {heading:"Calculate the real move time",paragraphs:["Ask the vendor for their normal process, limits and handoff points. Good planning means knowing not only what is included, but who owns the task before, during and after the wedding."]},
+      {heading:"Decide what plays during the transition",paragraphs:["Connect the choice to the rest of the day. Portland-area venues can differ significantly in access, travel time, weather exposure and house rules, so the best answer is the one that works with your actual location and schedule."]},
+      {heading:"Coordinate ceremony and reception sound needs",paragraphs:["Record the final choice where the people executing it can see it. Quantities, timing, contacts and responsibilities should live in the shared plan rather than being scattered across texts and old email threads."]},
+      {heading:"Protect breaks and meals",paragraphs:["Use the final planning window to test the assumption one more time against the latest RSVP count, floor plan and timeline. If something changed, update the plan deliberately and tell everyone affected."]}
+    ],
+    checklist:["Define the decision around your real wedding","Confirm vendor and venue responsibilities","Record quantities, timing and ownership","Connect the decision to the wedding-day timeline","Reconfirm after final RSVPs and logistics"],
+    faq:[
+      {question:"When should we finalize this?",answer:"Make the working decision early enough to reserve what you need, then reconfirm it after the guest count, floor plan and wedding-day timeline are substantially final."},
+      {question:"How should we keep track of the decision?",answer:"Keep the final choice with the rest of your wedding plan so the budget, vendor responsibilities and timeline stay connected. Wedding Builder can help shape the larger plan, and a My Portland Wedding couple account lets you save your planning progress."}
+    ]
+  },
+  {
+    slug:"portland-wedding-hotel-wedding-morning-guide", category:"Lodging", title:"Wedding-Morning Hotel Rooms: Space, Light, Checkout and Getting-Ready Logistics", dek:"Choose and prepare a hotel room for wedding-morning use based on people, photography, hair and makeup, belongings and checkout timing.", readTime:"8 min read",
+    seoTitle:"Wedding-Morning Hotel Rooms: Space, Light, Checkout and Getting-Ready Logistics", seoDescription:"Choose and prepare a hotel room for wedding-morning use based on people, photography, hair and makeup, belongings and checkout timing.", publishedAt:"2026-10-01T00:00:00-07:00", updatedAt:"2026-10-01T00:00:00-07:00", reviewedBy:"My Portland Wedding Editorial",
+    relatedSlugs:[],
+    sections:[
+      {heading:"Count people before choosing the room",paragraphs:["This decision deserves more than a quick checklist because it affects other parts of the wedding. Start by defining what a successful outcome looks like for your guest count, venue, timeline and priorities before comparing options."]},
+      {heading:"Check natural light and usable surfaces",paragraphs:["Ask the vendor for their normal process, limits and handoff points. Good planning means knowing not only what is included, but who owns the task before, during and after the wedding."]},
+      {heading:"Resolve checkout timing early",paragraphs:["Connect the choice to the rest of the day. Portland-area venues can differ significantly in access, travel time, weather exposure and house rules, so the best answer is the one that works with your actual location and schedule."]},
+      {heading:"Plan hair and makeup power needs",paragraphs:["Record the final choice where the people executing it can see it. Quantities, timing, contacts and responsibilities should live in the shared plan rather than being scattered across texts and old email threads."]},
+      {heading:"Assign bags and room cleanup",paragraphs:["Use the final planning window to test the assumption one more time against the latest RSVP count, floor plan and timeline. If something changed, update the plan deliberately and tell everyone affected."]}
+    ],
+    checklist:["Define the decision around your real wedding","Confirm vendor and venue responsibilities","Record quantities, timing and ownership","Connect the decision to the wedding-day timeline","Reconfirm after final RSVPs and logistics"],
+    faq:[
+      {question:"When should we finalize this?",answer:"Make the working decision early enough to reserve what you need, then reconfirm it after the guest count, floor plan and wedding-day timeline are substantially final."},
+      {question:"How should we keep track of the decision?",answer:"Keep the final choice with the rest of your wedding plan so the budget, vendor responsibilities and timeline stay connected. Wedding Builder can help shape the larger plan, and a My Portland Wedding couple account lets you save your planning progress."}
+    ]
+  },
+  {
+    slug:"portland-wedding-mobile-bar-ice-guide", category:"Mobile Bars", title:"Wedding Bar Ice: The Unseen Logistics Behind a Mobile Bar", dek:"Plan ice quantity, storage, delivery and replenishment with your mobile bar and venue so beverage service is not limited by a basic supply problem.", readTime:"8 min read",
+    seoTitle:"Wedding Bar Ice: The Unseen Logistics Behind a Mobile Bar", seoDescription:"Plan ice quantity, storage, delivery and replenishment with your mobile bar and venue so beverage service is not limited by a basic supply problem.", publishedAt:"2026-10-01T00:00:00-07:00", updatedAt:"2026-10-01T00:00:00-07:00", reviewedBy:"My Portland Wedding Editorial",
+    relatedSlugs:[],
+    sections:[
+      {heading:"Ask who supplies the ice",paragraphs:["This decision deserves more than a quick checklist because it affects other parts of the wedding. Start by defining what a successful outcome looks like for your guest count, venue, timeline and priorities before comparing options."]},
+      {heading:"Separate service ice from chilling ice",paragraphs:["Ask the vendor for their normal process, limits and handoff points. Good planning means knowing not only what is included, but who owns the task before, during and after the wedding."]},
+      {heading:"Confirm cold storage",paragraphs:["Connect the choice to the rest of the day. Portland-area venues can differ significantly in access, travel time, weather exposure and house rules, so the best answer is the one that works with your actual location and schedule."]},
+      {heading:"Plan delivery timing",paragraphs:["Record the final choice where the people executing it can see it. Quantities, timing, contacts and responsibilities should live in the shared plan rather than being scattered across texts and old email threads."]},
+      {heading:"Assign replenishment and leftover handling",paragraphs:["Use the final planning window to test the assumption one more time against the latest RSVP count, floor plan and timeline. If something changed, update the plan deliberately and tell everyone affected."]}
+    ],
+    checklist:["Define the decision around your real wedding","Confirm vendor and venue responsibilities","Record quantities, timing and ownership","Connect the decision to the wedding-day timeline","Reconfirm after final RSVPs and logistics"],
+    faq:[
+      {question:"When should we finalize this?",answer:"Make the working decision early enough to reserve what you need, then reconfirm it after the guest count, floor plan and wedding-day timeline are substantially final."},
+      {question:"How should we keep track of the decision?",answer:"Keep the final choice with the rest of your wedding plan so the budget, vendor responsibilities and timeline stay connected. Wedding Builder can help shape the larger plan, and a My Portland Wedding couple account lets you save your planning progress."}
+    ]
+  },
+  {
+    slug:"portland-wedding-honeymoon-emergency-documents-guide", category:"Honeymoons", title:"Honeymoon Travel Documents: Build a Backup Plan Before You Leave", dek:"Organize identification, reservations, emergency contacts and secure backups so important travel information is available if a phone, wallet or bag goes missing.", readTime:"8 min read",
+    seoTitle:"Honeymoon Travel Documents: Build a Backup Plan Before You Leave", seoDescription:"Organize identification, reservations, emergency contacts and secure backups so important travel information is available if a phone, wallet or bag goes missing.", publishedAt:"2026-10-01T00:00:00-07:00", updatedAt:"2026-10-01T00:00:00-07:00", reviewedBy:"My Portland Wedding Editorial",
+    relatedSlugs:[],
+    sections:[
+      {heading:"Verify required documents from official sources",paragraphs:["This decision deserves more than a quick checklist because it affects other parts of the wedding. Start by defining what a successful outcome looks like for your guest count, venue, timeline and priorities before comparing options."]},
+      {heading:"Keep secure copies separate from originals",paragraphs:["Ask the vendor for their normal process, limits and handoff points. Good planning means knowing not only what is included, but who owns the task before, during and after the wedding."]},
+      {heading:"Save reservation details offline",paragraphs:["Connect the choice to the rest of the day. Portland-area venues can differ significantly in access, travel time, weather exposure and house rules, so the best answer is the one that works with your actual location and schedule."]},
+      {heading:"Share emergency information appropriately",paragraphs:["Record the final choice where the people executing it can see it. Quantities, timing, contacts and responsibilities should live in the shared plan rather than being scattered across texts and old email threads."]},
+      {heading:"Recheck everything before departure",paragraphs:["Use the final planning window to test the assumption one more time against the latest RSVP count, floor plan and timeline. If something changed, update the plan deliberately and tell everyone affected."]}
+    ],
+    checklist:["Define the decision around your real wedding","Confirm vendor and venue responsibilities","Record quantities, timing and ownership","Connect the decision to the wedding-day timeline","Reconfirm after final RSVPs and logistics"],
+    faq:[
+      {question:"When should we finalize this?",answer:"Make the working decision early enough to reserve what you need, then reconfirm it after the guest count, floor plan and wedding-day timeline are substantially final."},
+      {question:"How should we keep track of the decision?",answer:"Keep the final choice with the rest of your wedding plan so the budget, vendor responsibilities and timeline stay connected. Wedding Builder can help shape the larger plan, and a My Portland Wedding couple account lets you save your planning progress."}
+    ]
   }
 ];
 
