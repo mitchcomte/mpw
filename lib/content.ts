@@ -2200,6 +2200,150 @@ export const inspirationArticles: InspirationArticle[] = [
       {question:"Does a wedding content creator replace a videographer?",answer:"Not necessarily. The services often produce different kinds of media and use different production approaches."},
       {question:"Can we hire both?",answer:"Yes. Share timelines and expectations so both teams can work around each other."}
     ]
+  },
+  {
+    slug:"portland-wedding-venue-power-guide",category:"Venues",title:"Wedding Venue Power: The Question Nobody Asks Until a Breaker Trips",dek:"Map entertainment, catering, lighting and specialty-vendor power needs before setup day.",readTime:"8 min read",seoTitle:"Portland Wedding Venue Power & Electrical Guide",seoDescription:"Plan Portland wedding venue power for DJs, bands, catering, lighting, photo booths, mobile bars and outdoor events.",relatedSlugs:["best-portland-wedding-venues-guide","portland-wedding-lighting-design-guide","portland-wedding-mobile-bar-setup-guide"],sections:[
+      {heading:"Ask what circuits are actually available",paragraphs:["A room having outlets does not mean every vendor can draw power from them simultaneously. Venue staff should identify appropriate circuits and limitations."]},
+      {heading:"Entertainment can be power intensive",paragraphs:["Speakers, lighting, instruments and production equipment may need dedicated power. Share venue information with the DJ or band before the event."]},
+      {heading:"Catering and specialty vendors add hidden loads",paragraphs:["Coffee carts, photo booths, mobile bars and food service equipment may each arrive with electrical requirements. Collect those needs before assigning locations."]},
+      {heading:"Outdoor events need a deliberate plan",paragraphs:["Extension distance, weather protection and generator use require professional planning. Vendors should follow venue and safety requirements."]},
+      {heading:"Do not solve electrical problems with random extension cords",paragraphs:["Let the venue and qualified vendors determine safe distribution rather than improvising on the wedding day."]}
+    ],checklist:["Ask venue circuit capacity","Collect vendor power needs","Map equipment locations","Plan outdoor power","Confirm generator rules","Share final power plan"],faq:[
+      {question:"How much power does a wedding DJ need?",answer:"Equipment varies. Ask the specific DJ for requirements and have the venue confirm suitable power."},
+      {question:"Can we use a generator at an outdoor wedding?",answer:"Possibly, subject to venue rules, equipment requirements, placement and safety considerations."}
+    ]
+  },
+  {
+    slug:"portland-wedding-venue-restroom-guide",category:"Venues",title:"Wedding Restrooms: Capacity, Accessibility and the Detail Guests Notice When It Goes Wrong",dek:"Evaluate permanent or portable facilities as part of venue infrastructure, especially for outdoor and private-property weddings.",readTime:"8 min read",seoTitle:"Portland Wedding Venue Restroom Planning Guide",seoDescription:"Plan wedding restrooms for Portland venues and outdoor events with capacity, accessibility, lighting, servicing and guest routes.",relatedSlugs:["best-portland-wedding-venues-guide","outdoor-wedding-venues-portland-guide","portland-wedding-guest-experience-guide"],sections:[
+      {heading:"Count facilities, not just whether they exist",paragraphs:["A restroom building may still be undersized for a large event. Ask the venue what guest counts its facilities routinely support."]},
+      {heading:"Accessibility belongs in the route",paragraphs:["An accessible unit is most useful when the path to it is also practical. Consider surface, grade, lighting and distance."]},
+      {heading:"Outdoor events may need upgraded portable facilities",paragraphs:["Trailer-style or enhanced portable restrooms can create a more comfortable experience where permanent infrastructure is limited."]},
+      {heading:"Lighting and signage matter after dark",paragraphs:["Guests should be able to find and safely reach facilities throughout the event without wandering through service areas."]},
+      {heading:"Plan servicing and handwashing",paragraphs:["For temporary facilities, confirm delivery, servicing, handwashing and removal with the provider and venue."]}
+    ],checklist:["Confirm facility capacity","Check accessible route","Evaluate temporary units","Plan lighting/signage","Confirm handwashing","Schedule delivery/removal"],faq:[
+      {question:"How many restrooms does a wedding need?",answer:"Requirements depend on guest count, event duration, facility type and local rules. Use venue and restroom-provider guidance."},
+      {question:"Are portable restrooms appropriate for formal weddings?",answer:"They can be. Rental options range widely, including restroom trailers designed for formal events."}
+    ]
+  },
+  {
+    slug:"portland-wedding-catering-cocktail-hour-food-guide",category:"Catering",title:"Cocktail Hour Food: Keep Guests Comfortable Without Serving Dinner Twice",dek:"Balance passed bites, stations and beverage service around the actual length of cocktail hour and the dinner that follows.",readTime:"8 min read",seoTitle:"Portland Wedding Cocktail Hour Food Guide",seoDescription:"Plan Portland wedding cocktail hour food with passed appetizers, stations, quantities, dietary options and dinner timing.",relatedSlugs:["portland-wedding-cocktail-hour-guide","portland-wedding-catering-guide","portland-wedding-dietary-allergy-catering-guide"],sections:[
+      {heading:"Length changes how much food guests expect",paragraphs:["A brief transition before dinner needs a different menu than an extended cocktail period while portraits or a room flip happens."]},
+      {heading:"Passed and stationary food solve different problems",paragraphs:["Passed bites reach moving guests while stations create a destination and can offer more substantial portions. A mix may suit some events."]},
+      {heading:"Make dietary options easy to identify",paragraphs:["Guests should not have to chase a server to learn what they can eat. Coordinate accurate labeling or staff knowledge with the caterer."]},
+      {heading:"Watch the bar-food relationship",paragraphs:["If alcohol service begins immediately, accessible food and water can support a more comfortable guest experience."]},
+      {heading:"Do not let cocktail hour undermine dinner",paragraphs:["The caterer can balance portion sizes and menu richness so guests enjoy appetizers without feeling like the main meal is unnecessary."]}
+    ],checklist:["Set cocktail-hour length","Choose passed/stationary format","Plan dietary options","Coordinate bar opening","Set portions with caterer","Confirm service staffing"],faq:[
+      {question:"Does cocktail hour need food?",answer:"Not every event follows the same format, but guests generally benefit from food when drinks are served and dinner is not immediate."},
+      {question:"How many appetizers should we serve?",answer:"Use the caterer's recommendation based on duration, menu, service style and guest count rather than a universal formula."}
+    ]
+  },
+  {
+    slug:"portland-wedding-catering-kids-meals-guide",category:"Catering",title:"Kids' Wedding Meals: Make Them Easy for Families and Easy for the Kitchen",dek:"Coordinate ages, meal choices, seating and service so younger guests are included without complicating dinner.",readTime:"7 min read",seoTitle:"Portland Wedding Kids Meal Planning Guide",seoDescription:"Plan kids meals at a Portland wedding with age cutoffs, menu options, seating, dietary needs and caterer coordination.",relatedSlugs:["portland-wedding-kids-guide","portland-wedding-catering-guide","portland-wedding-seating-chart-strategy-guide"],sections:[
+      {heading:"Ask the caterer how it defines a children's meal",paragraphs:["Age ranges, menu choices and pricing vary. Get the provider's policy before collecting meal selections."]},
+      {heading:"Keep the menu familiar without assuming every child eats the same",paragraphs:["Simple options can work well, while allergies and dietary needs still need the same careful communication as adult meals."]},
+      {heading:"Connect meals to the seating chart",paragraphs:["Catering staff need to know where children's meals go, especially during plated service."]},
+      {heading:"Think about service timing",paragraphs:["Young children may benefit from prompt food service. Ask whether kids' meals can arrive with or before adult entrées if appropriate."]},
+      {heading:"Avoid overcomplicating the RSVP",paragraphs:["Collect only the information the caterer actually needs and explain age-based options clearly to parents."]}
+    ],checklist:["Ask age/pricing policy","Choose kids menu","Collect dietary needs","Mark seating chart","Confirm service timing","Share final count"],faq:[
+      {question:"Are children's wedding meals cheaper?",answer:"Some caterers offer different pricing or menus by age, but policies vary."},
+      {question:"Should toddlers be included in the catering count?",answer:"Ask the caterer how it handles very young children so the final count and seating are accurate."}
+    ]
+  },
+  {
+    slug:"portland-wedding-florist-consultation-guide",category:"Florists",title:"Your First Florist Consultation: Bring Priorities, Not a Hundred Screenshots",dek:"Give a florist enough context to design for the venue, season and budget while leaving room for professional creativity.",readTime:"9 min read",seoTitle:"Portland Wedding Florist Consultation Guide",seoDescription:"Prepare for a Portland wedding florist consultation with venue details, budget, priorities, color direction, inspiration and seasonal flexibility.",relatedSlugs:["portland-wedding-flower-cost-guide","portland-wedding-floral-color-palette-guide","portland-wedding-centerpiece-guide"],sections:[
+      {heading:"Bring the venue and floor plan context",paragraphs:["Florals live in specific rooms and on specific tables. Venue images and known layouts help the florist design at the right scale."]},
+      {heading:"Share a real working budget",paragraphs:["A budget range helps the florist allocate impact across bouquets, ceremony, reception and installations instead of designing a proposal you cannot use."]},
+      {heading:"Rank floral priorities",paragraphs:["If the ceremony installation matters more than every table having a large centerpiece, say so. Priorities create better tradeoffs."]},
+      {heading:"Use inspiration to show patterns",paragraphs:["A small set of images can reveal color, shape and mood. Ask the florist to interpret those patterns rather than reproduce another wedding."]},
+      {heading:"Allow seasonal substitutions",paragraphs:["Availability changes. Define the look and important flowers while giving the professional room to use strong alternatives when needed."]}
+    ],checklist:["Bring venue images","Share working budget","Rank floral priorities","Curate inspiration","Discuss color direction","Allow seasonal flexibility"],faq:[
+      {question:"Do I need to know flower names before meeting a florist?",answer:"No. Images, colors, textures and mood can communicate direction without botanical expertise."},
+      {question:"Should I tell the florist my budget?",answer:"A realistic range can help the florist propose a design that allocates money toward your priorities."}
+    ]
+  },
+  {
+    slug:"portland-wedding-bouquet-preservation-handoff-guide",category:"Florists",title:"Bouquet Preservation Handoff: The 24 Hours After the Wedding Matter",dek:"Turn preservation intentions into an actual post-wedding plan with storage, transportation and a named person responsible.",readTime:"7 min read",seoTitle:"Wedding Bouquet Preservation Handoff Guide",seoDescription:"Plan the post-wedding bouquet preservation handoff with storage, refrigeration guidance, packaging, transportation and delivery responsibility.",relatedSlugs:["portland-wedding-flower-preservation-guide","portland-wedding-bouquet-guide","wedding-week-checklist"],sections:[
+      {heading:"Get instructions before the wedding",paragraphs:["The preservation artist should provide handling and timing guidance for the chosen process. Save those instructions with the wedding-week plan."]},
+      {heading:"Name one person responsible",paragraphs:["Couples may leave for a hotel, after-party or trip. Assign someone who will physically take possession of the bouquet."]},
+      {heading:"Do not invent storage rules",paragraphs:["Different flowers and preservation methods may require different handling. Follow the provider's instructions rather than generic advice."]},
+      {heading:"Plan transportation",paragraphs:["Know whether the bouquet is dropped off locally, shipped or collected and what packaging is required."]},
+      {heading:"Photograph the bouquet first",paragraphs:["A clear wedding-day photograph preserves the original color and shape even when the physical preservation process changes them."]}
+    ],checklist:["Save preservation instructions","Assign bouquet keeper","Confirm storage method","Prepare packaging","Plan delivery/shipping","Photograph fresh bouquet"],faq:[
+      {question:"Can a bouquet wait several days before preservation?",answer:"Timing depends on the provider and method. Follow the preservation artist's instructions as closely as possible."},
+      {question:"Should the bouquet go in a refrigerator?",answer:"Do not assume a universal storage method. Ask the preservation provider for instructions appropriate to the flowers and process."}
+    ]
+  },
+  {
+    slug:"portland-wedding-dj-song-request-guide",category:"DJs",title:"Wedding Song Requests: Give the DJ Direction Without Programming Every Minute",dek:"Build must-plays, do-not-plays and guest-request rules that communicate your taste while leaving room for the DJ to read the floor.",readTime:"8 min read",seoTitle:"Portland Wedding DJ Song Request Guide",seoDescription:"Plan wedding music requests with must-play songs, do-not-play lists, guest requests, clean versions and DJ flexibility.",relatedSlugs:["how-to-choose-portland-wedding-dj","portland-wedding-dj-do-not-play-guide","portland-wedding-first-dance-guide"],sections:[
+      {heading:"Separate must-plays from examples",paragraphs:["A few essential songs carry more weight than a list of dozens that merely illustrate your taste. Label the difference clearly."]},
+      {heading:"Keep the do-not-play list meaningful",paragraphs:["Use it for songs, artists or styles you genuinely do not want rather than trying to predict every possible track."]},
+      {heading:"Decide how guest requests work",paragraphs:["Some couples welcome requests while others want the DJ to filter them heavily. Tell the DJ what authority they have."]},
+      {heading:"Flag content preferences",paragraphs:["If clean versions or specific lyrical boundaries matter, discuss them explicitly rather than assuming the DJ knows."]},
+      {heading:"Leave room to read the dance floor",paragraphs:["A professional DJ can use your taste as the framework while adapting to what guests respond to in the room."]}
+    ],checklist:["Choose true must-plays","Create focused do-not-play list","Share style examples","Set guest-request policy","Discuss clean versions","Leave DJ flexibility"],faq:[
+      {question:"How many must-play songs should we give the DJ?",answer:"There is no required number. Keep the list focused enough that the DJ can understand which songs are genuinely important."},
+      {question:"Can guests request songs?",answer:"That is up to you and the DJ. Set the policy before the wedding."}
+    ]
+  },
+  {
+    slug:"portland-wedding-dj-backup-plan-guide",category:"DJs",title:"Wedding DJ Backup Plans: Ask About the Failure Before You Need the Answer",dek:"Understand equipment redundancy, replacement coverage and venue contingencies without expecting anyone to promise that nothing can go wrong.",readTime:"8 min read",seoTitle:"Portland Wedding DJ Backup Plan Guide",seoDescription:"Evaluate Portland wedding DJ backup plans for equipment, microphones, music playback, staffing, power and emergencies.",relatedSlugs:["how-to-choose-portland-wedding-dj","portland-wedding-ceremony-audio-guide","portland-wedding-venue-power-guide"],sections:[
+      {heading:"Ask about critical equipment redundancy",paragraphs:["Music playback, microphones and core audio equipment are central to the event. Ask how the company prepares for equipment failure."]},
+      {heading:"Understand staffing backup",paragraphs:["Illness or emergency can affect any professional. Companies may have different replacement networks or contingency processes."]},
+      {heading:"Power belongs in the conversation",paragraphs:["Backup equipment cannot solve inadequate venue power. DJ and venue should agree on electrical requirements before setup."]},
+      {heading:"Ceremony and reception may need separate plans",paragraphs:["If audio happens in multiple locations, ask whether each setup has appropriate redundancy and transition time."]},
+      {heading:"Look for a process, not a guarantee",paragraphs:["A credible contingency plan explains preparation and response without pretending every possible disruption is controllable."]}
+    ],checklist:["Ask equipment redundancy","Ask staffing contingency","Confirm power plan","Review ceremony audio backup","Save vendor emergency contact","Read contract"],faq:[
+      {question:"Should a wedding DJ bring backup equipment?",answer:"Ask each company about its redundancy plan and what equipment it considers critical for your event."},
+      {question:"What happens if the DJ is sick?",answer:"Company policies vary. Ask about replacement coverage and how emergencies are handled before booking."}
+    ]
+  },
+  {
+    slug:"portland-wedding-hair-makeup-getting-ready-space-guide",category:"Hair & Makeup",title:"Getting-Ready Spaces for Hair and Makeup: Light, Outlets and Enough Room to Work",dek:"Evaluate the suite as a workspace, not just a pretty backdrop, so artists can stay on schedule.",readTime:"8 min read",seoTitle:"Wedding Hair & Makeup Getting-Ready Space Guide",seoDescription:"Prepare a Portland wedding getting-ready space for hair and makeup with lighting, outlets, chairs, surfaces, ventilation and photography.",relatedSlugs:["portland-wedding-getting-ready-guide","portland-wedding-beauty-timeline-guide","portland-wedding-hair-makeup-trial-guide"],sections:[
+      {heading:"Count workstations, not mirrors",paragraphs:["Artists need chairs, surfaces and room for kits. A suite can look large but become crowded once several services happen simultaneously."]},
+      {heading:"Power access matters",paragraphs:["Hair tools may require multiple outlets. Ask artists what they need and avoid unsafe improvised power setups."]},
+      {heading:"Natural light helps but is not the only requirement",paragraphs:["Good working light, ventilation and comfortable temperature can matter as much as a photogenic window."]},
+      {heading:"Keep personal clutter contained",paragraphs:["Bags, food and clothing can quickly consume work surfaces. Designate separate zones for beauty work and personal belongings."]},
+      {heading:"Photography can use a nearby clean zone",paragraphs:["A small uncluttered area near good light gives the photographer options without disrupting active beauty stations."]}
+    ],checklist:["Count beauty stations","Check outlets","Provide chairs/surfaces","Plan ventilation","Create belongings zone","Reserve photo-ready corner"],faq:[
+      {question:"How much getting-ready space do we need?",answer:"It depends on the number of simultaneous artists and services. Ask the beauty team for workspace requirements."},
+      {question:"Is natural light required for wedding makeup?",answer:"It can be helpful, but professional artists can work with appropriate lighting. Discuss the actual room with them."}
+    ]
+  },
+  {
+    slug:"portland-wedding-dress-bustle-guide",category:"Bridal",title:"Wedding Dress Bustles: Practice It Before Everyone Is Searching for Loops at the Reception",dek:"Choose and document the bustle during alterations, then teach the person who will actually fasten it.",readTime:"8 min read",seoTitle:"Wedding Dress Bustle Planning Guide | Portland",seoDescription:"Plan a wedding dress bustle with alterations, practice, photos, helpers, timing and emergency backup.",relatedSlugs:["portland-wedding-dress-alterations-guide","portland-wedding-dress-shopping-guide","portland-wedding-day-emergency-kit-guide"],sections:[
+      {heading:"The bustle should suit the actual dress",paragraphs:["Train length, fabric and construction affect which bustle methods work. Let the alterations professional recommend options."]},
+      {heading:"Practice at the final fitting",paragraphs:["The person helping on the wedding day should attend when possible and physically practice fastening the bustle."]},
+      {heading:"Take a reference photo or video",paragraphs:["Loops and buttons can be difficult to identify under reception lighting. A quick visual reference can save time."]},
+      {heading:"Choose when the bustle happens",paragraphs:["Many couples bustle after portraits or before dancing, but the timing should fit the dress and reception plan."]},
+      {heading:"Prepare for a small repair",paragraphs:["A basic sewing kit or safety solution can be useful if a fastening point fails, without attempting major alterations during the event."]}
+    ],checklist:["Choose bustle with seamstress","Bring helper to fitting","Practice fastening","Record reference video","Set bustle timing","Pack small repair kit"],faq:[
+      {question:"Does every wedding dress need a bustle?",answer:"No. It depends on the train, dress design and how you plan to move during the reception."},
+      {question:"Who should bustle the dress?",answer:"Choose someone who has practiced the specific bustle, ideally during a fitting."}
+    ]
+  },
+  {
+    slug:"portland-wedding-shoe-guide",category:"Bridal",title:"Wedding Shoes: Choose for the Floor You Will Actually Walk On",dek:"Balance style with grass, gravel, stairs and hours of standing so footwear supports the wedding rather than becoming a problem to solve.",readTime:"8 min read",seoTitle:"Portland Wedding Shoe Planning Guide",seoDescription:"Choose wedding shoes for Portland venues with guidance on terrain, heel height, comfort, dress alterations, weather and backup footwear.",relatedSlugs:["portland-wedding-dress-alterations-guide","outdoor-wedding-venues-portland-guide","portland-wedding-weather-and-season-guide"],sections:[
+      {heading:"Start with the venue surface",paragraphs:["Grass, gravel, historic stairs and polished floors interact differently with heels and soles. Think about every part of the property you will use."]},
+      {heading:"Bring shoes to alterations",paragraphs:["Heel height affects dress length. Use the intended footwear or an equivalent height when the seamstress requests it."]},
+      {heading:"Break them in without destroying them",paragraphs:["Wear shoes indoors enough to understand pressure points and fit while keeping them clean for the wedding."]},
+      {heading:"A backup pair can be strategic",paragraphs:["Comfortable reception shoes may help with dancing, but account for the dress hem if the height changes substantially."]},
+      {heading:"Weather can change the footwear plan",paragraphs:["Wet lawns and cool temperatures may make a second outdoor option useful for portraits or transitions."]}
+    ],checklist:["Check venue surfaces","Choose heel height","Bring to alterations","Test comfort","Plan backup pair","Consider wet-weather option"],faq:[
+      {question:"Do wedding shoes need to match the dress?",answer:"No. Comfort, personal style and venue practicality can be more important than exact matching."},
+      {question:"Can I change into flats at the reception?",answer:"Yes, but a major height change can affect how the dress hem sits. Discuss that during alterations."}
+    ]
+  },
+  {
+    slug:"portland-wedding-honeymoon-packing-guide",category:"Honeymoons",title:"Honeymoon Packing After a Wedding: Separate Travel Logistics From Wedding-Day Chaos",dek:"Prepare documents, bags and departure essentials before the wedding weekend so the trip does not begin with a scavenger hunt.",readTime:"8 min read",seoTitle:"Honeymoon Packing & Departure Guide",seoDescription:"Prepare for a honeymoon after your Portland wedding with travel documents, luggage, medications, wedding-night handoff and departure logistics.",relatedSlugs:["portland-wedding-honeymoon-guide","portland-wedding-honeymoon-departure-guide","wedding-week-checklist"],sections:[
+      {heading:"Pack before the wedding weekend if possible",paragraphs:["The day after a wedding is a poor time to locate chargers, travel documents and clothing. Finish the main bag while normal routines are still intact."]},
+      {heading:"Separate travel-critical items",paragraphs:["Identification, required documents, medication and essential electronics should have a deliberate location that does not get mixed with wedding décor."]},
+      {heading:"Plan where wedding belongings go",paragraphs:["Attire, cards, gifts and personal items may need to travel somewhere different from the honeymoon luggage. Assign those handoffs."]},
+      {heading:"Check current travel requirements directly",paragraphs:["Entry rules, passport requirements and airline policies can change. Verify them with official government and carrier sources for the actual destination."]},
+      {heading:"Leave recovery time if you want it",paragraphs:["An immediate departure can be exciting; a later one can reduce logistical pressure. Choose the rhythm that fits you."]}
+    ],checklist:["Pack main luggage early","Secure travel documents","Pack medication","Assign wedding-item handoffs","Verify current travel requirements","Confirm airport transportation"],faq:[
+      {question:"Should we leave for our honeymoon the morning after the wedding?",answer:"Only if that pace appeals to you. There is no requirement to depart immediately."},
+      {question:"Where should we verify international entry requirements?",answer:"Use current official government sources for the destination and your citizenship, plus relevant carrier guidance."}
+    ]
   }
 ];
 
