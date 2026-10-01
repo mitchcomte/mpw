@@ -1336,6 +1336,150 @@ export const inspirationArticles: InspirationArticle[] = [
       {question:"Should we leave for our honeymoon the day after the wedding?",answer:"Only if that timing works for your travel and energy. Many couples benefit from a buffer, while others prefer to depart immediately."},
       {question:"Who handles wedding items if we leave town?",answer:"Assign trusted people or vendors specific responsibilities for rentals, décor, gifts and personal items before the wedding."}
     ]
+  },
+  {
+    slug:"portland-wedding-videography-style-guide",category:"Videography",title:"Wedding Videography Styles: Choose a Film That Feels Like Your Day",dek:"Compare documentary, cinematic and short-form approaches by storytelling, audio and editing—not just highlight-reel length.",readTime:"9 min read",seoTitle:"Portland Wedding Videography Styles Guide",seoDescription:"Compare Portland wedding videography styles by storytelling, audio, editing, coverage and final films before choosing a videographer.",relatedSlugs:["portland-wedding-videographer-guide","portland-wedding-videography-photography-team-guide","portland-wedding-content-creator-guide"],sections:[
+      {heading:"Start with complete films, not social clips",paragraphs:["A short reel can show visual style but not how a videographer handles vows, speeches, pacing or a full wedding story. Ask to see work that resembles the coverage you are considering."]},
+      {heading:"Listen as carefully as you watch",paragraphs:["Vows, speeches and ambient sound can carry much of a wedding film's emotion. Ask how audio is recorded and incorporated into the edit."]},
+      {heading:"Understand what cinematic means to that studio",paragraphs:["The word can describe very different editing, camera movement and storytelling choices. Let actual films define the style rather than the label."]},
+      {heading:"Know what final films are included",paragraphs:["Highlight films, ceremony edits, toast edits and raw footage are different deliverables. Compare packages by what you will actually receive."]},
+      {heading:"Choose the storytelling pace you want to revisit",paragraphs:["Some couples love energetic edits while others prefer a quieter documentary feel. Think about what will still feel like you years from now."]}
+    ],checklist:["Watch complete sample films","Listen to audio quality","Compare editing pace","List included films","Ask delivery format","Discuss music/licensing approach"],faq:[
+      {question:"What is documentary wedding videography?",answer:"Definitions vary, but documentary approaches generally emphasize real-time moments and natural storytelling. Review full examples from the specific videographer."},
+      {question:"Is raw wedding footage the same as an edited film?",answer:"No. Raw or lightly processed footage and finished edited films are different deliverables and may be priced separately."}
+    ]
+  },
+  {
+    slug:"portland-wedding-video-audio-guide",category:"Videography",title:"Wedding Video Audio: Why Vows and Toasts Deserve Their Own Plan",dek:"Beautiful footage is only half the film. Plan microphone placement, ceremony sound and speeches so the moments you want to remember are actually audible.",readTime:"8 min read",seoTitle:"Portland Wedding Video Audio Guide: Vows & Toasts",seoDescription:"Plan clear wedding video audio for vows, ceremony and speeches with microphone, DJ and videographer coordination.",relatedSlugs:["portland-wedding-videographer-guide","portland-wedding-ceremony-audio-guide","portland-wedding-videography-photography-team-guide"],sections:[
+      {heading:"Camera microphones are not the whole audio plan",paragraphs:["Distance, wind and room noise can make on-camera sound unreliable for important dialogue. Ask how the videographer records vows and speeches."]},
+      {heading:"Ceremony audio needs vendor coordination",paragraphs:["The DJ or audio provider may amplify sound for guests while the videographer records separate sources. Connecting those plans early helps avoid assumptions."]},
+      {heading:"Outdoor vows add wind and distance",paragraphs:["A beautiful open ceremony space can be challenging acoustically. Discuss backup recording methods and microphone placement before the wedding."]},
+      {heading:"Toast audio depends on microphone habits",paragraphs:["Speakers who wander away from the microphone can be difficult to record. A coordinator or DJ can give simple guidance before speeches begin."]},
+      {heading:"Ask how audio appears in the final edit",paragraphs:["Some films use long sections of vows and speeches while others use brief excerpts. Sample films reveal how prominently spoken audio shapes the story."]}
+    ],checklist:["Ask audio recording method","Connect DJ and videographer","Discuss outdoor wind","Confirm toast microphone","Review sample film audio","Ask backup recording plan"],faq:[
+      {question:"Does the videographer use the DJ's microphone audio?",answer:"They may take a feed, use independent recorders or combine sources. Ask the specific team how redundancy is handled."},
+      {question:"Can bad wedding audio be fixed later?",answer:"Some issues can be improved, but clean source recordings are far better than relying on repair. Plan important audio before the event."}
+    ]
+  },
+  {
+    slug:"portland-wedding-rental-tabletop-guide",category:"Rentals",title:"Wedding Tabletop Rentals: Build the Table From the Guest's Seat Out",dek:"Coordinate linens, plates, glassware, flatware and centerpieces as one composition while keeping dinner service practical.",readTime:"9 min read",seoTitle:"Portland Wedding Tabletop Rental Guide",seoDescription:"Plan Portland wedding tabletop rentals including linens, plates, glassware, flatware, centerpieces and practical table spacing.",relatedSlugs:["portland-wedding-rentals-guide","portland-wedding-floral-repurpose-guide","portland-wedding-seating-chart-guide"],sections:[
+      {heading:"Start with the actual table dimensions",paragraphs:["A design that looks spacious in a styled photograph may crowd a smaller rental table. Confirm table size before choosing every tabletop layer."]},
+      {heading:"Build around the meal service",paragraphs:["Plated, buffet and family-style meals use table space differently. Family-style platters in particular need room that décor cannot occupy."]},
+      {heading:"Mixing rentals works when something connects them",paragraphs:["Different glassware or plate styles can feel intentional when palette, material or shape creates continuity. A rental showroom can help test combinations physically."]},
+      {heading:"Centerpieces must coexist with conversation",paragraphs:["Height and width affect sightlines and serving access. Review floral scale with the complete place setting rather than in isolation."]},
+      {heading:"Count beyond guest seats",paragraphs:["Catering, bar, cake, welcome tables and other service areas may require linens or tabletop pieces too. Build the rental order from the final floor plan."]}
+    ],checklist:["Confirm table sizes","Choose meal service style","Build one sample setting","Coordinate floral footprint","Count service tables","Confirm delivery/pickup"],faq:[
+      {question:"Do venues include plates and glassware?",answer:"Some do and some do not. Confirm exactly what the venue or caterer provides before ordering rentals."},
+      {question:"How many glasses does each guest need?",answer:"That depends on beverage service and turnover. Let the caterer, bar provider and rental company calculate inventory for the actual service plan."}
+    ]
+  },
+  {
+    slug:"portland-wedding-lounge-rental-guide",category:"Rentals",title:"Wedding Lounge Furniture: Create Places Guests Actually Use",dek:"Add soft seating where it supports conversation and guest comfort without stealing space from dining, dancing or circulation.",readTime:"8 min read",seoTitle:"Portland Wedding Lounge Furniture Rental Guide",seoDescription:"Plan Portland wedding lounge rentals with practical guidance on placement, guest comfort, floor plans, style and circulation.",relatedSlugs:["portland-wedding-rentals-guide","portland-wedding-guest-experience-guide","portland-wedding-cocktail-hour-guide"],sections:[
+      {heading:"Give the lounge a reason to exist",paragraphs:["A lounge works best where guests naturally pause—cocktail hour, near but not on the dance floor, or beside a social focal point."]},
+      {heading:"Protect circulation",paragraphs:["Sofas and chairs have larger footprints than they appear to in inspiration images. Preserve clear paths to bars, restrooms, exits and dinner tables."]},
+      {heading:"Think about who benefits most",paragraphs:["Older guests, pregnant guests or anyone who wants a quieter conversation space may appreciate comfortable seating beyond dining chairs."]},
+      {heading:"Connect the furniture to the room",paragraphs:["Color, texture and scale should support the venue rather than looking dropped into it. A few deliberate pieces can have more impact than filling every corner."]},
+      {heading:"Plan delivery and reset",paragraphs:["Large furniture requires access, setup time and pickup coordination. Confirm loading constraints and whether pieces move between cocktail hour and reception."]}
+    ],checklist:["Choose lounge purpose","Mark footprint on floor plan","Protect guest paths","Coordinate colors/materials","Confirm delivery access","Assign any room flip"],faq:[
+      {question:"Does every wedding need lounge furniture?",answer:"No. It is an optional comfort and design layer. Prioritize adequate functional seating first."},
+      {question:"Where should a wedding lounge go?",answer:"Place it near social activity but outside primary service and circulation paths."}
+    ]
+  },
+  {
+    slug:"portland-wedding-officiant-script-guide",category:"Officiants",title:"Wedding Ceremony Scripts: Personal Without Turning Into a Biography",dek:"Shape the ceremony around a clear opening, story, commitment and closing while leaving room for the couple's actual voice.",readTime:"9 min read",seoTitle:"Portland Wedding Ceremony Script Guide",seoDescription:"Build a personal wedding ceremony script with your officiant using story, readings, vows, transitions and a clear ceremony structure.",relatedSlugs:["oregon-wedding-officiant-ceremony-guide","portland-wedding-ceremony-guide","portland-wedding-ceremony-music-guide"],sections:[
+      {heading:"Start with the ceremony's purpose",paragraphs:["Before adding stories or readings, decide what the ceremony should communicate about the relationship and commitment. That creates a filter for everything else."]},
+      {heading:"Use stories that reveal something",paragraphs:["A few specific moments can say more than a chronological history of the relationship. Ask the officiant how they gather and shape personal material."]},
+      {heading:"Give readings a job",paragraphs:["A reading can introduce an idea, honor a tradition or create a pause. Choose it because it adds meaning rather than because ceremonies are expected to have one."]},
+      {heading:"Connect the pieces with transitions",paragraphs:["Welcome, story, reading, vows, rings and closing should feel like one ceremony rather than separate blocks. An experienced officiant can create those bridges."]},
+      {heading:"Read the script aloud",paragraphs:["Spoken language feels different from written language. A rehearsal or read-through can expose long sentences, awkward phrasing and timing issues."]}
+    ],checklist:["Define ceremony tone","Choose meaningful stories","Select readings if desired","Confirm vow format","Review transitions","Read aloud","Finalize pronunciation"],faq:[
+      {question:"How long should a wedding ceremony script be?",answer:"Length should fit the ceremony style and content. Focus on a coherent experience rather than targeting a universal minute count."},
+      {question:"Should couples approve the officiant's script?",answer:"That depends on the officiant's process. Discuss how much of the script is shared or reviewed before the wedding."}
+    ]
+  },
+  {
+    slug:"portland-wedding-personal-vows-guide",category:"Officiants",title:"Writing Personal Wedding Vows: Specific, Balanced and Easy to Say Out Loud",dek:"Write vows that sound like you by focusing on promises, specific truth and spoken language instead of trying to produce a perfect speech.",readTime:"8 min read",seoTitle:"How to Write Personal Wedding Vows | Portland Guide",seoDescription:"Write personal wedding vows with a practical structure for stories, promises, length, tone and comfortable delivery.",relatedSlugs:["oregon-wedding-officiant-ceremony-guide","portland-wedding-officiant-script-guide","portland-wedding-ceremony-guide"],sections:[
+      {heading:"Begin with what you are promising",paragraphs:["Vows are commitments, not only a love letter. Write down the promises you want to make before polishing the opening or adding stories."]},
+      {heading:"Use one or two specific details",paragraphs:["A small recognizable detail can make vows personal without turning them into a complete relationship history."]},
+      {heading:"Agree on broad expectations together",paragraphs:["Couples can keep the exact words secret while agreeing on approximate length, tone and whether humor, stories or traditional language will be included."]},
+      {heading:"Edit for the ear",paragraphs:["Read every draft aloud. Shorter sentences and natural phrasing are easier to deliver when emotions are high."]},
+      {heading:"Bring a reliable copy",paragraphs:["Use a vow book, card or printed copy rather than depending on a phone battery or memorization unless that is genuinely comfortable for you."]}
+    ],checklist:["List core promises","Add specific detail","Agree on tone/length","Read aloud","Trim repeated ideas","Prepare physical copy"],faq:[
+      {question:"Do personal vows have to be memorized?",answer:"No. Reading from a vow book or card is common and can reduce pressure."},
+      {question:"Should our vows be the same length?",answer:"They do not need to match exactly, but agreeing on a rough range can help the ceremony feel balanced."}
+    ]
+  },
+  {
+    slug:"portland-wedding-shuttle-route-guide",category:"Transportation",title:"Wedding Shuttle Routes: Stops, Timing and the Guest Decisions That Make Them Work",dek:"Design transportation around where guests actually sleep, when they need to arrive and how they will know which vehicle to board.",readTime:"9 min read",seoTitle:"Portland Wedding Shuttle Route Planning Guide",seoDescription:"Plan Portland wedding shuttle routes with hotel stops, pickup windows, guest communication, return trips and realistic travel time.",relatedSlugs:["portland-wedding-transportation-guide","portland-wedding-parking-rideshare-guide","portland-wedding-hotel-block-guide"],sections:[
+      {heading:"Use guest concentration to choose stops",paragraphs:["A shuttle is most efficient when it serves places where meaningful numbers of guests are staying. Too many small stops can make the route slow and confusing."]},
+      {heading:"Build the route with real travel time",paragraphs:["Loading, traffic, turning large vehicles and venue access all add time beyond a map estimate. Let the transportation provider review the route."]},
+      {heading:"Decide whether guests choose a departure window",paragraphs:["One large departure may be simple, while multiple runs can provide flexibility. Capacity and trip length determine what is realistic."]},
+      {heading:"Make pickup instructions unmistakable",paragraphs:["Hotel name alone may not identify the loading point. Give guests a specific door, curb or landmark and a clear departure time."]},
+      {heading:"Plan the return before the party begins",paragraphs:["Early return, final return and last-call timing should work together so guests know their options without searching for answers late at night."]}
+    ],checklist:["Map guest hotels","Choose efficient stops","Confirm vehicle access","Add loading time","Publish exact pickup points","Plan return runs","Share transportation contact"],faq:[
+      {question:"How many shuttle stops should we have?",answer:"Use the fewest stops that reasonably serve your guest concentrations and let the transportation provider evaluate route efficiency."},
+      {question:"Should the shuttle wait for late guests?",answer:"Set expectations with the provider and guests. Holding a vehicle can affect every later trip on the route."}
+    ]
+  },
+  {
+    slug:"portland-wedding-getaway-car-guide",category:"Transportation",title:"Wedding Getaway Cars: Make the Exit Work Beyond the Photograph",dek:"Coordinate pickup, luggage, venue access and the actual destination so the getaway is transportation—not just a staged moment.",readTime:"8 min read",seoTitle:"Portland Wedding Getaway Car Guide",seoDescription:"Plan a Portland wedding getaway car with pickup timing, venue access, luggage, photography and post-reception transportation logistics.",relatedSlugs:["portland-wedding-transportation-guide","portland-wedding-after-party-guide","portland-wedding-honeymoon-departure-guide"],sections:[
+      {heading:"Know where the car is actually taking you",paragraphs:["Hotel, home, after-party or airport plans require different timing and luggage. Decide the real destination before choosing the vehicle."]},
+      {heading:"Confirm the vehicle can reach the pickup point",paragraphs:["Historic properties, gravel roads, narrow drives or loading restrictions can affect access. Share venue details with the transportation provider."]},
+      {heading:"Stage belongings before the reception ends",paragraphs:["If bags, attire or travel documents need to leave with the couple, assign someone to load them before the exit moment."]},
+      {heading:"Coordinate the exit with photography",paragraphs:["A photographer may need a few minutes to set position or lighting. Build that into the timeline without making guests wait excessively."]},
+      {heading:"Have a practical fallback",paragraphs:["Transportation plans can change. Keep the hotel address and an alternate ride option accessible to a trusted person."]}
+    ],checklist:["Choose real destination","Confirm vehicle access","Set pickup time","Assign luggage loading","Coordinate photographer","Keep backup ride option"],faq:[
+      {question:"Do we need a special getaway car?",answer:"No. It is optional. Reliable transportation to the next destination matters more than the vehicle style."},
+      {question:"Can the getaway car be part of wedding photos?",answer:"Yes, if the photographer and provider have enough time and the vehicle can be positioned safely."}
+    ]
+  },
+  {
+    slug:"portland-wedding-hotel-block-contract-guide",category:"Lodging",title:"Wedding Hotel Block Contracts: Read the Release Date, Rates and Commitments",dek:"Compare room blocks by what the couple is actually responsible for, how guests book and what happens to unused rooms.",readTime:"9 min read",seoTitle:"Portland Wedding Hotel Block Contract Guide",seoDescription:"Understand Portland wedding hotel block contracts including courtesy blocks, commitments, release dates, booking links and guest communication.",relatedSlugs:["portland-wedding-hotel-block-guide","portland-wedding-hotel-welcome-bag-guide","portland-wedding-shuttle-route-guide"],sections:[
+      {heading:"Know whether the block creates a commitment",paragraphs:["Hotel arrangements can be structured differently. Ask whether the couple guarantees rooms, faces attrition terms or is simply receiving a courtesy hold."]},
+      {heading:"Find the release date immediately",paragraphs:["Unused rooms may return to general inventory after a stated date. Put that deadline on the wedding planning calendar and communicate it clearly to guests."]},
+      {heading:"Compare more than the nightly rate",paragraphs:["Parking, breakfast, Wi-Fi, check-in time, shuttle access and proximity to events can affect guest experience even when room rates look similar."]},
+      {heading:"Test the booking process",paragraphs:["Open the link or call the booking number as a guest would. Confirm dates, room types and the displayed group rate before sharing it."]},
+      {heading:"Track pickup without becoming a travel agent",paragraphs:["Hotels may provide periodic block reports. Use them to spot whether inventory is filling, while directing individual reservation changes to the hotel."]}
+    ],checklist:["Identify block type","Review financial commitment","Record release date","Compare parking/amenities","Test booking link","Share booking instructions","Check pickup before release"],faq:[
+      {question:"What is a courtesy wedding room block?",answer:"The exact terms vary by hotel, but courtesy arrangements commonly hold rooms without the same commitment structure as contracted blocks. Read the hotel's agreement."},
+      {question:"What happens after the hotel block release date?",answer:"Typically unused inventory is no longer held for the group, but policies vary. Guests may still find rooms at prevailing availability and rates."}
+    ]
+  },
+  {
+    slug:"portland-wedding-venue-contract-guide",category:"Venues",title:"Wedding Venue Contracts: The Clauses to Understand Before You Sign",dek:"Read beyond the rental fee and understand access, payments, cancellation, vendor rules and the responsibilities that shape the whole wedding.",readTime:"11 min read",seoTitle:"Portland Wedding Venue Contract Guide",seoDescription:"Review Portland wedding venue contracts with practical guidance on access, payments, cancellation, vendor rules, insurance and included services.",relatedSlugs:["best-portland-wedding-venues-guide","questions-to-ask-on-a-wedding-venue-tour","portland-wedding-rain-plan-guide"],sections:[
+      {heading:"Confirm exactly what space and time you are buying",paragraphs:["List ceremony, reception, getting-ready and outdoor areas along with access and end times. A beautiful room is only useful during the hours your vendors can actually use it."]},
+      {heading:"Separate the base fee from the full venue cost",paragraphs:["Required staffing, security, cleaning, rentals, service charges or minimum spends can affect the total. Build the venue comparison from all required costs."]},
+      {heading:"Read cancellation and postponement language carefully",paragraphs:["Understand payment schedules, refundable and nonrefundable amounts, date-change rules and any deadlines before signing. Ask questions about language you do not understand."]},
+      {heading:"Vendor restrictions affect later choices",paragraphs:["Preferred or required caterers, bar rules, insurance requirements, noise limits and décor restrictions can shape the rest of the vendor search."]},
+      {heading:"Put important promises in the agreement",paragraphs:["If a specific inclusion or exception matters to the decision, ask how it will be documented. Do not rely on remembering a verbal conversation months later."]}
+    ],checklist:["Confirm spaces and hours","List required fees","Review payment schedule","Read cancellation/postponement terms","Review vendor rules","Check insurance requirements","Document important inclusions"],faq:[
+      {question:"Should we have a lawyer review a wedding venue contract?",answer:"For legal advice about your obligations or unusual terms, consult a qualified attorney. MPW can help identify planning questions but does not provide legal advice."},
+      {question:"Are venue deposits refundable?",answer:"That depends entirely on the contract. Read the payment and cancellation provisions before signing."}
+    ]
+  },
+  {
+    slug:"portland-wedding-venue-noise-curfew-guide",category:"Venues",title:"Wedding Venue Noise Limits and Curfews: Plan the Reception Around the Real Rules",dek:"Confirm amplified-sound limits, event end times and outdoor restrictions before building a reception that depends on late-night music.",readTime:"8 min read",seoTitle:"Portland Wedding Venue Noise & Curfew Guide",seoDescription:"Plan around Portland wedding venue sound limits, curfews, outdoor music rules and event end times before booking entertainment.",relatedSlugs:["best-portland-wedding-venues-guide","how-to-choose-portland-wedding-dj","portland-wedding-after-party-guide"],sections:[
+      {heading:"Event end time and music end time may differ",paragraphs:["A venue may require amplified sound to stop before guests or vendors leave. Ask for both deadlines and what teardown time follows."]},
+      {heading:"Outdoor sound can have different restrictions",paragraphs:["A property may allow indoor dancing later than outdoor amplified music. This matters when ceremony, cocktail hour or reception spaces change during the night."]},
+      {heading:"Share rules with entertainment vendors early",paragraphs:["DJs and bands need to know sound limits, equipment restrictions and performance end times before finalizing their setup."]},
+      {heading:"Build the reception backward from the curfew",paragraphs:["Dinner, toasts and formal dances that run long can shrink open dancing. A realistic timeline protects the portion of the reception you care about most."]},
+      {heading:"Use an after-party only if it solves a real goal",paragraphs:["If late-night celebration matters, a separate location may work better than pushing against venue rules. Transportation and guest communication then become part of the plan."]}
+    ],checklist:["Confirm guest end time","Confirm amplified-sound end","Ask indoor vs outdoor rules","Share limits with DJ/band","Build timeline backward","Plan after-party if desired"],faq:[
+      {question:"Can a DJ simply turn down the music after curfew?",answer:"Do not assume that. Follow the venue's specific amplified-sound and event rules."},
+      {question:"Should we ask about noise limits before booking a venue?",answer:"Yes if music and dancing are important. The rules can materially affect the reception experience."}
+    ]
+  },
+  {
+    slug:"portland-wedding-photography-second-shooter-guide",category:"Photography",title:"Do You Need a Second Wedding Photographer?",dek:"Decide based on simultaneous moments, guest count, locations and coverage goals rather than assuming two cameras are always better.",readTime:"9 min read",seoTitle:"Do You Need a Second Wedding Photographer? Portland Guide",seoDescription:"Decide whether your Portland wedding needs a second photographer based on simultaneous coverage, locations, guest count and timeline.",relatedSlugs:["how-to-choose-portland-wedding-photographer","portland-wedding-photographer-cost-guide","portland-wedding-family-photo-list-guide"],sections:[
+      {heading:"Think in simultaneous moments",paragraphs:["A second photographer can be valuable when meaningful events happen in different places at the same time, such as separate getting-ready locations."]},
+      {heading:"Large spaces can create coverage distance",paragraphs:["A sprawling venue or ceremony may make it harder for one person to move between angles without distraction. Venue layout can matter as much as guest count."]},
+      {heading:"More photographers do not automatically mean more useful images",paragraphs:["Coverage style, experience and coordination matter. Ask the lead photographer when they recommend a second shooter and what that person adds."]},
+      {heading:"Timeline can reveal the answer",paragraphs:["If portraits, details and candid coverage overlap heavily, a second photographer may reduce tradeoffs. A simpler schedule may not need the same support."]},
+      {heading:"Understand who selects and edits the images",paragraphs:["The lead studio usually controls final editing and delivery. Ask how second-photographer images are incorporated into the finished gallery."]}
+    ],checklist:["Map simultaneous moments","Review venue layout","Discuss guest count","Ask photographer recommendation","Compare package cost","Confirm editing/delivery"],faq:[
+      {question:"Does a large wedding always need two photographers?",answer:"No. Guest count is one factor alongside venue layout, timeline, coverage priorities and the photographer's working style."},
+      {question:"Can we hire our own second photographer?",answer:"Do not do so without the contracted photographer's approval. Photography agreements may address exclusivity and team structure."}
+    ]
   }
 ];
 
