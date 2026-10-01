@@ -1498,3 +1498,9 @@ body{background-color:#fffaf6!important}
 .editorialSaveStrip a{display:inline-flex;padding:10px 15px;border-radius:999px;background:#fff;color:#294b3b;text-decoration:none;font-weight:800;font-size:.82rem}
 .editorialSaveStrip a+ a{background:transparent;color:#fff;border:1px solid rgba(255,255,255,.5)}
 @media(max-width:760px){.magazineSectionAlt:before{inset:-16px -10px}.editorialSaveStrip{padding:23px 20px}}
+
+
+/* Preview: keep the approved metallic MPW mark clean in the footer. */
+.siteFooter .footerBrand{background:transparent!important;padding:0!important;border:0!important;border-radius:0!important;box-shadow:none!important;width:260px!important;max-width:260px!important;overflow:visible!important}
+.siteFooter .footerBrand .mpwMasterLogo{display:block!important;width:260px!important;max-width:260px!important;height:auto!important;background:transparent!important;border:0!important;border-radius:0!important;box-shadow:none!important;object-fit:contain!important;mix-blend-mode:normal!important}
+@media(max-width:760px){.siteFooter .footerBrand{width:min(76vw,250px)!important;max-width:min(76vw,250px)!important;margin-inline:auto!important}.siteFooter .footerBrand .mpwMasterLogo{width:100%!important;max-width:100%!important}}
