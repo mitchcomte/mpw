@@ -112,13 +112,18 @@ export const inspirationArticles: InspirationArticle[] = [
     category:"Venues",
     title:"Outdoor Wedding Venues Near Portland: What to Know Before You Book",
     dek:"A Portland-area outdoor venue guide covering weather backup, guest comfort, sound, power, accessibility and logistics.",
-    readTime:"7 min read",
+    readTime:"7 min read",,
+    relatedSlugs:["questions-to-ask-on-a-wedding-venue-tour","best-time-year-portland-wedding","portland-wedding-rental-weather-backup-guide"]
     sections:[
       {heading:"Fall in love with the backup plan too", paragraphs:["The most important outdoor-venue question is what happens when the weather changes. Ask to physically see the backup location and understand whether your ceremony, dinner and dancing can all function there."]},
       {heading:"Think about guest comfort", bullets:["Shade for warm afternoons","Heat for cool evenings","Stable walking surfaces","Accessible routes","Nearby restrooms","Water stations","Bug and wind considerations","Blankets or umbrellas when appropriate"]},
       {heading:"Ask about power and sound", paragraphs:["Outdoor ceremonies and receptions may need power for microphones, music, lighting, catering and entertainment. Confirm where power comes from, whether generators are allowed and whether the property has sound limits."]},
       {heading:"Understand the setup window", paragraphs:["Outdoor events often require more setup than couples expect. Ask when rentals and vendors can arrive, what can remain overnight and who is responsible for breakdown."]},
-      {heading:"Plan transportation before invitations go out", paragraphs:["For venues outside central Portland, think through parking, rideshare availability, shuttle timing and the return trip at the end of the night."]}
+      {heading:"Plan transportation before invitations go out", paragraphs:["For venues outside central Portland, think through parking, rideshare availability, shuttle timing and the return trip at the end of the night."]},
+      {heading:"Walk the backup transition", paragraphs:["A weather backup is only useful if guests, vendors and key equipment can move into it on time. Ask when the venue decides to activate the backup, who makes that call and what changes in the floor plan, ceremony setup or rental order.","If the backup uses the same room needed for dinner, ask how the turnover works and how long it realistically takes."]},
+      {heading:"Look at the ground and access routes", paragraphs:["Outdoor planning is not only about rain falling during the ceremony. Consider soft ground, gravel, slopes, long walks, vendor carts, delivery vehicles and how guests with mobility needs reach each part of the event.","Walk the route from parking or shuttle drop-off to ceremony, restrooms and reception space. That route is part of the guest experience."]},
+      {heading:"Build the outdoor decision into the full plan", paragraphs:["Use Wedding Builder to compare the outdoor venue against your guest count, transportation needs, rentals and priorities. A beautiful setting may still require meaningful spending in tenting, flooring, power, lighting or transportation.","Save the weather decision points and vendor responsibilities in your couple account so the backup plan remains connected to the rest of the wedding."]},
+
     ],
     faq:[{question:"What is the most important question for an outdoor Portland wedding venue?",answer:"Ask to see the actual weather backup plan and confirm that it works for your guest count and the parts of the celebration you intend to host outdoors."}]
   },
@@ -142,13 +147,18 @@ export const inspirationArticles: InspirationArticle[] = [
     category:"Planning",
     title:"Portland Wedding Planning Checklist: From Engagement to Wedding Week",
     dek:"A practical Portland wedding timeline that keeps the big bookings, guest logistics and final details in the right order.",
-    readTime:"10 min read",
+    readTime:"10 min read",,
+    relatedSlugs:["which-wedding-vendors-should-you-book-first","how-to-build-a-wedding-budget-that-feels-realistic","portland-wedding-timeline-guide"]
     sections:[
       {heading:"First: build the foundation", bullets:["Set a comfortable budget","Estimate guest count","Choose top priorities","Discuss season and preferred dates","Build a venue shortlist","Decide whether you want a planner"]},
       {heading:"Book the vendors with limited dates", bullets:["Venue","Planner or coordinator","Photographer","Videographer","Caterer and bar if not included","DJ, band or entertainment"]},
       {heading:"Build the look and guest experience", bullets:["Florist and design","Rentals and lighting","Attire","Hair and makeup","Cake and desserts","Stationery","Transportation and lodging"]},
       {heading:"Two to three months out", bullets:["Finalize invitations and RSVPs","Confirm ceremony details","Plan seating approach","Review vendor timelines","Confirm menu and bar","Schedule final fittings","Prepare photo-family list"]},
-      {heading:"Wedding month and week", bullets:["Finalize guest count","Confirm vendor arrival times","Watch the weather plan","Prepare payments and tips","Pack details for photography","Delegate gifts, cards and décor pickup","Protect time to sleep, eat and enjoy the week"]}
+      {heading:"Wedding month and week", bullets:["Finalize guest count","Confirm vendor arrival times","Watch the weather plan","Prepare payments and tips","Pack details for photography","Delegate gifts, cards and décor pickup","Protect time to sleep, eat and enjoy the week"]},
+      {heading:"Build dependencies, not just a giant to-do list", paragraphs:["Some wedding tasks unlock several others. A venue confirms the date and house rules; a guest-count estimate shapes budget and capacity; a floor plan affects rentals, catering and entertainment. Prioritize decisions that unblock the most work instead of simply completing the easiest tasks first.","Use Wedding Builder to establish the vendor and budget framework, then use your couple account to keep the plan saved as decisions become real bookings."]},
+      {heading:"Give every task an owner and a next action", paragraphs:["A checklist becomes useful when each item answers two questions: who owns it, and what happens next? 'Transportation' is vague; 'compare two shuttle quotes after hotel block is selected' is actionable.","For decisions involving multiple vendors, add the final answer to the master timeline or shared planning notes so everyone is working from the same version."]},
+      {heading:"Protect a final-confirmation window", paragraphs:["The last few weeks should be for confirming guest counts, arrival times, layouts, balances and handoffs—not reinventing the wedding. Set an internal decision deadline before vendor deadlines whenever possible.","Use that final window to test the whole day from guest arrival through the last pickup. Gaps are easier to see when the wedding is reviewed as one connected experience."]},
+
     ],
     faq:[{question:"What should we book first for a Portland wedding?",answer:"The venue usually comes first because it establishes the date and affects many other vendor decisions. A full-service planner may be hired before the venue if you want help with the search."}]
   },
@@ -172,13 +182,18 @@ export const inspirationArticles: InspirationArticle[] = [
     category:"Planning",
     title:"Portland Micro-Wedding Guide: Planning a Smaller Celebration That Still Feels Special",
     dek:"How to use a smaller guest list to create a more personal Portland wedding without making the day feel like a scaled-down afterthought.",
-    readTime:"7 min read",
+    readTime:"7 min read",,
+    relatedSlugs:["portland-wedding-budget-guide","finding-a-portland-wedding-venue-that-fits-your-style","portland-wedding-timeline-guide"]
     sections:[
       {heading:"Define small for your wedding", paragraphs:["A micro-wedding is less about hitting an exact guest-count definition and more about intentionally planning for a smaller group. Decide who you genuinely want present before choosing the space."]},
       {heading:"Use the smaller guest list intentionally", bullets:["Upgrade the meal or drinks","Choose a distinctive smaller venue","Create one long dinner table","Spend more time with each guest","Plan a weekend or multi-event experience","Put more budget toward photography, music or design"]},
       {heading:"Choose a venue that feels full at your size", paragraphs:["A beautiful space that is too large can make an intimate wedding feel sparse. Ask venues which rooms or layouts they recommend for your guest count."]},
       {heading:"Do not skip structure", paragraphs:["Smaller weddings still benefit from a timeline, ceremony plan, meal flow and someone responsible for logistics. Intimate does not have to mean improvised."]},
-      {heading:"Make the experience personal", paragraphs:["With fewer guests, handwritten notes, shared meals, meaningful toasts and interactive details become easier to execute and more noticeable."]}
+      {heading:"Make the experience personal", paragraphs:["With fewer guests, handwritten notes, shared meals, meaningful toasts and interactive details become easier to execute and more noticeable."]},
+      {heading:"Rebuild the budget instead of shrinking every category", paragraphs:["A smaller guest list changes the economics of the wedding. Rather than reducing every category by the same percentage, decide where intimacy lets you spend differently: a more distinctive meal, stronger photography coverage, live music, upgraded florals or a venue that would not work for a larger crowd.","Enter the real guest count and priorities into Wedding Builder so the vendor plan reflects the wedding you are actually having."]},
+      {heading:"Design the timeline for connection", paragraphs:["With fewer guests, long gaps and overly formal transitions can feel more noticeable. Consider how quickly the group can move, whether everyone will participate in dinner or toasts, and where you want unstructured conversation.","A micro-wedding can still need professional coordination when several vendors, locations or setup responsibilities overlap. Small guest count does not automatically mean simple logistics."]},
+      {heading:"Be deliberate about who is not invited", paragraphs:["Smaller celebrations often require firmer guest-list boundaries. Decide the rule you are using—immediate family, closest friends, adults only or another consistent definition—and apply it as evenly as you reasonably can.","Once the list is stable, save it with the rest of your couple planning so venue, catering and invitation decisions are based on the same number."]},
+
     ],
     faq:[{question:"Can a micro-wedding still include traditional wedding vendors?",answer:"Yes. Couples can still hire photography, planning, florals, music, catering and other vendors; the smaller guest count simply changes the scale and priorities."}]
   },
@@ -248,27 +263,34 @@ export const inspirationArticles: InspirationArticle[] = [
     category:"Venues",
     title:"35 questions to ask on a wedding venue tour",
     dek:"Take this list with you so you can compare Portland venues on more than looks alone.",
-    readTime:"8 min read",
+    readTime:"8 min read",,
+    relatedSlugs:["outdoor-wedding-venues-portland-guide","affordable-portland-wedding-venues","portland-wedding-venue-contract-guide"]
     sections:[
       {heading:"Availability and timing", bullets:["Is our date available?","How many weddings do you host in one day?","How many rental hours are included?","When can vendors begin setup?","What time must the event end?","Is rehearsal time included?"]},
       {heading:"Money and contract", bullets:["What is the rental fee?","What taxes and service charges are added?","What deposit is required?","What is the payment schedule?","What is the cancellation/postponement policy?","Are there minimum spends?","Is event insurance required?"]},
       {heading:"Food, drink and vendors", bullets:["Is catering in-house or can we choose our own?","Is there a preferred or required vendor list?","Can we bring our own alcohol?","Are there corkage or cake-cutting fees?","What kitchen/prep space is available?"]},
       {heading:"Spaces and logistics", bullets:["What is the seated capacity?","What is the rain plan?","Are tables and chairs included?","Are there getting-ready suites?","Is the property accessible?","How many restrooms are available?","Where do guests park?","Is rideshare pickup easy?","Are candles or open flames permitted?","Are there décor restrictions?","Are there sound limits?","Is there power for a band/DJ?","Who handles setup and cleanup?","Who is on site during the event?","Can we leave items overnight?","Is there a secure place for gifts/cards?","Where do vendors load in?","Are pets allowed?","What hotel options are nearby?"]}
-    ]
+    ],
+    faq:[{question:"What should we do after using this guide?",answer:"Turn the decision into your actual wedding plan in Wedding Builder, then create or sign into a couple account to save your progress and keep your vendor, budget and planning work connected."}]
   },
   {
     slug:"how-to-build-a-wedding-budget-that-feels-realistic",
     category:"Budget",
     title:"How to build a wedding budget that feels realistic",
     dek:"Start with priorities and total cost instead of guessing category percentages.",
-    readTime:"7 min read",
+    readTime:"7 min read",,
+    relatedSlugs:["portland-wedding-budget-guide","portland-wedding-budget-contingency-guide","which-wedding-vendors-should-you-book-first"]
     sections:[
       {heading:"Start with the money that actually exists", paragraphs:["Before researching vendors, decide the amount you are comfortable spending and identify who is contributing. Avoid building a plan around money that has not been clearly offered or committed."]},
       {heading:"Pick your top three priorities", paragraphs:["If photography, food and a beautiful venue matter most, protect those categories first. Your budget should reflect what you value rather than an internet template."]},
       {heading:"Track all-in pricing", bullets:["Base price","Taxes","Service charges","Gratuities","Delivery and travel","Rentals","Overtime","Alterations","Postage","Vendor meals","Insurance","Tips and last-minute purchases"]},
-      {heading:"Keep a reserve", paragraphs:["Hold back roughly 5–10% of your working budget for forgotten details and late changes. It is much easier to enjoy an unused reserve at the end than to discover one was needed a month before the wedding."]}
+      {heading:"Keep a reserve", paragraphs:["Hold back roughly 5–10% of your working budget for forgotten details and late changes. It is much easier to enjoy an unused reserve at the end than to discover one was needed a month before the wedding."]},
+      {heading:"Build the budget in layers", paragraphs:["Separate the budget into committed costs, working estimates and optional ideas. A signed venue contract belongs in committed costs; an unquoted floral idea does not. This prevents an early estimate from quietly turning into a promise to spend.","For every quote, record the amount due now, remaining balance, due date and any variable cost tied to guest count, hours or consumption. The cash-flow calendar matters almost as much as the final total."]},
+      {heading:"Let guest count change the math", paragraphs:["Guest count affects more than catering. It can change bar quantities, rentals, stationery, transportation, staffing and even which venues fit. Before cutting a category you care about, model what a smaller guest count would change across several categories at once.","Wedding Builder can help you view those tradeoffs as one plan instead of treating every category as an isolated bill."]},
+      {heading:"Know when to reallocate instead of add", paragraphs:["When a category comes in over estimate, first ask whether the difference is worth protecting because it supports a top priority. If it is, deliberately reduce or simplify lower-priority categories rather than quietly increasing the total budget.","Save the updated plan in your couple account so the working budget reflects the decisions you have actually made—not the version you started with months ago."]},
     ],
-    checklist:["Set total comfortable spend","List confirmed financial contributions","Choose top 3 priorities","Estimate guest count","Collect all-in vendor quotes","Create a 5–10% reserve","Track deposits and due dates","Review budget monthly","Update totals after every signed contract"]
+    checklist:["Set total comfortable spend","List confirmed financial contributions","Choose top 3 priorities","Estimate guest count","Collect all-in vendor quotes","Create a 5–10% reserve","Track deposits and due dates","Review budget monthly","Update totals after every signed contract"],
+    faq:[{question:"What should we do after using this guide?",answer:"Turn the decision into your actual wedding plan in Wedding Builder, then create or sign into a couple account to save your progress and keep your vendor, budget and planning work connected."}]
   },
   {
     slug:"portland-wedding-weather-and-season-guide",
