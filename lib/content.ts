@@ -27,7 +27,7 @@ export const inspirationArticles: InspirationArticle[] = [
     category:"Budget",
     title:"How Much Does a Wedding Cost in Portland? A Practical 2026 Budget Guide",
     dek:"A realistic way to build a Portland wedding budget around your guest count, priorities and vendor team—without treating one average number like a rule.",
-    readTime:"9 min read",,
+    readTime:"9 min read",
     relatedSlugs:["portland-wedding-budget-guide","diy-wedding-ideas-portland-budget","portland-wedding-budget-contingency-guide"],
     sections:[
       {heading:"There is no single Portland wedding price", paragraphs:["Wedding costs in Portland can vary dramatically because couples are not buying the same wedding. Guest count, venue format, catering style, date, rentals and the vendors you prioritize can change the total by tens of thousands of dollars.","Instead of asking what a Portland wedding is supposed to cost, start with the amount you can comfortably spend and build the celebration around that number."]},
@@ -103,7 +103,7 @@ export const inspirationArticles: InspirationArticle[] = [
     category:"Venues",
     title:"Affordable Portland Wedding Venues: How to Find More Value Without Sacrificing the Day",
     dek:"Smart ways to compare Portland venue costs, inclusions and flexible options when keeping the overall wedding budget matters.",
-    readTime:"7 min read",,
+    readTime:"7 min read",
     relatedSlugs:["questions-to-ask-on-a-wedding-venue-tour","portland-wedding-budget-guide","portland-wedding-venue-contract-guide"],
     sections:[
       {heading:"Build a true venue cost comparison",paragraphs:["Create one comparison line for the venue fee and separate lines for required staffing, food-and-beverage minimums, rentals, insurance, cleanup, security, parking and other mandatory items. Do not force unlike packages into one rental-fee comparison.","Then list what each venue replaces elsewhere in the budget. Included tables and chairs have value only if they are pieces you would otherwise rent."]},
@@ -111,8 +111,8 @@ export const inspirationArticles: InspirationArticle[] = [
       {heading:"Compare how much transformation the space needs",paragraphs:["Walk the venue imagining it with only the items included in the quote. Note where you would feel compelled to add lighting, draping, furniture, florals or rentals.","A space that already supports your desired atmosphere can reduce both spending and setup complexity."]},
       {heading:"Model guest count before cutting priorities",paragraphs:["If a venue becomes affordable at a smaller guest count, calculate the broader effect on catering, bar, rentals and stationery. Guest-count changes often move several categories at once.","Wedding Builder can help you see that tradeoff across the whole wedding instead of cutting a favorite category in isolation."]},
       {heading:"Make value—not cheapness—the goal",paragraphs:["The strongest budget choice is the venue that supports your priorities at a total cost you can comfortably carry. A higher venue fee can be rational when it removes enough outside costs or logistical risk.","Save your finalists and assumptions in your couple planning, then update the budget with actual quotes before signing."]}
-    ],,
-    checklist:["Compare total event cost, not only rental fee","List included tables, chairs and equipment you would otherwise rent","Check food, beverage and staffing minimums","Compare alternate dates only after considering guest travel","Estimate decor or rental work needed to transform the space","Model guest-count changes across catering, bar and rentals","Review the full contract before treating a venue as affordable"]
+    ],
+    checklist:["Compare total event cost, not only rental fee","List included tables, chairs and equipment you would otherwise rent","Check food, beverage and staffing minimums","Compare alternate dates only after considering guest travel","Estimate decor or rental work needed to transform the space","Model guest-count changes across catering, bar and rentals","Review the full contract before treating a venue as affordable"],
     faq:[{question:"Does a lower venue rental fee always mean a cheaper wedding?",answer:"No. Required catering, staffing, rentals, security, cleanup, insurance or other costs can make a lower rental fee more expensive overall."},{question:"Can reducing guest count make a venue more affordable?",answer:"Often it can affect several costs at once, including catering, bar, rentals and stationery. Model the complete change rather than assuming the savings come only from food."},{question:"What venue inclusions are worth comparing?",answer:"Focus on inclusions you would otherwise pay for, such as usable tables and chairs, staffing, setup support or equipment. An included item has little budget value if it does not fit your plan."}]
   },
   {
@@ -120,7 +120,7 @@ export const inspirationArticles: InspirationArticle[] = [
     category:"Venues",
     title:"Outdoor Wedding Venues Near Portland: What to Know Before You Book",
     dek:"A Portland-area outdoor venue guide covering weather backup, guest comfort, sound, power, accessibility and logistics.",
-    readTime:"7 min read",,
+    readTime:"7 min read",
     relatedSlugs:["questions-to-ask-on-a-wedding-venue-tour","best-time-year-portland-wedding","portland-wedding-rental-weather-backup-guide"],
     sections:[
       {heading:"Fall in love with the backup plan too", paragraphs:["The most important outdoor-venue question is what happens when the weather changes. Ask to physically see the backup location and understand whether your ceremony, dinner and dancing can all function there."]},
@@ -132,8 +132,8 @@ export const inspirationArticles: InspirationArticle[] = [
       {heading:"Look at the ground and access routes", paragraphs:["Outdoor planning is not only about rain falling during the ceremony. Consider soft ground, gravel, slopes, long walks, vendor carts, delivery vehicles and how guests with mobility needs reach each part of the event.","Walk the route from parking or shuttle drop-off to ceremony, restrooms and reception space. That route is part of the guest experience."]},
       {heading:"Build the outdoor decision into the full plan", paragraphs:["Use Wedding Builder to compare the outdoor venue against your guest count, transportation needs, rentals and priorities. A beautiful setting may still require meaningful spending in tenting, flooring, power, lighting or transportation.","Save the weather decision points and vendor responsibilities in your couple account so the backup plan remains connected to the rest of the wedding."]},
 
-    ],,
-    checklist:["See the actual indoor or covered backup space","Confirm who makes the weather call and when","Walk parking or shuttle drop-off to ceremony and reception","Check power and sound requirements","Confirm restroom capacity and accessibility","Review setup and breakdown windows","Price weather-related rentals before booking","Verify guest comfort plans for the season"]
+    ],
+    checklist:["See the actual indoor or covered backup space","Confirm who makes the weather call and when","Walk parking or shuttle drop-off to ceremony and reception","Check power and sound requirements","Confirm restroom capacity and accessibility","Review setup and breakdown windows","Price weather-related rentals before booking","Verify guest comfort plans for the season"],
     faq:[{question:"When should an outdoor wedding weather decision be made?",answer:"Use the deadline required by the venue and affected vendors. Rentals, catering, entertainment and floor-plan changes may need more notice than the wedding morning."},{question:"What should we inspect besides the ceremony site?",answer:"Walk the full guest and vendor routes, including parking, drop-off, restrooms, reception, loading areas and the backup location."},{question:"Should weather-backup costs be in the original budget?",answer:"If the backup may require tents, flooring, heaters, umbrellas or additional rentals, include realistic contingency costs before booking so the venue remains affordable under less-than-ideal conditions."}]
   },
   {
@@ -141,7 +141,7 @@ export const inspirationArticles: InspirationArticle[] = [
     category:"Photography",
     title:"Portland Wedding Photographer Prices: What Couples Should Compare",
     dek:"A practical guide to photography packages, coverage, deliverables and the questions that matter more than comparing one starting price.",
-    readTime:"7 min read",,
+    readTime:"7 min read",
     relatedSlugs:["portland-wedding-photography-timeline-guide","portland-wedding-photography-second-shooter-guide","portland-wedding-photo-delivery-guide"],
     sections:[
       {heading:"Normalize the quotes before comparing them",paragraphs:["Put each photography proposal into the same comparison: coverage hours, number of photographers, engagement session, travel, albums, delivery, usage rights and any add-ons you are likely to buy later. A lower starting price can represent a very different package.","Also note payment schedule and overtime terms so the comparison reflects the likely final purchase rather than the headline number."]},
@@ -158,7 +158,7 @@ export const inspirationArticles: InspirationArticle[] = [
     category:"Planning",
     title:"Portland Wedding Planning Checklist: From Engagement to Wedding Week",
     dek:"A practical Portland wedding timeline that keeps the big bookings, guest logistics and final details in the right order.",
-    readTime:"10 min read",,
+    readTime:"10 min read",
     relatedSlugs:["which-wedding-vendors-should-you-book-first","how-to-build-a-wedding-budget-that-feels-realistic","portland-wedding-timeline-guide"],
     sections:[
       {heading:"First: build the foundation", bullets:["Set a comfortable budget","Estimate guest count","Choose top priorities","Discuss season and preferred dates","Build a venue shortlist","Decide whether you want a planner"]},
@@ -179,7 +179,7 @@ export const inspirationArticles: InspirationArticle[] = [
     category:"Planning",
     title:"Best Time of Year to Get Married in Portland: A Season-by-Season Guide",
     dek:"What each Portland wedding season can offer, plus the weather, daylight and guest-comfort questions to consider before choosing a date.",
-    readTime:"7 min read",,
+    readTime:"7 min read",
     relatedSlugs:["outdoor-wedding-venues-portland-guide","portland-wedding-flower-weather-guide","portland-wedding-rental-weather-backup-guide"],
     sections:[
       {heading:"Separate climate expectations from a forecast",paragraphs:["Choose a season based on the kind of conditions you are comfortable planning around, not a promise about one future date. Weather can vary, so the venue and backup plan should work even when the day does not match the seasonal picture in your head.","For outdoor priorities, ask venues how they actually operate in that season: covered areas, heating or cooling, surfaces, lighting and the timing of weather decisions."]},
@@ -187,8 +187,8 @@ export const inspirationArticles: InspirationArticle[] = [
       {heading:"Consider the guest journey",paragraphs:["Think about airport travel, driving, parking, walking surfaces, coats, heat, rain and the time guests may spend outdoors. A season that looks beautiful in photographs still needs to function for the people attending.","For destination-style Portland-area locations, include the route and late-night return in the seasonal plan."]},
       {heading:"Ask vendors what changes by season",paragraphs:["Florals, rentals, catering, transportation and beauty can all have seasonal considerations. Ask each relevant vendor what they plan differently for your date rather than relying on a generic seasonal checklist.","This is also where local vendor expertise can add more value than broad national advice."]},
       {heading:"Choose based on priorities, then build the backup",paragraphs:["Use Wedding Builder to weigh season against venue style, budget, guest count and the categories you care about most. Once the date is chosen, save the assumptions and backup decisions in your couple account.","The goal is not to find a risk-free month. It is to choose a season whose strengths you value and whose tradeoffs you are comfortable planning around."]}
-    ],,
-    checklist:["Choose the seasonal experience you actually want","Ask venues how their backup plan works in that season","Check daylight needs with your photographer","Consider guest walking, parking and travel","Ask relevant vendors what changes seasonally","Plan weather protection without relying on a forecast","Save the final seasonal assumptions with the wedding plan"]
+    ],
+    checklist:["Choose the seasonal experience you actually want","Ask venues how their backup plan works in that season","Check daylight needs with your photographer","Consider guest walking, parking and travel","Ask relevant vendors what changes seasonally","Plan weather protection without relying on a forecast","Save the final seasonal assumptions with the wedding plan"],
     faq:[{question:"Should we choose our date based on weather averages alone?",answer:"No. Seasonal patterns can inform planning, but a specific wedding date can differ. Choose a venue and backup plan that still work when conditions are not ideal."},{question:"How should daylight affect ceremony time?",answer:"If portraits or outdoor moments matter, coordinate ceremony and travel timing with your photographer so the schedule protects the light you care about."},{question:"Does an indoor Portland wedding still need a weather plan?",answer:"Usually the guest journey still matters. Parking, shuttle loading, walking routes, coats and vendor load-in can be affected even when the celebration itself is indoors."}]
   },
   {
@@ -196,7 +196,7 @@ export const inspirationArticles: InspirationArticle[] = [
     category:"Planning",
     title:"Portland Micro-Wedding Guide: Planning a Smaller Celebration That Still Feels Special",
     dek:"How to use a smaller guest list to create a more personal Portland wedding without making the day feel like a scaled-down afterthought.",
-    readTime:"7 min read",,
+    readTime:"7 min read",
     relatedSlugs:["portland-wedding-budget-guide","finding-a-portland-wedding-venue-that-fits-your-style","portland-wedding-timeline-guide"],
     sections:[
       {heading:"Define small for your wedding", paragraphs:["A micro-wedding is less about hitting an exact guest-count definition and more about intentionally planning for a smaller group. Decide who you genuinely want present before choosing the space."]},
@@ -217,7 +217,7 @@ export const inspirationArticles: InspirationArticle[] = [
     category:"Vendors",
     title:"How to Choose Wedding Vendors in Portland Without Getting Overwhelmed",
     dek:"A practical process for turning hundreds of Portland wedding options into a vendor team that fits your budget, style and priorities.",
-    readTime:"8 min read",,
+    readTime:"8 min read",
     relatedSlugs:["which-wedding-vendors-should-you-book-first","portland-wedding-vendor-contract-guide","portland-wedding-vendor-response-time-guide"],
     sections:[
       {heading:"Start with your wedding, not the vendor list", paragraphs:["Before comparing businesses, write down your budget, guest count, wedding area, vibe and top priorities. Those decisions eliminate options that are not a fit and make every vendor conversation more useful."]},
@@ -252,7 +252,7 @@ export const inspirationArticles: InspirationArticle[] = [
     category:"Planning",
     title:"Which wedding vendors should you book first?",
     dek:"A simple order of operations for building your Portland wedding team without creating unnecessary stress.",
-    readTime:"6 min read",,
+    readTime:"6 min read",
     relatedSlugs:["how-to-choose-portland-wedding-vendors","portland-wedding-vendor-contract-guide","portland-wedding-vendor-availability-comparison-guide"],
     sections:[
       {heading:"Book dependencies before details",paragraphs:["Start with the decisions that establish the date, location, budget framework or overall planning approach. Those choices affect which vendors are eligible and what services you actually need.","Avoid booking a detail simply because it is fun to shop for if a later venue rule could make the booking unusable."]},
@@ -269,7 +269,7 @@ export const inspirationArticles: InspirationArticle[] = [
     category:"Local Ideas",
     title:"Ways to make your Portland wedding feel more personal",
     dek:"Thoughtful details that connect your celebration to the city, your story and the people you love.",
-    readTime:"5 min read",,
+    readTime:"5 min read",
     relatedSlugs:["portland-wedding-portland-guest-weekend-guide","portland-wedding-guest-experience-guide","portland-wedding-ceremony-guide"],
     sections:[
       {heading:"Start with what is actually specific to you",paragraphs:["Before choosing details, list the places, people, routines, foods, music and stories that genuinely belong to your relationship. Personalization feels strongest when it comes from something recognizable rather than a trend with your names added to it.","Choose two or three threads that can appear naturally across the day. Repetition creates coherence; trying to make every object meaningful usually creates clutter."]},
@@ -286,15 +286,15 @@ export const inspirationArticles: InspirationArticle[] = [
     category:"Venues",
     title:"35 questions to ask on a wedding venue tour",
     dek:"Take this list with you so you can compare Portland venues on more than looks alone.",
-    readTime:"8 min read",,
+    readTime:"8 min read",
     relatedSlugs:["outdoor-wedding-venues-portland-guide","affordable-portland-wedding-venues","portland-wedding-venue-contract-guide"],
     sections:[
       {heading:"Availability and timing", bullets:["Is our date available?","How many weddings do you host in one day?","How many rental hours are included?","When can vendors begin setup?","What time must the event end?","Is rehearsal time included?"]},
       {heading:"Money and contract", bullets:["What is the rental fee?","What taxes and service charges are added?","What deposit is required?","What is the payment schedule?","What is the cancellation/postponement policy?","Are there minimum spends?","Is event insurance required?"]},
       {heading:"Food, drink and vendors", bullets:["Is catering in-house or can we choose our own?","Is there a preferred or required vendor list?","Can we bring our own alcohol?","Are there corkage or cake-cutting fees?","What kitchen/prep space is available?"]},
       {heading:"Spaces and logistics", bullets:["What is the seated capacity?","What is the rain plan?","Are tables and chairs included?","Are there getting-ready suites?","Is the property accessible?","How many restrooms are available?","Where do guests park?","Is rideshare pickup easy?","Are candles or open flames permitted?","Are there décor restrictions?","Are there sound limits?","Is there power for a band/DJ?","Who handles setup and cleanup?","Who is on site during the event?","Can we leave items overnight?","Is there a secure place for gifts/cards?","Where do vendors load in?","Are pets allowed?","What hotel options are nearby?"]}
-    ],,
-    checklist:["Save the venue's all-in estimated cost","Photograph or note the rain-plan space","Confirm guest capacity for your actual layout","Record setup and hard-exit times","Confirm catering and alcohol rules","Check parking, rideshare and accessibility","Identify required or restricted vendors","Compare contract and cancellation terms"]
+    ],
+    checklist:["Save the venue's all-in estimated cost","Photograph or note the rain-plan space","Confirm guest capacity for your actual layout","Record setup and hard-exit times","Confirm catering and alcohol rules","Check parking, rideshare and accessibility","Identify required or restricted vendors","Compare contract and cancellation terms"],
     faq:[{question:"Should we ask every venue the same questions?",answer:"Use the same core questions for every venue so you can compare answers directly, then add property-specific questions based on what you see during the tour."},{question:"What should we photograph during a venue tour?",answer:"With permission, photograph ceremony and reception spaces, the weather backup, getting-ready rooms, restrooms, loading access, parking and any areas whose size or condition you may otherwise forget."},{question:"When should we ask for a contract?",answer:"If a venue remains a serious option after the tour, ask for the current proposal and contract before making the final decision so fees, restrictions, payment terms and responsibilities can be reviewed in writing."}]
   },
   {
@@ -302,7 +302,7 @@ export const inspirationArticles: InspirationArticle[] = [
     category:"Budget",
     title:"How to build a wedding budget that feels realistic",
     dek:"Start with priorities and total cost instead of guessing category percentages.",
-    readTime:"7 min read",,
+    readTime:"7 min read",
     relatedSlugs:["portland-wedding-budget-guide","portland-wedding-budget-contingency-guide","which-wedding-vendors-should-you-book-first"],
     sections:[
       {heading:"Start with the money that actually exists", paragraphs:["Before researching vendors, decide the amount you are comfortable spending and identify who is contributing. Avoid building a plan around money that has not been clearly offered or committed."]},
@@ -321,7 +321,7 @@ export const inspirationArticles: InspirationArticle[] = [
     category:"Portland Guide",
     title:"A practical Portland wedding weather and season guide",
     dek:"What to consider when planning around rain, heat, daylight and seasonal guest comfort in the Portland area.",
-    readTime:"6 min read",,
+    readTime:"6 min read",
     relatedSlugs:["best-time-year-portland-wedding","outdoor-wedding-venues-portland-guide","portland-wedding-rain-plan-guide","portland-wedding-local-rainy-guest-comfort-guide"],
     sections:[
       {heading:"Spring", paragraphs:["Spring can deliver lush greenery and beautiful blooms, but outdoor plans should have a polished rain backup. Covered cocktail spaces and flexible portrait locations are especially valuable."]},
