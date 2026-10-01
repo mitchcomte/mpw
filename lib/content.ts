@@ -2488,6 +2488,150 @@ export const inspirationArticles: InspirationArticle[] = [
       {question:"Should the honeymoon be included in the wedding budget?",answer:"You can track it separately or together, but separating the trip can make tradeoffs and cash flow easier to see."},
       {question:"Does MPW recommend travel insurance?",answer:"MPW can flag it as a planning consideration, but coverage decisions should be based on policy terms and qualified provider guidance."}
     ]
+  },
+  {
+    slug:"portland-wedding-venue-coat-check-guide",category:"Venues",title:"Coat Check and Wet-Weather Storage: A Portland Wedding Detail Guests Feel Immediately",dek:"Plan where coats, umbrellas and damp outerwear go so a rainy arrival does not spill into ceremony seats and reception tables.",readTime:"7 min read",seoTitle:"Portland Wedding Coat Check & Rain Storage Guide",seoDescription:"Plan coat check, umbrella storage and wet-weather guest arrival logistics for a Portland wedding venue.",relatedSlugs:["portland-wedding-rain-plan-guide","portland-wedding-weather-and-season-guide","portland-wedding-guest-experience-guide"],sections:[
+      {heading:"Start at the guest entrance",paragraphs:["Walk the arrival route and identify where wet coats and umbrellas can be removed before guests enter the main event space."]},
+      {heading:"Capacity matters on a rainy day",paragraphs:["A few hooks may work in good weather but fail when nearly every guest arrives with outerwear. Ask what the venue normally does for winter events."]},
+      {heading:"Umbrellas need a safe landing place",paragraphs:["Wet umbrellas can create slippery floors and clutter. Use venue-approved stands, mats or storage."]},
+      {heading:"Decide whether the area is staffed",paragraphs:["A self-service rack and staffed coat check create different needs for space, security and retrieval."]},
+      {heading:"Plan the end-of-night rush",paragraphs:["Guests often retrieve belongings at once. Keep the exit route clear and make storage easy to navigate."]}
+    ],checklist:["Walk arrival route","Estimate coat capacity","Plan umbrella storage","Confirm mats/floor protection","Choose staffed/self-service","Plan departure flow"],faq:[
+      {question:"Does every Portland wedding need coat check?",answer:"No, but cool or wet-season weddings benefit from a deliberate place for outerwear."},
+      {question:"Who provides coat racks?",answer:"Venue inclusions vary. Confirm existing racks and whether additional rentals are needed."}
+    ]
+  },
+  {
+    slug:"portland-wedding-venue-neighbor-noise-guide",category:"Venues",title:"Venue Noise Limits and Neighbors: Know What Changes After the Sun Goes Down",dek:"Understand music limits, outdoor-speaker rules and end times before building the reception around late-night dancing.",readTime:"8 min read",seoTitle:"Portland Wedding Venue Noise Limit Guide",seoDescription:"Understand Portland wedding venue noise limits, outdoor music rules, curfews, neighbors and reception end-time planning.",relatedSlugs:["portland-wedding-venue-noise-curfew-guide","portland-wedding-dj-backup-plan-guide","portland-wedding-live-band-guide"],sections:[
+      {heading:"Ask for the venue's operational rule",paragraphs:["A general event end time may differ from the time amplified outdoor music must stop or move indoors."]},
+      {heading:"Sound limits can shape entertainment",paragraphs:["Bands, subwoofers and outdoor speakers may be affected differently. Share venue rules with entertainment providers before booking."]},
+      {heading:"Neighbor relationships matter",paragraphs:["Some properties operate near residences and enforce sound policies carefully. Treat those limits as part of the venue rather than something to negotiate on event night."]},
+      {heading:"Plan the transition before last call",paragraphs:["If outdoor sound ends earlier, move dancing, dessert or another reception moment intentionally rather than abruptly cutting the atmosphere."]},
+      {heading:"Get important limits in writing",paragraphs:["Use the venue agreement or written policies as the source of truth when planning entertainment."]}
+    ],checklist:["Confirm amplified-music cutoff","Ask indoor/outdoor differences","Share rules with DJ/band","Plan transition","Confirm event end time","Save written policy"],faq:[
+      {question:"Can a DJ simply turn down the music after a venue curfew?",answer:"Not necessarily. Some rules require amplified music to end or move indoors. Follow the venue's specific policy."},
+      {question:"Do noise limits apply to live bands too?",answer:"They can. Share venue sound rules with any entertainment provider."}
+    ]
+  },
+  {
+    slug:"portland-wedding-catering-vendor-meal-timing-guide",category:"Catering",title:"Vendor Meals: Feed the Team at the Time They Can Actually Eat",dek:"Coordinate meal counts and service timing around photographers, planners, DJs and other professionals who are still working during dinner.",readTime:"8 min read",seoTitle:"Portland Wedding Vendor Meal Timing Guide",seoDescription:"Plan Portland wedding vendor meals with counts, dietary needs, timing, seating and catering coordination.",relatedSlugs:["portland-wedding-vendor-meals-guide","portland-wedding-catering-guide","portland-wedding-day-timeline-guide"],sections:[
+      {heading:"Use contracts to build the meal count",paragraphs:["Some vendor agreements specify meal requirements. Review them early and give the caterer an accurate final count."]},
+      {heading:"Timing matters more than a fancy plate",paragraphs:["Photographers and DJs may need to finish eating before speeches or formal dances begin. Coordinate their meal with the reception timeline."]},
+      {heading:"Collect dietary needs",paragraphs:["Working vendors can have allergies or dietary restrictions just like guests. Ask the team and pass accurate information to catering."]},
+      {heading:"Choose a practical eating location",paragraphs:["Vendor seating should be close enough that professionals can return quickly when needed without occupying guest tables unless that is the plan."]},
+      {heading:"Tell the caterer who is working",paragraphs:["A clear vendor list helps staff distinguish working-team meals from late guest plates or other counts."]}
+    ],checklist:["Review meal clauses","Count working vendors","Collect dietary needs","Set service timing","Choose vendor eating area","Give caterer final list"],faq:[
+      {question:"Do wedding vendors need meals?",answer:"Check each contract and discuss long coverage periods with the vendor. Requirements vary."},
+      {question:"When should vendors eat?",answer:"Coordinate with the planner and caterer so they can eat without missing responsibilities such as speeches or dances."}
+    ]
+  },
+  {
+    slug:"portland-wedding-catering-leftovers-guide",category:"Catering",title:"Wedding Food Leftovers: Ask Before Assuming You Can Take Them Home",dek:"Understand food-safety, packaging and venue policies before planning a midnight refrigerator full of reception leftovers.",readTime:"7 min read",seoTitle:"Wedding Catering Leftovers Guide | Portland",seoDescription:"Plan for wedding catering leftovers with food-safety, packaging, venue, caterer and post-event transportation considerations.",relatedSlugs:["portland-wedding-catering-guide","portland-wedding-late-night-snack-guide","portland-wedding-vendor-meals-guide"],sections:[
+      {heading:"Ask the caterer before the wedding",paragraphs:["Policies about releasing leftover prepared food vary. Do not assume every item can be packed and taken away."]},
+      {heading:"Food safety controls the answer",paragraphs:["Temperature, time and handling affect whether food can safely leave service. Follow the caterer's professional guidance."]},
+      {heading:"Packaging may not be included",paragraphs:["If leftovers can be released, ask whether containers are supplied and who packs them."]},
+      {heading:"Assign transportation and refrigeration",paragraphs:["Food that leaves the venue needs an actual destination. A couple heading to an after-party or hotel may not be able to manage it."]},
+      {heading:"Cake and specialty desserts may have separate rules",paragraphs:["Coordinate with the relevant provider about boxes, storage and pickup for remaining desserts."]}
+    ],checklist:["Ask leftover policy","Follow food-safety guidance","Confirm containers","Assign pickup person","Plan refrigeration","Check dessert packaging"],faq:[
+      {question:"Can we take wedding catering leftovers home?",answer:"Possibly, but caterer, venue and food-safety policies vary. Ask before the event."},
+      {question:"Who packs wedding leftovers?",answer:"That depends on the catering agreement. Confirm whether staff can package approved leftovers."}
+    ]
+  },
+  {
+    slug:"portland-wedding-floral-candle-guide",category:"Florists",title:"Flowers and Candles Together: Build the Table as One Design",dek:"Coordinate flame rules, vessel heights and floral scale so centerpieces and candlelight work together safely and visually.",readTime:"8 min read",seoTitle:"Portland Wedding Flowers & Candle Design Guide",seoDescription:"Coordinate wedding flowers and candles with venue flame rules, centerpiece scale, table space and rental design.",relatedSlugs:["portland-wedding-centerpiece-guide","portland-wedding-floral-color-palette-guide","portland-wedding-rental-tabletop-guide"],sections:[
+      {heading:"Check the venue's flame rule first",paragraphs:["Open flame, enclosed flame and flameless candles may be treated differently. The design should begin with what the venue permits."]},
+      {heading:"Design candles and flowers together",paragraphs:["Adding candles after centerpieces are finalized can overcrowd tables. Give the florist the complete tabletop plan."]},
+      {heading:"Use varied heights intentionally",paragraphs:["Tapers, votives and arrangements can create depth while maintaining guest sightlines and safe spacing."]},
+      {heading:"Account for dinner service",paragraphs:["Family-style platters and shared bottles may need the same table real estate as décor."]},
+      {heading:"Assign setup and removal",paragraphs:["Clarify whether candles belong to the florist, rental company, venue or couple and who handles them after the event."]}
+    ],checklist:["Confirm flame policy","Share table dimensions","Coordinate florist/rentals","Protect meal-service space","Choose candle heights","Assign setup/removal"],faq:[
+      {question:"Can candles be placed inside floral centerpieces?",answer:"The florist and venue should determine safe, permitted placement based on the design and flame rules."},
+      {question:"Who supplies wedding candles?",answer:"It varies by florist, rental company and venue. Confirm ownership and setup responsibility."}
+    ]
+  },
+  {
+    slug:"portland-wedding-flower-budget-priority-guide",category:"Florists",title:"Where to Spend the Floral Budget: Put Flowers Where They Change the Room",dek:"Rank personal flowers, ceremony impact and reception moments before spreading the budget evenly across every surface.",readTime:"9 min read",seoTitle:"Portland Wedding Flower Budget Priority Guide",seoDescription:"Prioritize a Portland wedding flower budget across bouquets, ceremony installations, centerpieces, statement pieces and repurposing.",relatedSlugs:["portland-wedding-flower-cost-guide","portland-wedding-floral-repurpose-guide","portland-wedding-centerpiece-guide"],sections:[
+      {heading:"Choose the photographs and spaces that matter most",paragraphs:["Bouquets, ceremony backdrops and reception focal points often appear repeatedly in photographs. Identify which visual moments matter to you."]},
+      {heading:"Scale matters more than flower count",paragraphs:["A few appropriately scaled designs can have more impact than many small arrangements that disappear in a large room."]},
+      {heading:"Use non-floral elements deliberately",paragraphs:["Candles, linens, foliage and rental pieces can carry part of the visual design without pretending they are always cheaper."]},
+      {heading:"Repurpose only when logistics work",paragraphs:["Moving arrangements can extend their use, but labor and timing should be considered before counting the savings."]},
+      {heading:"Give the florist permission to allocate",paragraphs:["Once priorities are clear, ask the professional how they would distribute the available budget for maximum effect."]}
+    ],checklist:["Rank floral moments","Identify photo priorities","Consider room scale","Discuss non-floral elements","Evaluate repurposing","Ask florist allocation advice"],faq:[
+      {question:"Where should we spend the most on wedding flowers?",answer:"There is no universal answer. Prioritize the spaces and personal flowers that matter most to your wedding and venue."},
+      {question:"Are candles always cheaper than flowers?",answer:"Not necessarily. Rental quantity, setup and venue requirements affect cost."}
+    ]
+  },
+  {
+    slug:"portland-wedding-dj-dinner-music-guide",category:"DJs",title:"Dinner Music at Weddings: Keep the Room Warm Without Fighting Conversation",dek:"Build a dinner soundtrack around energy and volume rather than treating it as a forgotten playlist between entrances and dancing.",readTime:"7 min read",seoTitle:"Portland Wedding Dinner Music Guide",seoDescription:"Plan wedding dinner music with DJ guidance on style, volume, guest conversation, speeches and the transition to dancing.",relatedSlugs:["how-to-choose-portland-wedding-dj","portland-wedding-dj-song-request-guide","portland-wedding-dj-mc-guide"],sections:[
+      {heading:"Give the DJ a mood, not 90 required songs",paragraphs:["A few artists or examples can communicate whether dinner should feel romantic, upbeat, classic or eclectic."]},
+      {heading:"Volume should support conversation",paragraphs:["Dinner music creates atmosphere but guests still need to talk comfortably at their tables."]},
+      {heading:"Plan around speeches",paragraphs:["The DJ should know when to fade music and prepare microphones so transitions into toasts are clean."]},
+      {heading:"Let energy build toward dancing",paragraphs:["Dinner does not need to sound like cocktail hour forever. The musical tone can gradually become more energetic as formalities end."]},
+      {heading:"Use your taste",paragraphs:["Instrumental covers and wedding standards are optional. Dinner can reflect the same musical personality as the rest of the event."]}
+    ],checklist:["Choose dinner mood","Give artist/song examples","Set conversational volume","Coordinate speeches","Plan energy transition","Flag do-not-plays"],faq:[
+      {question:"Do we need a separate dinner playlist?",answer:"Not necessarily. The DJ can build dinner music from your overall preferences and the desired atmosphere."},
+      {question:"Can dinner music have lyrics?",answer:"Yes. Choose music that fits your preferences and allows comfortable conversation."}
+    ]
+  },
+  {
+    slug:"portland-wedding-dj-speech-audio-guide",category:"DJs",title:"Wedding Speech Audio: Make the Toasts Hearable Before Worrying About the Champagne",dek:"Plan microphones, speaker coverage and handoffs so guests can understand the people speaking.",readTime:"8 min read",seoTitle:"Portland Wedding Speech Microphone & Audio Guide",seoDescription:"Plan wedding speech audio with microphones, speaker placement, sound checks, handoffs and DJ coordination.",relatedSlugs:["portland-wedding-ceremony-audio-guide","portland-wedding-dj-mc-guide","portland-wedding-video-audio-guide"],sections:[
+      {heading:"Use the microphone even when the room feels small",paragraphs:["A room with guests, music and table noise can be harder to hear than an empty venue. Let the DJ recommend amplification."]},
+      {heading:"Choose the right microphone workflow",paragraphs:["A handheld mic can be passed between speakers while other formats may fit different setups. Keep the process simple."]},
+      {heading:"Teach speakers how to hold it",paragraphs:["A quick reminder to keep the microphone close can improve clarity more than sophisticated equipment used poorly."]},
+      {heading:"Coordinate video recording",paragraphs:["If a videographer records speeches, DJ and video teams can coordinate audio feeds or independent recording methods."]},
+      {heading:"Test before guests need it",paragraphs:["Sound check speaker coverage and microphone operation before formal toasts begin."]}
+    ],checklist:["Confirm speech microphone","Sound-check room","Brief speakers","Plan mic handoff","Coordinate videographer","Set toast cue"],faq:[
+      {question:"Can speakers give wedding toasts without a microphone?",answer:"It may be difficult for all guests to hear. Ask the DJ or audio provider what the room requires."},
+      {question:"Does the videographer record from the DJ microphone?",answer:"Workflows vary. The video team may use a feed, independent recorders or both."}
+    ]
+  },
+  {
+    slug:"portland-wedding-beauty-touchup-guide",category:"Hair & Makeup",title:"Wedding Beauty Touchups: Pack What You Will Use, Not a Second Makeup Kit",dek:"Ask the artist which few products matter for your look and build a small touchup plan for the long day.",readTime:"7 min read",seoTitle:"Wedding Hair & Makeup Touchup Kit Guide",seoDescription:"Build a practical wedding beauty touchup kit for lipstick, shine, hair, weather and long-wear makeup.",relatedSlugs:["portland-wedding-makeup-longevity-guide","portland-wedding-beauty-timeline-guide","portland-wedding-day-emergency-kit-guide"],sections:[
+      {heading:"Ask the artist what the look actually needs",paragraphs:["Lip color, blotting papers, powder or a few hairpins may be enough. Product needs depend on the finished style."]},
+      {heading:"Keep the kit physically small",paragraphs:["A compact bag is easier for an attendant or planner to keep nearby than a full cosmetics case."]},
+      {heading:"Plan for the weather you may encounter",paragraphs:["Rain, wind or heat can affect hair and makeup differently. Ask the artist what adjustments are appropriate."]},
+      {heading:"Know who carries it",paragraphs:["A touchup kit left in a locked hotel room cannot help. Assign it to someone who will be near you."]},
+      {heading:"Do not overcorrect during the day",paragraphs:["Repeated powder or product can build up. Follow the artist's guidance for refreshing the look."]}
+    ],checklist:["Ask artist product list","Pack lip product","Add approved shine control","Add hair essentials","Choose kit carrier","Keep kit accessible"],faq:[
+      {question:"Should I buy the wedding lipstick?",answer:"Ask the makeup artist whether they provide a touchup sample or recommend purchasing the exact product."},
+      {question:"Do I need powder for wedding touchups?",answer:"Not everyone does. Use the artist's recommendation for your skin and makeup finish."}
+    ]
+  },
+  {
+    slug:"portland-wedding-dress-transport-guide",category:"Bridal",title:"Transporting the Wedding Dress: Car Doors, Garment Bags and the Trip to the Venue",dek:"Plan how the gown physically gets from alterations or hotel to the dressing room without making the wedding morning a fabric obstacle course.",readTime:"7 min read",seoTitle:"Wedding Dress Transportation Guide | Portland",seoDescription:"Safely plan wedding dress transportation with garment bags, vehicles, venue arrival, hanging space and garment-care instructions.",relatedSlugs:["portland-wedding-dress-alterations-guide","portland-wedding-dress-steaming-guide","portland-wedding-getting-ready-guide"],sections:[
+      {heading:"Follow the bridal shop's packing instructions",paragraphs:["Garment construction affects how it should be bagged, folded or hung. Use the professional's guidance for the specific dress."]},
+      {heading:"Choose the vehicle before wedding morning",paragraphs:["Large skirts and trains may not fit comfortably in a packed car. Make sure the garment has clean, protected space."]},
+      {heading:"Know where it hangs at the venue",paragraphs:["Identify a sturdy, appropriate hanging location away from food, drinks and crowded walkways."]},
+      {heading:"Keep the dress with a responsible person",paragraphs:["Assign one person to oversee transport and handoff rather than assuming someone in the wedding party grabbed it."]},
+      {heading:"Leave time for garment preparation",paragraphs:["Arrival should allow any approved steaming or final preparation before dressing and photography."]}
+    ],checklist:["Get packing instructions","Choose suitable vehicle","Assign dress carrier","Confirm venue hanging space","Allow prep time","Keep garment away from food/drinks"],faq:[
+      {question:"Can a wedding dress be folded for transportation?",answer:"That depends on the garment. Follow the bridal shop or alterations professional's instructions."},
+      {question:"Who should transport the dress?",answer:"Choose a specific trusted person and make the responsibility explicit."}
+    ]
+  },
+  {
+    slug:"portland-wedding-formalwear-accessories-guide",category:"Formalwear",title:"Wedding Formalwear Accessories: Finish the Look Without Turning It Into a Checklist",dek:"Choose shoes, ties, belts, suspenders and pocket details as one outfit instead of adding accessories independently.",readTime:"7 min read",seoTitle:"Wedding Suit & Tux Accessories Guide | Portland",seoDescription:"Coordinate wedding formalwear accessories including shoes, ties, belts, suspenders, pocket squares, socks and jewelry.",relatedSlugs:["portland-wedding-suit-tux-guide","portland-wedding-formalwear-fitting-guide","portland-wedding-suit-color-guide"],sections:[
+      {heading:"Start with the suit or tux",paragraphs:["Accessories should support the cut, color and formality of the main garment rather than competing with it."]},
+      {heading:"Coordinate leather deliberately",paragraphs:["Shoes and belts do not need obsessive matching, but they should look intentional within the outfit."]},
+      {heading:"Choose tie and pocket details separately",paragraphs:["Exact matching can look overly packaged. Coordinated color or texture often gives the outfit more depth."]},
+      {heading:"Remember practical pieces",paragraphs:["Socks, undershirts, cuff links or shirt stays may matter more to comfort than another decorative accessory."]},
+      {heading:"Lay out the complete outfit before the wedding",paragraphs:["A full try-on catches missing pieces while there is still time to replace them."]}
+    ],checklist:["Confirm shoes","Choose belt/suspenders","Choose tie/bow tie","Choose pocket detail","Check socks/jewelry","Do complete try-on"],faq:[
+      {question:"Do ties and pocket squares need to match?",answer:"No. They can coordinate without being identical."},
+      {question:"Can suspenders and a belt be worn together?",answer:"They generally serve the same functional purpose; ask the formalwear provider how the outfit is intended to be worn."}
+    ]
+  },
+  {
+    slug:"portland-wedding-honeymoon-name-change-travel-guide",category:"Honeymoons",title:"Honeymoon Travel and Name Changes: Book the Trip Under the Documents You Will Actually Use",dek:"Keep reservations aligned with current identification and verify official requirements before changing travel documents.",readTime:"8 min read",seoTitle:"Honeymoon Travel After Wedding Name Change Guide",seoDescription:"Plan honeymoon travel around legal-name changes, passports, identification and reservations using current official requirements.",relatedSlugs:["portland-wedding-honeymoon-departure-guide","portland-wedding-honeymoon-packing-guide","portland-wedding-honeymoon-budget-guide"],sections:[
+      {heading:"Reservations should match the travel document",paragraphs:["Airline and border requirements are document-specific. Book using the name that will appear on the identification or passport used for the trip."]},
+      {heading:"A wedding does not automatically update every document",paragraphs:["Legal-name-change processes and document updates are separate administrative steps. Do not assume records change immediately after the ceremony."]},
+      {heading:"Timing matters for international travel",paragraphs:["Passport processing and destination entry requirements can change. Verify current information with official government sources before making document decisions."]},
+      {heading:"Keep confirmation names consistent",paragraphs:["Flights, loyalty accounts and other reservations can become complicated when names differ. Check important bookings before departure."]},
+      {heading:"Use official sources for legal and travel requirements",paragraphs:["MPW can flag the planning issue, but government agencies and carriers provide the authoritative current requirements."]}
+    ],checklist:["Choose travel-document name","Match flight reservation","Check passport validity","Verify destination requirements","Review other bookings","Delay document changes if appropriate"],faq:[
+      {question:"Should I book my honeymoon in my new last name?",answer:"Book under the name that will match the identification or passport you will actually use, and verify carrier requirements."},
+      {question:"Does marriage automatically change my passport name?",answer:"No. Document changes require their own process. Check current official government instructions."}
+    ]
   }
 ];
 
