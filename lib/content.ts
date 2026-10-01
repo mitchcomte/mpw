@@ -1912,6 +1912,150 @@ export const inspirationArticles: InspirationArticle[] = [
       {question:"Does next-day wedding content mean edited reels?",answer:"Not always. Ask whether the stated turnaround applies to raw clips, edited pieces or both."},
       {question:"Who owns wedding content-creator clips?",answer:"Usage and ownership depend on the service agreement. Review the creator's contract and permissions."}
     ]
+  },
+  {
+    slug:"portland-wedding-venue-catering-rules-guide",category:"Venues",title:"Venue Catering Rules: Preferred Lists, Exclusivity and What They Mean for Your Wedding",dek:"Understand food and beverage restrictions before booking so your venue choice does not quietly determine the rest of the reception budget.",readTime:"9 min read",seoTitle:"Portland Wedding Venue Catering Rules Guide",seoDescription:"Understand Portland wedding venue catering rules, preferred vendors, exclusive caterers, kitchen access, minimums and outside-food policies.",relatedSlugs:["best-portland-wedding-venues-guide","portland-wedding-catering-guide","portland-wedding-venue-contract-guide"],sections:[
+      {heading:"Ask whether catering is open, preferred or exclusive",paragraphs:["Those models create very different choices. A preferred list may still allow outside vendors, while an exclusive arrangement can tie food service directly to the venue."]},
+      {heading:"Kitchen access changes what caterers can do",paragraphs:["Prep space, refrigeration, cooking restrictions and loading access can shape menus and staffing. Outside caterers should understand the facility before quoting."]},
+      {heading:"Minimums belong in the venue comparison",paragraphs:["Food-and-beverage minimums can be as important as the room rental. Compare the complete required spend rather than the venue fee alone."]},
+      {heading:"Outside food needs explicit approval",paragraphs:["Desserts, cultural foods, late-night snacks and food trucks may fall under venue or caterer rules. Ask before booking a specialty provider."]},
+      {heading:"Clarify cleanup and waste",paragraphs:["Catering responsibilities may include bussing, trash, kitchen cleanup or removal. Know where venue responsibility ends."]}
+    ],checklist:["Identify catering model","Review approved-vendor rules","Inspect kitchen access","Record minimums","Ask specialty-food policy","Confirm cleanup scope"],faq:[
+      {question:"Can a Portland wedding venue require a specific caterer?",answer:"Venue policies vary. Confirm any exclusive or preferred catering requirements before signing the venue contract."},
+      {question:"Can we bring our own dessert to a catered venue?",answer:"Possibly, but venue and caterer policies may apply. Get approval before booking the dessert provider."}
+    ]
+  },
+  {
+    slug:"portland-wedding-venue-alcohol-rules-guide",category:"Venues",title:"Wedding Venue Alcohol Rules: Ask Who Can Serve, Who Can Supply and When Service Ends",dek:"Understand the venue's bar structure before choosing drinks, bartenders or a mobile bar.",readTime:"9 min read",seoTitle:"Portland Wedding Venue Alcohol Rules Guide",seoDescription:"Plan around Portland wedding venue alcohol rules including licensed service, sourcing, bartenders, service hours and bar restrictions.",relatedSlugs:["best-portland-wedding-venues-guide","portland-wedding-mobile-bar-guide","portland-wedding-bar-menu-guide"],sections:[
+      {heading:"Separate alcohol supply from alcohol service",paragraphs:["Some venues supply beverages, some allow couples or caterers to source them, and others require a specific bar program. Ask who controls each part."]},
+      {heading:"Confirm who is permitted to serve",paragraphs:["Alcohol service is regulated and venue policies can add requirements. Use appropriately authorized providers and follow current venue and Oregon requirements."]},
+      {heading:"Ask when service can begin and must end",paragraphs:["Bar hours may differ from event hours. These limits affect cocktail hour, last call and transportation planning."]},
+      {heading:"Specialty bars still need approval",paragraphs:["Mobile bars, champagne walls or satellite stations may require venue approval, power, space or additional staffing."]},
+      {heading:"Put the bar rules into the vendor search",paragraphs:["Knowing the venue model first prevents couples from booking a bartender or package the property cannot accommodate."]}
+    ],checklist:["Identify beverage sourcing model","Confirm approved servers","Record service hours","Ask mobile/satellite bar rules","Check insurance requirements","Share rules with bar provider"],faq:[
+      {question:"Can couples supply their own alcohol at a wedding venue?",answer:"It depends on the venue and applicable rules. Confirm the current policy before purchasing alcohol."},
+      {question:"Can a friend bartend our wedding?",answer:"Do not assume so. Alcohol service requirements and venue policies may require appropriately authorized or insured professionals."}
+    ]
+  },
+  {
+    slug:"portland-wedding-catering-staffing-guide",category:"Catering",title:"Wedding Catering Staffing: The People Behind a Smooth Dinner",dek:"Understand servers, captains, bartenders and bussing so a catering quote reflects the service experience you expect.",readTime:"9 min read",seoTitle:"Portland Wedding Catering Staffing Guide",seoDescription:"Understand Portland wedding catering staffing for plated, buffet and family-style service, including captains, servers, bussing and bar coordination.",relatedSlugs:["portland-wedding-catering-guide","portland-wedding-buffet-plated-family-style-guide","portland-wedding-vendor-meals-guide"],sections:[
+      {heading:"Service style drives staffing",paragraphs:["Plated dinner, buffet and family-style service each create different labor needs. Compare staffing only after the service format is clear."]},
+      {heading:"Ask who manages the floor",paragraphs:["A banquet captain or catering lead can coordinate service timing with the planner, kitchen and speeches. Confirm who holds that role."]},
+      {heading:"Bussing affects the room all night",paragraphs:["Clearing glassware, plates and trash keeps tables usable and photographs cleaner. Ask how bussing is handled after dinner and during dancing."]},
+      {heading:"Bar staffing is its own traffic problem",paragraphs:["Guest count, menu complexity and number of stations affect bar lines. Catering and bar teams should coordinate if they are separate companies."]},
+      {heading:"Compare labor hours, not just headcount",paragraphs:["Setup, service and cleanup may extend beyond guest-facing event hours. Review the labor window in the proposal."]}
+    ],checklist:["Choose service style","Identify catering captain","Review server staffing","Confirm bussing","Coordinate bar staff","Review labor hours"],faq:[
+      {question:"How many servers does a wedding need?",answer:"There is no universal ratio that fits every service. Let the caterer recommend staffing based on menu, service style, venue and guest count."},
+      {question:"Why does catering labor extend past the reception?",answer:"Setup and cleanup can require substantial work before guests arrive and after they leave."}
+    ]
+  },
+  {
+    slug:"portland-wedding-menu-seasonality-guide",category:"Catering",title:"Seasonal Wedding Menus in Portland: Use the Time of Year Without Turning Dinner Into a Theme",dek:"Let season influence ingredients, temperature and service while keeping the menu centered on food you and your guests will enjoy.",readTime:"9 min read",seoTitle:"Portland Seasonal Wedding Menu Guide",seoDescription:"Plan a seasonal Portland wedding menu using ingredient availability, weather, service style and guest preferences.",relatedSlugs:["portland-wedding-catering-guide","best-time-year-portland-wedding","portland-wedding-weather-and-season-guide"],sections:[
+      {heading:"Season is a useful starting point, not a rule",paragraphs:["A summer menu can feel lighter and a cool-weather meal more comforting, but personal taste and caterer strengths matter more than forcing a seasonal concept."]},
+      {heading:"Ask what ingredients are reliably available",paragraphs:["Local and seasonal sourcing can vary. Let the caterer explain which ingredients are dependable for the wedding date and what substitutions may occur."]},
+      {heading:"Temperature affects service",paragraphs:["Outdoor heat or cold can change how dishes hold and how guests experience them. Menu and service method should fit the venue conditions."]},
+      {heading:"Use Oregon flavor selectively",paragraphs:["Regional produce or familiar Northwest flavors can create a sense of place without making every course announce its geography."]},
+      {heading:"Keep dietary flexibility in the menu",paragraphs:["A seasonal menu still needs workable accommodations for guests with confirmed dietary needs. Discuss those options during menu planning."]}
+    ],checklist:["Discuss seasonal ingredients","Review weather/service setting","Choose menu style","Ask substitution policy","Plan dietary options","Confirm final menu"],faq:[
+      {question:"Does a seasonal menu cost less?",answer:"Not automatically. Ingredient pricing, menu complexity and labor all affect cost. Ask the caterer about the specific proposal."},
+      {question:"Can we request locally sourced Oregon ingredients?",answer:"Yes, but availability and sourcing practices vary. Discuss priorities with the caterer early."}
+    ]
+  },
+  {
+    slug:"portland-wedding-floral-color-palette-guide",category:"Florists",title:"Wedding Floral Color Palettes: Give Your Florist Direction Without Matching Paint Chips",dek:"Build a flexible palette around mood, venue and attire so natural flower variation becomes part of the design.",readTime:"8 min read",seoTitle:"Portland Wedding Floral Color Palette Guide",seoDescription:"Create a Portland wedding floral color palette using venue, attire, season, texture and flexible color direction.",relatedSlugs:["portland-wedding-flower-cost-guide","portland-wedding-bouquet-guide","portland-wedding-flower-season-guide"],sections:[
+      {heading:"Describe the mood before naming every shade",paragraphs:["Words like airy, garden-inspired, saturated or earthy can help a florist understand how color should behave across the design."]},
+      {heading:"Use the venue as part of the palette",paragraphs:["Wall color, flooring, landscape and existing furniture already contribute color. Florals should respond to the actual setting."]},
+      {heading:"Natural materials have variation",paragraphs:["Flowers do not arrive as standardized paint swatches. Give the florist enough flexibility to work with the best available tones."]},
+      {heading:"Connect attire without overmatching it",paragraphs:["Bouquets and personal flowers can complement clothing without reproducing the exact fabric color. Share attire images for context."]},
+      {heading:"Let texture carry part of the design",paragraphs:["When a palette is restrained, shape, foliage and flower texture can create depth without adding more colors."]}
+    ],checklist:["Choose mood words","Photograph venue colors","Share attire","Select flexible palette","Discuss seasonal variation","Prioritize texture"],faq:[
+      {question:"Should wedding flowers exactly match bridesmaid dresses?",answer:"Not necessarily. Complementary tones and texture often create a more natural overall design than exact matching."},
+      {question:"Can florists guarantee exact flower colors?",answer:"Natural variation and availability make exact color matching difficult. Discuss acceptable ranges and substitutions."}
+    ]
+  },
+  {
+    slug:"portland-wedding-centerpiece-guide",category:"Florists",title:"Wedding Centerpieces: Design the Table Guests Actually Sit At",dek:"Balance flowers, candles, conversation and dinner service by designing from the complete table rather than the centerpiece alone.",readTime:"9 min read",seoTitle:"Portland Wedding Centerpiece Planning Guide",seoDescription:"Plan Portland wedding centerpieces around table size, sightlines, meal service, candles, rentals and floral budget.",relatedSlugs:["portland-wedding-flower-cost-guide","portland-wedding-rental-tabletop-guide","portland-wedding-floral-repurpose-guide"],sections:[
+      {heading:"Table size sets the boundaries",paragraphs:["Round, rectangular and family-style tables provide different usable footprints. Design should begin with the actual rental dimensions."]},
+      {heading:"Protect conversation sightlines",paragraphs:["Low arrangements and intentionally elevated designs can both work when guests can comfortably see across or beneath them."]},
+      {heading:"Leave room for food and glassware",paragraphs:["Family-style platters, wine bottles and multiple glasses need space. Florist, caterer and rental team should coordinate the tabletop."]},
+      {heading:"Varying designs can stretch visual interest",paragraphs:["Not every table needs the same arrangement. A deliberate mix of candles, bud vases and larger moments can create rhythm across the room."]},
+      {heading:"Check flame rules before buying candles",paragraphs:["Venues may require enclosed flames or prohibit certain candle setups. Confirm rules before the design is finalized."]}
+    ],checklist:["Confirm table dimensions","Review meal service","Set sightline approach","Coordinate tabletop rentals","Check candle rules","Choose centerpiece mix"],faq:[
+      {question:"Do all wedding tables need matching centerpieces?",answer:"No. A coordinated mix can create visual variety while staying within one overall design."},
+      {question:"How tall can wedding centerpieces be?",answer:"Height should account for sightlines, stability and venue rules. Review the complete design with the florist."}
+    ]
+  },
+  {
+    slug:"portland-wedding-dj-mc-guide",category:"DJs",title:"Wedding DJ vs. MC: The Music and the Microphone Are Two Different Skills",dek:"Evaluate announcements, introductions and room leadership alongside playlists when choosing who will guide the reception.",readTime:"9 min read",seoTitle:"Portland Wedding DJ & MC Guide",seoDescription:"Choose a Portland wedding DJ and MC by evaluating announcements, introductions, reception flow, microphone style and music.",relatedSlugs:["how-to-choose-portland-wedding-dj","portland-wedding-dj-do-not-play-guide","portland-wedding-day-timeline-guide"],sections:[
+      {heading:"Ask who will actually be on the microphone",paragraphs:["The person you meet during sales may not be the event DJ or MC. Confirm the wedding-day professional and their role."]},
+      {heading:"MC style should fit the room",paragraphs:["Some couples want energetic interaction while others prefer concise announcements. Describe the tone you want rather than asking only whether MC service is included."]},
+      {heading:"Pronunciation matters",paragraphs:["Names for introductions and wedding-party members should be provided phonetically when useful. A quick pre-event review can prevent awkward mistakes."]},
+      {heading:"The MC connects the timeline",paragraphs:["Introductions, dinner, toasts and dances often need clear transitions. The DJ and coordinator should agree on who cues each moment."]},
+      {heading:"Good microphone work can be understated",paragraphs:["An MC does not need to become the center of attention. Clear information and confident transitions may be exactly what the reception needs."]}
+    ],checklist:["Confirm event DJ/MC","Describe preferred tone","Provide pronunciations","Review formal introductions","Coordinate planner cues","Discuss guest interaction"],faq:[
+      {question:"Is the wedding DJ always the MC?",answer:"Often, but not always. Confirm who handles announcements and reception transitions."},
+      {question:"Can we ask the DJ to make very few announcements?",answer:"Yes. Discuss the level and style of microphone use you prefer before the wedding."}
+    ]
+  },
+  {
+    slug:"portland-wedding-dance-floor-guide",category:"DJs",title:"Wedding Dance Floors: Size, Placement and How to Make the Party Feel Full",dek:"Plan the floor around room shape, guest movement and entertainment rather than assuming bigger is always better.",readTime:"8 min read",seoTitle:"Portland Wedding Dance Floor Planning Guide",seoDescription:"Plan a Portland wedding dance floor with practical guidance on size, placement, DJ or band setup, lighting and guest flow.",relatedSlugs:["how-to-choose-portland-wedding-dj","portland-wedding-venue-layout-guide","portland-wedding-dj-lighting-guide"],sections:[
+      {heading:"A huge floor can feel empty",paragraphs:["The right scale depends on guest count, dancing habits and room shape. Rental and venue professionals can recommend dimensions for the event."]},
+      {heading:"Keep the floor visually connected",paragraphs:["Guests are more likely to join when dancing is part of the reception environment rather than isolated in a distant room."]},
+      {heading:"Protect paths around the floor",paragraphs:["Bars, restrooms and exits should not require guests or staff to cut directly through active dancing."]},
+      {heading:"DJ or band footprint belongs in the calculation",paragraphs:["Speakers, instruments and performance areas reduce usable space. Map them before choosing the floor size."]},
+      {heading:"Lighting changes how the floor feels",paragraphs:["A defined lighting zone can make a modest floor feel intentional and energetic once dancing begins."]}
+    ],checklist:["Estimate active dancers","Review room shape","Choose floor location","Add entertainment footprint","Protect traffic paths","Coordinate lighting"],faq:[
+      {question:"How big should a wedding dance floor be?",answer:"There is no single size. Use guest count, expected participation, room dimensions and rental or venue guidance."},
+      {question:"Do we need a rented dance floor?",answer:"Not if the venue already has a suitable surface. Confirm what is included and whether dancing is permitted there."}
+    ]
+  },
+  {
+    slug:"portland-wedding-hair-extension-guide",category:"Hair & Makeup",title:"Wedding Hair Extensions: Decide for the Style, Not Because Bridal Hair 'Requires' Them",dek:"Understand volume, length, color matching and trial timing before adding extensions to the wedding beauty plan.",readTime:"8 min read",seoTitle:"Portland Wedding Hair Extension Guide",seoDescription:"Plan wedding hair extensions with guidance on style goals, color matching, trials, installation, comfort and stylist coordination.",relatedSlugs:["portland-bridal-hair-makeup-guide","portland-wedding-hair-makeup-trial-guide","portland-wedding-beauty-timeline-guide"],sections:[
+      {heading:"Start with the hairstyle goal",paragraphs:["Extensions can add length or fullness, but not every style needs them. Ask the stylist whether they would meaningfully improve the chosen look."]},
+      {heading:"Color and texture matching matter",paragraphs:["Extensions should blend with the actual hair in both color and texture. Follow the stylist's recommendations for sourcing and preparation."]},
+      {heading:"Bring them to the trial",paragraphs:["The trial is the best time to test placement, comfort and whether the planned style works with the added hair."]},
+      {heading:"Understand installation and removal",paragraphs:["Clip-ins, tape-ins and other methods have different care and timing. Use a qualified professional for the selected method."]},
+      {heading:"Comfort matters for a long day",paragraphs:["A style that looks good for ten minutes should also feel secure through ceremony, portraits and dancing."]}
+    ],checklist:["Define hairstyle goal","Ask stylist if extensions help","Match color/texture","Bring to trial","Test comfort","Confirm wedding-day installation"],faq:[
+      {question:"Do I need extensions for wedding hair?",answer:"No. They are an optional tool for certain length, fullness or styling goals."},
+      {question:"When should extensions be purchased?",answer:"Coordinate with the stylist before buying so the type, color and preparation fit the planned style."}
+    ]
+  },
+  {
+    slug:"portland-wedding-makeup-longevity-guide",category:"Hair & Makeup",title:"Wedding Makeup That Lasts: Build the Plan Around Skin, Weather and Touchups",dek:"Use the trial and artist's preparation guidance to create a look designed for a long Portland wedding day.",readTime:"8 min read",seoTitle:"Portland Wedding Makeup Longevity Guide",seoDescription:"Plan long-lasting wedding makeup with skin preparation, trials, weather, tears, touchups and professional artist guidance.",relatedSlugs:["portland-bridal-hair-makeup-guide","portland-wedding-hair-makeup-trial-guide","portland-wedding-weather-and-season-guide"],sections:[
+      {heading:"Skin preparation starts before wedding morning",paragraphs:["Follow the makeup artist's skincare guidance and avoid last-minute experiments that could irritate the skin."]},
+      {heading:"Use the trial to test wear",paragraphs:["Keep the trial makeup on for several hours when practical and note how the finish changes through normal activity."]},
+      {heading:"Weather changes the strategy",paragraphs:["Heat, rain and dry indoor air can affect comfort and finish. Tell the artist about the venue and season."]},
+      {heading:"Choose touchup items intentionally",paragraphs:["Lip color, blotting products or powder may be useful depending on the look. Ask the artist what is actually needed rather than packing a full makeup bag."]},
+      {heading:"Tears are part of weddings",paragraphs:["Professional techniques can improve wear, but no makeup is invulnerable. Blot rather than rubbing and follow the artist's touchup advice."]}
+    ],checklist:["Follow artist skin prep","Test wear at trial","Discuss weather","Choose touchup products","Assign small beauty kit","Avoid new treatments late"],faq:[
+      {question:"Is wedding makeup waterproof?",answer:"Products and techniques vary. Ask the artist how they prepare for tears, weather and long wear."},
+      {question:"Should I get a facial right before the wedding?",answer:"Avoid unfamiliar treatments immediately before the event. Discuss skincare timing with qualified professionals who know your skin."}
+    ]
+  },
+  {
+    slug:"portland-wedding-suit-color-guide",category:"Formalwear",title:"Wedding Suit Colors: Choose for the Venue, Season and the Person Wearing It",dek:"Compare black, navy, gray, tan and other directions in the context of the full wedding rather than following a seasonal rulebook.",readTime:"8 min read",seoTitle:"Portland Wedding Suit Color Guide",seoDescription:"Choose wedding suit or tux colors using venue, season, formality, wedding palette and personal style.",relatedSlugs:["portland-wedding-suit-tux-guide","portland-wedding-formalwear-fitting-guide","best-time-year-portland-wedding"],sections:[
+      {heading:"Formality is more than color",paragraphs:["Fabric, lapels, shirt, shoes and accessories all affect how formal an outfit feels. Color is only one part of the complete look."]},
+      {heading:"Use the venue as context",paragraphs:["A dark ballroom, summer garden and mountain setting each interact differently with clothing. Review attire against the actual environment."]},
+      {heading:"Season can influence, not dictate",paragraphs:["Lighter tones may feel natural in warm months and deeper colors in cooler seasons, but personal style matters more than a rigid rule."]},
+      {heading:"Coordinate without matching the décor",paragraphs:["Formalwear can relate to the palette through ties, pocket squares or subtle tones without becoming another centerpiece."]},
+      {heading:"Photograph fabric samples when possible",paragraphs:["Colors can read differently in daylight and indoor lighting. Look at the complete outfit under realistic conditions."]}
+    ],checklist:["Choose formality level","Consider venue","Consider season","Coordinate wedding palette","Review fabric in light","Finalize accessories"],faq:[
+      {question:"Does a groom have to wear black?",answer:"No. Suit or tux color is a style and formality decision, not a universal requirement."},
+      {question:"Should wedding-party suits exactly match?",answer:"They can, but coordinated variations can also work when the overall direction is deliberate."}
+    ]
+  },
+  {
+    slug:"portland-wedding-ring-shopping-guide",category:"Jewelry",title:"Wedding Ring Shopping: Fit the Band to the Life You Actually Live",dek:"Compare metals, profiles, stones and maintenance with everyday comfort and long-term wear in mind.",readTime:"9 min read",seoTitle:"Portland Wedding Ring Shopping Guide",seoDescription:"Shop for wedding bands with practical guidance on metals, fit, width, stones, maintenance, lifestyle and pairing with an engagement ring.",relatedSlugs:["portland-wedding-ring-jewelry-guide","portland-wedding-ring-care-sizing-guide","portland-wedding-jewelry-insurance-guide"],sections:[
+      {heading:"Start with daily wear",paragraphs:["Work, hobbies, gloves and personal comfort can influence width, profile and material choices. Tell the jeweler how the ring will actually be worn."]},
+      {heading:"Try different widths and profiles",paragraphs:["Small changes can feel very different on the hand. Comfort-fit and flatter profiles may suit different preferences."]},
+      {heading:"Consider the engagement ring as a system",paragraphs:["Bands may sit flush, leave a gap or require a contour depending on the engagement-ring setting. Try them together before deciding."]},
+      {heading:"Understand maintenance",paragraphs:["Finishes, stones and metals wear differently. Ask about polishing, inspections, resizing and care before purchasing."]},
+      {heading:"Leave time for ordering or customization",paragraphs:["Custom work, engraving and special sizes can require additional lead time. Ask the jeweler for the actual schedule."]}
+    ],checklist:["Discuss lifestyle","Try widths/profiles","Pair with engagement ring","Compare metals","Ask maintenance","Confirm order timeline"],faq:[
+      {question:"Do wedding bands have to match each other?",answer:"No. Each person can choose the ring that fits their style, comfort and daily life."},
+      {question:"Should the wedding band sit flush with the engagement ring?",answer:"Only if that is your preference and the setting allows it. Gaps or contoured bands can also be intentional."}
+    ]
   }
 ];
 
