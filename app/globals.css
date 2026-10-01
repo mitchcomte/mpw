@@ -1405,3 +1405,19 @@ body{background-color:#fffaf6!important}
 .articleCategoryBridgeCopy h2{margin:0 0 8px;line-height:1.08}
 .articleCategoryBridgeButton{white-space:nowrap;min-width:190px;text-align:center;align-self:center}
 @media(max-width:760px){.magazineHeroPhoto{height:280px;max-width:100%;margin:-18px 0 30px}.articleCategoryBridge{grid-template-columns:1fr;gap:20px;padding:24px}.articleCategoryBridgeButton{width:100%;min-width:0}}
+
+/* Interactive editorial mini-tools */
+.venueDateTools{margin:46px 0 54px;padding:34px;border:1px solid rgba(177,139,98,.3);border-radius:24px;background:linear-gradient(135deg,#fffaf0,#edf2ed)}
+.venueToolsIntro{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:8px 28px;align-items:end}
+.venueToolsIntro .eyebrow,.venueToolsIntro h2,.venueToolsIntro p{grid-column:1}
+.venueToolsIntro h2{margin:3px 0 4px;font:2.15rem/1.08 Georgia,serif;color:#203d31}
+.venueToolsIntro p{margin:0;color:#5d6b64}
+.venueToolsIntro label{grid-column:2;grid-row:1/4;display:flex;flex-direction:column;gap:7px;font-size:.78rem;font-weight:800;color:#294b3b}
+.venueToolsIntro input{min-width:210px;padding:12px 14px;border:1px solid rgba(41,75,59,.28);border-radius:12px;background:#fff;font:inherit;color:#203d31}
+.venueToolGrid{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-top:26px}
+.venueToolCard{padding:25px;border-radius:18px;background:#fff;box-shadow:0 12px 30px rgba(44,62,52,.07)}
+.venueToolCard .toolIcon{display:block;font-size:1.8rem;margin-bottom:10px}.venueToolCard small{font-weight:900;letter-spacing:.12em;color:#9b704d}
+.venueToolCard h3{margin:5px 0 14px;font:1.45rem/1.15 Georgia,serif;color:#203d31}.venueToolCard p{margin:10px 0 0;color:#596961;line-height:1.6}
+.toolResult{display:flex;align-items:baseline;gap:10px;padding:12px 0;border-top:1px solid #eee5d6;border-bottom:1px solid #eee5d6}.toolResult b{font:2rem Georgia,serif;color:#294b3b}.toolResult span{font-size:.78rem;color:#7a827d}
+.venueToolsNote{margin:16px 2px 0;font-size:.76rem;color:#737d77}
+@media(max-width:760px){.venueDateTools{padding:24px 18px}.venueToolsIntro{grid-template-columns:1fr}.venueToolsIntro label{grid-column:1;grid-row:auto;margin-top:12px}.venueToolsIntro input{min-width:0;width:100%;font-size:16px}.venueToolGrid{grid-template-columns:1fr}.venueToolsIntro h2{font-size:1.8rem}}
