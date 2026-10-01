@@ -2825,13 +2825,16 @@ export const inspirationArticles: InspirationArticle[] = [
     publishedAt:"2026-10-01T00:00:00-07:00",
     updatedAt:"2026-10-01T00:00:00-07:00",
     reviewedBy:"My Portland Wedding Editorial",
-    relatedSlugs:[],
+    relatedSlugs:["portland-wedding-cake-dessert-guide","portland-wedding-cake-cutting-guide","portland-wedding-cake-display-table-guide"],
     sections:[
       {heading:"Build delivery into the timeline",paragraphs:["Treat this as a logistics decision rather than a last-minute detail. Confirm the people, timing and physical setup involved so the plan still works when the wedding day is busy."]},
       {heading:"Confirm who accepts the cake",paragraphs:["Ask the relevant vendor what their normal process includes, then compare it with the venue timeline and any other vendor responsibilities. Clear ownership prevents two teams from assuming the other one is handling the same task."]},
       {heading:"Prepare the display location",paragraphs:["Build the decision around your actual guest count, location and wedding format. A Portland-area celebration can involve city loading zones, rural travel, weather changes or venue-specific rules, so generic advice should be checked against the real site."]},
       {heading:"Know the temperature plan",paragraphs:["Put the final decision in the shared wedding timeline or vendor notes. Small operational details are easiest to execute when everyone who touches them can see the same plan."]},
-      {heading:"Coordinate the final handoff",paragraphs:["Confirm the final version during the last vendor check-in. If conditions, guest count or timing changed, update the plan rather than relying on an early assumption."]}
+      {heading:"Coordinate the final handoff",paragraphs:["Confirm the final version during the last vendor check-in. If conditions, guest count or timing changed, update the plan rather than relying on an early assumption."]},
+      {heading:"Give the baker a usable delivery window",paragraphs:["Coordinate cake delivery with venue access, room temperature, photography and other setup activity. The earliest possible arrival is not automatically the safest arrival if the cake will sit for hours or the display area is still being built.","Share one onsite contact who can answer placement questions without calling the couple."]},
+      {heading:"Prepare the final display before arrival",paragraphs:["Confirm the table, stand, linen, backdrop and any florals or décor that interact with the cake. If another vendor supplies an item, make sure it will be installed before the baker needs it.","Ask who is responsible for placing flowers, toppers or other finishing elements and whether the baker has restrictions on what may touch the cake."]},
+      {heading:"Plan the handoff after setup",paragraphs:["Once the cake is placed, establish who is responsible for the display area, cutting time, kitchen transfer and leftovers. Delivery completion should not create an ownership gap.","Put the delivery contact, cutting time and service responsibility into the master plan; Wedding Builder and your saved couple planning can keep the cake decision connected to catering, venue and timeline."]}
     ],
     checklist:["Confirm the responsible vendor or person","Check the venue rules","Add the decision to the wedding timeline","Share it with affected vendors","Reconfirm during the final planning check-in"],
     faq:[
@@ -2928,13 +2931,16 @@ export const inspirationArticles: InspirationArticle[] = [
     publishedAt:"2026-10-01T00:00:00-07:00",
     updatedAt:"2026-10-01T00:00:00-07:00",
     reviewedBy:"My Portland Wedding Editorial",
-    relatedSlugs:[],
+    relatedSlugs:["wedding-invitation-stationery-timeline-guide","portland-wedding-invitation-addressing-guide","portland-wedding-invitation-postage-guide"],
     sections:[
       {heading:"Proof facts before design details",paragraphs:["Treat this as a logistics decision rather than a last-minute detail. Confirm the people, timing and physical setup involved so the plan still works when the wedding day is busy."]},
       {heading:"Read every line out of context",paragraphs:["Ask the relevant vendor what their normal process includes, then compare it with the venue timeline and any other vendor responsibilities. Clear ownership prevents two teams from assuming the other one is handling the same task."]},
       {heading:"Verify addresses independently",paragraphs:["Build the decision around your actual guest count, location and wedding format. A Portland-area celebration can involve city loading zones, rural travel, weather changes or venue-specific rules, so generic advice should be checked against the real site."]},
       {heading:"Test every QR code and URL",paragraphs:["Put the final decision in the shared wedding timeline or vendor notes. Small operational details are easiest to execute when everyone who touches them can see the same plan."]},
-      {heading:"Get one fresh set of eyes",paragraphs:["Confirm the final version during the last vendor check-in. If conditions, guest count or timing changed, update the plan rather than relying on an early assumption."]}
+      {heading:"Get one fresh set of eyes",paragraphs:["Confirm the final version during the last vendor check-in. If conditions, guest count or timing changed, update the plan rather than relying on an early assumption."]},
+      {heading:"Proof information before typography",paragraphs:["Verify names, date, day of week, ceremony time, venue name, address, RSVP deadline and website information as plain facts first. A beautifully designed proof can make the eye skim over an incorrect number or familiar name.","Check important details against the original source—the venue contract, final schedule or confirmed address—rather than another draft that may contain the same mistake."]},
+      {heading:"Proof in different formats",paragraphs:["Read the wording aloud, then inspect a printed proof at approximately final size when possible. Small type, line breaks and punctuation can feel different on paper than on a large screen.","Ask one person who did not write the invitation to proof it independently. Give them the factual source information rather than telling them what you expect the invitation to say."]},
+      {heading:"Freeze the data before approval",paragraphs:["Personalized pieces such as place cards or menus should not be sent to print while guest names, meal selections or table assignments are still moving unless the production timeline requires it.","Save the final wording and deadlines with your couple planning so the invitation, wedding website and later guest communications stay consistent."]}
     ],
     checklist:["Confirm the responsible vendor or person","Check the venue rules","Add the decision to the wedding timeline","Share it with affected vendors","Reconfirm during the final planning check-in"],
     faq:[
@@ -3006,13 +3012,16 @@ export const inspirationArticles: InspirationArticle[] = [
     publishedAt:"2026-10-01T00:00:00-07:00",
     updatedAt:"2026-10-01T00:00:00-07:00",
     reviewedBy:"My Portland Wedding Editorial",
-    relatedSlugs:[],
+    relatedSlugs:["portland-wedding-content-creator-guide","portland-wedding-content-creator-shot-guide","portland-wedding-content-creator-collaboration-guide"],
     sections:[
       {heading:"Define priority professionals",paragraphs:["Treat this as a logistics decision rather than a last-minute detail. Confirm the people, timing and physical setup involved so the plan still works when the wedding day is busy."]},
       {heading:"Talk through ceremony positioning",paragraphs:["Ask the relevant vendor what their normal process includes, then compare it with the venue timeline and any other vendor responsibilities. Clear ownership prevents two teams from assuming the other one is handling the same task."]},
       {heading:"Set flash and lighting expectations",paragraphs:["Build the decision around your actual guest count, location and wedding format. A Portland-area celebration can involve city loading zones, rural travel, weather changes or venue-specific rules, so generic advice should be checked against the real site."]},
       {heading:"Protect private moments",paragraphs:["Put the final decision in the shared wedding timeline or vendor notes. Small operational details are easiest to execute when everyone who touches them can see the same plan."]},
-      {heading:"Create a sharing timeline",paragraphs:["Confirm the final version during the last vendor check-in. If conditions, guest count or timing changed, update the plan rather than relying on an early assumption."]}
+      {heading:"Create a sharing timeline",paragraphs:["Confirm the final version during the last vendor check-in. If conditions, guest count or timing changed, update the plan rather than relying on an early assumption."]},
+      {heading:"Set priority moments before filming starts",paragraphs:["Identify moments where the photographer or videographer needs an unobstructed angle and moments where close phone coverage is welcome. Ceremony processional, vows, first kiss and formal portraits often benefit from explicit positioning expectations.","The goal is not to make the content creator invisible; it is to make sure each professional can produce the work the couple hired them to create."]},
+      {heading:"Coordinate movement, not just equipment",paragraphs:["Phones are small, but a person stepping into an aisle or behind the couple can still appear in professional coverage. Discuss where the content creator can move during the ceremony, first look, dances and speeches.","A shared timeline plus a short pre-event conversation among visual vendors can prevent most conflicts without making the day feel rigid."]},
+      {heading:"Decide the guest-phone boundary too",paragraphs:["If the couple wants an unplugged ceremony or restrictions on live posting, the content creator should know exactly how that applies to their role. Professional capture does not automatically mean permission to publish.","Save posting expectations and priority moments with the rest of the wedding plan so everyone receives the same direction."]}
     ],
     checklist:["Confirm the responsible vendor or person","Check the venue rules","Add the decision to the wedding timeline","Share it with affected vendors","Reconfirm during the final planning check-in"],
     faq:[
@@ -3056,13 +3065,16 @@ export const inspirationArticles: InspirationArticle[] = [
     publishedAt:"2026-10-01T00:00:00-07:00",
     updatedAt:"2026-10-01T00:00:00-07:00",
     reviewedBy:"My Portland Wedding Editorial",
-    relatedSlugs:[],
+    relatedSlugs:["portland-wedding-hotel-block-guide","portland-wedding-hotel-block-contract-guide","portland-wedding-lodging-location-guide"],
     sections:[
       {heading:"Know what the cutoff actually changes",paragraphs:["Treat this as a logistics decision rather than a last-minute detail. Confirm the people, timing and physical setup involved so the plan still works when the wedding day is busy."]},
       {heading:"Separate cutoff from cancellation",paragraphs:["Ask the relevant vendor what their normal process includes, then compare it with the venue timeline and any other vendor responsibilities. Clear ownership prevents two teams from assuming the other one is handling the same task."]},
       {heading:"Watch pickup before the deadline",paragraphs:["Build the decision around your actual guest count, location and wedding format. A Portland-area celebration can involve city loading zones, rural travel, weather changes or venue-specific rules, so generic advice should be checked against the real site."]},
       {heading:"Remind guests before inventory releases",paragraphs:["Put the final decision in the shared wedding timeline or vendor notes. Small operational details are easiest to execute when everyone who touches them can see the same plan."]},
-      {heading:"Keep alternate lodging visible",paragraphs:["Confirm the final version during the last vendor check-in. If conditions, guest count or timing changed, update the plan rather than relying on an early assumption."]}
+      {heading:"Keep alternate lodging visible",paragraphs:["Confirm the final version during the last vendor check-in. If conditions, guest count or timing changed, update the plan rather than relying on an early assumption."]},
+      {heading:"Treat the cutoff as a guest deadline, not just a hotel date",paragraphs:["The cutoff date is the point when the hotel's group arrangement may change; it should trigger communication well before guests discover the block late. Put the date into the wedding planning calendar and work backward to decide when guests need a reminder.","Avoid promising that rooms or the same rate will remain available after the cutoff unless the hotel has explicitly confirmed that policy."]},
+      {heading:"Watch pickup before the deadline",paragraphs:["Ask how you can check room pickup and whether the hotel will alert you if the block is filling unusually quickly or slowly. That gives you time to clarify guest communication or discuss options with the hotel rather than waiting until the cutoff passes.","Keep the hotel count separate from your RSVP count: not every wedding guest needs a room, and not every traveler will book through the block."]},
+      {heading:"Connect lodging to transportation",paragraphs:["If a shuttle will use the hotel as a pickup point, confirm the lodging plan before finalizing transportation assumptions. The number of rooms does not equal the number of shuttle riders, so estimate riders separately.","Save the hotel contact, cutoff, pickup information and shuttle assumptions in your couple account so lodging and transportation stay connected."]}
     ],
     checklist:["Confirm the responsible vendor or person","Check the venue rules","Add the decision to the wedding timeline","Share it with affected vendors","Reconfirm during the final planning check-in"],
     faq:[
@@ -3106,13 +3118,16 @@ export const inspirationArticles: InspirationArticle[] = [
     publishedAt:"2026-10-01T00:00:00-07:00",
     updatedAt:"2026-10-01T00:00:00-07:00",
     reviewedBy:"My Portland Wedding Editorial",
-    relatedSlugs:[],
+    relatedSlugs:["portland-wedding-honeymoon-departure-guide","portland-wedding-honeymoon-packing-guide","portland-wedding-honeymoon-emergency-documents-guide"],
     sections:[
       {heading:"List the jobs that remain after the reception",paragraphs:["Treat this as a logistics decision rather than a last-minute detail. Confirm the people, timing and physical setup involved so the plan still works when the wedding day is busy."]},
       {heading:"Protect sleep and recovery",paragraphs:["Ask the relevant vendor what their normal process includes, then compare it with the venue timeline and any other vendor responsibilities. Clear ownership prevents two teams from assuming the other one is handling the same task."]},
       {heading:"Check document and luggage readiness",paragraphs:["Build the decision around your actual guest count, location and wedding format. A Portland-area celebration can involve city loading zones, rural travel, weather changes or venue-specific rules, so generic advice should be checked against the real site."]},
       {heading:"Consider airport timing",paragraphs:["Put the final decision in the shared wedding timeline or vendor notes. Small operational details are easiest to execute when everyone who touches them can see the same plan."]},
-      {heading:"Choose the departure that fits your wedding",paragraphs:["Confirm the final version during the last vendor check-in. If conditions, guest count or timing changed, update the plan rather than relying on an early assumption."]}
+      {heading:"Choose the departure that fits your wedding",paragraphs:["Confirm the final version during the last vendor check-in. If conditions, guest count or timing changed, update the plan rather than relying on an early assumption."]},
+      {heading:"Count the obligations after the reception",paragraphs:["Before choosing a flight, list what still needs to happen: hotel checkout, gift and card handoff, attire return, rental return, pet or home arrangements and transportation to the airport. A flight time only works if those responsibilities have owners.","Delegate wedding-related tasks that do not require the couple so the honeymoon departure is not dependent on a morning of errands."]},
+      {heading:"Protect sleep and travel margin",paragraphs:["A late reception followed by packing, an early airport departure and a long travel day can make the first honeymoon day feel like another deadline. Decide whether leaving immediately is emotionally important enough to justify that schedule.","When comparing flights, include the time needed to reach the airport and the consequences of a missed connection rather than looking only at departure time."]},
+      {heading:"Keep travel planning separate from wedding clutter",paragraphs:["Pack honeymoon essentials and organize required travel documents before the final wedding days when possible. Verify current entry and identification requirements with the relevant official authorities for the itinerary.","Save the departure plan alongside your couple planning so the wedding's final handoffs and the honeymoon's first steps do not compete for the same people and time."]}
     ],
     checklist:["Confirm the responsible vendor or person","Check the venue rules","Add the decision to the wedding timeline","Share it with affected vendors","Reconfirm during the final planning check-in"],
     faq:[
