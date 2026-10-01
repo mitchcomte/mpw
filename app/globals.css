@@ -1459,3 +1459,11 @@ body{background-color:#fffaf6!important}
 /* Keep the outside edge of the four-season cover clean and vertical */
 .seasonVenuePanel:last-of-type{clip-path:polygon(12% 0,100% 0,100% 100%,0 100%)}
 @media(max-width:760px){.seasonVenuePanel:last-of-type{clip-path:polygon(15% 0,100% 0,100% 100%,0 100%)}}
+
+/* Reusable magazine mini-tools */
+.editorialMiniTool{max-width:960px;margin:46px auto 54px;padding:34px;border-radius:24px;border:1px solid rgba(177,139,98,.3);background:linear-gradient(135deg,#fffaf0,#edf2ed)}
+.editorialMiniTool h2{margin:5px 0 20px;font:clamp(1.8rem,3vw,2.5rem)/1.08 Georgia,serif;color:#203d31}
+.editorialMiniTool>label,.miniToolInputs label{display:flex;flex-direction:column;gap:7px;font-size:.8rem;font-weight:800;color:#294b3b}
+.miniToolInputs{display:grid;grid-template-columns:1fr 1fr;gap:14px}.editorialMiniTool input{padding:12px 14px;border:1px solid rgba(41,75,59,.25);border-radius:12px;background:#fff;font:inherit;color:#203d31}
+.miniToolResult{display:flex;align-items:baseline;gap:12px;margin:22px 0 10px;padding:17px 0;border-top:1px solid #e8ddca;border-bottom:1px solid #e8ddca}.miniToolResult b{font:clamp(2rem,4vw,3rem)/1 Georgia,serif;color:#294b3b}.miniToolResult span{color:#747d77;font-size:.8rem}.editorialMiniTool p{margin:12px 0 0;line-height:1.65;color:#5b6861}
+@media(max-width:760px){.editorialMiniTool{padding:24px 18px}.miniToolInputs{grid-template-columns:1fr}.editorialMiniTool input{font-size:16px;width:100%}}
