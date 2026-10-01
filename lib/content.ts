@@ -2056,6 +2056,150 @@ export const inspirationArticles: InspirationArticle[] = [
       {question:"Do wedding bands have to match each other?",answer:"No. Each person can choose the ring that fits their style, comfort and daily life."},
       {question:"Should the wedding band sit flush with the engagement ring?",answer:"Only if that is your preference and the setting allows it. Gaps or contoured bands can also be intentional."}
     ]
+  },
+  {
+    slug:"portland-wedding-venue-access-hours-guide",category:"Venues",title:"Wedding Venue Access Hours: The Timeline Starts Before Guests Arrive",dek:"Confirm load-in, getting-ready, setup and teardown windows before booking so your vendor team has enough time to build the day.",readTime:"9 min read",seoTitle:"Portland Wedding Venue Access Hours Guide",seoDescription:"Plan Portland wedding venue access around vendor load-in, getting-ready rooms, setup, event hours and teardown.",relatedSlugs:["best-portland-wedding-venues-guide","portland-wedding-venue-contract-guide","portland-wedding-rental-delivery-guide"],sections:[
+      {heading:"Guest hours are not vendor hours",paragraphs:["A five-hour reception may require many more hours of access for catering, rentals, florals, entertainment and photography. Ask for the complete access window."]},
+      {heading:"Getting-ready access can change the photo plan",paragraphs:["If suites open late, hair and makeup may need to happen elsewhere. Coordinate access with beauty and photography timelines."]},
+      {heading:"Load-in order matters",paragraphs:["Rental tables may need to arrive before linens and florals, while entertainment requires clear access to its setup area. Vendor teams should understand the venue sequence."]},
+      {heading:"Teardown is part of the rental",paragraphs:["Décor, florals and rentals may need to leave immediately after the event or during a specified pickup window. Confirm who remains responsible."]},
+      {heading:"Extra access can carry a cost",paragraphs:["Early entry or extended cleanup may require additional rental or staffing fees. Include those in the venue comparison."]}
+    ],checklist:["Confirm earliest access","Confirm getting-ready access","Map vendor load-in","Record guest event hours","Confirm teardown deadline","Price extra access"],faq:[
+      {question:"How early should wedding vendors access the venue?",answer:"It depends on the event design and each vendor's setup needs. Build the load-in plan with the venue and vendor team."},
+      {question:"Does venue rental time usually include cleanup?",answer:"Policies vary. Confirm exactly when the property must be cleared and whether teardown is inside the contracted window."}
+    ]
+  },
+  {
+    slug:"portland-wedding-venue-parking-guide",category:"Venues",title:"Wedding Venue Parking: Count Cars Before the Invitation Suite Is Printed",dek:"Evaluate parking capacity, overflow, accessibility and shuttle needs while comparing venues—not after RSVPs arrive.",readTime:"8 min read",seoTitle:"Portland Wedding Venue Parking Guide",seoDescription:"Evaluate Portland wedding venue parking capacity, accessible spaces, overflow, attendants, rideshare and shuttle needs.",relatedSlugs:["best-portland-wedding-venues-guide","portland-wedding-parking-rideshare-guide","portland-wedding-shuttle-route-guide"],sections:[
+      {heading:"Guest count is not vehicle count",paragraphs:["Households may share cars while other guests arrive separately. Ask the venue what parking volume it comfortably supports for weddings of your size."]},
+      {heading:"Overflow needs a real location",paragraphs:["A vague promise of street parking is not the same as a planned overflow area. Understand where cars can legally and practically go."]},
+      {heading:"Accessible parking should connect to the event",paragraphs:["Ask about accessible spaces, surfaces and routes from parking to ceremony and reception areas."]},
+      {heading:"Rideshare availability varies by location and hour",paragraphs:["Urban and remote venues create different transportation conditions. Do not assume guests can summon a ride instantly at the end of the night."]},
+      {heading:"Communicate the plan before guests drive",paragraphs:["Wedding websites and pre-event messages can explain parking entrances, shuttle pickup or rideshare instructions."]}
+    ],checklist:["Ask comfortable vehicle capacity","Identify overflow","Check accessible route","Assess rideshare reality","Consider shuttle need","Publish arrival instructions"],faq:[
+      {question:"How many parking spaces does a wedding need?",answer:"There is no universal guest-to-car ratio. Use the venue's experience and your guest transportation plan."},
+      {question:"Should parking information go on the invitation?",answer:"Detailed logistics can live on the wedding website or guest communication, while the invitation remains concise."}
+    ]
+  },
+  {
+    slug:"portland-wedding-photography-family-photo-guide",category:"Photography",title:"Family Wedding Photos: Build a Short List That Protects the People and the Timeline",dek:"Organize combinations, names and helpers before the wedding so family portraits feel efficient instead of chaotic.",readTime:"9 min read",seoTitle:"Portland Wedding Family Photo List Guide",seoDescription:"Build an efficient wedding family photo list with group priorities, names, helpers, timing and photographer coordination.",relatedSlugs:["portland-wedding-family-photo-list-guide","portland-wedding-photography-timeline-guide","how-to-choose-portland-wedding-photographer"],sections:[
+      {heading:"Start with the photographs you would regret missing",paragraphs:["Immediate family and personally meaningful combinations should come before an exhaustive list of every possible grouping."]},
+      {heading:"Use names, not only relationships",paragraphs:["A list with actual names helps the photographer and designated family helper gather the right people quickly."]},
+      {heading:"Order groups efficiently",paragraphs:["Your photographer can arrange combinations so people are added or released rather than rebuilding every group from scratch."]},
+      {heading:"Tell the photographer about sensitive relationships",paragraphs:["Divorce, estrangement, mobility concerns or other dynamics can affect grouping and positioning. Private context can prevent uncomfortable moments."]},
+      {heading:"Assign family wranglers",paragraphs:["A photographer may not recognize every relative. One knowledgeable person from each side can locate missing family members."]}
+    ],checklist:["Prioritize must-have groups","Write actual names","Share family dynamics privately","Let photographer order list","Assign family helpers","Tell groups when/where"],faq:[
+      {question:"How many family photo combinations should we make?",answer:"Keep the list focused enough to fit the available portrait time. Your photographer can help balance priorities and timing."},
+      {question:"Should extended family be on the formal list?",answer:"They can be if those photographs matter to you and time allows. Larger groups may also be captured at another point in the reception."}
+    ]
+  },
+  {
+    slug:"portland-wedding-photography-detail-guide",category:"Photography",title:"Wedding Detail Photos: Gather the Meaningful Pieces Without Styling a Fake Wedding",dek:"Prepare invitations, rings and personal objects efficiently while keeping detail coverage connected to the real day.",readTime:"8 min read",seoTitle:"Portland Wedding Detail Photo Guide",seoDescription:"Prepare wedding details for photography including stationery, rings, attire, jewelry, heirlooms and meaningful personal items.",relatedSlugs:["portland-wedding-photography-timeline-guide","wedding-invitation-stationery-timeline-guide","portland-wedding-ring-jewelry-guide"],sections:[
+      {heading:"Choose details because they matter",paragraphs:["Invitations, rings, jewelry and heirlooms can help tell the story, but couples do not need to manufacture props solely for photographs."]},
+      {heading:"Put everything in one place",paragraphs:["A prepared box or bag saves the photographer from searching through multiple rooms while the getting-ready schedule is moving."]},
+      {heading:"Include a complete stationery set if desired",paragraphs:["Keep one clean invitation suite with envelopes and inserts if those paper details are important to document."]},
+      {heading:"Tell the photographer what has a story",paragraphs:["An inherited pin or handwritten note may look ordinary without context. A short explanation helps the photographer recognize its importance."]},
+      {heading:"Return critical items deliberately",paragraphs:["Rings, vow books and jewelry may be needed shortly after detail photos. Decide where they go and who receives them."]}
+    ],checklist:["Choose meaningful details","Gather stationery","Add rings/jewelry","Identify heirlooms","Pack together","Plan return of critical items"],faq:[
+      {question:"Do we need special props for wedding detail photos?",answer:"No. Use meaningful wedding items and let the photographer style them according to their approach."},
+      {question:"Who should have the rings during getting-ready photos?",answer:"Coordinate with the photographer and wedding party so the rings are photographed if desired and then transferred securely."}
+    ]
+  },
+  {
+    slug:"portland-wedding-videography-coverage-hours-guide",category:"Videography",title:"Wedding Videography Coverage Hours: Choose the Story You Want the Film to Tell",dek:"Work backward from the moments you want recorded so coverage starts and ends for a reason.",readTime:"9 min read",seoTitle:"Portland Wedding Videography Coverage Hours Guide",seoDescription:"Choose Portland wedding videography coverage hours around getting ready, ceremony, speeches, dancing and planned exits.",relatedSlugs:["portland-wedding-videographer-guide","portland-wedding-videography-style-guide","portland-wedding-day-timeline-guide"],sections:[
+      {heading:"List the moments that matter before choosing hours",paragraphs:["Getting ready, private letters, ceremony, speeches and open dancing each tell a different part of the story. Decide which belong in your film."]},
+      {heading:"Coverage should include setup time",paragraphs:["Audio, cameras and establishing footage can require preparation before the visible moment begins. Ask the videographer when they need to arrive."]},
+      {heading:"A staged exit can be optional",paragraphs:["If coverage ends before the reception, some couples plan an earlier celebratory moment for video and photos. It should fit the event rather than disrupt it."]},
+      {heading:"Coordinate photography and video schedules",paragraphs:["Both teams often need the same people and locations. Shared timing reduces duplicated setup and portrait delays."]},
+      {heading:"Extra hours should solve a real gap",paragraphs:["Before adding time, identify what additional story or event the extra coverage captures."]}
+    ],checklist:["List must-record moments","Set ceremony time","Review speech/dance timing","Coordinate photo team","Choose coverage start/end","Price extra hours if needed"],faq:[
+      {question:"How many hours of wedding videography do we need?",answer:"It depends on the timeline and which moments you want documented. Build coverage around the actual story rather than a universal hour count."},
+      {question:"Should video stay until the reception ends?",answer:"Only if late reception coverage matters to you. Many films can tell a complete story without recording every final minute."}
+    ]
+  },
+  {
+    slug:"portland-wedding-band-vs-dj-guide",category:"Live Entertainment",title:"Wedding Band vs. DJ: Compare the Energy, Space and Flow—not Just the Playlist",dek:"Choose entertainment by how you want the room to feel, then account for footprint, breaks, sound and reception logistics.",readTime:"10 min read",seoTitle:"Portland Wedding Band vs DJ Guide",seoDescription:"Compare a Portland wedding band vs DJ by energy, music range, space, breaks, sound, MC services and reception logistics.",relatedSlugs:["portland-wedding-live-music-guide","how-to-choose-portland-wedding-dj","portland-wedding-dance-floor-guide"],sections:[
+      {heading:"Live performance and recorded flexibility feel different",paragraphs:["A band creates visible performance energy while a DJ can move quickly across original recordings and genres. Neither experience is inherently better."]},
+      {heading:"Check the physical footprint",paragraphs:["Bands may require stage area, instruments, power and more setup space. DJs also need a defined booth and speaker layout."]},
+      {heading:"Ask how breaks are handled",paragraphs:["Live musicians need breaks. Understand whether recorded music continues and how the energy is managed between sets."]},
+      {heading:"Compare MC responsibilities",paragraphs:["Some bands provide a dedicated bandleader or MC while others focus primarily on performance. Confirm who handles announcements and formalities."]},
+      {heading:"Use the venue's sound rules",paragraphs:["Curfews, decibel restrictions and load-in conditions may affect which entertainment setup works best."]}
+    ],checklist:["Compare desired energy","Review music range","Measure footprint","Ask break plan","Confirm MC role","Check venue sound rules"],faq:[
+      {question:"Is a wedding band more expensive than a DJ?",answer:"Pricing varies widely by company, personnel, date and production needs. Compare actual proposals and inclusions."},
+      {question:"Can we have both a band and DJ?",answer:"Yes if budget, venue and timeline support it. Coordinate roles so transitions and equipment do not compete."}
+    ]
+  },
+  {
+    slug:"portland-wedding-ceremony-musician-guide",category:"Live Entertainment",title:"Live Ceremony Music: Plan the Cues as Carefully as the Songs",dek:"Coordinate processional timing, repertoire, amplification and weather so live music supports the ceremony smoothly.",readTime:"8 min read",seoTitle:"Portland Wedding Ceremony Musician Guide",seoDescription:"Plan live Portland wedding ceremony music with processional cues, song length, amplification, weather and musician setup.",relatedSlugs:["portland-wedding-live-music-guide","portland-wedding-ceremony-music-guide","portland-wedding-rehearsal-guide"],sections:[
+      {heading:"Choose music by ceremony moment",paragraphs:["Prelude, processional, partner entrance, ceremony elements and recessional may each need different musical treatment."]},
+      {heading:"Live songs need flexible endings",paragraphs:["Walking pace and aisle length rarely match a recording perfectly. Experienced musicians can shape a piece around the actual processional."]},
+      {heading:"Define who gives the cue",paragraphs:["The planner, coordinator or officiant should know how to signal musicians when each entrance is ready."]},
+      {heading:"Outdoor music may need amplification",paragraphs:["Wind, guest count and venue acoustics can affect whether acoustic instruments carry. Ask the musicians what setup they recommend."]},
+      {heading:"Weather protection is part of the plan",paragraphs:["Instruments can be sensitive to rain, direct sun and temperature. Confirm covered placement and the backup location."]}
+    ],checklist:["Choose ceremony moments","Select repertoire","Name cue person","Discuss amplification","Confirm setup space","Plan weather backup"],faq:[
+      {question:"How many songs are needed for a wedding processional?",answer:"It depends on the number of entrances and your preferences. A musician can often adapt one or more pieces to the processional length."},
+      {question:"Can live musicians play outdoors in rain?",answer:"Instrument and safety limitations vary. Confirm weather requirements and covered alternatives with the performers."}
+    ]
+  },
+  {
+    slug:"portland-wedding-photo-booth-guestbook-guide",category:"Photo Booths",title:"Photo Booth Guestbooks: Turn the Booth Into Something You Will Actually Revisit",dek:"Coordinate prints, pens, attendants and instructions so guestbook pages fill naturally during the reception.",readTime:"7 min read",seoTitle:"Portland Wedding Photo Booth Guestbook Guide",seoDescription:"Plan a wedding photo booth guestbook with print copies, album pages, pens, attendants and guest instructions.",relatedSlugs:["portland-wedding-photo-booth-guide","portland-wedding-photo-booth-placement-guide","portland-wedding-guest-experience-guide"],sections:[
+      {heading:"Confirm the booth prints enough copies",paragraphs:["If one strip goes to the guestbook and another to the guest, the package needs to support that workflow."]},
+      {heading:"Use materials that work together",paragraphs:["Photo paper, adhesive, pens and album pages should be compatible. Ask the provider whether a tested guestbook setup is available."]},
+      {heading:"Give guests one simple instruction",paragraphs:["A short sign or attendant prompt can explain that one print belongs in the book with a message."]},
+      {heading:"Place the book at the booth",paragraphs:["Separating the guestbook from the photo experience adds friction. Keep the pieces together when space allows."]},
+      {heading:"Assign end-of-night ownership",paragraphs:["Make sure someone takes the finished book, loose prints and any keepsake supplies before teardown."]}
+    ],checklist:["Confirm duplicate prints","Choose compatible album","Provide pens/adhesive","Add simple instruction","Keep book at booth","Assign pickup person"],faq:[
+      {question:"Does a photo booth guestbook replace a traditional guestbook?",answer:"It can if that format fits you. Some couples use both, but there is no need to duplicate the same purpose."},
+      {question:"Who puts photos into the guestbook?",answer:"Guests may do it themselves, or a booth attendant may help depending on the service."}
+    ]
+  },
+  {
+    slug:"portland-wedding-lodging-location-guide",category:"Lodging",title:"Where Wedding Guests Should Stay: Choose the Hotel Area Before the Hotel",dek:"Compare lodging by the full wedding weekend—venue travel, restaurants, transportation and guest independence.",readTime:"9 min read",seoTitle:"Portland Wedding Guest Lodging Location Guide",seoDescription:"Choose where Portland wedding guests should stay based on venue travel, weekend events, transportation, dining and hotel access.",relatedSlugs:["portland-wedding-hotel-block-guide","portland-wedding-shuttle-route-guide","portland-wedding-welcome-party-guide"],sections:[
+      {heading:"Map the whole weekend",paragraphs:["Ceremony, welcome event, brunch and airport or train access may point to a different lodging area than the venue alone."]},
+      {heading:"Think about guests without cars",paragraphs:["Walkable food, coffee and transit can make free time easier for visitors who do not rent vehicles."]},
+      {heading:"Remote venues can favor a hub-and-shuttle model",paragraphs:["When lodging near the venue is limited, grouping guests in one area may make transportation simpler."]},
+      {heading:"Offer options when the group is diverse",paragraphs:["Different price points or room types can be helpful, but too many hotel suggestions can become confusing."]},
+      {heading:"Test travel at the relevant time",paragraphs:["A route that looks short midday may behave differently near event time. Use realistic travel assumptions when planning shuttles and departures."]}
+    ],checklist:["Map all weekend events","Consider car-free guests","Choose lodging hub","Compare price points","Test venue travel","Coordinate shuttle if needed"],faq:[
+      {question:"Do wedding guests have to stay in the hotel block?",answer:"No unless there is some unusual arrangement communicated to them. A block is generally an option for guests, not a requirement."},
+      {question:"Should the hotel be closest to the venue?",answer:"Not always. Weekend events, transportation and guest free time may make another location more practical."}
+    ]
+  },
+  {
+    slug:"portland-wedding-welcome-bag-guide",category:"Lodging",title:"Wedding Welcome Bags: Useful Beats Full",dek:"Give traveling guests a few practical items and clear weekend information instead of filling a bag with things they have to pack home.",readTime:"8 min read",seoTitle:"Portland Wedding Welcome Bag Guide",seoDescription:"Plan Portland wedding welcome bags with useful guest information, local touches, snacks, delivery and hotel coordination.",relatedSlugs:["portland-wedding-hotel-welcome-bag-guide","portland-wedding-lodging-location-guide","portland-wedding-welcome-party-guide"],sections:[
+      {heading:"Start with information",paragraphs:["A concise weekend card or digital link can be more useful than another souvenir. Include transportation and event details guests genuinely need."]},
+      {heading:"Choose consumable local touches",paragraphs:["A Portland or Oregon snack can add a sense of place without becoming luggage, provided it fits dietary and hotel considerations."]},
+      {heading:"Water is simple and useful",paragraphs:["Travel and celebrations can leave guests looking for water in their room. Check whether the hotel already provides it before duplicating."]},
+      {heading:"Ask how the hotel distributes bags",paragraphs:["Front-desk handoff, room delivery, fees and storage policies vary. Confirm the process before assembling dozens of bags."]},
+      {heading:"Skip anything that creates a packing problem",paragraphs:["Large favors and fragile objects may be less useful to guests flying home. Prioritize the weekend experience."]}
+    ],checklist:["Create weekend info card","Choose useful snacks","Check dietary labeling","Ask hotel distribution policy","Confirm bag count","Assign delivery"],faq:[
+      {question:"Are wedding welcome bags necessary?",answer:"No. They are optional and most useful when they solve practical needs for traveling guests."},
+      {question:"Will hotels put welcome bags in guest rooms?",answer:"Policies and fees vary. Ask the specific hotel how it handles group welcome items."}
+    ]
+  },
+  {
+    slug:"portland-wedding-mobile-bar-setup-guide",category:"Mobile Bars",title:"Mobile Bar Setup: Power, Water, Ice and the Unseen Logistics",dek:"Confirm the service infrastructure behind the pretty bar before deciding where it belongs at the venue.",readTime:"8 min read",seoTitle:"Portland Mobile Wedding Bar Setup Guide",seoDescription:"Plan a Portland mobile wedding bar with power, water, ice, access, waste, weather and venue approval.",relatedSlugs:["portland-wedding-mobile-bar-guide","portland-wedding-bar-menu-guide","portland-wedding-venue-alcohol-rules-guide"],sections:[
+      {heading:"Ask what the bar brings and what it needs",paragraphs:["Mobile bars vary from self-contained units to setups requiring venue utilities. Get a written list of power, water and ice needs."]},
+      {heading:"Vehicle access may determine placement",paragraphs:["Trailer-style bars need sufficient route width, turning space and stable ground. Walk the proposed location with the venue if necessary."]},
+      {heading:"Plan wastewater and trash",paragraphs:["Drink service creates bottles, cans, garnishes and meltwater. Confirm how waste is collected and removed."]},
+      {heading:"Protect the setup from weather",paragraphs:["Sun, wind and rain affect staff, equipment and guests. A backup placement or cover may be needed for outdoor service."]},
+      {heading:"Keep guest lines out of circulation",paragraphs:["Allow enough space for ordering and waiting without blocking exits, dinner service or the dance floor."]}
+    ],checklist:["List utility needs","Confirm vehicle access","Plan ice storage","Plan waste/water","Choose weather backup","Map guest queue"],faq:[
+      {question:"Does a mobile wedding bar need electricity?",answer:"Some do and some do not. Ask the provider for exact utility requirements."},
+      {question:"Can a mobile bar be placed anywhere outdoors?",answer:"No. Access, ground conditions, venue permission, service rules and utilities can limit placement."}
+    ]
+  },
+  {
+    slug:"portland-wedding-content-creator-vs-videographer-guide",category:"Content Creation",title:"Wedding Content Creator vs. Videographer: Different Cameras, Different Jobs",dek:"Compare fast social-first clips with crafted wedding films so you can decide whether you want one service, both or neither.",readTime:"9 min read",seoTitle:"Wedding Content Creator vs Videographer | Portland Guide",seoDescription:"Compare Portland wedding content creators and videographers by deliverables, equipment, audio, editing, turnaround and storytelling.",relatedSlugs:["portland-wedding-content-creator-guide","portland-wedding-videographer-guide","portland-wedding-content-delivery-guide"],sections:[
+      {heading:"Start with the finished product",paragraphs:["Content creators commonly focus on vertical phone-based clips and fast delivery, while videographers generally build edited films with dedicated camera and audio workflows."]},
+      {heading:"Audio is a major difference",paragraphs:["Professional wedding films may use multiple microphones and recorders for vows and speeches. Ask each provider what audio they actually capture."]},
+      {heading:"Fast delivery and deep editing solve different needs",paragraphs:["Next-day clips can satisfy immediate sharing while a wedding film may require substantial post-production. Decide which experience matters to you."]},
+      {heading:"Both teams need coordination",paragraphs:["If hiring both, introduce them before the wedding so camera positions, portraits and key moments are not unnecessarily crowded."]},
+      {heading:"Neither service is mandatory",paragraphs:["Choose based on the memories and media you want, not the idea that every new wedding service must be added to the budget."]}
+    ],checklist:["List desired deliverables","Compare audio capture","Compare turnaround","Review sample work","Coordinate teams if both","Choose based on priorities"],faq:[
+      {question:"Does a wedding content creator replace a videographer?",answer:"Not necessarily. The services often produce different kinds of media and use different production approaches."},
+      {question:"Can we hire both?",answer:"Yes. Share timelines and expectations so both teams can work around each other."}
+    ]
   }
 ];
 
