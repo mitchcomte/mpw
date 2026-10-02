@@ -1537,3 +1537,9 @@ body{background-color:#fffaf6!important}
 .featuredGuide{overflow:hidden;padding-top:0!important}
 .featuredGuideImage{width:calc(100% + 48px);height:185px;object-fit:cover;display:block;margin:0 -24px 22px}
 @media(max-width:760px){.inspirationHubHeroPhoto{background:linear-gradient(180deg,rgba(250,247,241,.90),rgba(250,247,241,.94)),url("/about/hero-couple.jpg") 62% center/cover no-repeat}.inspirationHubHeroPhoto .inspirationHeroGrid{padding-top:36px;padding-bottom:38px}.inspirationHubHeroPhoto h1{font-size:2.65rem}.topicCardVisual{grid-template-rows:78px auto auto}.topicCardVisual img{height:78px}.featuredGuideImage{height:160px}}
+
+/* Inspiration topic image alignment */
+.topicCardVisual{grid-template-rows:118px auto auto!important;text-align:center}
+.topicCardVisual img{width:100%;height:118px;object-fit:cover;object-position:center center;display:block;margin:0}
+.topicCardVisual>span,.topicCardVisual>small{display:block;width:100%;text-align:center;box-sizing:border-box}
+@media(max-width:760px){.topicCardVisual{grid-template-rows:96px auto auto!important}.topicCardVisual img{height:96px}}
