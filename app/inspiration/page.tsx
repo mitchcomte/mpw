@@ -9,9 +9,15 @@ export const metadata = {
 };
 
 const topics = [
-  ["Planning & Timeline","Planning"],["Venues","Venues"],["Budget & Costs","Budget"],
-  ["Photography & Video","Photography"],["Style & Décor","Florists"],["Food & Drink","Catering"],
-  ["Attire & Beauty","Bridal"],["Guest Experience","Transportation"],["Honeymoons & Travel","Honeymoons"]
+  ["Planning & Timeline","Planning","https://images.unsplash.com/photo-1758825178518-ca48833a6c57?auto=format&fit=crop&w=900&q=82"],
+  ["Venues","Venues","https://images.unsplash.com/photo-1783818413128-c3e27b013457?auto=format&fit=crop&w=900&q=82"],
+  ["Budget & Costs","Budget","https://images.unsplash.com/photo-1741207154948-66f7fa63c35a?auto=format&fit=crop&w=900&q=82"],
+  ["Photography & Video","Photography","https://images.unsplash.com/photo-1786206432186-f0201a7056bd?auto=format&fit=crop&w=900&q=82"],
+  ["Style & Décor","Florists","https://images.unsplash.com/photo-1785672951683-dba4e3867b8a?auto=format&fit=crop&w=900&q=82"],
+  ["Food & Drink","Catering","https://images.unsplash.com/photo-1768594266667-50aaa727ebf5?auto=format&fit=crop&w=900&q=82"],
+  ["Attire & Beauty","Bridal","https://images.unsplash.com/photo-1749096291233-16fc11a5b858?auto=format&fit=crop&w=900&q=82"],
+  ["Guest Experience","Transportation","https://images.unsplash.com/photo-1764593823886-6cd9af7f8a5c?auto=format&fit=crop&w=900&q=82"],
+  ["Honeymoons & Travel","Honeymoons","https://images.unsplash.com/photo-1780929007351-bc285312da4c?auto=format&fit=crop&w=900&q=82"]
 ] as const;
 
 const featuredSlugs = [
