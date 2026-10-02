@@ -2469,14 +2469,15 @@ export const inspirationArticles: InspirationArticle[] = [
   },
   {
     slug:"portland-wedding-dj-ceremony-reception-transition-guide",category:"DJs",title:"One DJ, Two Spaces: Moving From Ceremony Audio to the Reception",dek:"Plan separate equipment, transition time and music coverage when ceremony and reception happen in different locations.",readTime:"8 min read",seoTitle:"Wedding DJ Ceremony to Reception Transition Guide",seoDescription:"Plan Portland wedding DJ audio across ceremony, cocktail hour and reception with separate setups, transition time and backup coverage.",relatedSlugs:["portland-wedding-ceremony-audio-guide","how-to-choose-portland-wedding-dj","portland-wedding-cocktail-hour-guide"],sections:[
-      {heading:"Ask whether the DJ uses separate systems",paragraphs:["Moving one complete sound system after the ceremony can create silence and delay. Many events benefit from equipment staged in multiple areas."]},
-      {heading:"Cocktail hour needs its own audio decision",paragraphs:["If guests move immediately to cocktails, decide whether music is live, DJ-provided or venue background audio."]},
-      {heading:"Build physical travel into the timeline",paragraphs:["Even with separate gear, the DJ may need to move between locations. Venue distance and stairs matter."]},
-      {heading:"Microphones may change between spaces",paragraphs:["Ceremony lavaliers or handheld microphones may differ from reception speech equipment. Confirm both setups."]},
-      {heading:"Coordinate the handoff with the planner",paragraphs:["The DJ should know when the ceremony ends, where guests move and when reception announcements begin."]}
+      {heading:"Ask whether the DJ uses separate systems",paragraphs:["Ask whether the DJ plans separate sound systems for the ceremony and reception. Moving one complete setup after the ceremony can create a gap while guests are already heading to cocktails, whereas staged equipment can reduce the transition work. The right approach depends on the venue layout and package."]},
+      {heading:"Cocktail hour needs its own audio decision",paragraphs:["If guests move directly into cocktail hour, decide who supplies music during that period. It might be the DJ, live musicians or venue background audio, but it should be intentional—especially when the DJ is simultaneously relocating, striking ceremony gear or preparing reception announcements."]},
+      {heading:"Build physical travel into the timeline",paragraphs:["Map the DJ's physical route between ceremony and reception spaces. Distance, stairs, elevators, outdoor paths and vehicle access can all consume transition time. Include that movement in the timeline rather than assuming the DJ becomes instantly available in the next room."]},
+      {heading:"Microphones may change between spaces",paragraphs:["Ceremony lavaliers, handheld microphones and speakers may be different from the equipment used for speeches and reception announcements. Confirm what is staged in each location and whether any critical component must physically move between spaces."]},
+      {heading:"Coordinate the handoff with the planner",paragraphs:["Give the DJ and planner the same transition cues: ceremony end, cocktail-hour start, guest movement, wedding-party introductions and reception opening. A shared timeline lets the team adjust when the ceremony runs early or late without the couple coordinating audio in real time."]}
     ],checklist:["Ask separate-system plan","Choose cocktail-hour music","Map DJ travel","Confirm microphones","Set reception start cue","Coordinate planner"],faq:[
-      {question:"Can one DJ cover ceremony and reception?",answer:"Yes, depending on the venue and equipment plan. Ask how multiple spaces are handled."},
-      {question:"Does ceremony audio cost extra?",answer:"Package structures vary. Separate equipment or locations may affect pricing."}
+      {question:"Can one DJ cover both the wedding ceremony and reception?",answer:"Yes, depending on the venue layout, equipment plan and package. Ask whether the DJ stages separate systems and how music is covered while guests move between spaces."},
+      {question:"Does wedding ceremony audio usually cost extra?",answer:"Package structures vary. A separate ceremony location, additional speakers, microphones or a second equipment setup may affect pricing, so compare the actual scope rather than assuming ceremony sound is included."},
+      {question:"What happens to music during cocktail hour while the DJ moves equipment?",answer:"Decide this before the wedding. Separate DJ equipment, a playlist system, live musicians or venue audio can cover the transition depending on the venue and entertainment plan."}
     ]
   },
   {
@@ -2517,14 +2518,15 @@ export const inspirationArticles: InspirationArticle[] = [
   },
   {
     slug:"portland-wedding-tux-return-guide",category:"Formalwear",title:"Tux and Suit Returns: Make the Post-Wedding Deadline Someone's Actual Job",dek:"Track rental pieces and return timing before the celebration so late fees do not become the final wedding expense.",readTime:"7 min read",seoTitle:"Wedding Tux & Suit Rental Return Guide",seoDescription:"Plan wedding tux and suit rental returns with inventory, deadlines, garment bags, remote attendants and post-wedding responsibility.",relatedSlugs:["portland-wedding-suit-tux-guide","portland-wedding-formalwear-fitting-guide","wedding-week-checklist"],sections:[
-      {heading:"Record the return deadline before the wedding",paragraphs:["Rental agreements vary. Put the date, location and any late-fee terms into the wedding-week plan."]},
-      {heading:"Know every rented piece",paragraphs:["Jacket, trousers, shirt, vest, tie and accessories can be separated during changing. Keep a simple inventory."]},
-      {heading:"Choose a return captain",paragraphs:["The couple may be traveling. Assign a reliable person if someone else will collect and return rentals."]},
-      {heading:"Coordinate attendants who live elsewhere",paragraphs:["If wedding-party members are responsible for their own returns, make sure each person has instructions before the event."]},
-      {heading:"Keep garment bags and packaging",paragraphs:["Do not discard rental materials until you know what the provider expects back."]}
+      {heading:"Record the return deadline before the wedding",paragraphs:["Rental agreements vary by company and order. Put the exact due date, return location, hours and any late-fee terms into the wedding-week plan before the celebration, especially if the couple will leave town immediately afterward."]},
+      {heading:"Know every rented piece",paragraphs:["Jacket, trousers, shirt, vest, tie, shoes and accessories can become separated during changing or cleanup. Save the provider's item list and use it to inventory each order before garment bags leave the hotel, venue or getting-ready space."]},
+      {heading:"Choose a return captain",paragraphs:["If the couple will be traveling or recovering the next morning, assign a reliable person to collect and return rentals. Give that person the order information, deadline and provider instructions rather than simply asking them to 'take care of the tuxes.'"]},
+      {heading:"Coordinate attendants who live elsewhere",paragraphs:["Wedding-party members may have different return options, especially when they rented through partner locations or traveled to Portland. Send each person the provider-approved return method and deadline before wedding weekend so garments do not leave town without a plan."]},
+      {heading:"Keep garment bags and packaging",paragraphs:["Do not discard garment bags, hangers or other rental materials until you know what the provider expects back. Keep returned pieces together and save a receipt, tracking record or other confirmation when the provider offers one."]}
     ],checklist:["Record deadline","List rented pieces","Keep garment bags","Assign return person","Brief attendants","Save receipt/confirmation"],faq:[
-      {question:"When are rented tuxes usually due back?",answer:"Deadlines vary by provider. Follow the rental agreement rather than assuming a standard return day."},
-      {question:"Can one person return the whole wedding party's rentals?",answer:"That depends on the provider's process. Confirm whether consolidated returns are allowed."}
+      {question:"When are rented wedding tuxes usually due back?",answer:"Deadlines vary by provider and rental agreement. Use the exact return date on the order rather than assuming everything is due the morning after the wedding."},
+      {question:"Can one person return the whole wedding party's tux rentals?",answer:"Sometimes, but provider processes differ. Confirm whether consolidated returns are allowed and whether each order needs separate identification or packaging."},
+      {question:"What if someone in the wedding party leaves town with a rental?",answer:"Contact the provider and use its approved return process. Planning remote-attendant returns before the wedding is easier than solving the problem after travel has started."}
     ]
   },
   {
@@ -2710,14 +2712,15 @@ export const inspirationArticles: InspirationArticle[] = [
   },
   {
     slug:"portland-wedding-catering-dessert-service-guide",category:"Catering",title:"Dessert Service Beyond the Cake: Plates, Forks, Cutting and the People Who Make It Happen",dek:"Coordinate the dessert vendor, caterer and venue so sweets do not arrive without the service pieces or labor they need.",readTime:"8 min read",seoTitle:"Portland Wedding Dessert Service Planning Guide",seoDescription:"Plan Portland wedding dessert service including cake cutting, plates, forks, staffing, display, storage and outside desserts.",relatedSlugs:["portland-wedding-dessert-service-guide","portland-wedding-cake-cutting-guide","portland-wedding-catering-guide"],sections:[
-      {heading:"Ask who physically serves dessert",paragraphs:["A bakery may deliver and leave, while the caterer plates or cuts. Make the handoff explicit."]},
-      {heading:"Confirm plates and utensils",paragraphs:["Dessert plates, forks, napkins and serving tools may come from different vendors. Include them in the rental and catering count."]},
-      {heading:"Display and service are different jobs",paragraphs:["A beautiful dessert table still needs replenishment, cutting or cleanup depending on the menu."]},
-      {heading:"Storage can matter before service",paragraphs:["Temperature-sensitive desserts may need refrigeration or a protected staging area. Ask both venue and provider."]},
-      {heading:"Outside-dessert fees should be known early",paragraphs:["Some caterers or venues charge cutting or service fees for externally supplied desserts."]}
+      {heading:"Ask who physically serves dessert",paragraphs:["A bakery may deliver and leave while the caterer cuts, plates or replenishes dessert. Confirm the handoff among baker, caterer and venue, including who moves the cake or desserts from storage to display and who is present when service begins."]},
+      {heading:"Confirm plates and utensils",paragraphs:["Dessert plates, forks, napkins, cake knives, serving utensils and take-home boxes may come from different vendors. Match the service pieces to the actual dessert menu instead of assuming the dinner rental order automatically covers everything."]},
+      {heading:"Display and service are different jobs",paragraphs:["A beautiful dessert table can still need staff to replenish items, cut portions, remove empty trays and keep the area clean. Decide whether desserts are self-serve, passed, plated or staff-assisted and make sure the labor plan matches."]},
+      {heading:"Storage can matter before service",paragraphs:["Cakes, cream-filled pastries and other desserts may have temperature or handling requirements. Ask the dessert provider what the products need, then verify the venue or caterer can provide the required refrigeration or protected staging space."]},
+      {heading:"Outside-dessert fees should be known early",paragraphs:["Some venues or caterers charge for cutting, plating, staffing or handling desserts supplied by another business. Ask about those costs before comparing bakery quotes so the dessert budget reflects the complete service plan."]}
     ],checklist:["Name dessert server","Confirm cutting responsibility","Count plates/forks","Plan storage","Check outside-dessert fee","Plan cleanup"],faq:[
-      {question:"Does the bakery cut the wedding cake?",answer:"Often the bakery delivers rather than remaining for service. Confirm who will cut and plate it."},
-      {question:"Do we need dessert plates for cupcakes?",answer:"It depends on the service style, but napkins, utensils and cleanup still need consideration."}
+      {question:"Does the wedding bakery cut and serve the cake?",answer:"Often the bakery delivers and completes setup rather than remaining through dessert service. Confirm who cuts, plates and distributes the cake and whether that labor carries a fee."},
+      {question:"Do we need dessert plates for cupcakes or handheld sweets?",answer:"Not always, but napkins, serving tools, waste and guest convenience still matter. Decide how the dessert will actually be eaten and cleared before removing service pieces from the order."},
+      {question:"Who stores the wedding cake before dessert service?",answer:"Coordinate this among the bakery, venue and caterer. The answer depends on delivery time, product requirements, available refrigeration and when the cake will be displayed."}
     ]
   },
   {
