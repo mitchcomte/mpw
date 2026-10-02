@@ -36,7 +36,7 @@ export default function Page(){
     </div></section>
 
     <section className="section featuredGuides"><div className="container">
-      <div className="inspirationHeading"><div><span className="eyebrow">Featured articles</span><h2>Start with these planning essentials</h2><p className="meta">Useful, local guidance for the decisions couples make first.</p></div></div>
+      <div className="inspirationHeading"><div><span className="eyebrow">Featured articles</span><h2>Start with these planning essentials</h2><p className="meta">Useful, local guidance for the decisions couples make first.</p></div><Link className="btn primary" href="/wedding-builder">Turn Inspiration Into My Wedding →</Link></div>
       <div className="featuredGuideGrid">{featured.map((a,i)=><Link key={a.slug} href={"/inspiration/"+a.slug} className={"featuredGuide featuredGuide"+(i+1)}><span className="eyebrow">{a.category}</span><h3>{a.title}</h3><p>{a.dek}</p><div><span>{a.readTime}</span><strong>Read guide →</strong></div></Link>)}</div>
     </div></section>
 
