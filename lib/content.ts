@@ -2857,9 +2857,7 @@ export const inspirationArticles: InspirationArticle[] = [
     title:"Wedding Rental Damage Waivers: What They Cover—and What They Usually Don’t",
     dek:"Understand damage waivers, replacement responsibility and return-condition rules before signing a Portland wedding rental order.",
     readTime:"7 min read",
-    seoTitle:"Wedding Rental Damage Waivers: What They Cover—and What They Usually Don’t",
-    seoDescription:"Understand damage waivers, replacement responsibility and return-condition rules before signing a Portland wedding rental order.",
-    publishedAt:"2026-10-01T00:00:00-07:00",
+    seoTitle:"Wedding Rental Damage Waivers: Coverage & Questions", seoDescription:"Understand wedding rental damage waivers, exclusions, loss, replacement responsibility and return rules before signing the rental agreement.", publishedAt:"2026-10-01T00:00:00-07:00",
     updatedAt:"2026-10-01T00:00:00-07:00",
     reviewedBy:"My Portland Wedding Editorial",
     relatedSlugs:["portland-wedding-rentals-guide","portland-wedding-rental-delivery-guide","portland-wedding-rental-return-pickup-guide"],
@@ -2907,9 +2905,7 @@ export const inspirationArticles: InspirationArticle[] = [
     title:"Wedding Shuttle Loading: Stops, Signs and Timing That Keep Guests Moving",
     dek:"Design a Portland wedding shuttle plan around realistic loading time, clear pickup points and guests who do not know the route.",
     readTime:"7 min read",
-    seoTitle:"Wedding Shuttle Loading: Stops, Signs and Timing That Keep Guests Moving",
-    seoDescription:"Design a Portland wedding shuttle plan around realistic loading time, clear pickup points and guests who do not know the route.",
-    publishedAt:"2026-10-01T00:00:00-07:00",
+    seoTitle:"Wedding Shuttle Loading: Stops, Signs & Timing", seoDescription:"Plan wedding shuttle loading with clear pickup points, realistic boarding time, rider communication and an onsite transportation contact.", publishedAt:"2026-10-01T00:00:00-07:00",
     updatedAt:"2026-10-01T00:00:00-07:00",
     reviewedBy:"My Portland Wedding Editorial",
     relatedSlugs:["portland-wedding-transportation-guide","portland-wedding-shuttle-route-guide","portland-wedding-shuttle-last-run-guide"],
@@ -2933,9 +2929,7 @@ export const inspirationArticles: InspirationArticle[] = [
     title:"Wedding Invitation Proofreading: The Final Check Before You Approve Printing",
     dek:"Use a deliberate proofing process for names, dates, addresses, URLs and enclosure details before a stationery mistake becomes an expensive reprint.",
     readTime:"7 min read",
-    seoTitle:"Wedding Invitation Proofreading: The Final Check Before You Approve Printing",
-    seoDescription:"Use a deliberate proofing process for names, dates, addresses, URLs and enclosure details before a stationery mistake becomes an expensive reprint.",
-    publishedAt:"2026-10-01T00:00:00-07:00",
+    seoTitle:"Wedding Invitation Proofreading Checklist", seoDescription:"Proof wedding invitations for names, dates, addresses, RSVP details, URLs and QR codes before a small error becomes an expensive reprint.", publishedAt:"2026-10-01T00:00:00-07:00",
     updatedAt:"2026-10-01T00:00:00-07:00",
     reviewedBy:"My Portland Wedding Editorial",
     relatedSlugs:["wedding-invitation-stationery-timeline-guide","portland-wedding-invitation-addressing-guide","portland-wedding-invitation-postage-guide"],
@@ -2959,9 +2953,7 @@ export const inspirationArticles: InspirationArticle[] = [
     title:"Wedding Ring Boxes & Ceremony Handoffs: A Tiny Detail Worth Planning",
     dek:"Choose how the rings will be stored, photographed and transferred so the ceremony handoff is simple and secure.",
     readTime:"7 min read",
-    seoTitle:"Wedding Ring Boxes & Ceremony Handoffs: A Tiny Detail Worth Planning",
-    seoDescription:"Choose how the rings will be stored, photographed and transferred so the ceremony handoff is simple and secure.",
-    publishedAt:"2026-10-01T00:00:00-07:00",
+    seoTitle:"Wedding Ring Box & Ceremony Handoff Guide", seoDescription:"Plan wedding ring storage, detail-photo access and ceremony handoffs so the rings stay secure and the final transfer is simple.", publishedAt:"2026-10-01T00:00:00-07:00",
     updatedAt:"2026-10-01T00:00:00-07:00",
     reviewedBy:"My Portland Wedding Editorial",
     relatedSlugs:["portland-wedding-ring-jewelry-guide","portland-wedding-jewelry-day-of-storage-guide","portland-wedding-officiant-script-guide"],
@@ -2985,9 +2977,7 @@ export const inspirationArticles: InspirationArticle[] = [
     title:"Wedding Photo Booth Lines: Placement and Timing That Get More Guests Using It",
     dek:"Position and open a photo booth so it feels inviting without creating a traffic jam beside the bar, dance floor or dinner service.",
     readTime:"7 min read",
-    seoTitle:"Wedding Photo Booth Lines: Placement and Timing That Get More Guests Using It",
-    seoDescription:"Position and open a photo booth so it feels inviting without creating a traffic jam beside the bar, dance floor or dinner service.",
-    publishedAt:"2026-10-01T00:00:00-07:00",
+    seoTitle:"Wedding Photo Booth Placement & Line Planning", seoDescription:"Place and schedule a wedding photo booth so guests use it without creating a line beside the bar, dance floor, exits or dinner service.", publishedAt:"2026-10-01T00:00:00-07:00",
     updatedAt:"2026-10-01T00:00:00-07:00",
     reviewedBy:"My Portland Wedding Editorial",
     relatedSlugs:["portland-wedding-photo-booth-guide","portland-wedding-photo-booth-placement-guide","portland-wedding-photo-booth-backdrop-guide"],
@@ -3035,9 +3025,7 @@ export const inspirationArticles: InspirationArticle[] = [
     title:"Live Wedding Musician Breaks: Keep the Energy Consistent Between Sets",
     dek:"Plan set lengths, breaks and recorded fill music so live entertainment feels continuous throughout the wedding.",
     readTime:"7 min read",
-    seoTitle:"Live Wedding Musician Breaks: Keep the Energy Consistent Between Sets",
-    seoDescription:"Plan set lengths, breaks and recorded fill music so live entertainment feels continuous throughout the wedding.",
-    publishedAt:"2026-10-01T00:00:00-07:00",
+    seoTitle:"Wedding Band & Live Music Break Planning", seoDescription:"Plan wedding band and live musician breaks, set lengths and recorded fill music so entertainment remains intentional between performances.", publishedAt:"2026-10-01T00:00:00-07:00",
     updatedAt:"2026-10-01T00:00:00-07:00",
     reviewedBy:"My Portland Wedding Editorial",
     relatedSlugs:["portland-wedding-live-music-guide","portland-wedding-live-band-guide","portland-wedding-live-music-soundcheck-guide"],
@@ -3061,9 +3049,7 @@ export const inspirationArticles: InspirationArticle[] = [
     title:"Wedding Hotel Block Cutoff Dates: What Happens to Unbooked Rooms?",
     dek:"Understand cutoff dates, released inventory and guest communication so a Portland hotel block does not surprise you close to the wedding.",
     readTime:"7 min read",
-    seoTitle:"Wedding Hotel Block Cutoff Dates: What Happens to Unbooked Rooms?",
-    seoDescription:"Understand cutoff dates, released inventory and guest communication so a Portland hotel block does not surprise you close to the wedding.",
-    publishedAt:"2026-10-01T00:00:00-07:00",
+    seoTitle:"Wedding Hotel Block Cutoff Dates Explained", seoDescription:"Understand wedding hotel block cutoff dates, released rooms, group-rate changes and guest reminders before lodging options change close to the wedding.", publishedAt:"2026-10-01T00:00:00-07:00",
     updatedAt:"2026-10-01T00:00:00-07:00",
     reviewedBy:"My Portland Wedding Editorial",
     relatedSlugs:["portland-wedding-hotel-block-guide","portland-wedding-hotel-block-contract-guide","portland-wedding-lodging-location-guide"],
@@ -3087,9 +3073,7 @@ export const inspirationArticles: InspirationArticle[] = [
     title:"Mobile Bar Glassware: Real Glass, Rentals or Disposables for Your Wedding?",
     dek:"Compare glassware choices around venue rules, staffing, cleanup, guest count and the look you want at a Portland-area wedding.",
     readTime:"7 min read",
-    seoTitle:"Mobile Bar Glassware: Real Glass, Rentals or Disposables for Your Wedding?",
-    seoDescription:"Compare glassware choices around venue rules, staffing, cleanup, guest count and the look you want at a Portland-area wedding.",
-    publishedAt:"2026-10-01T00:00:00-07:00",
+    seoTitle:"Wedding Bar Glassware: Rentals, Glass or Disposable?", seoDescription:"Compare wedding bar glassware using the drink menu, venue rules, staffing, cleanup, guest count and service style before placing a rental order.", publishedAt:"2026-10-01T00:00:00-07:00",
     updatedAt:"2026-10-01T00:00:00-07:00",
     reviewedBy:"My Portland Wedding Editorial",
     relatedSlugs:["portland-wedding-mobile-bar-guide","portland-wedding-mobile-bar-setup-guide","portland-wedding-mobile-bar-ice-guide"],
@@ -3113,9 +3097,7 @@ export const inspirationArticles: InspirationArticle[] = [
     title:"Flying Out After the Wedding: How Much Honeymoon Buffer Should You Leave?",
     dek:"Choose a honeymoon departure plan that accounts for wedding cleanup, sleep, luggage, travel documents and the possibility that Sunday morning feels very early.",
     readTime:"7 min read",
-    seoTitle:"Flying Out After the Wedding: How Much Honeymoon Buffer Should You Leave?",
-    seoDescription:"Choose a honeymoon departure plan that accounts for wedding cleanup, sleep, luggage, travel documents and the possibility that Sunday morning feels very early.",
-    publishedAt:"2026-10-01T00:00:00-07:00",
+    seoTitle:"Honeymoon Departure Timing After the Wedding", seoDescription:"Choose when to leave for your honeymoon by accounting for sleep, checkout, wedding cleanup, returns, luggage, airport travel and post-wedding obligations.", publishedAt:"2026-10-01T00:00:00-07:00",
     updatedAt:"2026-10-01T00:00:00-07:00",
     reviewedBy:"My Portland Wedding Editorial",
     relatedSlugs:["portland-wedding-honeymoon-departure-guide","portland-wedding-honeymoon-packing-guide","portland-wedding-honeymoon-emergency-documents-guide"],
@@ -3165,9 +3147,7 @@ export const inspirationArticles: InspirationArticle[] = [
     title:"When to Finalize Wedding Rental Counts—and What Can Still Change",
     dek:"Coordinate chairs, place settings, linens and specialty rentals as RSVPs settle without creating avoidable last-minute changes.",
     readTime:"7 min read",
-    seoTitle:"When to Finalize Wedding Rental Counts—and What Can Still Change",
-    seoDescription:"Coordinate chairs, place settings, linens and specialty rentals as RSVPs settle without creating avoidable last-minute changes.",
-    publishedAt:"2026-10-01T00:00:00-07:00",
+    seoTitle:"When to Finalize Wedding Rental Counts", seoDescription:"Finalize wedding rental counts using RSVPs, floor plans, contract deadlines and actual reuse plans for chairs, linens, place settings and specialty items.", publishedAt:"2026-10-01T00:00:00-07:00",
     updatedAt:"2026-10-01T00:00:00-07:00",
     reviewedBy:"My Portland Wedding Editorial",
     relatedSlugs:["portland-wedding-rentals-guide","portland-wedding-rental-delivery-guide","portland-wedding-rental-return-pickup-guide"],
@@ -3191,9 +3171,7 @@ export const inspirationArticles: InspirationArticle[] = [
     title:"When Should Your Wedding Officiant Arrive? A Ceremony-Day Timeline Guide",
     dek:"Build an officiant arrival plan that leaves time for audio checks, license details, wedding-party coordination and unexpected delays.",
     readTime:"7 min read",
-    seoTitle:"When Should Your Wedding Officiant Arrive? A Ceremony-Day Timeline Guide",
-    seoDescription:"Build an officiant arrival plan that leaves time for audio checks, license details, wedding-party coordination and unexpected delays.",
-    publishedAt:"2026-10-01T00:00:00-07:00",
+    seoTitle:"Wedding Officiant Arrival Time & Ceremony Checklist", seoDescription:"Plan wedding officiant arrival around parking, venue access, audio checks, ceremony coordination and marriage-license logistics before guests are seated.", publishedAt:"2026-10-01T00:00:00-07:00",
     updatedAt:"2026-10-01T00:00:00-07:00",
     reviewedBy:"My Portland Wedding Editorial",
     relatedSlugs:["portland-wedding-officiant-rehearsal-guide","portland-wedding-officiant-microphone-guide","portland-wedding-officiant-license-handoff-guide"],
@@ -3289,9 +3267,7 @@ export const inspirationArticles: InspirationArticle[] = [
     title:"Wedding Photo Booth Backdrops: Size, Lighting and Placement Before You Order",
     dek:"Choose a backdrop that fits the booth system, room layout and lighting rather than discovering onsite that the setup blocks a walkway.",
     readTime:"7 min read",
-    seoTitle:"Wedding Photo Booth Backdrops: Size, Lighting and Placement Before You Order",
-    seoDescription:"Choose a backdrop that fits the booth system, room layout and lighting rather than discovering onsite that the setup blocks a walkway.",
-    publishedAt:"2026-10-01T00:00:00-07:00",
+    seoTitle:"Wedding Photo Booth Backdrop Size & Placement Guide", seoDescription:"Choose a wedding photo booth backdrop by camera framing, group size, lighting, venue rules and the full floor-space footprint before ordering decor.", publishedAt:"2026-10-01T00:00:00-07:00",
     updatedAt:"2026-10-01T00:00:00-07:00",
     reviewedBy:"My Portland Wedding Editorial",
     relatedSlugs:["portland-wedding-photo-booth-guide","portland-wedding-photo-booth-placement-guide","portland-wedding-photo-booth-line-guide"],
@@ -3339,9 +3315,7 @@ export const inspirationArticles: InspirationArticle[] = [
     title:"Wedding Band & Live Music Soundchecks: What the Venue Needs to Know",
     dek:"Coordinate access, power, stage placement and soundcheck timing so live musicians can prepare without colliding with photos, ceremony setup or guest arrival.",
     readTime:"7 min read",
-    seoTitle:"Wedding Band & Live Music Soundchecks: What the Venue Needs to Know",
-    seoDescription:"Coordinate access, power, stage placement and soundcheck timing so live musicians can prepare without colliding with photos, ceremony setup or guest arrival.",
-    publishedAt:"2026-10-01T00:00:00-07:00",
+    seoTitle:"Wedding Band Soundcheck: Venue & Timeline Guide", seoDescription:"Plan a wedding band soundcheck around venue access, power, stage placement, photography, ceremony setup and guest arrival.", publishedAt:"2026-10-01T00:00:00-07:00",
     updatedAt:"2026-10-01T00:00:00-07:00",
     reviewedBy:"My Portland Wedding Editorial",
     relatedSlugs:["portland-wedding-live-music-guide","portland-wedding-live-music-ceremony-reception-guide","portland-wedding-live-band-guide"],
@@ -3365,9 +3339,7 @@ export const inspirationArticles: InspirationArticle[] = [
     title:"Hotel Blocks & Wedding Shuttles: How to Make the Two Plans Work Together",
     dek:"Choose lodging and shuttle stops as one guest-travel system so transportation remains practical for the people actually using the hotel block.",
     readTime:"7 min read",
-    seoTitle:"Hotel Blocks & Wedding Shuttles: How to Make the Two Plans Work Together",
-    seoDescription:"Choose lodging and shuttle stops as one guest-travel system so transportation remains practical for the people actually using the hotel block.",
-    publishedAt:"2026-10-01T00:00:00-07:00",
+    seoTitle:"Wedding Hotel Blocks & Shuttle Planning Guide", seoDescription:"Coordinate wedding hotel blocks and shuttles by estimating riders, confirming vehicle access, choosing loading points and keeping guest instructions aligned.", publishedAt:"2026-10-01T00:00:00-07:00",
     updatedAt:"2026-10-01T00:00:00-07:00",
     reviewedBy:"My Portland Wedding Editorial",
     relatedSlugs:["portland-wedding-lodging-location-guide","portland-wedding-hotel-block-guide","portland-wedding-hotel-welcome-bag-guide"],
@@ -3391,9 +3363,7 @@ export const inspirationArticles: InspirationArticle[] = [
     title:"Mobile Bars & Water Stations: How to Keep Nonalcoholic Drinks Easy to Find",
     dek:"Coordinate water and nonalcoholic service with a mobile bar so every guest has an obvious beverage option throughout the event.",
     readTime:"7 min read",
-    seoTitle:"Mobile Bars & Water Stations: How to Keep Nonalcoholic Drinks Easy to Find",
-    seoDescription:"Coordinate water and nonalcoholic service with a mobile bar so every guest has an obvious beverage option throughout the event.",
-    publishedAt:"2026-10-01T00:00:00-07:00",
+    seoTitle:"Wedding Water Stations & Nonalcoholic Bar Service", seoDescription:"Plan wedding water stations and nonalcoholic drinks around ceremony, bar service, guest access, refilling and venue or catering responsibilities.", publishedAt:"2026-10-01T00:00:00-07:00",
     updatedAt:"2026-10-01T00:00:00-07:00",
     reviewedBy:"My Portland Wedding Editorial",
     relatedSlugs:["portland-wedding-mobile-bar-guide","portland-wedding-mobile-bar-ice-guide","portland-wedding-mobile-bar-last-call-guide"],
@@ -3473,7 +3443,7 @@ export const inspirationArticles: InspirationArticle[] = [
   },
   {
     slug:"portland-wedding-officiant-license-handoff-guide", category:"Officiants", title:"Marriage License Handoff: Who Keeps It Before and After the Ceremony?", dek:"Create a clear custody plan for the marriage license so paperwork is available when needed and does not disappear into a bag, car or décor box.", readTime:"8 min read",
-    seoTitle:"Marriage License Handoff: Who Keeps It Before and After the Ceremony?", seoDescription:"Create a clear custody plan for the marriage license so paperwork is available when needed and does not disappear into a bag, car or décor box.", publishedAt:"2026-10-01T00:00:00-07:00", updatedAt:"2026-10-01T00:00:00-07:00", reviewedBy:"My Portland Wedding Editorial",
+    seoTitle:"Marriage License Handoff Before & After the Ceremony", seoDescription:"Create a marriage-license custody plan for the wedding day and verify signatures, handling and return requirements with the issuing authority.", publishedAt:"2026-10-01T00:00:00-07:00", updatedAt:"2026-10-01T00:00:00-07:00", reviewedBy:"My Portland Wedding Editorial",
     relatedSlugs:["oregon-wedding-officiant-ceremony-guide","portland-wedding-officiant-script-guide","portland-wedding-officiant-rehearsal-guide"],
     sections:[
       {heading:"Use the issuing authority's instructions",paragraphs:["Marriage-license requirements and return procedures are legal-administrative matters, so verify the current process with the government office that issued the license. Use vendor guidance to coordinate logistics, not to replace official requirements.","Once the requirements are clear, turn them into a simple wedding-day custody plan."]},
@@ -3491,7 +3461,7 @@ export const inspirationArticles: InspirationArticle[] = [
   },
   {
     slug:"portland-wedding-shuttle-last-run-guide", category:"Transportation", title:"The Last Wedding Shuttle: How to Plan Final Runs Without Stranding Guests", dek:"Build the end-of-night transportation schedule around venue exit time, cleanup, hotel destinations and guests who leave at different times.", readTime:"8 min read",
-    seoTitle:"The Last Wedding Shuttle: How to Plan Final Runs Without Stranding Guests", seoDescription:"Build the end-of-night transportation schedule around venue exit time, cleanup, hotel destinations and guests who leave at different times.", publishedAt:"2026-10-01T00:00:00-07:00", updatedAt:"2026-10-01T00:00:00-07:00", reviewedBy:"My Portland Wedding Editorial",
+    seoTitle:"Last Wedding Shuttle: Return Trip Planning Guide", seoDescription:"Plan the last wedding shuttle around venue exit time, guest walking and boarding, hotel destinations, earlier return runs and final-departure communication.", publishedAt:"2026-10-01T00:00:00-07:00", updatedAt:"2026-10-01T00:00:00-07:00", reviewedBy:"My Portland Wedding Editorial",
     relatedSlugs:["portland-wedding-shuttle-route-guide","portland-wedding-shuttle-loading-guide","portland-wedding-transportation-guide"],
     sections:[
       {heading:"Work backward from the venue end time",paragraphs:["Confirm when guests must leave and whether the property has a hard clear-out time. Account for coat pickup, walking to the loading point and boarding.","The final shuttle should have enough margin for a normal end-of-night transition."]},
@@ -3509,7 +3479,7 @@ export const inspirationArticles: InspirationArticle[] = [
   },
   {
     slug:"portland-wedding-rsvp-card-vs-online-guide", category:"Stationery", title:"RSVP Cards vs. Online RSVPs: Which Works Better for Your Guest List?", dek:"Choose a response method around your guests, information needs, stationery budget and the way you want to track meal choices and attendance.", readTime:"8 min read",
-    seoTitle:"RSVP Cards vs. Online RSVPs: Which Works Better for Your Guest List?", seoDescription:"Choose a response method around your guests, information needs, stationery budget and the way you want to track meal choices and attendance.", publishedAt:"2026-10-01T00:00:00-07:00", updatedAt:"2026-10-01T00:00:00-07:00", reviewedBy:"My Portland Wedding Editorial",
+    seoTitle:"Wedding RSVP Cards vs. Online RSVPs: How to Choose", seoDescription:"Compare paper and online wedding RSVPs by guest needs, information collection, stationery budget and how you want to track responses.", publishedAt:"2026-10-01T00:00:00-07:00", updatedAt:"2026-10-01T00:00:00-07:00", reviewedBy:"My Portland Wedding Editorial",
     relatedSlugs:["wedding-invitation-stationery-timeline-guide","portland-wedding-save-the-date-guide","portland-wedding-rsvp-wording-guide"],
     sections:[
       {heading:"Start with the information you need back",paragraphs:["List every response the wedding requires: attendance, meal selection, dietary information, plus-one name, shuttle interest or another event RSVP. Choose a response method that can collect those answers clearly.","Do not make guests answer the same question in two places unless there is a specific reason."]},
@@ -3563,7 +3533,7 @@ export const inspirationArticles: InspirationArticle[] = [
   },
   {
     slug:"portland-wedding-content-creator-posting-permission-guide", category:"Content Creation", title:"Wedding Content Posting Permissions: Decide What Can Go Online—and When", dek:"Set expectations for real-time posting, vendor tagging, private moments and social-media timing before a content creator starts filming.", readTime:"8 min read",
-    seoTitle:"Wedding Content Posting Permissions: Decide What Can Go Online—and When", seoDescription:"Set expectations for real-time posting, vendor tagging, private moments and social-media timing before a content creator starts filming.", publishedAt:"2026-10-01T00:00:00-07:00", updatedAt:"2026-10-01T00:00:00-07:00", reviewedBy:"My Portland Wedding Editorial",
+    seoTitle:"Wedding Content Creator Posting & Privacy Rules", seoDescription:"Set wedding content creator expectations for live posting, delayed sharing, private moments, guest privacy, vendor tagging and portfolio use.", publishedAt:"2026-10-01T00:00:00-07:00", updatedAt:"2026-10-01T00:00:00-07:00", reviewedBy:"My Portland Wedding Editorial",
     relatedSlugs:["portland-wedding-content-creator-guide","portland-wedding-content-creator-shot-guide","portland-wedding-content-creator-vs-videographer-guide"],
     sections:[
       {heading:"Choose live, delayed or private posting",paragraphs:["Tell the creator whether posting during the event is welcome, whether you want to review material first or whether nothing should be public until later.","Identify attire reveals, vows or surprises that must stay private."]},
@@ -3581,7 +3551,7 @@ export const inspirationArticles: InspirationArticle[] = [
   },
   {
     slug:"portland-wedding-live-music-ceremony-reception-guide", category:"Live Entertainment", title:"Using Live Music for Both Ceremony & Reception: Plan the Transition", dek:"Coordinate musician location, equipment moves, breaks and timing when the same performers cover more than one part of the wedding.", readTime:"8 min read",
-    seoTitle:"Using Live Music for Both Ceremony & Reception: Plan the Transition", seoDescription:"Coordinate musician location, equipment moves, breaks and timing when the same performers cover more than one part of the wedding.", publishedAt:"2026-10-01T00:00:00-07:00", updatedAt:"2026-10-01T00:00:00-07:00", reviewedBy:"My Portland Wedding Editorial",
+    seoTitle:"Live Music for Wedding Ceremony & Reception", seoDescription:"Use the same live musicians for ceremony and reception by planning equipment, location changes, transition time, power and music coverage between spaces.", publishedAt:"2026-10-01T00:00:00-07:00", updatedAt:"2026-10-01T00:00:00-07:00", reviewedBy:"My Portland Wedding Editorial",
     relatedSlugs:["portland-wedding-live-music-guide","portland-wedding-ceremony-musician-guide","portland-wedding-live-music-soundcheck-guide"],
     sections:[
       {heading:"Map every performance location before discussing songs",paragraphs:["List ceremony, cocktail-hour and reception locations, then identify where musicians, instruments, speakers and power must be in each phase. The central question is whether the same setup can serve multiple moments or whether equipment must move.","Walk the transition with the venue or planner when spaces are far apart, on different floors or outdoors."]},
@@ -3635,7 +3605,7 @@ export const inspirationArticles: InspirationArticle[] = [
   },
   {
     slug:"portland-wedding-honeymoon-emergency-documents-guide", category:"Honeymoons", title:"Honeymoon Travel Documents: Build a Backup Plan Before You Leave", dek:"Organize identification, reservations, emergency contacts and secure backups so important travel information is available if a phone, wallet or bag goes missing.", readTime:"8 min read",
-    seoTitle:"Honeymoon Travel Documents: Build a Backup Plan Before You Leave", seoDescription:"Organize identification, reservations, emergency contacts and secure backups so important travel information is available if a phone, wallet or bag goes missing.", publishedAt:"2026-10-01T00:00:00-07:00", updatedAt:"2026-10-01T00:00:00-07:00", reviewedBy:"My Portland Wedding Editorial",
+    seoTitle:"Honeymoon Travel Documents & Backup Plan", seoDescription:"Organize honeymoon travel documents, reservations, emergency contacts and secure backup access using current official requirements for your trip.", publishedAt:"2026-10-01T00:00:00-07:00", updatedAt:"2026-10-01T00:00:00-07:00", reviewedBy:"My Portland Wedding Editorial",
     relatedSlugs:["portland-wedding-honeymoon-planning-guide","portland-wedding-honeymoon-departure-guide","portland-wedding-honeymoon-packing-guide"],
     sections:[
       {heading:"Build the list from official sources",paragraphs:["Verify identification, passport, visa and entry requirements with the relevant government or official travel authorities for the actual itinerary. Requirements can change, so an old wedding checklist is not enough.","Then add reservations, insurance details and emergency contacts relevant to the trip."]},
@@ -3671,7 +3641,7 @@ export const inspirationArticles: InspirationArticle[] = [
   },
   {
     slug:"portland-wedding-rental-return-pickup-guide", category:"Rentals", title:"Wedding Rental Returns & Pickup: What Happens After the Reception?", dek:"Avoid end-of-night rental confusion by planning stacking, linen handling, damage documentation, pickup windows and who remains responsible after guests leave.", readTime:"9 min read",
-    seoTitle:"Wedding Rental Returns & Pickup: What Happens After the Reception?", seoDescription:"Avoid end-of-night rental confusion by planning stacking, linen handling, damage documentation, pickup windows and who remains responsible after guests leave.", publishedAt:"2026-10-01T00:00:00-07:00", updatedAt:"2026-10-01T00:00:00-07:00", reviewedBy:"My Portland Wedding Editorial",
+    seoTitle:"Wedding Rental Returns & Pickup After the Reception", seoDescription:"Plan wedding rental returns, linen handling, damage documentation, secure staging and pickup so responsibility is clear after guests leave.", publishedAt:"2026-10-01T00:00:00-07:00", updatedAt:"2026-10-01T00:00:00-07:00", reviewedBy:"My Portland Wedding Editorial",
     relatedSlugs:["portland-wedding-rental-tabletop-guide","portland-wedding-lounge-rental-guide","portland-wedding-rental-delivery-guide","portland-wedding-rental-damage-waiver-guide"],
     sections:[
       {heading:"Read return requirements before the wedding",paragraphs:["Ask which items must be stacked, bagged, scraped, dried or left in place and whether pickup happens that night or later. Those instructions affect the cleanup plan and staffing.","Do not wait until the reception ends to discover that linens or smallwares require special handling."]},
@@ -3689,7 +3659,7 @@ export const inspirationArticles: InspirationArticle[] = [
   },
   {
     slug:"portland-wedding-officiant-backup-guide", category:"Officiants", title:"What If Your Wedding Officiant Can't Make It? Build a Ceremony Backup Plan", dek:"Prepare a realistic officiant contingency plan without turning the ceremony into another source of anxiety.", readTime:"9 min read",
-    seoTitle:"What If Your Wedding Officiant Can't Make It? Build a Ceremony Backup Plan", seoDescription:"Prepare a realistic officiant contingency plan without turning the ceremony into another source of anxiety.", publishedAt:"2026-10-01T00:00:00-07:00", updatedAt:"2026-10-01T00:00:00-07:00", reviewedBy:"My Portland Wedding Editorial",
+    seoTitle:"Wedding Officiant Backup Plan: What If They Can't Attend?", seoDescription:"Build a wedding officiant backup plan by asking about replacement practices, ceremony materials, key contacts and legal requirements before an emergency.", publishedAt:"2026-10-01T00:00:00-07:00", updatedAt:"2026-10-01T00:00:00-07:00", reviewedBy:"My Portland Wedding Editorial",
     relatedSlugs:["portland-wedding-officiant-script-guide","portland-wedding-officiant-rehearsal-guide","portland-wedding-officiant-microphone-guide","portland-wedding-officiant-arrival-timeline-guide"],
     sections:[
       {heading:"Ask about backup practices when booking",paragraphs:["Find out whether the officiant has a professional network, associate or contingency process if illness or an emergency prevents attendance. The answer does not need to guarantee the impossible; it should show how they would respond.","Keep current contact information for both the officiant and whoever is coordinating the ceremony."]},
@@ -3707,7 +3677,7 @@ export const inspirationArticles: InspirationArticle[] = [
   },
   {
     slug:"portland-wedding-transportation-accessibility-guide", category:"Transportation", title:"Accessible Wedding Transportation: Questions to Ask Before Booking", dek:"Plan guest transportation around mobility devices, boarding assistance, walking distances and venue access so the shuttle plan works for the people using it.", readTime:"9 min read",
-    seoTitle:"Accessible Wedding Transportation: Questions to Ask Before Booking", seoDescription:"Plan guest transportation around mobility devices, boarding assistance, walking distances and venue access so the shuttle plan works for the people using it.", publishedAt:"2026-10-01T00:00:00-07:00", updatedAt:"2026-10-01T00:00:00-07:00", reviewedBy:"My Portland Wedding Editorial",
+    seoTitle:"Accessible Wedding Transportation Planning Guide", seoDescription:"Plan accessible wedding transportation around mobility needs, vehicle boarding, walking distance, pickup points and the full route into the venue.", publishedAt:"2026-10-01T00:00:00-07:00", updatedAt:"2026-10-01T00:00:00-07:00", reviewedBy:"My Portland Wedding Editorial",
     relatedSlugs:["portland-wedding-transportation-guide","portland-wedding-transportation-driver-contact-guide","portland-wedding-parking-rideshare-guide","portland-wedding-parking-guide"],
     sections:[
       {heading:"Ask guests what assistance they need",paragraphs:["When appropriate, gather transportation or mobility needs through direct guest communication rather than guessing. A mobility device, difficulty with stairs and a need for shorter walking distances can require different solutions.","Protect guest privacy by sharing only the operational information vendors need."]},
@@ -3743,7 +3713,7 @@ export const inspirationArticles: InspirationArticle[] = [
   },
   {
     slug:"portland-wedding-jewelry-heirloom-guide", category:"Jewelry", title:"Wearing Heirloom Jewelry at Your Wedding: Inspection, Sizing and Day-of Care", dek:"Bring sentimental jewelry into the wedding safely by planning inspections, alterations, styling, transport and return before the wedding week.", readTime:"9 min read",
-    seoTitle:"Wearing Heirloom Jewelry at Your Wedding: Inspection, Sizing and Day-of Care", seoDescription:"Bring sentimental jewelry into the wedding safely by planning inspections, alterations, styling, transport and return before the wedding week.", publishedAt:"2026-10-01T00:00:00-07:00", updatedAt:"2026-10-01T00:00:00-07:00", reviewedBy:"My Portland Wedding Editorial",
+    seoTitle:"Heirloom Wedding Jewelry: Inspection, Sizing & Care", seoDescription:"Wear heirloom jewelry safely by planning inspection, sizing, styling, transport, wedding-day custody and return before wedding week.", publishedAt:"2026-10-01T00:00:00-07:00", updatedAt:"2026-10-01T00:00:00-07:00", reviewedBy:"My Portland Wedding Editorial",
     relatedSlugs:["portland-wedding-jewelry-cleaning-before-wedding-guide","portland-wedding-ring-jewelry-guide","portland-wedding-jewelry-insurance-guide","portland-wedding-jewelry-day-of-storage-guide"],
     sections:[
       {heading:"Inspect heirlooms early",paragraphs:["Have an appropriate professional inspect clasps, settings, prongs, strings or other vulnerable parts well before the wedding if the piece has not been worn recently. Sentimental value can make a preventable failure especially painful.","Allow time for careful repair rather than forcing work into wedding week."]},
@@ -3869,7 +3839,7 @@ export const inspirationArticles: InspirationArticle[] = [
   },
   {
     slug:"portland-wedding-budget-contingency-guide", category:"Budget", title:"Wedding Budget Contingency: How Much Flexibility Should You Protect?", dek:"Build breathing room into a Portland wedding budget for real planning changes without treating the contingency as money that must be spent.", readTime:"9 min read",
-    seoTitle:"Wedding Budget Contingency: How Much Flexibility Should You Protect?", seoDescription:"Build breathing room into a Portland wedding budget for real planning changes without treating the contingency as money that must be spent.", publishedAt:"2026-10-01T00:00:00-07:00", updatedAt:"2026-10-01T00:00:00-07:00", reviewedBy:"My Portland Wedding Editorial", relatedSlugs:["portland-wedding-budget-guide","how-to-build-a-wedding-budget-that-feels-realistic","diy-wedding-ideas-portland-budget"],
+    seoTitle:"Portland Wedding Budget Contingency Guide", seoDescription:"Build flexibility into a Portland wedding budget for planning changes and tradeoffs without treating contingency money as something that must be spent.", publishedAt:"2026-10-01T00:00:00-07:00", updatedAt:"2026-10-01T00:00:00-07:00", reviewedBy:"My Portland Wedding Editorial", relatedSlugs:["portland-wedding-budget-guide","how-to-build-a-wedding-budget-that-feels-realistic","diy-wedding-ideas-portland-budget"],
     sections:[
       {heading:"Define what the reserve protects",paragraphs:["A contingency is for uncertainty and late changes, not a hidden upgrade fund. Identify the types of costs that could reasonably move: guest count, overtime, weather needs, delivery or final quantities.","Keeping the purpose explicit makes it easier to say no to optional spending that consumes the cushion early."]},
       {heading:"Keep it outside category wish lists",paragraphs:["Build category budgets from the money available after protecting the reserve. If every category already assumes access to the contingency, it is not actually reserved.","Track it as its own line so you can see when it is being used."]},
@@ -3886,7 +3856,7 @@ export const inspirationArticles: InspirationArticle[] = [
   },
   {
     slug:"portland-wedding-vendor-availability-comparison-guide", category:"Vendors", title:"Comparing Wedding Vendors When Your First Choice Isn't Available", dek:"Turn vendor availability into a useful comparison process by separating must-haves from preferences and evaluating alternatives around the actual wedding plan.", readTime:"9 min read",
-    seoTitle:"Comparing Wedding Vendors When Your First Choice Isn't Available", seoDescription:"Turn vendor availability into a useful comparison process by separating must-haves from preferences and evaluating alternatives around the actual wedding plan.", publishedAt:"2026-10-01T00:00:00-07:00", updatedAt:"2026-10-01T00:00:00-07:00", reviewedBy:"My Portland Wedding Editorial", relatedSlugs:["portland-wedding-vendor-contract-guide","portland-wedding-vendor-tip-guide","portland-wedding-vendor-communication-guide","portland-wedding-vendor-response-time-guide"],
+    seoTitle:"Comparing Wedding Vendors When Your First Choice Is Booked", seoDescription:"Compare wedding vendor alternatives by availability, scope, venue fit, timeline and budget so a booked first choice does not derail the larger wedding plan.", publishedAt:"2026-10-01T00:00:00-07:00", updatedAt:"2026-10-01T00:00:00-07:00", reviewedBy:"My Portland Wedding Editorial", relatedSlugs:["portland-wedding-vendor-contract-guide","portland-wedding-vendor-tip-guide","portland-wedding-vendor-communication-guide","portland-wedding-vendor-response-time-guide"],
     sections:[
       {heading:"Name what you actually lost",paragraphs:["If a first-choice vendor is unavailable, write down what made them appealing: editing style, service approach, personality, package structure, price or a specific capability. Those qualities—not the vendor's name—become the comparison criteria.","This keeps disappointment from turning into a search for an impossible duplicate."]},
       {heading:"Compare outcomes, not branding",paragraphs:["Review alternative vendors against the experience and deliverables you want. Ask for work or examples relevant to your venue type and wedding priorities.","A different creative style can still be an excellent fit if it produces the outcome you care about."]},
@@ -3903,7 +3873,7 @@ export const inspirationArticles: InspirationArticle[] = [
   },
   {
     slug:"portland-wedding-vendor-response-time-guide", category:"Vendors", title:"Wedding Vendor Response Times: When to Follow Up and When to Move On", dek:"Set practical communication expectations during vendor research without mistaking a busy weekend for poor service—or waiting indefinitely for an answer.", readTime:"9 min read",
-    seoTitle:"Wedding Vendor Response Times: When to Follow Up and When to Move On", seoDescription:"Set practical communication expectations during vendor research without mistaking a busy weekend for poor service—or waiting indefinitely for an answer.", publishedAt:"2026-10-01T00:00:00-07:00", updatedAt:"2026-10-01T00:00:00-07:00", reviewedBy:"My Portland Wedding Editorial", relatedSlugs:["portland-wedding-vendor-contract-guide","portland-wedding-vendor-tip-guide","portland-wedding-vendor-communication-guide"],
+    seoTitle:"Wedding Vendor Response Times & Follow-Up Guide", seoDescription:"Know when to follow up with a wedding vendor, when a delay may be normal and when to keep your search moving so one unanswered inquiry does not stall planning.", publishedAt:"2026-10-01T00:00:00-07:00", updatedAt:"2026-10-01T00:00:00-07:00", reviewedBy:"My Portland Wedding Editorial", relatedSlugs:["portland-wedding-vendor-contract-guide","portland-wedding-vendor-tip-guide","portland-wedding-vendor-communication-guide"],
     sections:[
       {heading:"Judge response time in context",paragraphs:["An inquiry sent during a weekend of weddings may reasonably move differently from an active-client emergency. Notice the stage of the relationship, the vendor's stated office hours and whether your question is time-sensitive.","What matters is whether communication expectations are clear and consistently met."]},
       {heading:"Send one useful follow-up",paragraphs:["A follow-up should include your names, date, venue or location, service requested and the original question. Make it easy for the vendor to answer without reconstructing the inquiry.","Avoid sending the same message through several channels at once unless the vendor directs you to do so."]},
@@ -3937,7 +3907,7 @@ export const inspirationArticles: InspirationArticle[] = [
   },
   {
     slug:"portland-wedding-bridal-undergarment-fitting-guide", category:"Bridal", title:"Wedding Dress Undergarments & Fittings: Decide What to Wear Before Alterations", dek:"Coordinate bras, shapewear and other undergarments with the actual dress construction and alteration process instead of buying them independently.", readTime:"9 min read",
-    seoTitle:"Wedding Dress Undergarments & Fittings: Decide What to Wear Before Alterations", seoDescription:"Coordinate bras, shapewear and other undergarments with the actual dress construction and alteration process instead of buying them independently.", publishedAt:"2026-10-01T00:00:00-07:00", updatedAt:"2026-10-01T00:00:00-07:00", reviewedBy:"My Portland Wedding Editorial", relatedSlugs:["portland-wedding-dress-shopping-guide","portland-wedding-dress-alterations-guide","portland-wedding-dress-bustle-guide","portland-wedding-shoe-guide"],
+    seoTitle:"Wedding Dress Undergarments & Fitting Guide", seoDescription:"Choose wedding dress undergarments before alterations by considering the gown's construction, support, fit and what your seamstress needs for fittings.", publishedAt:"2026-10-01T00:00:00-07:00", updatedAt:"2026-10-01T00:00:00-07:00", reviewedBy:"My Portland Wedding Editorial", relatedSlugs:["portland-wedding-dress-shopping-guide","portland-wedding-dress-alterations-guide","portland-wedding-dress-bustle-guide","portland-wedding-shoe-guide"],
     sections:[
       {heading:"Let the dress determine what is needed",paragraphs:["Before buying shapewear or a special bra, ask the bridal salon or alterations professional what the gown's structure already provides. Built-in cups, boning, lining and neckline can make some undergarments unnecessary or incompatible.","The right answer is based on the specific dress, not a universal bridal checklist."]},
       {heading:"Bring final foundation pieces to alterations",paragraphs:["If an undergarment changes bust position, waist shape or overall fit, wear it at the fittings where those areas are adjusted. Switching foundation garments after alterations can change how the gown sits.","Bring the intended wedding shoes for hem-related fittings as well."]},
@@ -3954,7 +3924,7 @@ export const inspirationArticles: InspirationArticle[] = [
   },
   {
     slug:"portland-wedding-formalwear-rental-pickup-guide", category:"Formalwear", title:"Tux & Suit Rental Pickup: What to Check Before Leaving the Store", dek:"Use the pickup appointment to catch fit, accessory and order problems while there is still time to solve them.", readTime:"9 min read",
-    seoTitle:"Tux & Suit Rental Pickup: What to Check Before Leaving the Store", seoDescription:"Use the pickup appointment to catch fit, accessory and order problems while there is still time to solve them.", publishedAt:"2026-10-01T00:00:00-07:00", updatedAt:"2026-10-01T00:00:00-07:00", reviewedBy:"My Portland Wedding Editorial", relatedSlugs:["portland-wedding-formalwear-fitting-guide","portland-wedding-formalwear-accessories-guide","portland-wedding-formalwear-measurement-guide"],
+    seoTitle:"Wedding Tux & Suit Rental Pickup Checklist", seoDescription:"Use your wedding tux or suit rental pickup to check fit, accessories and the full order while there is still time to correct a problem.", publishedAt:"2026-10-01T00:00:00-07:00", updatedAt:"2026-10-01T00:00:00-07:00", reviewedBy:"My Portland Wedding Editorial", relatedSlugs:["portland-wedding-formalwear-fitting-guide","portland-wedding-formalwear-accessories-guide","portland-wedding-formalwear-measurement-guide"],
     sections:[
       {heading:"Try on the exact rental",paragraphs:["Do not treat pickup as a bag-collection errand. Try on jacket, trousers, shirt, vest if applicable and shoes while there is still time to solve a problem.","Check length, closure, collar comfort and normal movement."]},
       {heading:"Inventory every accessory",paragraphs:["Confirm ties, pocket squares, belts or suspenders, cuff links, socks and shoes against the order.","For group pickups, keep each person's pieces separated and labeled."]},
@@ -3971,7 +3941,7 @@ export const inspirationArticles: InspirationArticle[] = [
   },
   {
     slug:"portland-wedding-formalwear-weather-guide", category:"Formalwear", title:"Wedding Suits & Tuxes for Portland Weather: Fabric, Layers and Comfort", dek:"Choose formalwear around season, indoor-outdoor transitions and actual wear time so the look works beyond the ceremony photos.", readTime:"9 min read",
-    seoTitle:"Wedding Suits & Tuxes for Portland Weather: Fabric, Layers and Comfort", seoDescription:"Choose formalwear around season, indoor-outdoor transitions and actual wear time so the look works beyond the ceremony photos.", publishedAt:"2026-10-01T00:00:00-07:00", updatedAt:"2026-10-01T00:00:00-07:00", reviewedBy:"My Portland Wedding Editorial", relatedSlugs:["portland-wedding-formalwear-fitting-guide","portland-wedding-formalwear-accessories-guide","portland-wedding-formalwear-measurement-guide"],
+    seoTitle:"Portland Wedding Suits & Tuxes: Weather Guide", seoDescription:"Choose Portland wedding suits and tuxes around season, fabric, layers, indoor-outdoor transitions and actual wear time for better day-long comfort.", publishedAt:"2026-10-01T00:00:00-07:00", updatedAt:"2026-10-01T00:00:00-07:00", reviewedBy:"My Portland Wedding Editorial", relatedSlugs:["portland-wedding-formalwear-fitting-guide","portland-wedding-formalwear-accessories-guide","portland-wedding-formalwear-measurement-guide"],
     sections:[
       {heading:"Dress for where the day happens",paragraphs:["Map how long formalwear will be worn indoors, outdoors, in vehicles and while walking. A ceremony-only outdoor exposure calls for a different strategy than hours outside.","Use the actual venue and season rather than a generic month-by-month rule."]},
       {heading:"Use layers strategically",paragraphs:["A removable layer can add flexibility without changing the core look. Ask the formalwear provider which fabric weights and constructions make sense for the intended setting.","Avoid solving cold weather with a layer that cannot comfortably fit over the tailored outfit."]},
@@ -3988,7 +3958,7 @@ export const inspirationArticles: InspirationArticle[] = [
   },
   {
     slug:"portland-wedding-videography-raw-footage-guide", category:"Videography", title:"Wedding Video Raw Footage: What It Is, What You May Receive and What to Ask", dek:"Understand the difference between edited films, documentary edits and raw footage so video deliverables match what you actually want to preserve.", readTime:"9 min read",
-    seoTitle:"Wedding Video Raw Footage: What It Is, What You May Receive and What to Ask", seoDescription:"Understand the difference between edited films, documentary edits and raw footage so video deliverables match what you actually want to preserve.", publishedAt:"2026-10-01T00:00:00-07:00", updatedAt:"2026-10-01T00:00:00-07:00", reviewedBy:"My Portland Wedding Editorial", relatedSlugs:["portland-wedding-videography-photography-team-guide","portland-wedding-videography-style-guide","portland-wedding-videography-drone-guide","portland-wedding-videography-delivery-guide"],
+    seoTitle:"Wedding Video Raw Footage: What Couples Should Ask", seoDescription:"Compare raw wedding footage, documentary edits and finished films so your videography package matches what you actually want to receive and preserve.", publishedAt:"2026-10-01T00:00:00-07:00", updatedAt:"2026-10-01T00:00:00-07:00", reviewedBy:"My Portland Wedding Editorial", relatedSlugs:["portland-wedding-videography-photography-team-guide","portland-wedding-videography-style-guide","portland-wedding-videography-drone-guide","portland-wedding-videography-delivery-guide"],
     sections:[
       {heading:"Define what raw means in the proposal",paragraphs:["Couples may use 'raw footage' to mean every camera file, while a videographer may mean lightly organized clips or unedited usable footage. Ask the vendor to define the deliverable in concrete terms.","Find out whether audio files, drone footage or multiple-camera angles are included."]},
       {heading:"Compare raw footage with other edits",paragraphs:["A highlight film, documentary edit and raw clips serve different purposes. Decide whether you want a polished story, long-form preservation, access to extra moments or a combination.","Do not pay for raw footage solely because it sounds like the most complete option."]},
@@ -4022,7 +3992,7 @@ export const inspirationArticles: InspirationArticle[] = [
   },
   {
     slug:"portland-wedding-local-rainy-guest-comfort-guide", category:"Local Ideas", title:"Rainy Portland Wedding Guest Comfort: Small Details That Make a Big Difference", dek:"Plan guest arrival, coat storage, walking routes and warm-up spaces for wet Portland wedding days without turning rain into the theme of the wedding.", readTime:"9 min read",
-    seoTitle:"Rainy Portland Wedding Guest Comfort: Small Details That Make a Big Difference", seoDescription:"Plan guest arrival, coat storage, walking routes and warm-up spaces for wet Portland wedding days without turning rain into the theme of the wedding.", publishedAt:"2026-10-01T00:00:00-07:00", updatedAt:"2026-10-01T00:00:00-07:00", reviewedBy:"My Portland Wedding Editorial", relatedSlugs:["ways-to-make-your-portland-wedding-feel-more-personal"],
+    seoTitle:"Rainy Portland Wedding: Guest Comfort Guide", seoDescription:"Plan a rainy Portland wedding around guest arrival, walking routes, umbrellas, coat storage and warm-up spaces without making weather the theme.", publishedAt:"2026-10-01T00:00:00-07:00", updatedAt:"2026-10-01T00:00:00-07:00", reviewedBy:"My Portland Wedding Editorial", relatedSlugs:["ways-to-make-your-portland-wedding-feel-more-personal"],
     sections:[
       {heading:"Walk the wet-weather arrival route",paragraphs:["Start where guests actually leave a car or shuttle and follow the path to the ceremony and reception. Look for uncovered stretches, gravel, grass, puddle-prone areas, stairs and long distances.","A covered ceremony does not solve a soaked five-minute walk from parking."]},
       {heading:"Create a dry transition zone",paragraphs:["Guests need somewhere to close umbrellas, remove wet outerwear and orient themselves without blocking an entrance. Ask the venue where that can happen and who manages the area.","Protect nearby floors when wet footwear creates a slip or maintenance issue."]},
