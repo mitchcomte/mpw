@@ -350,7 +350,10 @@ export const inspirationArticles: InspirationArticle[] = [
       {heading:"A Portland-friendly way to think about it", paragraphs:["Local weddings can feel personal without buying more things. Seasonal greenery, favorite neighborhood foods, locally made treats, reusable décor, borrowed pieces and a few meaningful details can create a strong sense of place without filling every category in the budget."]},
       {heading:"How to use this with Wedding Builder", paragraphs:["Wedding Builder gives every category a planning allocation so you can see the tradeoffs. When an allocation is small, treat it as a decision point—not a command to spend that amount. Keep it, move it to a priority, simplify that category, or use a DIY approach. Your total budget should serve your wedding, not the other way around."]}
     ],
-    checklist:["Protect your top three priorities first","Circle categories that feel optional to you","Simplify before buying DIY supplies","Estimate materials plus your real time","Assign one person to transport/setup each DIY project","Check venue rules before making décor or food plans","Avoid starting new DIY projects during wedding week","Move unused category money back to your highest priorities"]
+    checklist:["Protect your top three priorities first","Circle categories that feel optional to you","Simplify before buying DIY supplies","Estimate materials plus your real time","Assign one person to transport/setup each DIY project","Check venue rules before making décor or food plans","Avoid starting new DIY projects during wedding week","Move unused category money back to your highest priorities"],faq:[
+      {question:"Is DIY always cheaper than hiring a wedding vendor?",answer:"No. Compare materials, tools, test runs, transportation, setup, cleanup and your available time with the actual professional quote before deciding where DIY creates meaningful savings."},
+      {question:"What wedding projects are best to DIY?",answer:"Favor projects with low safety risk, flexible timing and simple setup. If a project depends on specialized equipment, food or alcohol rules, electrical or structural work, transportation or a ceremony-critical task, understand the responsibility before taking it on."}
+    ]
   },
   {
     slug:"how-to-choose-portland-wedding-photographer",
