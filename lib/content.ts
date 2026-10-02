@@ -159,7 +159,7 @@ export const inspirationArticles: InspirationArticle[] = [
     title:"Portland Wedding Planning Checklist: From Engagement to Wedding Week",
     dek:"A practical Portland wedding timeline that keeps the big bookings, guest logistics and final details in the right order.",
     seoTitle:"Portland Wedding Planning Checklist & Timeline", seoDescription:"Follow a practical Portland wedding planning checklist from engagement through wedding week, with major bookings and guest logistics in useful order.", readTime:"10 min read",
-    relatedSlugs:["which-wedding-vendors-should-you-book-first","how-to-build-a-wedding-budget-that-feels-realistic","portland-wedding-timeline-guide"],
+    relatedSlugs:["which-wedding-vendors-should-you-book-first","how-to-build-a-wedding-budget-that-feels-realistic","portland-wedding-day-timeline-guide"],
     sections:[
       {heading:"First: build the foundation", bullets:["Set a comfortable budget","Estimate guest count","Choose top priorities","Discuss season and preferred dates","Build a venue shortlist","Decide whether you want a planner"]},
       {heading:"Book the vendors with limited dates", bullets:["Venue","Planner or coordinator","Photographer","Videographer","Caterer and bar if not included","DJ, band or entertainment"]},
@@ -197,7 +197,7 @@ export const inspirationArticles: InspirationArticle[] = [
     title:"Portland Micro-Wedding Guide: Planning a Smaller Celebration That Still Feels Special",
     dek:"How to use a smaller guest list to create a more personal Portland wedding without making the day feel like a scaled-down afterthought.",
     seoTitle:"Portland Micro-Wedding Guide: Plan a Meaningful Small Wedding", seoDescription:"Plan a Portland micro-wedding around guest experience, venue fit, budget and personal details without making the celebration feel scaled down.", readTime:"7 min read",
-    relatedSlugs:["portland-wedding-budget-guide","finding-a-portland-wedding-venue-that-fits-your-style","portland-wedding-timeline-guide"],
+    relatedSlugs:["portland-wedding-budget-guide","finding-a-portland-wedding-venue-that-fits-your-style","portland-wedding-day-timeline-guide"],
     sections:[
       {heading:"Define small for your wedding", paragraphs:["A micro-wedding is less about hitting an exact guest-count definition and more about intentionally planning for a smaller group. Decide who you genuinely want present before choosing the space."]},
       {heading:"Use the smaller guest list intentionally", bullets:["Upgrade the meal or drinks","Choose a distinctive smaller venue","Create one long dinner table","Spend more time with each guest","Plan a weekend or multi-event experience","Put more budget toward photography, music or design"]},
@@ -2384,7 +2384,7 @@ export const inspirationArticles: InspirationArticle[] = [
     ]
   },
   {
-    slug:"portland-wedding-honeymoon-packing-guide",category:"Honeymoons",title:"Honeymoon Packing After a Wedding: Separate Travel Logistics From Wedding-Day Chaos",dek:"Prepare documents, bags and departure essentials before the wedding weekend so the trip does not begin with a scavenger hunt.",readTime:"8 min read",seoTitle:"Honeymoon Packing & Departure Guide",seoDescription:"Prepare for a honeymoon after your Portland wedding with travel documents, luggage, medications, wedding-night handoff and departure logistics.",relatedSlugs:["portland-wedding-honeymoon-guide","portland-wedding-honeymoon-departure-guide","wedding-week-checklist"],sections:[
+    slug:"portland-wedding-honeymoon-packing-guide",category:"Honeymoons",title:"Honeymoon Packing After a Wedding: Separate Travel Logistics From Wedding-Day Chaos",dek:"Prepare documents, bags and departure essentials before the wedding weekend so the trip does not begin with a scavenger hunt.",readTime:"8 min read",seoTitle:"Honeymoon Packing & Departure Guide",seoDescription:"Prepare for a honeymoon after your Portland wedding with travel documents, luggage, medications, wedding-night handoff and departure logistics.",relatedSlugs:["portland-wedding-honeymoon-planning-guide","portland-wedding-honeymoon-departure-guide","wedding-week-checklist"],sections:[
       {heading:"Pack before the wedding weekend if possible",paragraphs:["The day after a wedding is a poor time to locate chargers, travel documents and clothing. Finish the main bag while normal routines are still intact."]},
       {heading:"Separate travel-critical items",paragraphs:["Identification, required documents, medication and essential electronics should have a deliberate location that does not get mixed with wedding décor."]},
       {heading:"Plan where wedding belongings go",paragraphs:["Attire, cards, gifts and personal items may need to travel somewhere different from the honeymoon luggage. Assign those handoffs."]},
@@ -2528,7 +2528,7 @@ export const inspirationArticles: InspirationArticle[] = [
     ]
   },
   {
-    slug:"portland-wedding-honeymoon-budget-guide",category:"Honeymoons",title:"Honeymoon Budgeting: Keep the Trip From Becoming an Invisible Wedding Expense",dek:"Separate travel costs from the wedding budget and plan for the less glamorous expenses between flights and the hotel room.",readTime:"9 min read",seoTitle:"Honeymoon Budget Planning Guide",seoDescription:"Build a honeymoon budget covering transportation, lodging, meals, activities, insurance, fees and post-wedding cash flow.",relatedSlugs:["portland-wedding-honeymoon-guide","portland-wedding-honeymoon-departure-guide","portland-wedding-budget-guide"],sections:[
+    slug:"portland-wedding-honeymoon-budget-guide",category:"Honeymoons",title:"Honeymoon Budgeting: Keep the Trip From Becoming an Invisible Wedding Expense",dek:"Separate travel costs from the wedding budget and plan for the less glamorous expenses between flights and the hotel room.",readTime:"9 min read",seoTitle:"Honeymoon Budget Planning Guide",seoDescription:"Build a honeymoon budget covering transportation, lodging, meals, activities, insurance, fees and post-wedding cash flow.",relatedSlugs:["portland-wedding-honeymoon-planning-guide","portland-wedding-honeymoon-departure-guide","portland-wedding-budget-guide"],sections:[
       {heading:"Give the honeymoon its own total",paragraphs:["Treat travel as a separate planning bucket so wedding upgrades do not quietly consume money intended for the trip."]},
       {heading:"Price the full transportation chain",paragraphs:["Airfare is only one piece. Airport transfers, rental cars, trains, parking and baggage fees can add meaningful cost."]},
       {heading:"Estimate daily spending",paragraphs:["Meals, drinks, activities, local transportation and tips can change the trip total substantially after lodging is booked."]},
