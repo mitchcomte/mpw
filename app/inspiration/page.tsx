@@ -32,7 +32,7 @@ export default function Page(){
     <section className="inspirationHubHero inspirationHubHeroPhoto"><div className="container inspirationHeroGrid">
       <div className="inspirationHeroCopy"><span className="eyebrow">Wedding inspiration</span><h1>Ideas. Guidance. Real Inspiration for Your Perfect Day.</h1><p className="inspirationLead">Expert advice, planning tips, and Portland wedding ideas to help you create a celebration that feels uniquely yours.</p>
       <div className="inspirationSearch"><span aria-hidden="true">⌕</span><span>Search wedding inspiration...</span><Link href="#topics">Search</Link></div>
-      <div className="popularTopics">Popular topics: <Link href="#venues">Venues</Link><Link href="#budget">Budget</Link><Link href="#planning">Planning</Link><Link href="#travel">Honeymoons</Link></div></div>
+      <div className="popularTopics">Popular topics: <Link href="#venues">Venues</Link><Link href="#budget">Budget</Link><Link href="#planning">Planning</Link><Link href="/inspiration/topic/honeymoons">Honeymoons</Link></div></div>
       <aside className="inspirationBuilder"><span className="eyebrow">Plan smarter</span><h2>Build your wedding vision in one place.</h2><p>Turn the ideas you love into a personalized plan based on your budget, guest count, location, style and priorities.</p><Link className="btn primary" href="/wedding-builder">Open Wedding Builder →</Link></aside>
     </div></section>
 
