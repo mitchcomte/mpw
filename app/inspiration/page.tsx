@@ -10,7 +10,7 @@ export const metadata = {
 
 const topics = [
   ["Planning & Timeline","Planning","https://images.unsplash.com/photo-1758825178518-ca48833a6c57?auto=format&fit=crop&w=900&q=82"],
-  ["Venues","Venues","https://images.unsplash.com/photo-1783818413128-c3e27b013457?auto=format&fit=crop&w=900&q=82"],
+  ["Venues","Venues","https://images.unsplash.com/photo-1519225421980-715cb0215aed?auto=format&fit=crop&w=900&h=600&q=82"],
   ["Budget & Costs","Budget","https://images.unsplash.com/photo-1741207154948-66f7fa63c35a?auto=format&fit=crop&w=900&q=82"],
   ["Photography & Video","Photography","https://images.unsplash.com/photo-1786206432186-f0201a7056bd?auto=format&fit=crop&w=900&q=82"],
   ["Style & Décor","Florists","https://images.unsplash.com/photo-1785672951683-dba4e3867b8a?auto=format&fit=crop&w=900&q=82"],
