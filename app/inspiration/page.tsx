@@ -23,21 +23,21 @@ const featuredSlugs = [
 export default function Page(){
   const featured=featuredSlugs.map(slug=>inspirationArticles.find(a=>a.slug===slug)).filter(Boolean) as typeof inspirationArticles;
   return <main>
-    <section className="inspirationHubHero"><div className="container inspirationHeroGrid">
-      <div><span className="eyebrow">Wedding inspiration</span><h1>Ideas. Guidance.<br/><em>Portland inspiration</em> for your day.</h1><p className="inspirationLead">Practical local advice, planning ideas and thoughtful guides to help you create a celebration that feels unmistakably yours.</p>
-      <div className="inspirationSearch"><span aria-hidden="true">⌕</span><span>Explore by topic below</span><Link href="#topics">Browse guides</Link></div>
+    <section className="inspirationHubHero inspirationHubHeroPhoto"><div className="container inspirationHeroGrid">
+      <div className="inspirationHeroCopy"><span className="eyebrow">Wedding inspiration</span><h1>Ideas. Guidance. Real Inspiration for Your Perfect Day.</h1><p className="inspirationLead">Expert advice, planning tips, and Portland wedding ideas to help you create a celebration that feels uniquely yours.</p>
+      <div className="inspirationSearch"><span aria-hidden="true">⌕</span><span>Search wedding inspiration...</span><Link href="#topics">Search</Link></div>
       <div className="popularTopics">Popular topics: <Link href="#venues">Venues</Link><Link href="#budget">Budget</Link><Link href="#planning">Planning</Link><Link href="#travel">Honeymoons</Link></div></div>
       <aside className="inspirationBuilder"><span className="eyebrow">Plan smarter</span><h2>Build your wedding vision in one place.</h2><p>Turn the ideas you love into a personalized plan based on your budget, guest count, location, style and priorities.</p><Link className="btn primary" href="/wedding-builder">Open Wedding Builder →</Link></aside>
     </div></section>
 
     <section className="section inspirationTopics" id="topics"><div className="container">
       <div className="inspirationHeading"><div><span className="eyebrow">Browse by topic</span><h2>Explore wedding ideas by category</h2></div><span className="meta">270 in-depth guides, organized for easy browsing</span></div>
-      <div className="topicGrid">{topics.map(([label,category])=>{const count=inspirationArticles.filter(a=>a.category===category).length;return <Link key={label} href={"/inspiration/topic/"+encodeURIComponent(category.toLowerCase().replace(/ & /g,"-").replace(/\s+/g,"-"))} className="topicCard"><span>{label}</span><small>{count} guides</small></Link>})}</div>
+      <div className="topicGrid">{topics.map(([label,category],i)=>{const count=inspirationArticles.filter(a=>a.category===category).length;const imgs=["/about/couple-moment.jpg","/about/vendor-moment.jpg","/about/hero-couple.jpg"];return <Link key={label} href={"/inspiration/topic/"+encodeURIComponent(category.toLowerCase().replace(/ & /g,"-").replace(/\s+/g,"-"))} className="topicCard topicCardVisual"><img src={imgs[i%imgs.length]} alt="" /><span>{label}</span><small>{count} guides</small></Link>})}</div>
     </div></section>
 
     <section className="section featuredGuides"><div className="container">
       <div className="inspirationHeading"><div><span className="eyebrow">Featured articles</span><h2>Start with these planning essentials</h2><p className="meta">Useful, local guidance for the decisions couples make first.</p></div><Link className="btn primary" href="/wedding-builder">Turn Inspiration Into My Wedding →</Link></div>
-      <div className="featuredGuideGrid">{featured.map((a,i)=><Link key={a.slug} href={"/inspiration/"+a.slug} className={"featuredGuide featuredGuide"+(i+1)}><span className="eyebrow">{a.category}</span><h3>{a.title}</h3><p>{a.dek}</p><div><span>{a.readTime}</span><strong>Read guide →</strong></div></Link>)}</div>
+      <div className="featuredGuideGrid">{featured.map((a,i)=>{const imgs=["/about/couple-moment.jpg","/about/vendor-moment.jpg","/about/hero-couple.jpg"];return <Link key={a.slug} href={"/inspiration/"+a.slug} className={"featuredGuide featuredGuide"+(i+1)}><img className="featuredGuideImage" src={imgs[i]} alt="" /><span className="eyebrow">{a.category}</span><h3>{a.title}</h3><p>{a.dek}</p><div><span>{a.readTime}</span><strong>Read guide →</strong></div></Link>})}</div>
     </div></section>
 
     <section className="section inspirationPathways"><div className="container"><div className="inspirationHeading"><div><span className="eyebrow">Helpful resources</span><h2>Find guidance for where you are now</h2></div></div>
