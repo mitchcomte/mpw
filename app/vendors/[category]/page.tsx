@@ -32,7 +32,7 @@ const heroCopy:Record<string,{kicker:string;headline:string;body:string}>={
  honeymoons:{kicker:"HONEYMOON PLANNING",headline:"Plan what happens after the last dance.",body:"Find honeymoon professionals who can help turn the trip after your wedding into an adventure worth looking forward to."}
 };
 
-export async function generateMetadata({params,searchParams}:{params:Promise<{category:string}>,searchParams:Promise<Q>}){const {category}=await params;const q=await searchParams;return categoryMetadata(category,q.area)}
+export async function generateMetadata({params,searchParams}:{params:Promise<{category:string}>,searchParams:Promise<Q>}){const {category}=await params;const q=await searchParams;const metadata=categoryMetadata(category);const hasFilters=Boolean(q.area||q.q||q.style||q.price||q.availability||q.sort||q.capacity);return hasFilters?{...metadata,robots:{index:false,follow:true}}:metadata}
 export default async function CategoryPage({params,searchParams}:{params:Promise<{category:string}>,searchParams:Promise<Q>}){
  const {category}=await params; const q=await searchParams; const found=categories.find(([s])=>s===category); const title=found?.[1] || "Wedding Vendors";
  const supabase=await createSupabaseServerClient(); const {data}=await supabase.from("vendor_profiles").select("id,slug,business_name,primary_category,secondary_categories,city,state,service_cities,plan,rating,review_count,description,founding_vendor,pricing_from,pricing_typical,wedding_styles,availability_status,guest_capacity_min,guest_capacity_max,vendor_photos(storage_path,sort_order)").eq("market_slug","portland").eq("status","active").limit(250);
