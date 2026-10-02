@@ -72,14 +72,14 @@ export const inspirationArticles: InspirationArticle[] = [
     seoTitle:"Portland Wedding Venues: How to Choose the Right Venue",
     seoDescription:"Compare Portland wedding venue styles, capacity, rain plans, inclusions, transportation and total cost with this in-depth local venue guide.",
     publishedAt:"2026-09-30T12:00:00-07:00",
-    updatedAt:"2026-09-30T12:00:00-07:00",
+    updatedAt:"2026-10-01T12:00:00-07:00",
     heroImage:{src:"/about/hero-couple.jpg",alt:"Wedding couple celebrating together",caption:"Start with how you want the day to feel—then find the Portland venue that supports it."},
     reviewedBy:"My Portland Wedding Editorial",
     methodology:"MPW combines practical local planning guidance with public Oregon and Portland information when it directly helps a venue decision.",
     quickFacts:[
-      {value:"8:52 PM",label:"June 1 sunset in Portland",context:"A late-spring Portland wedding can still have daylight well into the reception. That gives couples more flexibility for an outdoor ceremony, portraits and cocktail hour before the light disappears.",sourceLabel:"Timeanddate — Portland sun data"},
-      {value:"45 days",label:"the Portland park-wedding rush-fee line",context:"For a wedding in a Portland park, PP&R says permit requests should be made at least 45 days ahead to avoid rush fees. The venue decision can create a real planning deadline.",sourceLabel:"Portland Parks & Recreation"},
-      {value:"5 people",label:"and your park ceremony needs a permit",context:"In a Portland public park, once the ceremony is more than the couple, officiant and two witnesses, City code requires a wedding permit when guests are invited. Tiny wedding? Still worth checking the rules.",sourceLabel:"Portland Parks & Recreation"}
+      {value:"Date-specific",label:"plan portraits around your actual daylight",context:"Portland daylight changes substantially through the year. Ask your photographer to build portrait timing around your wedding date, venue orientation and the light you want rather than relying on a generic seasonal sunset time.",sourceLabel:"My Portland Wedding Editorial"},
+      {value:"45+ days",label:"avoid Portland park wedding rush fees",context:"Portland Parks & Recreation currently says wedding permit requests should be made at least 45 days in advance to avoid rush fees. Recheck the current PP&R wedding page when planning because fees and procedures can change.",sourceLabel:"Portland Parks & Recreation"},
+      {value:"Guests invited",label:"a Portland public-park ceremony requires a permit",context:"Portland Parks & Recreation currently says a permit is required for a legal union ceremony in a public park when guests are invited, including ceremonies larger than the couple, officiant and two witnesses. Verify the current rule with PP&R before booking.",sourceLabel:"Portland Parks & Recreation"}
     ],
     sources:[
       {label:"Portland Parks & Recreation — Wedding Reservations",href:"https://www.portland.gov/parks/wedding"}
