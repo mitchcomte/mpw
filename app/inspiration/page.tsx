@@ -15,7 +15,7 @@ const topics = [
   ["Photography & Video","Photography","https://images.unsplash.com/photo-1786206432186-f0201a7056bd?auto=format&fit=crop&w=900&q=82"],
   ["Style & Décor","Florists","https://images.unsplash.com/photo-1785672951683-dba4e3867b8a?auto=format&fit=crop&w=900&q=82"],
   ["Food & Drink","Catering","https://images.unsplash.com/photo-1768594266667-50aaa727ebf5?auto=format&fit=crop&w=900&q=82"],
-  ["Attire & Beauty","Bridal","https://images.unsplash.com/photo-1749096291233-16fc11a5b858?auto=format&fit=crop&w=900&q=82"],
+  ["Attire & Beauty","Bridal","https://images.unsplash.com/photo-1594552072238-b8a33785b261?auto=format&fit=crop&w=900&h=600&q=82"],
   ["Guest Experience","Transportation","https://images.unsplash.com/photo-1764593823886-6cd9af7f8a5c?auto=format&fit=crop&w=900&q=82"],
   ["Honeymoons & Travel","Honeymoons","https://images.unsplash.com/photo-1780929007351-bc285312da4c?auto=format&fit=crop&w=900&q=82"]
 ] as const;
@@ -56,5 +56,5 @@ export default function Page(){
     </div></section>
 
     <section className="section sageSection"><div className="container editorialCta"><div><span className="eyebrow">From inspiration to a real plan</span><h2>Make the ideas work together.</h2><p className="meta">Use the Wedding Builder to shape a personalized Portland wedding plan, then create or sign into your couple account when you want to save your progress.</p></div><Link className="btn primary" href="/wedding-builder">Build My Wedding</Link></div></section>
-  </main>
+  </main>;
 }
