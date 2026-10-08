@@ -1,8 +1,10 @@
 import Link from "next/link";
-export function Footer(){return <footer className="siteFooter"><div className="container">
-  <div className="footerTop">
-    <Link className="logo brandLogo footerBrand" href="/"><img className="mpwMasterLogo" src="https://raw.githubusercontent.com/mitchcomte/mpw/90781a8d2d71f55aff8e65ca52b51b2e987fb59d/public/brand/My%20Portland%20Wedding%20Logo%202.png" alt="My Portland Wedding — Plan Local. Love Always."/></Link>
-    <div className="footerLinks"><Link href="/vendors">Find Vendors</Link><Link href="/vendors/venues">Venues</Link><Link href="/inspiration">Inspiration</Link><Link href="/planning-tools">Planning Tools</Link><Link href="/couple/dashboard">My Planning</Link><Link href="/about">About</Link><Link href="/for-vendors">For Vendors</Link></div>
-  </div>
-  <div className="footerBottom"><span>© 2026 My Portland Wedding. All rights reserved.</span><span className="legalLinks"><Link href="/terms-of-use">Terms of Use</Link><Link href="/consumer-terms">Consumer Terms</Link><Link href="/vendor-terms">Vendor Terms</Link><Link href="/privacy-policy">Privacy Policy</Link><Link href="/intellectual-property">IP &amp; Trademark Notice</Link></span><span>Portland, OR · Plan Local. Love Always.</span></div>
-</div></footer>}
+
+export default function Footer(){
+  return <footer className="footer"><div className="container footerGrid">
+    <div><Link href="/" aria-label="My Portland Wedding home"><img src="/brand/My-Portland-Wedding-TRANSPARENT-APPROVED.png" alt="My Portland Wedding" className="footerLogo" /></Link><p className="small">A Portland-area wedding planning platform connecting couples with local wedding professionals.</p></div>
+    <div><strong>Plan</strong><Link href="/vendors">Find Vendors</Link><Link href="/wedding-builder">Wedding Builder</Link><Link href="/inspiration">Inspiration</Link><Link href="/planning-tools">Planning Tools</Link></div>
+    <div><strong>For Vendors</strong><Link href="/for-vendors">Join My Portland Wedding</Link><Link href="/vendor/login">Vendor Login</Link></div>
+    <div><strong>Company</strong><Link href="/about">About</Link><Link href="/contact">Contact</Link><Link href="/privacy">Privacy</Link><Link href="/terms">Terms</Link></div>
+  </div><div className="container footerBottom"><span>© {new Date().getFullYear()} My Portland Wedding</span></div></footer>
+}
