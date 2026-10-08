@@ -15,7 +15,7 @@ const topics = [
   ["Photography & Video",["Photography","Videography","Content Creation"],"photography","https://images.unsplash.com/photo-1786206432186-f0201a7056bd?auto=format&fit=crop&w=900&q=82"],
   ["Style & Décor",["Florists","Rentals","Stationery"],"florists","https://images.unsplash.com/photo-1785672951683-dba4e3867b8a?auto=format&fit=crop&w=900&q=82"],
   ["Food & Drink",["Catering","Cakes","Mobile Bars"],"catering","https://images.unsplash.com/photo-1768594266667-50aaa727ebf5?auto=format&fit=crop&w=900&q=82"],
-  ["Attire & Beauty",["Bridal","Formalwear","Hair & Makeup","Jewelry"],"bridal","https://images.unsplash.com/photo-1594552072238-b8a33785b261?auto=format&fit=crop&w=900&h=600&q=82"],
+  ["Attire & Beauty",["Bridal","Formalwear","Hair & Makeup","Jewelry"],"bridal","https://images.unsplash.com/photo-gSQBy3PDprY?auto=format&fit=crop&w=900&h=600&q=82"],
   ["Guest Experience",["Transportation","Lodging","DJs","Live Entertainment","Photo Booths"],"transportation","https://images.unsplash.com/photo-1764593823886-6cd9af7f8a5c?auto=format&fit=crop&w=900&q=82"],
   ["Honeymoons & Travel",["Honeymoons"],"honeymoons","https://images.unsplash.com/photo-1780929007351-bc285312da4c?auto=format&fit=crop&w=900&q=82"]
 ] as const;
