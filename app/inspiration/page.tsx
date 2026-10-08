@@ -38,7 +38,7 @@ export default function Page(){
 
     <section className="section inspirationTopics" id="topics"><div className="container">
       <div className="inspirationHeading"><div><span className="eyebrow">Browse by topic</span><h2>Explore wedding ideas by category</h2></div><span className="meta">{inspirationArticles.length} in-depth guides, organized for easy browsing</span></div>
-      <div className="topicGrid">{topics.map(([label,categories,slug,image])=>{const count=inspirationArticles.filter(a=>(categories as readonly string[]).includes(a.category)).length;return <Link key={label} href={`/inspiration/topic/${slug}`} className="topicCard topicCardVisual"><img src={image} alt={`${label} wedding inspiration`} /><span>{label}</span><small>{count} guides</small></Link>})}</div>
+      <div className="topicGrid">{topics.map(([label,categories,slug,image])=>{const count=inspirationArticles.filter(a=>(categories as readonly string[]).includes(a.category)).length;return <Link key={label} href={`/inspiration/topic/${slug}`} className={`topicCard topicCardVisual topicCard-${slug}`}><div className="topicImageFrame"><img src={image} alt={`${label} wedding inspiration`} /></div><span>{label}</span><small>{count} guides</small></Link>})}</div>
     </div></section>
 
     <section className="section featuredGuides"><div className="container">
