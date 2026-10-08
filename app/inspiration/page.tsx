@@ -28,7 +28,12 @@ const featuredSlugs = [
 
 export default function Page(){
   const featured=featuredSlugs.map(slug=>inspirationArticles.find(a=>a.slug===slug)).filter(Boolean) as typeof inspirationArticles;
-  return <main>
+  return <main><style>{`
+    .topicCardVisual .topicImageFrame{width:100%;height:150px;overflow:hidden;display:block}
+    .topicCardVisual .topicImageFrame img{width:100%!important;height:100%!important;min-height:0!important;max-height:none!important;object-fit:cover!important;object-position:center!important;margin:0!important;display:block!important}
+    .topicCard-bridal .topicImageFrame img{width:125%!important;height:125%!important;transform:translate(-10%,-10%);object-position:center!important}
+    @media(max-width:760px){.topicCardVisual .topicImageFrame{height:155px}.topicCard-bridal .topicImageFrame img{width:125%!important;height:125%!important;transform:translate(-10%,-10%)}}
+  `}</style>
     <section className="inspirationHubHero inspirationHubHeroPhoto"><div className="container inspirationHeroGrid">
       <div className="inspirationHeroCopy"><span className="eyebrow">Wedding inspiration</span><h1>Ideas. Guidance. Real Inspiration for Your Perfect Day.</h1><p className="inspirationLead">Expert advice, planning tips, and Portland wedding ideas to help you create a celebration that feels uniquely yours.</p>
       <div className="inspirationSearch"><span aria-hidden="true">⌕</span><span>Search wedding inspiration...</span><Link href="#topics">Search</Link></div>
