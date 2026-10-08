@@ -9,15 +9,15 @@ export const metadata = {
 };
 
 const topics = [
-  ["Planning & Timeline","Planning","https://images.unsplash.com/photo-1758825178518-ca48833a6c57?auto=format&fit=crop&w=900&q=82"],
-  ["Venues","Venues","https://images.unsplash.com/photo-1519225421980-715cb0215aed?auto=format&fit=crop&w=900&h=600&q=82"],
-  ["Budget & Costs","Budget","https://images.unsplash.com/photo-1741207154948-66f7fa63c35a?auto=format&fit=crop&w=900&q=82"],
-  ["Photography & Video","Photography","https://images.unsplash.com/photo-1786206432186-f0201a7056bd?auto=format&fit=crop&w=900&q=82"],
-  ["Style & Décor","Florists","https://images.unsplash.com/photo-1785672951683-dba4e3867b8a?auto=format&fit=crop&w=900&q=82"],
-  ["Food & Drink","Catering","https://images.unsplash.com/photo-1768594266667-50aaa727ebf5?auto=format&fit=crop&w=900&q=82"],
-  ["Attire & Beauty","Bridal","https://images.unsplash.com/photo-1594552072238-b8a33785b261?auto=format&fit=crop&w=900&h=600&q=82"],
-  ["Guest Experience","Transportation","https://images.unsplash.com/photo-1764593823886-6cd9af7f8a5c?auto=format&fit=crop&w=900&q=82"],
-  ["Honeymoons & Travel","Honeymoons","https://images.unsplash.com/photo-1780929007351-bc285312da4c?auto=format&fit=crop&w=900&q=82"]
+  ["Planning & Timeline",["Planning"],"planning","https://images.unsplash.com/photo-1758825178518-ca48833a6c57?auto=format&fit=crop&w=900&q=82"],
+  ["Venues",["Venues"],"venues","https://images.unsplash.com/photo-1519225421980-715cb0215aed?auto=format&fit=crop&w=900&h=600&q=82"],
+  ["Budget & Costs",["Budget"],"budget","https://images.unsplash.com/photo-1741207154948-66f7fa63c35a?auto=format&fit=crop&w=900&q=82"],
+  ["Photography & Video",["Photography","Videography","Content Creation"],"photography","https://images.unsplash.com/photo-1786206432186-f0201a7056bd?auto=format&fit=crop&w=900&q=82"],
+  ["Style & Décor",["Florists","Rentals","Stationery"],"florists","https://images.unsplash.com/photo-1785672951683-dba4e3867b8a?auto=format&fit=crop&w=900&q=82"],
+  ["Food & Drink",["Catering","Cakes","Mobile Bars"],"catering","https://images.unsplash.com/photo-1768594266667-50aaa727ebf5?auto=format&fit=crop&w=900&q=82"],
+  ["Attire & Beauty",["Bridal","Formalwear","Hair & Makeup","Jewelry"],"bridal","https://images.unsplash.com/photo-1594552072238-b8a33785b261?auto=format&fit=crop&w=900&h=600&q=82"],
+  ["Guest Experience",["Transportation","Lodging","DJs","Live Entertainment","Photo Booths"],"transportation","https://images.unsplash.com/photo-1764593823886-6cd9af7f8a5c?auto=format&fit=crop&w=900&q=82"],
+  ["Honeymoons & Travel",["Honeymoons"],"honeymoons","https://images.unsplash.com/photo-1780929007351-bc285312da4c?auto=format&fit=crop&w=900&q=82"]
 ] as const;
 
 const featuredSlugs = [
@@ -37,8 +37,8 @@ export default function Page(){
     </div></section>
 
     <section className="section inspirationTopics" id="topics"><div className="container">
-      <div className="inspirationHeading"><div><span className="eyebrow">Browse by topic</span><h2>Explore wedding ideas by category</h2></div><span className="meta">270 in-depth guides, organized for easy browsing</span></div>
-      <div className="topicGrid">{topics.map(([label,category,image])=>{const count=inspirationArticles.filter(a=>a.category===category).length;return <Link key={label} href={"/inspiration/topic/"+encodeURIComponent(category.toLowerCase().replace(/ & /g,"-").replace(/\s+/g,"-"))} className="topicCard topicCardVisual"><img src={image} alt={`${label} wedding inspiration`} /><span>{label}</span><small>{count} guides</small></Link>})}</div>
+      <div className="inspirationHeading"><div><span className="eyebrow">Browse by topic</span><h2>Explore wedding ideas by category</h2></div><span className="meta">{inspirationArticles.length} in-depth guides, organized for easy browsing</span></div>
+      <div className="topicGrid">{topics.map(([label,categories,slug,image])=>{const count=inspirationArticles.filter(a=>(categories as readonly string[]).includes(a.category)).length;return <Link key={label} href={`/inspiration/topic/${slug}`} className="topicCard topicCardVisual"><img src={image} alt={`${label} wedding inspiration`} /><span>{label}</span><small>{count} guides</small></Link>})}</div>
     </div></section>
 
     <section className="section featuredGuides"><div className="container">
