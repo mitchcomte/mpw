@@ -31,6 +31,7 @@ export default function Page(){
   return <main><style>{`
     .topicCardVisual .topicImageFrame{width:100%;height:150px;overflow:hidden;display:block}
     .topicCardVisual .topicImageFrame img{width:100%!important;height:100%!important;min-height:0!important;max-height:none!important;object-fit:cover!important;object-position:center center!important;margin:0!important;display:block!important;transform:none!important}
+    .topicCard-bridal .topicImageFrame img{transform:scale(1.14)!important;transform-origin:center center!important}
     @media(max-width:760px){.topicCardVisual .topicImageFrame{height:155px}}
   `}</style>
     <section className="inspirationHubHero inspirationHubHeroPhoto"><div className="container inspirationHeroGrid">
