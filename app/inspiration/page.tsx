@@ -15,7 +15,7 @@ const topics = [
   ["Photography & Video",["Photography","Videography","Content Creation"],"photography","https://images.unsplash.com/photo-1786206432186-f0201a7056bd?auto=format&fit=crop&w=900&q=82"],
   ["Style & Décor",["Florists","Rentals","Stationery"],"florists","https://images.unsplash.com/photo-1785672951683-dba4e3867b8a?auto=format&fit=crop&w=900&q=82"],
   ["Food & Drink",["Catering","Cakes","Mobile Bars"],"catering","https://images.unsplash.com/photo-1768594266667-50aaa727ebf5?auto=format&fit=crop&w=900&q=82"],
-  ["Attire & Beauty",["Bridal","Formalwear","Hair & Makeup","Jewelry"],"bridal","/about/hero-couple.jpg"],
+  ["Attire & Beauty",["Bridal","Formalwear","Hair & Makeup","Jewelry"],"bridal","/about/couple-moment.jpg"],
   ["Guest Experience",["Transportation","Lodging","DJs","Live Entertainment","Photo Booths"],"transportation","https://images.unsplash.com/photo-1764593823886-6cd9af7f8a5c?auto=format&fit=crop&w=900&q=82"],
   ["Honeymoons & Travel",["Honeymoons"],"honeymoons","https://images.unsplash.com/photo-1780929007351-bc285312da4c?auto=format&fit=crop&w=900&q=82"]
 ] as const;
@@ -31,7 +31,6 @@ export default function Page(){
   return <main><style>{`
     .topicCardVisual .topicImageFrame{width:100%;height:150px;overflow:hidden;display:block}
     .topicCardVisual .topicImageFrame img{width:100%!important;height:100%!important;min-height:0!important;max-height:none!important;object-fit:cover!important;object-position:center center!important;margin:0!important;display:block!important;transform:none!important}
-    .topicCard-bridal .topicImageFrame img{transform:scale(1.14)!important;transform-origin:center center!important}
     @media(max-width:760px){.topicCardVisual .topicImageFrame{height:155px}}
   `}</style>
     <section className="inspirationHubHero inspirationHubHeroPhoto"><div className="container inspirationHeroGrid">
