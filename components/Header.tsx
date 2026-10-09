@@ -7,10 +7,10 @@ export function Header(){
   const [open,setOpen]=useState(false);
   const close=()=>setOpen(false);
   return <header className="siteHeader"><style>{`
-    .mpwHeaderLogo{display:flex!important;align-items:center!important;width:280px!important;max-width:280px!important;height:74px!important;overflow:hidden!important;flex:none!important}
-    .mpwHeaderLogo img{width:100%!important;height:auto!important;max-width:none!important;display:block!important;object-fit:contain!important;object-position:center center!important;margin:0!important;transform:none!important}
-    @media(max-width:1180px) and (min-width:801px){.mpwHeaderLogo{width:245px!important;max-width:245px!important;height:68px!important}}
-    @media(max-width:800px){.mpwHeaderLogo{width:190px!important;max-width:190px!important;height:58px!important}}
+    .mpwHeaderLogo{display:block!important;width:300px!important;max-width:300px!important;height:76px!important;overflow:hidden!important;flex:0 0 300px!important;position:relative!important}
+    .mpwHeaderLogo>img{position:absolute!important;inset:0!important;width:300px!important;height:76px!important;max-width:300px!important;max-height:76px!important;object-fit:contain!important;object-position:center center!important;display:block!important;margin:0!important;padding:0!important;transform:none!important}
+    @media(max-width:1180px) and (min-width:801px){.mpwHeaderLogo{width:245px!important;max-width:245px!important;height:66px!important;flex-basis:245px!important}.mpwHeaderLogo>img{width:245px!important;height:66px!important;max-width:245px!important;max-height:66px!important}}
+    @media(max-width:800px){.mpwHeaderLogo{width:205px!important;max-width:205px!important;height:58px!important;flex-basis:205px!important}.mpwHeaderLogo>img{width:205px!important;height:58px!important;max-width:205px!important;max-height:58px!important}}
   `}</style><div className="container nav mpwNav">
     <Link className="logo brandLogo mpwHeaderLogo" href="/" aria-label="My Portland Wedding home" onClick={close}><img src="/brand/My-Portland-Wedding-TRANSPARENT-APPROVED.png" alt="My Portland Wedding — Plan Local. Love Always." /></Link>
     <nav className="consumerNav" aria-label="Main navigation"><div className="vendorNavDropdown"><Link className="vendorNavTrigger" href="/vendors">Find Vendors <span className="navChevron">⌄</span></Link><div className="vendorNavMenu"><Link className="vendorNavAll" href="/vendors">Browse All Vendors</Link><div className="vendorNavGrid">{categories.map(([slug,label])=><Link key={slug} href={`/vendors/${slug}`}>{label}</Link>)}</div></div></div><Link href="/vendors/venues">Venues</Link><Link href="/inspiration">Inspiration</Link><Link className="builderNavBrand" href="/wedding-builder"><span>Wedding Builder<sup>™</sup></span><small>by My Portland Wedding</small></Link><Link href="/planning-tools">Planning Tools</Link><Link href="/about">About</Link></nav>
