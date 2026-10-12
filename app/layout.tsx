@@ -2,6 +2,7 @@ import "./globals.css";
 import type { Metadata, Viewport } from "next";
 import { Header } from "../components/Header";
 import { Footer } from "../components/Footer";
+import VendorBillingShortcut from "../components/VendorBillingShortcut";
 import { Analytics } from "@vercel/analytics/next";
 
 const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://www.myportlandwedding.com";
@@ -33,5 +34,5 @@ export const viewport: Viewport = {
 };
 
 export default function RootLayout({children}:{children:React.ReactNode}){
- return <html lang="en" style={{colorScheme:"light"}}><head><meta name="color-scheme" content="light only"/><meta name="supported-color-schemes" content="light"/></head><body style={{colorScheme:"light",backgroundColor:"#fffaf6"}}><Header/>{children}<Footer/><Analytics/></body></html>
+ return <html lang="en" style={{colorScheme:"light"}}><head><meta name="color-scheme" content="light only"/><meta name="supported-color-schemes" content="light"/></head><body style={{colorScheme:"light",backgroundColor:"#fffaf6"}}><Header/>{children}<VendorBillingShortcut/><Footer/><Analytics/></body></html>
 }
