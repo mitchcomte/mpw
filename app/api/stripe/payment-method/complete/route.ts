@@ -1,6 +1,6 @@
 import { NextResponse } from "next/server";
-import Stripe from "stripe";
 import { createSupabaseServerClient } from "../../../../../lib/supabase/server";
+import { createStripe } from "../../../../../lib/stripe";
 
 export const runtime = "nodejs";
 
@@ -15,9 +15,8 @@ export async function POST(req:Request){
   if(!vendor) return NextResponse.json({error:"Vendor profile not found"},{status:404});
   const {data:subscription}=await supabase.from("subscriptions").select("stripe_customer_id,stripe_subscription_id").eq("vendor_id",vendor.id).order("created_at",{ascending:false}).limit(1).maybeSingle();
   if(!subscription?.stripe_customer_id) return NextResponse.json({error:"Billing account not found"},{status:400});
-  const secret=process.env.STRIPE_SECRET_KEY;
-  if(!secret) return NextResponse.json({error:"Stripe is not configured"},{status:500});
-  const stripe=new Stripe(secret,{apiVersion:"2024-12-18.acacia"});
+  const stripe=createStripe();
+  if(!stripe) return NextResponse.json({error:"Stripe is not configured"},{status:500});
   const intent=await stripe.setupIntents.retrieve(setupIntentId);
   const customerId=typeof intent.customer==="string"?intent.customer:intent.customer?.id;
   if(intent.status!=="succeeded"||customerId!==subscription.stripe_customer_id||!intent.payment_method) return NextResponse.json({error:"Payment method update was not completed."},{status:400});
