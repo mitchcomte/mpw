@@ -7,7 +7,8 @@ export function categoryMetadata(slug:string,area?:string):Metadata{
  const name=categoryName(slug); const place=area?`${area}, Oregon`:"Portland, Oregon";
  const title=`${name} in ${place}`;
  const description=`Browse local ${name.toLowerCase()} serving ${place}. Compare services, pricing, styles and wedding professionals on My Portland Wedding.`;
- const path=`/vendors/${slug}${area?`?area=${encodeURIComponent(area)}`:""}`;
+ const areaSlug=area?area.toLowerCase().replace(/[^a-z0-9]+/g,"-").replace(/(^-|-$)/g,""):"";
+ const path=`/vendors/${slug}${areaSlug?`/${areaSlug}`:""}`;
  return {title,description,alternates:{canonical:path},openGraph:{title,description,url:path,type:"website",images:[socialImage]},twitter:{card:"summary_large_image",title,description,images:[socialImage.url]}};
 }
 export function vendorDescription(v:any){
