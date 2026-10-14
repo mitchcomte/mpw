@@ -16,6 +16,7 @@ export async function POST(request:Request){
  const others=(all||[]).filter((p:any)=>p.id!==photoId);
  const updates=[supabase.from("vendor_photos").update({sort_order:-1000}).eq("id",photoId).eq("vendor_id",vendor.id),...others.map((p:any,i:number)=>supabase.from("vendor_photos").update({sort_order:i}).eq("id",p.id).eq("vendor_id",vendor.id))];
  const results=await Promise.all(updates);
- const failed=results.find((r:any)=>r.error);
- return NextResponse.redirect(new URL(failed?`/vendor/dashboard?error=${encodeURIComponent(failed.error.message)}#photos`:"/vendor/dashboard?message=Main%20profile%20photo%20updated#photos",request.url),303);
+ const failed=results.find((r:any)=>Boolean(r.error));
+ const errorMessage=failed?.error?.message;
+ return NextResponse.redirect(new URL(errorMessage?`/vendor/dashboard?error=${encodeURIComponent(errorMessage)}#photos`:"/vendor/dashboard?message=Main%20profile%20photo%20updated#photos",request.url),303);
 }
