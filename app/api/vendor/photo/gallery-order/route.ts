@@ -1,6 +1,6 @@
 import {NextResponse} from "next/server";
-import {createSupabaseServerClient} from "../../../../../../lib/supabase/server";
-import {createAdminClient} from "../../../../../../lib/supabase/admin";
+import {createSupabaseServerClient} from "../../../../../lib/supabase/server";
+import {createAdminClient} from "../../../../../lib/supabase/admin";
 
 export async function GET(request:Request){
  const url=new URL(request.url); const slug=url.searchParams.get("slug");
